@@ -72,15 +72,15 @@ MISSION.InitSceneryObject = function()
 		position_spread = 0.5
 	}
 
-	world:AddObjectDef("emitter", "speedboat_splashes", defData)
+	objects:AddObjectDef("emitter", "speedboat_splashes", defData)
 	
-	local speedboatObject = world:CreateGameObject("dummy", create_section({}))
+	local speedboatObject = objects:CreateGameObject("dummy", create_section({}))
 	speedboatObject:SetModel(speedboatModel)
 	speedboatObject:SetOrigin(boatPath[1])
 	speedboatObject:SetAngles(vec3(0))
 	speedboatObject:Spawn()
 	
-	local emitterObj = world:CreateObject("speedboat_splashes")
+	local emitterObj = objects:CreateObject("speedboat_splashes")
 	emitterObj:SetOrigin(boatPath[1])
 	emitterObj:SetAngles(vec3(0))
 	emitterObj:Spawn()
