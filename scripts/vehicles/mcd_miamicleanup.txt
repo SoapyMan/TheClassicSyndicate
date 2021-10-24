@@ -61,8 +61,8 @@ colors
 	"White"		0.9		0.9		0.9		1.0;	// white	
 };
 
-bodysize	0.8 0.45 2.40;
-center 		0 0.12 0.0;
+bodysize	0.96 0.52 2.40;
+center 		0 0.03 0.0;
 
 gravitycenter	0.0 -0.24 0.05;
 mass 		2800;
