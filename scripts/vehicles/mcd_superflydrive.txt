@@ -62,7 +62,7 @@ colors
 	"Blue"		0.56	0.68	0.80	1.0;	// blue
 };
 
-bodysize	0.8 0.45 2.30;
+bodysize	0.96 0.52 2.40;
 center 		0 0.12 0.0;
 
 gravitycenter	0.0 -0.18 0.05;

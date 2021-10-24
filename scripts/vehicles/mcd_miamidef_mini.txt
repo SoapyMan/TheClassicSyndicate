@@ -61,8 +61,8 @@ colors
 	"Purple"	0.44	0.40	0.44	1.0;	// purple	
 };
 
-bodysize	0.01 0.45 0.32;
-center 		0.0 0.12 0.0;
+bodysize	0.23 0.13 0.60;
+center 		0.0 0.01 0.0;
 
 gravitycenter	0.0 -0.06 0.0;
 mass 		3200;
