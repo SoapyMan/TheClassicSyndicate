@@ -1,0 +1,11 @@
+"DrvSynVehicle"
+{ 
+	BaseTexture			"models/vehicles/hallgarth/veh_Arvensis_hex";
+	DamageTexture			"models/vehicles/hallgarth/veh_Arvensis_dam_hex";
+	ColorMap			"models/vehicles/hallgarth/veh_Arvensis_col_hex";
+	BaseTextureSpecularAlpha 	1;
+
+	CubeMap		"$env_cubemap";
+	SpecularScale	1.00;
+	nocull		1;
+}; 

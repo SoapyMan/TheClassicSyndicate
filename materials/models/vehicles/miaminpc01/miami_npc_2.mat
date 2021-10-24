@@ -1,0 +1,10 @@
+"DrvSynVehicle"
+{ 
+	BaseTexture			"models/vehicles/miaminpc01/miami_npc_2";
+	DamageTexture		"models/vehicles/miaminpc01/miami_npc_2_dam";
+	ColorMap			"models/vehicles/miaminpc01/miami_npc_2_col";
+	BaseTextureSpecularAlpha 	1;
+
+	CubeMap		"$env_cubemap";
+	SpecularScale	0.35;
+}; 

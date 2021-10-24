@@ -1,0 +1,21 @@
+///////////////////////////////////////////////////
+// STATIC OBJECTS
+///////////////////////////////////////////////////
+
+//
+// COLD LIGHTS
+//
+static "sfd_lamp01"
+{
+	model	"models/friscoclassic_mdls/sfd_lamp01.egf";
+
+	// light x y z		rad	r g b intensity
+	// glow x y z		scale	r g b intensity spriteType
+
+	// cold 65 65 91
+
+	light 0	   6   0.0 	20 		0.25 0.25 0.16 	0.9;
+
+	glow  0.0 6.65 1.45 	6.0 	0.25 0.25 0.12 	0.48 3;
+	glow  0.0 6.65 1.45 	2.5 	0.70 0.70 0.45 	0.72 3;
+}

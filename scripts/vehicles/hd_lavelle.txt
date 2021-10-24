@@ -1,0 +1,173 @@
+name		"'69 Lavelle";
+
+cleanmodel	"models/vehicles/hallgarth/hexed_lavelle.egf";
+damagedmodel	"models/vehicles/hallgarth/hexed_lavelle_dam.egf";	// _damage.egf
+wheelmodel	"models/vehicles/hallgarth/hexed_wheelpony.egf";
+
+wheelBodyGroup	"wheel2i";
+
+bodygroup	"wheelcover";
+
+allowMusic 0;
+sounds
+{
+	engine		"MCD_Default.engine";
+	engine_low	"MCD_Default.engine_low";
+	engine_idle	"MCD_Default.engine_idle";
+
+	horn 		"MCD_DefaultPlayer.horn";
+	// use single engine sound
+	//engine_off	"sounds/engines/engine2_off.wav"
+};
+
+camera_height 	1.2;
+camera_distance	6.6;
+
+camera_height_in 	0.25;
+camera_distance_in	1.5;
+camera_side_in		0.25;
+
+visuals
+{
+	// name	type position split dist
+	headlights 	2 0.74 -0.04 2.27 0.06;
+	brakelights 	0 0.60 -0.07 -2.40 0.08;
+
+	frontdimlights	0.56 -0.04 2.25 0.08;
+	backdimlights	0.70 -0.07 -2.40 0.08;
+
+	// position
+	backlights 0.50 -0.07 -2.40 0.09;
+
+	engine 0.0 0.1 2.1;
+	exhaust 0.6 -0.38 -2.3 2 1;
+
+	driver -0.40 0.10 -0.05;
+
+};
+
+hingePoints
+{
+	front 0.0 -0.19 2.27;
+	back 0.0 -0.19 -2.10;
+}
+
+useBodyColor 1;
+
+colors
+{
+	//name		r	g	b	reflectivity
+	"Red"	 	111	31	31	255;	// red
+	"White"		160	160	160	255;	// white
+	"Brown" 	97	97	49	255;	// brown
+	"Yellow"	128	112	34	255;	// yellow
+	"Blue"		87	109	126	255;	// blue
+	"Dark Blue" 	36	43	50	255;	// blue
+	"Pink"		170	100	110	255;	// pink
+	"Green"		101	118	111	155;	// green
+	"Orange"	88	48	12	255;	// orange
+	"Black"		20	20	20	220;	// black
+	"Turquoise"	73	121	121	255;	// turquoise
+	"Burgundy"	58	31	30	255;	// burgundy
+
+
+
+};
+
+bodysize	0.80 0.48 2.41;
+center 		0 0.14 -0.1;
+
+gravitycenter	0.0 -0.14 0.16;
+mass 		2800;
+antiroll	0.20;
+
+gears
+	-1.95
+	1.95
+	1.20
+	0.80
+	0.57;
+
+
+differential 		25.0;
+transmissionrate	0.9;
+torquemultipler		1.2;
+
+maxspeed		144;
+
+suspensionLift		0.0;
+	
+wheels
+{
+	// front wheels
+	wheel
+	{
+		SuspensionTop			-0.69 -0.16 1.47;
+		SuspensionBottom		-0.79 -0.72 1.47;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2500;
+
+		Radius 			0.30;
+		Width			0.20;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	wheel
+	{
+		SuspensionTop			0.69 -0.16 1.47;
+		SuspensionBottom		0.79 -0.72 1.47;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2500;
+
+		Radius 			0.30;
+		Width			0.20;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	// back wheels
+	wheel
+	{
+		SuspensionTop			0.69 -0.16 -1.25;
+		SuspensionBottom		0.79 -0.72 -1.25;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2500;
+
+		Radius 			0.30;
+		Width			0.20;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+	
+	wheel
+	{
+		SuspensionTop			-0.69 -0.16 -1.25;
+		SuspensionBottom		-0.79 -0.72 -1.25;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2500;
+
+		Radius 			0.30;
+		Width			0.20;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+};

@@ -1,0 +1,102 @@
+"alarm.bank"
+{
+	wave		"missions_vo/mcd_bankalarm.wav";
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"goon.losetail"
+{
+	rndwave
+	{
+		wave		"missions_vo/mcd_losetail01.wav";
+		wave 		"missions_vo/mcd_losetail02.wav";
+		wave		"missions_vo/mcd_losetail03.wav";
+	}
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"goon.go"
+{
+	rndwave
+	{
+		wave 		"missions_vo/mcd_go.wav";
+		wave 		"missions_vo/mcd_outtahere.wav";
+	}
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"goon.wat"
+{
+	wave		"missions_vo/mcd_goon_wat.wav";
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"ticco.start"
+{
+	wave		"missions_vo/mcd_ticco_start.wav";
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"ticco.end"
+{
+	wave		"missions_vo/mcd_ticco_end.wav";
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"ticco.losetail"
+{
+	rndwave
+	{
+		wave		"missions_vo/mcd_ticco_losetail01.wav";
+		wave 		"missions_vo/mcd_ticco_losetail02.wav";
+	}
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"ticco.pewpews"
+{
+	wave		"missions_vo/mcd_ticco_pewpews.wav";
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"goon.frenchcat"
+{
+	wave		"missions_vo/mcd_goon_savejp.wav";
+
+	"volume"	"2.0";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};

@@ -1,0 +1,8 @@
+"Base" 
+{ 
+	basetexture 			"mcd/mcd1_grassfull";
+	Cubemap				"$env_Cubemap";
+	WetScale			0.6;
+	surfaceprops 	"grass"; 
+	Filtering "linear";
+};

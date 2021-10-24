@@ -1,0 +1,7 @@
+"Skinned" 
+{ 
+	BaseTexture "models/vehicles/hallgarth/wheel_hlg_hex"; 
+	BaseTextureSpecularAlpha 	1;
+	CubeMap		"$env_cubemap";
+	SpecularScale	1.0;
+}; 

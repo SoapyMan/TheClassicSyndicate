@@ -1,0 +1,5 @@
+"Skinned" 
+{ 
+	"BaseTexture" "models/characters/mcd_pedrobber"; 
+	"SpecularScale" "0.5"; 
+}; 

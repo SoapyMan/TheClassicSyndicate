@@ -1,0 +1,132 @@
+//------P------L------A------Y------E------R----------
+//------P------L------A------Y------E------R----------
+//------P------L------A------Y------E------R----------
+//------P------L------A------Y------E------R----------
+
+"MCD_Default.engine_idle"
+{
+	wave 	"engines/mcd_default_idle.wav";
+
+	volume		1.5;
+	pitch		1.0;
+	distance	3.0;
+	channel		"CHAN_ITEM";
+};
+
+"MCD_Default.engine"
+{
+	wave 	"engines/mcd_default_high.wav";
+
+	volume		1.5;
+	pitch		0.7;
+	distance	4.5;
+	channel		"CHAN_ITEM";
+};
+
+"MCD_Default.engine_low"
+{
+	wave 	"engines/mcd_default_low.wav";
+
+	volume		0.9;
+	pitch		0.7;
+	distance	3.8;
+	channel		"CHAN_ITEM";
+};
+
+"MCD_BetaGSX.engine"
+{
+	wave 	"engines/mcd_betagsx_high.wav";
+
+	volume		1.5;
+	pitch		1.0;
+	distance	4.5;
+	channel		"CHAN_ITEM";
+};
+
+"MCD_BetaGSX.engine_low"
+{
+	wave 	"engines/mcd_betagsx_low.wav";
+
+	volume		0.9;
+	pitch		1.0;
+	distance	3.8;
+	channel		"CHAN_ITEM";
+};
+
+"MCD_DefaultPlayer.horn"
+{
+	wave 	"horns/mcd_phorn.wav";
+
+	volume		0.9;
+	distance	4.0;
+	channel		CHAN_SIGNAL;
+};
+
+//------------N----------P----------C-----------------
+//------------N----------P----------C-----------------
+//------------N----------P----------C-----------------
+//------------N----------P----------C-----------------
+
+"MCD_DefaultNPC.engine_idle"
+{
+	wave 	"engines/npc_mcd_default_idle.wav";
+
+	volume		0.7;
+	distance	1.0;
+	maxdistance	30;
+	channel		"CHAN_ITEM";
+};
+
+"MCD_DefaultNPC.engine"
+{
+	wave 	"engines/npc_mcd_default_high.wav";
+
+	volume		0.8;
+	pitch		0.69;
+	distance	4.5;
+	channel		"CHAN_ITEM";
+};
+
+"MCD_DefaultNPC.engine_low"
+{
+	wave 	"engines/npc_mcd_default_low.wav";
+
+	volume		0.5;
+	pitch		0.69;
+	distance	3.8;
+	channel		"CHAN_ITEM";
+};
+
+//---------H------O------R------N------S--------------
+//---------H------O------R------N------S--------------
+//---------H------O------R------N------S--------------
+//---------H------O------R------N------S--------------
+
+"MCD_DefaultCOP.siren"
+{
+	rndwave
+	{
+		wave 	"sirens/mcd_default_siren.wav";
+		wave 	"sirens/mcd_default_siren.wav";
+	}
+
+	volume		1.4;
+	pitch		1.0;
+	distance	4.0;
+	maxdistance	150;
+	channel		CHAN_SIGNAL;
+};
+
+"MCD_DefaultNPC.horn"
+{
+	rndwave
+	{
+		wave 	"horns/mcd_npchorn1.wav";
+		wave 	"horns/mcd_npchorn2.wav";
+		wave 	"horns/mcd_npchorn3.wav";
+	}
+
+	volume		0.6;
+	maxdistance 75;
+	channel		CHAN_SIGNAL;
+};

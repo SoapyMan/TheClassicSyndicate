@@ -1,0 +1,164 @@
+name		"'68 Scimitar";
+
+cleanmodel	"models/vehicles/hallgarth/hexed_scimitar.egf";
+damagedmodel	"models/vehicles/hallgarth/hexed_scimitar_dam.egf";
+wheelmodel	"models/vehicles/hallgarth/hexed_wheelmuscle.egf";
+
+wheelBodyGroup	"wheel2h";
+
+allowMusic 0;
+sounds
+{
+	engine		"car.engine6";
+	engine_low	"car.engine6_low";
+	engine_idle	"defaultcar.engine_idle3";
+
+	horn 		"car.horn4";
+	// use single engine sound
+	//engine_off	"sounds/engines/engine2_off.wav"
+};
+
+camera_height 	1.2;
+camera_distance	6.6;
+
+camera_height_in 	0.25;
+camera_distance_in	1.5;
+camera_side_in		0.25;
+
+visuals
+{
+	// name	type position split dist
+	headlights 	1 0.56 -0.03 2.12 0.095;
+	brakelights 	0 0.54 0.14 -2.37 0.0;
+
+	frontdimlights	0.59 -0.19 2.23 0.1;
+	backdimlights	0.67 0.14 -2.37 0.09;
+
+	// position
+	backlights 	0.39 0.14 -2.37 0.09;
+
+	engine 0.0 0.1 2.2;
+	exhaust 0.6 -0.20 -2.41 2 1;
+	
+	driver -0.40 0.16 -0.17;
+};
+
+hingePoints
+{
+	front 0.0 -0.08 2.12;
+	back 0.0 -0.08 -2.06;
+}
+
+useBodyColor 1;
+
+colors
+{
+	//name			r	g	b	reflectivity
+	"Blue"			0.30	0.36	0.56	1.0;
+	"Purple"		0.32	0.20	0.40	1.0;
+	"Cyan"			61	86	86	255;
+	"Yellow"		175	154	79	255;
+	"Brown"			126	105	61	255;
+	"Red"			130	34	34	255;
+	"Black"			20	20	20	220;
+	"White"			160	160	160	255;
+	"Green"			79	95	53	255;
+	"Gray"			70	70	70	255;
+};
+
+bodysize	0.82 0.46 2.38;
+center 		0 0.14 0.0;
+
+gravitycenter	0.0 -0.14 0.08;
+mass 		2800;
+antiroll	0.20;
+
+gears
+	-1.85
+	1.715
+	1.019
+	0.708
+	0.545;
+
+
+differential 		29.6;
+transmissionrate	2.419;
+torquemultipler		0.342;
+
+maxspeed		140;
+
+suspensionLift		0.00;
+	
+wheels
+{
+	// front wheels
+	wheel
+	{
+		SuspensionTop			-0.66 0.15 1.40;
+		SuspensionBottom		-0.76 -0.71 1.40;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2600;
+
+		Radius 			0.30;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	wheel
+	{
+		SuspensionTop			0.66 0.15 1.40;
+		SuspensionBottom		0.76 -0.71 1.40;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2600;
+
+		Radius 			0.30;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	// back wheels
+	wheel
+	{
+		SuspensionTop			0.65 0.15 -1.32;
+		SuspensionBottom		0.75 -0.71 -1.32;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2600;
+
+		Radius 			0.30;
+		Width			0.26;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+	
+	wheel
+	{
+		SuspensionTop			-0.65 0.15 -1.32;
+		SuspensionBottom		-0.75 -0.71 -1.32;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2600;
+		
+		Radius 			0.30;
+		Width			0.26;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+};

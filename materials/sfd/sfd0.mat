@@ -1,0 +1,9 @@
+"Base" 
+{ 
+	basetexture 			"sfd/sfd0";
+	Cubemap				"$env_Cubemap";
+	alphatest	1;
+	nocull	1;
+	WetScale	0.3;
+	Filtering "linear";
+};

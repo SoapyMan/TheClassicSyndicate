@@ -1,0 +1,8 @@
+"Base" 
+{ 
+	basetexture 			"msyn_buildings/msyn_House_2";
+	NightLight				"msyn_buildings/msyn_House_2_L";
+	Cubemap				"$env_cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale			0.3;
+};

@@ -1,0 +1,8 @@
+"Base" 
+{ 
+	"basetexture" "avatars/NickelBar";
+	NightLight	  "avatars/NickelBar_L";
+	cubemap		"$env_cubemap";
+	nocull	"1";
+	alphatest	"1";
+}; 

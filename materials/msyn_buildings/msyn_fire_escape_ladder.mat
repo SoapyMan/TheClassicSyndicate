@@ -1,0 +1,6 @@
+"Base" 
+{ 
+	basetexture 	"msyn_buildings/msyn_fire_escape_ladder";
+	alphatest	1;
+	nocull		1;
+};

@@ -1,0 +1,6 @@
+BaseUnlit
+{
+	BaseTexture  "ui/syndiclassic_logo_shadow";
+	address "clamp";
+	translucent "1";
+}

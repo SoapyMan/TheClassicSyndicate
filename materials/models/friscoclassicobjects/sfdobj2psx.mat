@@ -1,0 +1,8 @@
+"Skinned" 
+{ 
+	basetexture 			"models/friscoclassicobjects/sfdobj2psx";
+	//Cubemap				"$env_//Cubemap";
+	alphatest	1;
+	nocull	1;
+	Filtering "linear";
+};

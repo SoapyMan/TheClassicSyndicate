@@ -1,0 +1,216 @@
+name		"'74 Toledo Sedan";
+
+cleanmodel	"models/vehicles/hallgarth/hexed_toledosedan.egf";
+damagedmodel	"models/vehicles/hallgarth/hexed_toledosedan_dam.egf";	// _damage.egf
+wheelmodel	"models/vehicles/hallgarth/hexed_wheelsedan.egf";
+
+//		damaged 	hubcapped 	hubcap
+wheelBodyGroup	"wheel1" 	"wheel1_h2" 	"hubcap2";
+
+allowMusic 0;
+sounds
+{
+	engine		"car.engine6";
+	engine_low	"car.engine6_low";
+	engine_idle	"defaultcar.engine_idle3";
+
+	horn 		"car.horn4";
+	// use single engine sound
+	//engine_off	"sounds/engines/engine2_off.wav"
+};
+
+camera_height 	1.2;
+camera_distance	6.6;
+
+camera_height_in 	0.25;
+camera_distance_in	1.5;
+camera_side_in		0.25;
+
+visuals
+{
+	// name	type position split dist
+	headlights 	1 0.63 0.02 2.22 0.08;
+	brakelights 	0 0.64 -0.04 -2.46 0.07;
+
+	frontdimlights	0.36 0.01 2.25 0.08;
+	backdimlights	0.74 -0.04 -2.46 0.08;
+
+	// position
+	backlights 0.54 -0.04 -2.46 0.09;
+
+	engine 0.0 0.1 2.1;
+	exhaust 0.65 -0.34 -2.4 2 1;
+
+	driver -0.40 0.12 0.08;
+
+};
+
+hingePoints
+{
+	front 0.0 -0.18 2.22;
+	back 0.0 -0.18 -2.23;
+}
+
+useBodyColor 1;
+
+colors
+{
+	//name		r	g	b	reflectivity
+	"Blue"
+	{
+		1 	0.30	0.36	0.56	1.0;
+		2	55 	60 	55	50;
+	};
+
+	"Purple"
+	{
+		1	0.32	0.20	0.40	1.0;
+		2	55 	60 	55	50;
+	};
+
+	"Cyan"
+	{
+		1	61	86	86	255;
+		2	55 	60 	55	50;
+	};
+
+	"Yellow"
+	{
+		1	175	154	79	255;
+		2	55 	60 	55	50;
+	};
+
+	"Brown"
+	{
+		1	126	105	61	255;
+		2	55 	60 	55	50;
+	};
+
+	"Red"
+	{
+		1	130	34	34	255;
+		2	55 	60 	55	50;
+	};
+
+	"Black"
+	{
+		1	20	20	20	255;
+		2	55 	60 	55	50;
+	};
+
+	"White"
+	{
+		1	160	160	160	255;
+		2	55 	60 	55	50;
+	};
+
+	"Green"
+	{
+		1	79	95	53	255;
+		2	55 	60 	55	50;
+	};
+
+	"Gray"
+	{
+		1	70	70	70	255;
+		2	55 	60 	55	50;
+	};
+};
+
+bodysize	0.82 0.48 2.49;
+center 		0 0.14 -0.1;
+
+gravitycenter	0.0 -0.15 0.12;
+mass 		2800;
+antiroll	0.32;
+
+gears
+	-1.95
+	1.95
+	1.20
+	0.80
+	0.57;
+
+
+differential 		25.0;
+transmissionrate	1.0;
+torquemultipler		1.0;
+
+maxspeed		144;
+
+suspensionLift		-0.03;
+	
+wheels
+{
+	// front wheels
+	wheel
+	{
+		SuspensionTop			-0.70 -0.16 1.44;
+		SuspensionBottom		-0.80 -0.72 1.44;
+		SuspensionSpringConstant	41000.0;
+		SuspensionDampingConstant	2800;
+
+		Radius 			0.306;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	wheel
+	{
+		SuspensionTop			0.70 -0.16 1.44;
+		SuspensionBottom		0.80 -0.72 1.44;
+		SuspensionSpringConstant	41000.0;
+		SuspensionDampingConstant	2800;
+
+		Radius 			0.306;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	// back wheels
+	wheel
+	{
+		SuspensionTop			0.70 -0.16 -1.28;
+		SuspensionBottom		0.80 -0.72 -1.28;
+		SuspensionSpringConstant	41000.0;
+		SuspensionDampingConstant	2800;
+
+		Radius 			0.306;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+	
+	wheel
+	{
+		SuspensionTop			-0.70 -0.16 -1.28;
+		SuspensionBottom		-0.80 -0.72 -1.28;
+		SuspensionSpringConstant	41000.0;
+		SuspensionDampingConstant	2800;
+
+		Radius 			0.306;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+};

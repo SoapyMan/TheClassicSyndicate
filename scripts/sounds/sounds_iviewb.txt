@@ -1,0 +1,75 @@
+"iview.fail"
+{
+	rndwave
+	{
+		wave		"vo/iview_fail1.wav";
+		wave 		"vo/iview_fail2.wav";
+		wave		"vo/iview_fail3.wav";
+		wave 		"vo/iview_fail4.wav";
+	}
+
+	"volume"	"0.8";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"iview.failTime"
+{
+	rndwave
+	{
+		wave 		"vo/iview_fail2.wav";
+		wave		"vo/iview_fail3.wav";
+		wave 		"vo/iview_fail4.wav";
+	}
+
+	"volume"	"0.8";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"iview.damage"
+{
+	rndwave
+	{
+		wave 		"vo/iview_damage1.wav";
+		wave 		"vo/iview_damage2.wav";
+		wave 		"vo/iview_damage3.wav";
+	}
+
+	"volume"	"0.8";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"iview.scarab"
+{
+	rndwave
+	{
+		wave 		"vo/iview_scare1.wav";
+		wave 		"vo/iview_scare2.wav";
+	}
+
+	"volume"	"0.8";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"iview.success"
+{
+	rndwave
+	{
+		wave 		"vo/iview_success1.wav";
+		wave 		"vo/iview_success2.wav";
+		wave 		"vo/iview_success3.wav";
+		wave 		"vo/iview_success4.wav";
+	}
+
+	"volume"	"0.8";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};

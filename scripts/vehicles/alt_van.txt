@@ -1,0 +1,148 @@
+name		"Van";
+
+cleanmodel	"models/vehicles/van.egf";
+damagedmodel	"models/vehicles/van_dam.egf";
+
+//		damaged 	hubcapped 	hubcap
+wheelBodyGroup	"wheel1" 	"wheel1_h3" 	"hubcap3";
+
+allowMusic 0;
+sounds
+{
+	engine		"car.engine4";
+	engine_low	"car.engine4_low";
+	engine_idle	"defaultcar.engine_idle4";
+
+	horn 		"car.horn6";
+};
+
+camera_height 	1.9;
+camera_distance 7.0;
+
+camera_height_in 	0.6;
+camera_distance_in	1.2;
+camera_side_in		0.5;
+
+visuals
+{
+	// name	type position split dist
+	headlights 	2 0.72 -0.06 1.98 0.08;
+	brakelights 	0 0.77 0.04 -2.24 0.06;
+
+	frontdimlights	0.9 -0.06 1.92 0.07;
+	backdimlights	0.85 0.05 -2.24 0.06;
+
+	// position
+	backlights 	0.77 -0.05 -2.24 0.06;
+
+	engine 0.0 0.2 2.05;
+	exhaust 0.4 -0.35 -2.33 2;
+
+	driver -0.45 0.35 0.9;
+};
+
+useBodyColor 1;
+
+colors
+{
+	"Black" 		20	20	20	255;	// black
+};
+
+bodysize	0.96 0.88 2.35;
+center 		0 0.35 -0.2;
+
+gravitycenter	0.0 -0.24 0.05;
+mass 		3000;
+antiroll	0.32;
+
+gears
+	-1.95
+	1.95
+	1.20
+	0.80
+	0.57;
+
+differential 		25.0;
+transmissionrate	1.0;
+torquemultipler		1.0;
+
+maxspeed		130;
+
+suspensionLift		-0.03;
+	
+wheels
+{
+	// front wheels
+	wheel
+	{
+		SuspensionTop			-0.78 0.05 1.41;
+		SuspensionBottom		-0.88 -0.82 1.41;
+		SuspensionSpringConstant	65000.0;
+		SuspensionDampingConstant	3000;
+
+		Radius 			0.33;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	wheel
+	{
+		SuspensionTop			0.78 0.05 1.41;
+		SuspensionBottom		0.88 -0.82 1.41;
+		SuspensionSpringConstant	65000.0;
+		SuspensionDampingConstant	3000;
+
+
+		Radius 			0.33;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	// back wheels
+	wheel
+	{
+		SuspensionTop			0.78 0.05 -1.43;
+		SuspensionBottom		0.88 -0.82 -1.43;
+		SuspensionSpringConstant	65000.0;
+		SuspensionDampingConstant	3000;
+
+
+		Radius 			0.33;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+	
+	wheel
+	{
+		SuspensionTop			-0.78 0.05 -1.43;
+		SuspensionBottom		-0.88 -0.82 -1.43;
+		SuspensionSpringConstant	65000.0;
+		SuspensionDampingConstant	3000;
+
+		Radius 			0.33;
+		Width			0.22;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+};

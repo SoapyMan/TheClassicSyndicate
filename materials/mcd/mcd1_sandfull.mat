@@ -1,0 +1,9 @@
+"Base" 
+{ 
+	basetexture 			"mcd/mcd1_sandfull";
+	Cubemap				"$env_Cubemap";
+	WetScale			0.6;
+	surfaceprops 	"sand"; 
+	WetScale	0.5;
+	Filtering "linear";
+};

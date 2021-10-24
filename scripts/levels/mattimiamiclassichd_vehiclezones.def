@@ -1,0 +1,15 @@
+default
+{	
+	//	PLAYER CARS
+	
+	// CIVILIANS
+	hd_scimitar		0;
+	hd_toledosedan	0;
+	
+	van				0;
+	k5				0;
+	ranchero		0;
+	
+	// HOSTILES
+	alt_regis		20;	// only parked
+}

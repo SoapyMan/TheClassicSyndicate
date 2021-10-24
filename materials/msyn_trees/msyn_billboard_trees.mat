@@ -1,0 +1,5 @@
+BaseParticle
+{
+	BaseTexture msyn_trees/msyn_billboard_trees;
+	alphatest 1;
+};

@@ -1,0 +1,10 @@
+"Base" 
+{ 
+	basetexture 			"sfd/sfd47";
+	//NightLight			"sfd/sfd47_L";
+	//Cubemap				"$env_//Cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale			0.3;
+	Filtering "linear";
+	alphatest	1;
+};

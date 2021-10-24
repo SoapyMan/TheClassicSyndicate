@@ -1,0 +1,5 @@
+"Skinned" 
+{ 
+	"BaseTexture" "models/characters/mcd_ticcoface"; 
+	"SpecularScale" "0.1"; 
+}; 

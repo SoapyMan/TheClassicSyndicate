@@ -1,0 +1,13 @@
+mcd         = miami classic data
+
+mcdpages    = miami classic data psx
+
+pkd         = parking data
+
+dsd         = desert data
+
+sfcd        = san francisco classic data
+
+lacd        = los angeles classic data
+
+nycd        = ney work classic data

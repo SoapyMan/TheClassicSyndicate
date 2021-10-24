@@ -1,0 +1,9 @@
+"DrvSynVehicle"
+{ 
+	BaseTexture			"models/vehicles/defaultpolicecar_black/defaultpolicecar_black_2";
+	DamageTexture		"models/vehicles/defaultpolicecar_black/defaultpolicecar_black_2_dam";
+	BaseTextureSpecularAlpha 	1;
+
+	CubeMap		"$env_cubemap";
+	SpecularScale	0.35;
+}; 

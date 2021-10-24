@@ -1,0 +1,6 @@
+"Base" 
+{ 
+	"basetexture" "msyn_stone/msyn_stonewalloc01";
+	cubemap		"$env_cubemap";
+	WetScale	0.2;
+}; 

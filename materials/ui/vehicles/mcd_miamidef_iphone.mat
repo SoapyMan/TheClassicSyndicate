@@ -1,0 +1,6 @@
+BaseUnlit
+{
+	BaseTexture "ui/vehicles/mcd_miamidef_iphone"
+	address "clamp";
+	translucent 1;
+}

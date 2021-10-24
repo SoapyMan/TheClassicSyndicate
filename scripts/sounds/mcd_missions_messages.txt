@@ -1,0 +1,109 @@
+"message.bankjob"
+{
+	wave		"cutscenes_sfx/mcd01_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.hidetheevidence"
+{
+	wave		"cutscenes_sfx/mcd02_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.ticcosride"
+{
+	wave		"cutscenes_sfx/mcd03_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.cleanup"
+{
+	wave		"cutscenes_sfx/mcd04_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.caseforakey"
+{
+	wave		"cutscenes_sfx/mcd05_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.meetrufus"
+{
+	wave		"cutscenes_sfx/mcd06_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.payback"
+{
+	wave		"cutscenes_sfx/mcd08_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.shipmentcomingin"
+{
+	wave		"cutscenes_sfx/mcd09_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.superflydrive"
+{
+	wave		"cutscenes_sfx/mcd10_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.diangio"
+{
+	wave		"cutscenes_sfx/mcd11_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};
+
+"message.baitforatrap"
+{
+	wave		"cutscenes_sfx/mcd12_vocalmessage.wav";
+
+	"volume"	"1.5";
+	"distance"	"45";
+	"occlusion"	"0";
+	channel		CHAN_VOICE;
+};

@@ -1,0 +1,397 @@
+//
+// Driver Syndicate weather definition file
+// You can add your own entries for your missions
+//
+
+skyHeight 0.1;
+skyAngle 0;
+northLocation -2;
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_clear_noflare"
+{
+	ambientColor 	0.57 0.60 0.71; //0.37 0.39 0.41;
+	sunColor 	0.85 0.81 0.38; //0.89 0.81 0.6;
+	shadowColor	0.01 0.01 0.09 0.35;
+
+	sunAngles 	-35 38 0;
+	sunLensAngles	-17 39 0;
+
+	sunLensItensity 0.0;
+
+	sky		"sky/skysfd_day";	// skydome texture which defines $env_cubemap
+
+	headlightIntensity	0.0;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.58 0.57 0.57;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_clear"
+{
+	ambientColor 	0.57 0.60 0.71; //0.37 0.39 0.41;
+	sunColor 	0.85 0.81 0.38; //0.89 0.81 0.6;
+	shadowColor	0.01 0.01 0.09 0.35;
+
+	sunAngles 	-35 -52 0;
+	sunLensAngles	-21 -52 0;
+
+	sunLensItensity 0.35;
+
+	sky		"sky/skysfd_day";	// skydome texture which defines $env_cubemap
+
+	headlightIntensity	0.0;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.58 0.57 0.57;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_stormy"
+{
+	ambientColor 	0.32 0.32 0.32;
+	sunColor 	0.15 0.15 0.15;
+	sunAngles 	-50 -35 0;
+	sunLensAngles	-17 39 0;
+
+	sunLensItensity 0;
+
+	brightModFactor	0.04;
+
+	rainBrightness	0.4;
+	rainDensity	150;
+
+	sky		"sky/skymcd_daystormy";	// skydome texture which defines $env_cubemap
+
+	headlightIntensity	0.1;
+
+	fog 1
+	{
+		fog_far		200;
+		fog_near	40;
+		fog_color	0.31 0.32 0.32;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"storm";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"dawn_clear"
+{
+	ambientColor 	0.39 0.36 0.37;
+	sunColor 	0.64 0.32 0.1;
+	sunAngles 	-20 64 0;
+
+	shadowColor	0.01 0.01 0.09 0.1;
+
+	sunLensAngles	-17 39 0;
+	sunLensItensity 0.0;
+
+	brightModFactor		0.04;
+
+	sky		"sky/skymcd_dawn";	// skydome texture which defines $env_cubemap
+
+	fog 1
+	{
+		fog_far		390;
+		fog_near	120;
+		fog_color	0.12 0.12 0.22;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"dusk_clear"
+{
+	ambientColor 	0.38 0.38 0.40;
+	sunColor 	0.64 0.40 0.1;
+	sunAngles 		-18 -35 0;
+
+	shadowColor	0.01 0.01 0.09 0.1;
+	
+	sunLensItensity 0.0;
+
+	brightModFactor		0.0;
+	streetLightIntensity	0.6;
+	headlightIntensity	0.7;
+
+	// moon uses sun lens angles
+	sunLensAngles 		-5 -50 0;
+	moonBrightness		0.4;
+
+	sky			"sky/skymcd_dusk";	// skydome texture which defines $env_cubemap
+
+	// light flags
+	lights			city;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.09 0.08 0.09;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"duskevening_clear"
+{
+	base 			"dusk_clear";
+
+	brightModFactor		0.5;
+	streetLightIntensity	1.0;
+	headlightIntensity	0.6;
+
+	// moon uses sun lens angles
+	sunLensAngles 		-20 115 0;
+	moonBrightness		0.5;
+
+	// light flags
+	lights			cars lamps city;
+
+	fog 1
+	{
+		fog_far		260;
+		fog_near	20;
+		fog_color	0.07 0.07 0.12;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"night_clear"
+{
+	ambientColor 	0.052 0.062 0.07;
+	sunColor 	0.04 0.04 0.08;
+	sunAngles 	-40 200 0;
+
+	shadowColor	0.0 0.0 0.0 0.2;
+
+	sunLensItensity 0;
+
+	brightModFactor	0.4;
+	streetLightIntensity	1.0;
+	rainBrightness	0.2;
+	headlightIntensity	0.5;
+
+	// moon uses sun lens angles
+	sunLensAngles 		-16 200 0;
+	moonBrightness		0.3;
+
+	sky		"sky/skysfd_night";	// skydome texture which defines $env_cubemap
+
+	// light flags
+	lights			cars lamps city;
+
+	fog 1
+	{
+		fog_far		500;
+		fog_near	50;
+		fog_color	0.03 0.02 0.05;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"night_stormy"
+{
+	ambientColor 	0.04 0.044 0.045;
+	sunColor 	0.1 0.1 0.16;
+	sunAngles 	-20 45 0;
+
+	sunLensItensity 0;
+
+	brightModFactor	0.6;
+	streetLightIntensity	0.9;
+	headlightIntensity	0.4;
+	sunLensAngles 		-2 -72 0;
+
+	rainBrightness	0.3;
+	rainDensity	200;
+
+	sky		"sky/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+
+	// light flags
+	lights			cars lamps city;
+
+	fog 1
+	{
+		fog_far		200;
+		fog_near	40;
+		fog_color	0.09 0.1 0.1;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"storm";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"night_stormy_norain"
+{
+	ambientColor 	0.052 0.062 0.07;
+	sunColor 	0.04 0.04 0.08;
+	sunAngles 	-40 135 0;
+
+	shadowColor	0.0 0.0 0.0 0.2;
+
+	sunLensItensity 0;
+
+	brightModFactor	0.4;
+	streetLightIntensity	1.0;
+	rainBrightness	0.2;
+	headlightIntensity	0.5;
+
+	// moon uses sun lens angles
+	sunLensAngles 		-2 -72 0;
+	moonBrightness		0;
+
+	sky		"sky/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+
+	// light flags
+	lights			cars lamps city;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	10;
+		fog_color	0.03 0.02 0.05;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// transitions
+
+"day_dusk_rainy_transition"
+{
+	transition day_rainy dusk_rainy;
+	transition_time 220;		// time in seconds the whole sequence transitions from first to last
+}
+
+"night_clear_stormy_transition"
+{
+	transition night_clear_thunder night_stormy;
+	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+}
+
+"dusk_night_transition"
+{
+	transition dusk_overcast duskevening_clear night_clear;
+	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+}
+
+"night_dawn_transition"
+{
+	transition night_clear dawn_clear;
+	transition_time 180;		// time in seconds the whole sequence transitions from first to last
+}
+
+"day_dawn_transition"
+{
+	transition day_clear dawn_clear;
+	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+}
+
+"debug_transitions"
+{
+	transition dawn_clear day_clear day_stormy dusk_clear night_clear night_stormy;
+	transition_time 30;		// time in seconds the whole sequence transitions from first to last
+}
+
+"caseforakey_weather"
+{
+	transition night_clear dawn_clear day_clear_noflare;
+	transition_time 300;		// time in seconds the whole sequence transitions from first to last
+}
+
+"superflydrive_weather"
+{
+	transition dusk_clear night_clear;
+	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+}
+
+"jeanpaul02_weather"
+{
+	transition day_clear_noflare dusk_clear night_clear;
+	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+}

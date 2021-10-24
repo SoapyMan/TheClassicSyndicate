@@ -1,0 +1,158 @@
+name		"'72 Retaliator SE";
+
+cleanmodel	"models/vehicles/dsyn_retaliatorse.egf";
+damagedmodel	"models/vehicles/dsyn_retaliatorse_dam.egf";
+
+wheelBodyGroup	"wheel2";
+
+allowMusic 0;
+sounds
+{
+	engine		"car.engine6";
+	engine_low	"car.engine6_low";
+	engine_idle	"defaultcar.engine_idle3";
+
+	horn 		"car.horn4";
+	// use single engine sound
+	//engine_off	"sounds/engines/engine2_off.wav"
+};
+
+camera_height 	1.0;
+camera_distance 6.4;
+
+camera_height_in 	0.25;
+camera_distance_in	1.5;
+camera_side_in		0.25;
+
+visuals
+{
+	// name	type position split dist
+	headlights 	1 0.64 -0.03 2.19 0.1;
+	brakelights 	1 0.60 0.05 -2.32 0.06;
+
+	frontdimlights	0.9 -0.07 1.92 0.1;
+	backdimlights	0.7 0.05 -2.32 0.09;
+
+	// position
+	backlights 	0.42 0.06 -2.32 0.09;
+
+	engine 0.0 0.1 2.1;
+	exhaust -0.4 -0.32 -2.2 2 1;
+
+	driver -0.4 0.06 -0.32;
+};
+
+hingePoints
+{
+	front 0.0 -0.07 2.05;
+	back 0.0 -0.07 -2.15;
+}
+
+useBodyColor 1;
+
+colors
+{
+	//name			r	g	b	reflectivity
+	"Red"	 		156 	51 	34	255;
+	"Green"			0.04	0.06	0.04	1.0;
+	"Light Blue"	0.2 	0.45 	0.6	1.0;
+	"Purple"		0.2 	0.15 	0.4	1.0;
+	"White"			0.7 	0.7 	0.7	1.0;
+	"Gray"			0.4 	0.4 	0.4	1.0;
+	"Black"			0.08 	0.08 	0.08	1.0;
+};
+
+bodysize	0.9 0.52 2.35;
+center 		0 0.12 0.0;
+
+gravitycenter	0.0 -0.24 0.05;
+mass 		2800;
+antiroll	0.18;
+
+gears
+	-1.85
+	2.0
+	1.2
+	0.79
+	0.59;
+
+differential 		25.0;
+transmissionrate	1.2;
+torquemultipler		1.1;
+
+maxspeed		170;
+
+suspensionLift		0.0;
+	
+wheels
+{
+	// front wheels
+	wheel
+	{
+		SuspensionTop			-0.76 -0.15 1.36;
+		SuspensionBottom		-0.82 -0.70 1.36;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2800;
+
+		Radius 			0.30;
+		Width			0.24;
+
+		BrakeTorque		12000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	wheel
+	{
+		SuspensionTop			0.76 -0.15 1.36;
+		SuspensionBottom		0.82 -0.70 1.36;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2800;
+
+		Radius 			0.30;
+		Width			0.24;
+
+		BrakeTorque		12000.0;
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	// back wheels
+	wheel
+	{
+		SuspensionTop			0.82 -0.15 -1.42;
+		SuspensionBottom		0.82 -0.70 -1.42;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2800;
+
+		Radius 			0.30;
+		Width			0.24;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+	
+	wheel
+	{
+		SuspensionTop			-0.82 -0.15 -1.42;
+		SuspensionBottom		-0.82 -0.70 -1.42;
+		SuspensionSpringConstant	40000.0;
+		SuspensionDampingConstant	2800;
+		Radius 			0.30;
+		Width			0.24;
+
+		BrakeTorque		12000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+};

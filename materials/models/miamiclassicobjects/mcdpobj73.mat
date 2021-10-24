@@ -1,0 +1,11 @@
+"Skinned" 
+{ 
+	basetexture 			"models/miamiclassicobjects/mcdpobj73";
+	//NightLight			"mcdpages/mcdp55_L";
+	//Cubemap				"$env_//Cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale			0.3;
+	alphatest	1;
+	nocull		1;
+	Filtering "linear";
+};

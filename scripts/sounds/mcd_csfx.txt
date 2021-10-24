@@ -1,0 +1,329 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"bank.jobalarm"
+{
+	wave		"sirens/mcd_default_siren.wav";
+
+	volume		"0.3";
+	pitch		"1.5";
+	maxdistance	"100";
+};
+
+"d3.citynoise"
+{
+	wave		"cutscenes_sfx/d3_ambientcitynoise.wav";
+
+	volume		"0.05";
+	pitch		"0.75";
+	maxdistance	"20";
+};
+
+"wind.msg01"
+{
+	wave		"cutscenes_sfx/twind01_short.wav";
+
+	"volume"	"0.3";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.2";
+	channel		CHAN_VOICE;
+};
+
+"door.garage"
+{
+	wave		"cutscenes_sfx/garagedoor_d2.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"1.0";
+	//channel		CHAN_ITEM;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd01"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"1.1";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd02a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.9";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd02b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.3";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"car.lightswitch"
+{
+	wave		"cutscenes_sfx/car_lightswitch01.wav";
+
+	"volume"	"0.5";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"1.0";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd03a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.4";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd03b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"1.0";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd04a1"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.40";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd05a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.35";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd05b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.8";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd06a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.30";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd06b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.6";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd07a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.35";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd07b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.7";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd08a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.35";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd08b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.7";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd08c"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.3";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd08d"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.5";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd09"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.30";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd10a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.35";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd10b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.7";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd11a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.4";
+	channel		CHAN_VOICE;
+};
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+"wind.mcd13a"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.3";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd13b"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.5";
+	channel		CHAN_VOICE;
+};
+
+"wind.mcd13c"
+{
+	wave		"cutscenes_sfx/twind01.wav";
+
+	"volume"	"0.6";
+	"distance"	"0";
+	"occlusion"	"0";
+	pitch		"0.9";
+	channel		CHAN_VOICE;
+};

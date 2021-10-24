@@ -1,0 +1,14 @@
+"d3.glasshit"
+{
+	rndwave
+	{
+		wave 		"impacts/d3glass_hit1.wav";
+		wave 		"impacts/d3glass_hit2.wav";
+	}
+
+	pitch		1.0;
+	volume		0.5;
+	distance	5.0;
+
+	channel		"CHAN_ITEM";
+}

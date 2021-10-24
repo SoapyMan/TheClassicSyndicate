@@ -1,0 +1,5 @@
+"Skinned" 
+{ 
+	"BaseTexture" "models/characters/mcd_face01"; 
+	"SpecularScale" "0.1"; 
+}; 

@@ -1,0 +1,6 @@
+BaseUnlit
+{
+	BaseTexture "ui/vehicles/hd_gsx"
+	address "clamp";
+	translucent 1;
+}
