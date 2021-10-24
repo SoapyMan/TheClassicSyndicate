@@ -194,7 +194,7 @@ end
 function MISSION.SetupWreckZone(targetData)
 	MISSION.InWreckZone = true
 
-	local worldObject = world:QueryObjects(targetData.radius, targetData.position, function(go)
+	local worldObject = objects:QueryObjects(targetData.radius, targetData.position, function(go)
 		if go:GetType() == GO_DEBRIS then
 			-- setup collision callback for debris objects
 			go:Set("OnCarCollision", function() 
