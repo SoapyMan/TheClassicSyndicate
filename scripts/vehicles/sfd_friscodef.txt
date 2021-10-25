@@ -32,8 +32,8 @@ visuals
 	// name	type position split dist
 	//headlights 	1 0.57 0.04 2.14 0.13;
 	
-	headlights 		1 0.64 -0.10 2.22 0.08;			//2 0.70 -0.10 2.22 0.05;
-	brakelights 	0 0.72 -0.02 -2.24 0.06;
+	headlights 		2 0.70 -0.10  2.22 0.05;			//2 0.70 -0.10 2.22 0.05;
+	brakelights 	0 0.73 -0.02 -2.24 0.06;
 
 	frontdimlights	0.70 -0.30 2.22 0.1;
 	backdimlights	0.76 -0.08 -2.24 0.09;
