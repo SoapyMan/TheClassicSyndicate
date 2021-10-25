@@ -4,7 +4,7 @@
 //
 
 skyHeight 0.28;
-skyAngle -25;
+skyAngle 0;
 northLocation -2;
 
 //-----------------------------------------------------------------
@@ -30,6 +30,8 @@ northLocation -2;
 
 	sunAngles 	-35 14 0;
 	sunLensAngles	-17 14 0;
+
+	skyAngle	-25;
 
 	sunLensItensity 0.65;
 
@@ -101,7 +103,7 @@ northLocation -2;
 
 	shadowColor	0.01 0.01 0.09 0.1;
 
-	sunLensAngles	-4 41 0;
+	sunLensAngles	-2 41 0;
 	sunLensItensity 0.8;
 
 	brightModFactor		0.04;
@@ -128,9 +130,11 @@ northLocation -2;
 
 "dusk_clear"
 {
-	ambientColor 	0.32 0.32 0.4;
+	ambientColor 	0.32 0.32 0.30;
 	sunColor 	0.60 0.40 0.2;
 	sunAngles 	-16 -75 0;
+
+	skyAngle	-110;
 
 	shadowColor	0.01 0.01 0.09 0.1;
 	
