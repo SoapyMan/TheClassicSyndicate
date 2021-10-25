@@ -106,20 +106,22 @@ local MyLevelFileName = "mattimiamiclassic"
 local MyHDLevelFileName = "mattimiamiclassichd"
 local My2019LevelFileName = "MiamiSyndicate2019"
 local MyParkingLevelFileName = "MattiParkingClassic"
+local MyLevelFileName2 = "MattiFriscoClassic"
 
 local McdLevelNames = {
 	MyLevelFileName,
 	MyHDLevelFileName,
 	My2019LevelFileName,
-	MyParkingLevelFileName
+	MyParkingLevelFileName,
+	MyLevelFileName2,
 }
 
 local McdCars = {
 	{"mcd_miamidef", "Miami - Default PSX Car"},
 	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
 	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},
-	--{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},
-	--{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
+	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},
+	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
 	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},
 	{"mcd_miamievidence", "Miami - Hide The Evidence Car"},
 	{"mcd_miamidef_PC", "Miami - Default PC Car"},
@@ -153,10 +155,10 @@ end
 function ModInit:Init()
 	
 	-- make MCD camera available
-	module("scripts/lua/McdCinematicCamera.lua")
-	module("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
-	storySelectionItems = module("scripts/lua/McdStoryCarSelection.lua")
-	HDstorySelectionItems = module("scripts/lua/McdHdStoryCarSelection.lua")
+	include("scripts/lua/McdCinematicCamera.lua")
+	include("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
+	storySelectionItems = include("scripts/lua/McdStoryCarSelection.lua")
+	HDstorySelectionItems = include("scripts/lua/McdHdStoryCarSelection.lua")
 
 
 	EmitterSoundRegistry.MCDEngine = "scripts/sounds/mcd_engine.txt"				-- Driver 1 engine sounds
@@ -167,6 +169,7 @@ function ModInit:Init()
 	EmitterSoundRegistry.MCDObjects = "scripts/sounds/mcd_objects.txt"				-- Objects SFX
 	
 	CopVoiceOver[MyLevelFileName] = MyCopSoundsFilename;	-- Define what cop sounds script a level uses
+	CopVoiceOver[MyLevelFileName2] = MyCopSoundsFilename;
 	CopVoiceOver[MyHDLevelFileName] = MyCopSoundsFilename;
 	CopVoiceOver[MyParkingLevelFileName] = MyCopSoundsFilename;	
 	
@@ -199,6 +202,14 @@ function ModInit:Init()
 		night_stormy = "nyc_night"
 	}
 
+	CityTimeOfDayMusic[MyLevelFileName2] = {			-- Music selection for Miami (Classic)
+	day_clear = "frisco_day",
+	day_stormy = "la_day",
+	dawn_clear = "frisco_night",
+	night_clear = "frisco_night",
+	night_stormy = "nyc_night"
+}
+
 	CityTimeOfDayMusic[MyHDLevelFileName] = {			-- Music selection for Frisco (Classic)
 		day_clear = "miami_day",
 		day_stormy = "la_day",
@@ -224,7 +235,7 @@ function ModInit:Init()
 	table.insert(MenuCityList, {MyLevelFileName, "Miami (Classic)"})				-- Miami Classic
 	--table.insert(MenuCityList, {MyParkingLevelFileName, "Parking (Classic)"})		-- Parking Classic
 	table.insert(MenuCityList, {My2019LevelFileName, "Miami (Syndicate 2019)"})		-- Miami Syndicate (2019)
-	--table.insert(MenuCityList, {MyLevelFileName2, "Frisco (Classic)"})				-- Miami Classic
+	table.insert(MenuCityList, {MyLevelFileName2, "Frisco (Classic)"})				-- Miami Classic
 
 	-- add cars
 	for i,v in ipairs(McdCars) do
