@@ -1,6 +1,0 @@
-DrvSynVehicle
-{
-	BaseTexture "models/vehicles/lplates_flo";
-	address "clamp";
-	licensePlate "1";
-};

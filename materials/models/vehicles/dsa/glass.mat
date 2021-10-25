@@ -1,9 +1,0 @@
-"DrvSynVehicle"
-{ 
-	BaseTexture 	"models/vehicles/glasswindow";
-	DamageTexture	"models/vehicles/glasswindow_broken";
-	CubeMap		"$env_cubemap";
-	SpecularScale	1.0;
-	translucent	1;
-	BaseTextureSpecularAlpha 	1;
-}; 
