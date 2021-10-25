@@ -3,7 +3,7 @@ name		"MIAMI - DEFAULT CAR (IPHONE)";
 cleanmodel		"models/vehicles/mcd_miamidef_iphone.egf";
 damagedmodel	"models/vehicles/mcd_miamidef_iphone_dam.egf";
 
-wheelmodel	"models/vehicles/d1m_wheelold.egf";
+wheelmodel	"models/vehicles/d1m_ioswheel.egf";
 
 //		damaged 	hubcapped 	hubcap
 wheelBodyGroup	"unc_classic" 	"cpd_classic" 	"cap_classic";
