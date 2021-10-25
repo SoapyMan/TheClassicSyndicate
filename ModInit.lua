@@ -12,16 +12,14 @@ local ModInit = {
 }
 
 McdPrefferedStoryCar = "mcd_miamidef"
-McdHdPrefferedStoryCar = "hd_arvensis"
 local EQUI_CARSSELECTION_SCHEME_NAME = "ui_mainmenu_mcdmissioncar"
 
 
 -- Missions Index (Menu)
 
-local MiamiMissionsIdx = -1
-local MiamiSyndicateMissionsIdx = -1
 local TakeARideZikmuSwitchIdx = -1
-local MiamiHDMissionsIdx = -1
+
+local MiamiMissionsIdx = -1
 
 -- Miami (Classic) Missions
 local MiamiMissionsList = {
@@ -57,61 +55,12 @@ local MiamiMissionsList = {
 	{screen = "story_miamiclassic_end"}
 }
 
-local MiamiHDMissionsList = {
-	"hd_mcd00",					-- Interview								O		Playable, Complete
-	"hd_mcd_flat_nextmessage",	-- The Bank Job (Message)					O
-	"hd_mcd01",					-- The Bank Job								O		Playable, Complete
-	"hd_mcd_flat_nextmessage",	-- Hide The Evidence (Message)				O
-	"hd_mcd02",					-- Hide The Evidence						O		Playable, Complete
-	"hd_mcd_flat_nextmessage",	-- Ticco's Ride (Message)					O
-	"hd_mcd03",					-- Ticco's Ride								O		NaU (EndCPath)
-	"hd_mcd_flat_nextmessage",	-- The Clean Up (Message)					O
-	"hd_mcd04a",				-- The Clean Up (Part 1)					O		Playable, Complete
-	"hd_mcd04b",				-- The Clean Up (Part 2)					O		Playable, Complete
-	"hd_mcd_flat_nextmessage",	-- Case For A Key (Message)					O
-	"hd_mcd05a",				-- Case For A Key							O		Playable, Complete
-	"hd_mcd05b",				-- Case For A Key (Part 2)					O		Playable, Complete
-	"hd_mcd05c",				-- Case For A Key (Part 3)					O		NaU (EndTPoint&Scenery)
-	"hd_mcd_flat_nextmessage",	-- Tanner Meets Rufus (Message)				O
-	"hd_mcd06", 				-- Tanner Meets Rufus						O		Playable, Complete
-	"hd_mcd07a",				-- Bust Out Jean Paul						O		Playable, Complete
-	"hd_mcd07b",				-- Bust Out Jean Paul (Part 2)				O		Playable, Complete
-	"hd_mcd_flat_nextmessage",	-- Payback (Message)						O
-	"hd_mcd08", 				-- Payback									O		Playable, Complete	
-	"hd_mcd_flat_nextmessage",	-- A Shipment's Coming In (Message)			O
-	"hd_mcd09", 				-- A Shipment's Coming In					O		NaU (P2Lghts&SndBnk)	
-	"hd_mcd_flat_nextmessage",	-- Superfly Drive (Message)					O
-	"hd_mcd10",					-- Superfly Drive							O		Playable, Complete	
-	"hd_mcd_flat_nextmessage",	-- Take Out Di Angio's Car (Message)		O
-	"hd_mcd11", 				-- Take Out Di Angio's Car					O		Playable, Complete	
-	"hd_mcd_flat_nextmessage",	-- Bait for a Trap (Message)				O
-	"hd_mcd12",					-- Bait for a Trap							O		Playable, Complete
-	"hd_mcd13", 				-- The Informant							O		NaU
-	{screen = "story_miamiclassic_end"}
-}
-
--- Miami (Syndicate 2019) Missions
-local MiamiSyndicateMissionsList = {
-	"1",			-- The Bank Job
-	"2",			-- Hide The Evidence
-	"3",			-- Case For A Key
-	"4",			-- Ticco's Ride
-	"5",			-- The Clean Up
-	"6",			-- Tanner Meets Rufus
-	"8",			-- A Shipment's Coming In
-	"9",			-- Superfly Drive
-}
-
 local MyLevelFileName = "mattimiamiclassic"
-local MyHDLevelFileName = "mattimiamiclassichd"
-local My2019LevelFileName = "MiamiSyndicate2019"
 local MyParkingLevelFileName = "MattiParkingClassic"
 local MyLevelFileName2 = "MattiFriscoClassic"
 
 local McdLevelNames = {
 	MyLevelFileName,
-	MyHDLevelFileName,
-	My2019LevelFileName,
 	MyParkingLevelFileName,
 	MyLevelFileName2,
 }
@@ -128,10 +77,6 @@ local McdCars = {
 	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
 	{"mcd_miamidef_iphone", "Miami - Default iPhone Car"},
 	{"mcd_miamidef_mini", "Miami - Default PSX Car (MINI)"},
-	--{"dsyn_retaliatorSE", "Driver 3 Inspired Car"},
-	--{"dsyn_arvensis", "Hallgarth's First Car"},
-	{"hexed_challengerxs", "DSyn - Challenger XS"},
-	{"hd_gsx", "Hallgarth - GSX (D1 Retake)"},
 }
 
 local MyCopSoundsFilename = "scripts/sounds/mcd_cops.txt"
@@ -158,7 +103,6 @@ function ModInit:Init()
 	include("scripts/lua/McdCinematicCamera.lua")
 	include("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
 	storySelectionItems = include("scripts/lua/McdStoryCarSelection.lua")
-	HDstorySelectionItems = include("scripts/lua/McdHdStoryCarSelection.lua")
 
 
 	EmitterSoundRegistry.MCDEngine = "scripts/sounds/mcd_engine.txt"				-- Driver 1 engine sounds
@@ -170,7 +114,6 @@ function ModInit:Init()
 	
 	CopVoiceOver[MyLevelFileName] = MyCopSoundsFilename;	-- Define what cop sounds script a level uses
 	CopVoiceOver[MyLevelFileName2] = MyCopSoundsFilename;
-	CopVoiceOver[MyHDLevelFileName] = MyCopSoundsFilename;
 	CopVoiceOver[MyParkingLevelFileName] = MyCopSoundsFilename;	
 	
 	OldSetMusicName = SetMusicName
@@ -210,22 +153,6 @@ function ModInit:Init()
 	night_stormy = "nyc_night"
 }
 
-	CityTimeOfDayMusic[MyHDLevelFileName] = {			-- Music selection for Frisco (Classic)
-		day_clear = "miami_day",
-		day_stormy = "la_day",
-		dawn_clear = "frisco_night",
-		night_clear = "miami_night",
-		night_stormy = "nyc_night"
-	}
-
-	CityTimeOfDayMusic[My2019LevelFileName] = {		-- Music selection for Miami (Syndicate 2019)
-		day_clear = "miami_day",
-		day_stormy = "la_day",
-		dawn_clear = "frisco_night",
-		night_clear = "miami_night",
-		night_stormy = "nyc_night"
-	}
-
 	-----------------------------------------------------------
 	-- Classic Content (Map / Vehicles / Missions / Minigames) --
 	-----------------------------------------------------------
@@ -234,7 +161,6 @@ function ModInit:Init()
 	-- add levels
 	table.insert(MenuCityList, {MyLevelFileName, "Miami (Classic)"})				-- Miami Classic
 	--table.insert(MenuCityList, {MyParkingLevelFileName, "Parking (Classic)"})		-- Parking Classic
-	table.insert(MenuCityList, {My2019LevelFileName, "Miami (Syndicate 2019)"})		-- Miami Syndicate (2019)
 	table.insert(MenuCityList, {MyLevelFileName2, "Frisco (Classic)"})				-- Miami Classic
 
 	-- add cars
@@ -244,18 +170,11 @@ function ModInit:Init()
 
 	-- Add missions
 	missions["mcd_missions"] = MiamiMissionsList
-	missions["mcd_missions_hd"] = MiamiHDMissionsList
-	missions['msyn_missions'] = MiamiSyndicateMissionsList
 
 	-- Miami (Classic) Minigames
 	table.insert(missions["minigame/survival"], {"mcd_srv01", "Miami Classic (Miami Beach)"})
 	table.insert(missions["minigame/survival"], {"mcd_srv02", "Miami Classic (Downtown)"})
 	table.insert(missions["minigame/survival"], {"mcd_srv03", "Miami Classic (Coral Gables)"})
-
-	-- Miami (Syndicate 2019) Minigames
-	table.insert(missions["minigame/survival"], {"msyn_srv03", "Miami Syndicate (Miami Beach)"})
-	table.insert(missions["minigame/survival"], {"msyn_srv01", "Miami Syndicate (Bal Harbor)"})
-	table.insert(missions["minigame/survival"], {"msyn_srv02", "Miami Syndicate (Downtown)"})
 
 	-- PS1 Music Switch
 --	local ZikmuSwitchItem = MenuStack.MakeChoiceParam("PS1 Music < %s >", musicGetSet, {
@@ -279,48 +198,10 @@ function ModInit:Init()
 		},
 	}
 
-	local MiamiSyndicateMissionsElems = 
-	{
-		--ZikmuSwitchItem,
-		{
-			label = "#MENU_SYNDICATE_NEWGAME",
-			isFinal = true,
-			onEnter = function(self, stack)
-			
-				-- Reset and run ladder
-				missionladder:Run( "msyn_missions", missions["msyn_missions"] )
-
-				return {}
-			end,
-		},
-	}
-
-	local MiamiHDMissionsElems = 
-	{
-		--ZikmuSwitchItem,
-		{
-			label = "#MENU_SYNDICATE_NEWGAME",
-			isFinal = true,
-			onEnter = function(self, stack)
-			
-				-- Reset and run ladder
-				missionladder:Run( "mcd_missions_hd", missions["mcd_missions_hd"] )
-
-				return {}
-			end,
-		},
-	}
-
 	TakeARideZikmuSwitchIdx = table.insert(TakeARideExtraElements, ZikmuSwitchItem)
 
 	MiamiMissionsIdx = table.insert(StoryGameExtraElems, 
 		MenuStack.MakeSubMenu("Miami - Classic Missions", storySelectionItems, nil, EQUI_CARSSELECTION_SCHEME_NAME))
-
-	MiamiHDMissionsIdx = table.insert(StoryGameExtraElems, 
-		MenuStack.MakeSubMenu("Miami - Classic Missions (w/ HD Cars)", HDstorySelectionItems, nil, EQUI_CARSSELECTION_SCHEME_NAME))
-
-	MiamiSyndicateMissionsIdx = table.insert(StoryGameExtraElems, 
-		MenuStack.MakeSubMenu("Miami - Syndicate 2019 Missions", MiamiSyndicateMissionsElems, false))
 end
 
 -- Deinitialization function
@@ -339,8 +220,6 @@ function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned 
 
 	table.remove(TakeARideExtraElements, TakeARideZikmuSwitchIdx)
 	table.remove(StoryGameExtraElems, MiamiMissionsIdx)
-	table.remove(StoryGameExtraElems, MiamiHDMissionsIdx)
-	table.remove(StoryGameExtraElems, MiamiSyndicateMissionsIdx)
 	
 	SetMusicName = OldSetMusicName
 	MakeDefaultMissionSettings = OldMakeDefaultMissionSettings
@@ -350,14 +229,7 @@ function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned 
 	table.remove(missions["minigame/survival"], mcd_srv02)
 	table.remove(missions["minigame/survival"], mcd_srv03)
 
-	-- Remove Miami (Syndicate 2019) Minigames
-	table.remove(missions["minigame/survival"], msyn_srv01)
-	table.remove(missions["minigame/survival"], msyn_srv02)
-	table.remove(missions["minigame/survival"], msyn_srv03)
-	
 	missions["mcd_missions"] = nil		-- Remove Miami (Classic) missions
-	missions["mcd_missions_hd"] = nil
-	missions["msyn_missions"] = nil		-- Remove Miami (Syndicate 2019) missions
 
 	-- Deinit - Maps
 	for i,v in ipairs(MenuCityList) do
