@@ -1,7 +1,0 @@
-"Base" 
-{ 
-	basetexture 			"msyn_buildings/msyn_warehouse01";
-	Cubemap				"$env_cubemap";
-	BaseTextureSpecularAlpha 	1;
-	SpecularScale			0.3;
-};

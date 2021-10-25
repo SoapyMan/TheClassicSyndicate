@@ -1,5 +1,0 @@
-Base
-{
-	BaseTexture msyn_trees/msyn_foliage1;
-	alphatest 1;
-};
