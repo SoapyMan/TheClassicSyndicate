@@ -142,11 +142,11 @@ function MISSION.SetupFlybyCutscene()
 			{ Vector3D.new(-126, 2.5, -945), Vector3D.new(6, 180, 0), 2.0, 60 },
 			{ Vector3D.new(-126, 2.5, -1100), Vector3D.new(8, 180, 0), 3.0, 60 },
 			{ Vector3D.new(-114, 2.5, -1140), Vector3D.new(8, 220, 30), 3.5, 60 },
-			{ Vector3D.new(-94, 2.25, -1140), Vector3D.new(6, 250, 0), 4.0, 60 },
-			{ Vector3D.new(-88, 2.11, -1136.50), Vector3D.new(4, 180.02, -30), 4.25, 60 },
-			{ Vector3D.new(-88, 2.11, -1136.50), Vector3D.new(2, 180.02, 0), 4.5, 60 },
-			{ Vector3D.new(-88, 2.11, -1136.50), Vector3D.new(0, 180.02, 0), 5.0, 60 },
-			{ Vector3D.new(-87.98, 2.11, -1136.50), Vector3D.new(0, 180.02, 0), 6.0, 60 },
+			{ Vector3D.new(-94, 2.25, -1140), Vector3D.new(6, 280, 0), 4.0, 60 },
+			{ Vector3D.new(-88, 2.09, -1136.50), Vector3D.new(4, 180.02, -30), 4.25, 60 },
+			{ Vector3D.new(-88, 2.09, -1136.50), Vector3D.new(2, 180.02, 0), 4.5, 60 },
+			{ Vector3D.new(-88, 2.09, -1136.50), Vector3D.new(0, 180.02, 0), 5.0, 60 },
+			{ Vector3D.new(-87.98, 2.09, -1136.50), Vector3D.new(0, 180.02, 0), 6.0, 60 },
 		}
 	}
 	
