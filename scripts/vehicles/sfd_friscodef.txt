@@ -20,7 +20,7 @@ sounds
 	//engine_off	"sounds/engines/engine2_off.wav"
 };
 
-camera_height 	1.2;
+camera_height 	1.1;
 camera_distance	6.6;
 
 camera_height_in 	0.26;
@@ -64,9 +64,9 @@ colors
 bodysize	0.88 0.52 2.24;
 center 		0 0.06 0.0;
 
-gravitycenter	0.0 -0.24 0.09;
+gravitycenter	0.0 -0.22 0.12;
 mass 		2800;
-antiroll	0.32;
+antiroll	0.42;
 
 gears
 	-1.95
@@ -82,22 +82,22 @@ torquemultipler		1.2;
 
 maxspeed		144;
 
-suspensionLift		-0.05;
+suspensionLift		0.0;
 	
 wheels
 {
 	// front wheels
 	wheel
 	{
-		SuspensionTop			-0.68 0.05 1.52;
-		SuspensionBottom		-0.72 -0.78 1.56;
-		SuspensionSpringConstant	65000.0;
-		SuspensionDampingConstant	2900;
+		SuspensionTop			-0.72 -0.15 1.56;
+		SuspensionBottom		-0.72 -0.86 1.56;
+		SuspensionSpringConstant	50000.0;
+		SuspensionDampingConstant	2600;
 
-		Radius 			0.32;
-		Width			0.22;
+		Radius 			0.31;
+		Width			0.21;
 
-		BrakeTorque		12000.0;
+		BrakeTorque		16000.0;
 
 		Steer			1;
 		Drive			0;
@@ -106,15 +106,15 @@ wheels
 
 	wheel
 	{
-		SuspensionTop			0.68 0.05 1.52;
-		SuspensionBottom		0.72 -0.78 1.56;
-		SuspensionSpringConstant	65000.0;
-		SuspensionDampingConstant	2900;
+		SuspensionTop			0.72 -0.15 1.56;
+		SuspensionBottom		0.72 -0.86 1.56;
+		SuspensionSpringConstant	50000.0;
+		SuspensionDampingConstant	2600;
 
-		Radius 			0.32;
-		Width			0.22;
+		Radius 			0.31;
+		Width			0.21;
 
-		BrakeTorque		12000.0;
+		BrakeTorque		16000.0;
 		Steer			1;
 		Drive			0;
 		Handbrake		0;
@@ -123,15 +123,15 @@ wheels
 	// back wheels
 	wheel
 	{
-		SuspensionTop			0.68 0.05 -1.16;
-		SuspensionBottom		0.72 -0.78 -1.20;
-		SuspensionSpringConstant	65000.0;
-		SuspensionDampingConstant	2900;
+		SuspensionTop			0.72 -0.15 -1.20;
+		SuspensionBottom		0.72 -0.86 -1.20;
+		SuspensionSpringConstant	50000.0;
+		SuspensionDampingConstant	2600;
 
-		Radius 			0.32;
-		Width			0.22;
+		Radius 			0.31;
+		Width			0.21;
 
-		BrakeTorque		12000.0;
+		BrakeTorque		16000.0;
 
 		Steer			0;
 		Drive			1;
@@ -141,14 +141,15 @@ wheels
 	
 	wheel
 	{
-		SuspensionTop			-0.68 0.05 -1.16;
-		SuspensionBottom		-0.72 -0.78 -1.20;
-		SuspensionSpringConstant	65000.0;
-		SuspensionDampingConstant	2900;
-		Radius 			0.32;
-		Width			0.22;
+		SuspensionTop			-0.72 -0.15 -1.20;
+		SuspensionBottom		-0.72 -0.86 -1.20;
+		SuspensionSpringConstant	50000.0;
+		SuspensionDampingConstant	2600;
 
-		BrakeTorque		12000.0;
+		Radius 			0.31;
+		Width			0.21;
+
+		BrakeTorque		16000.0;
 
 		Steer			0;
 		Drive			1;
