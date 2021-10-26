@@ -4,7 +4,7 @@
 -- World Parameters --------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 
-world:SetLevelName("mattimiamiclassic")
+world:SetLevelName("miamiclassic")
 world:SetEnvironmentName("night_clear")
 SetMusicName("la_night")
 

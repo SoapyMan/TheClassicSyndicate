@@ -5,7 +5,7 @@
 -- 11 Mar 2015
 --------------------------------------------------------------------------------
 
-world:SetLevelName("mattiparkingclassic")
+world:SetLevelName("parkingclassic")
 world:SetEnvironmentName("night_clear")
 SetMusicName("nyc_night")
 

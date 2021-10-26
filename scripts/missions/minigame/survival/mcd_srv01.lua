@@ -7,7 +7,7 @@
 -- Miami Classic - Survival - (Miami Beach)
 --------------------------------------------------------------------------------
 
-world:SetLevelName("mattimiamiclassic")
+world:SetLevelName("miamiclassic")
 world:SetEnvironmentName("night_clear")
 SetMusicName("miami_night")
 

@@ -4,7 +4,7 @@
 -- World Parameters --------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 
-world:SetLevelName("mattimiamiclassic")
+world:SetLevelName("miamiclassic")
 world:SetEnvironmentName("day_clear")
 SetMusicName("frisco_day")
 

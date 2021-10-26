@@ -55,9 +55,9 @@ local MiamiMissionsList = {
 	{screen = "story_miamiclassic_end"}
 }
 
-local MyLevelFileName = "mattimiamiclassic"
-local MyParkingLevelFileName = "MattiParkingClassic"
-local MyLevelFileName2 = "MattiFriscoClassic"
+local MyLevelFileName = "MiamiClassic"
+local MyParkingLevelFileName = "ParkingClassic"
+local MyLevelFileName2 = "FriscoClassic"
 
 local McdLevelNames = {
 	MyLevelFileName,
@@ -65,7 +65,7 @@ local McdLevelNames = {
 	MyLevelFileName2,
 }
 
-local McdCars = {
+local ClassicCars = {
 	{"mcd_miamidef", "Miami - Default PSX Car"},
 	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
 	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},
@@ -77,6 +77,8 @@ local McdCars = {
 	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
 	{"mcd_miamidef_iphone", "Miami - Default iPhone Car"},
 	{"mcd_miamidef_mini", "Miami - Default PSX Car (MINI)"},
+
+	{"sfd_friscodef", "Frisco - Default PSX Car"},
 }
 
 local MyCopSoundsFilename = "scripts/sounds/mcd_cops.txt"
@@ -164,7 +166,7 @@ function ModInit:Init()
 	table.insert(MenuCityList, {MyLevelFileName2, "Frisco (Classic)"})				-- Miami Classic
 
 	-- add cars
-	for i,v in ipairs(McdCars) do
+	for i,v in ipairs(ClassicCars) do
 		table.insert(MenuCarsList, v)
 	end
 
@@ -245,7 +247,7 @@ function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned 
 	-- Deinit - Cars - MIAMI
 	for i,v in ipairs(MenuCarsList) do
 	
-		for ii,vv in ipairs(McdCars) do
+		for ii,vv in ipairs(ClassicCars) do
 			if vv[1] == v[1] then
 				--table.remove( MenuCarsList, i)
 				MenuCarsList[i] = nil

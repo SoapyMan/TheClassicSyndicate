@@ -7,7 +7,7 @@
 -- Cop test script
 --------------------------------------------------------------------------------
 
-world:SetLevelName("mattimiamiclassic")
+world:SetLevelName("miamiclassic")
 world:SetEnvironmentName("dusk_clear")
 SetMusicName("la_day")
 

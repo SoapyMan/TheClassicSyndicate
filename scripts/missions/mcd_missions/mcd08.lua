@@ -1,6 +1,6 @@
 
 -- Setup world data
-world:SetLevelName("mattimiamiclassic")
+world:SetLevelName("miamiclassic")
 world:SetEnvironmentName("day_clear")
 SetMusicName("miami_day")
 
