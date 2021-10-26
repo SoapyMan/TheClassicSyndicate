@@ -651,7 +651,7 @@ MISSION.Update = function( delta )
 			return false 
 		end ) 
 		
-		gameHUD:ShowAlert("#SUCCESS_MESSAGE", 6.0, HUD_ALERT_SUCCESS)
+		-- gameHUD:ShowAlert("#SUCCESS_MESSAGE", 6.0, HUD_ALERT_SUCCESS)
 		gameHUD:ShowScreenMessage("#IVIEW_SUCCESS_MESSAGE", 6.0)
 		
 		MISSION.DoReviewerVoice("iview.success", 10, true)
@@ -659,6 +659,8 @@ MISSION.Update = function( delta )
 		missionData.testDone = true
 		
 		gameHUD:Enable(false)
+
+		playerCar:Lock(true);
 		
 		gameses:SignalMissionStatus( MIS_STATUS_SUCCESS, 6.0 )
 	end
