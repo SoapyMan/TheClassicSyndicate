@@ -147,7 +147,7 @@ local function McdCarSelectionElementsFunc(equiScheme, stack)
 				})
 							
 				-- Reset and run ladder
-				missionladder:Run( "mcd_missions", missions["mcd_missions"] )
+				missionladder:Run( "MiamiClassic_Story", missions["MiamiClassic_Story"] )
 
 				return {}
 			end,

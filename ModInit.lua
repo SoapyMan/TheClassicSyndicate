@@ -171,7 +171,7 @@ function ModInit:Init()
 	end
 
 	-- Add missions
-	missions["mcd_missions"] = MiamiMissionsList
+	missions["MiamiClassic_Story"] = MiamiMissionsList
 
 	-- Miami (Classic) Minigames
 	table.insert(missions["minigame/survival"], {"mcd_srv01", "Miami Classic (Miami Beach)"})
@@ -193,7 +193,7 @@ function ModInit:Init()
 			onEnter = function(self, stack)
 			
 				-- Reset and run ladder
-				missionladder:Run( "mcd_missions", missions["mcd_missions"] )
+				missionladder:Run( "MiamiClassic_Story", missions["MiamiClassic_Story"] )
 
 				return {}
 			end,
@@ -231,7 +231,7 @@ function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned 
 	table.remove(missions["minigame/survival"], mcd_srv02)
 	table.remove(missions["minigame/survival"], mcd_srv03)
 
-	missions["mcd_missions"] = nil		-- Remove Miami (Classic) missions
+	missions["MiamiClassic_Story"] = nil		-- Remove Miami (Classic) missions
 
 	-- Deinit - Maps
 	for i,v in ipairs(MenuCityList) do
