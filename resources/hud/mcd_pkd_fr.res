@@ -5,11 +5,6 @@ child PercentageBar "damageBar"
 	visible 	0;
 }
 
-child PercentageBar "damageBar_classic"
-{	
-	visible		0;
-}
-
 child Label "felonyBar"
 {
 	visible 	0;
@@ -20,29 +15,10 @@ child PercentageBar "felonyBar"
 	visible		0;
 }
 
-child PercentageBar "felonyBar_classic"
-{	
-	visible		0;
-}
-
-  child HudElement "map"
+child HudElement "map"
 {
-    visible     0;
-    
-    child image "hud_map_blue_box" 
-    {
-        visible 0;
-    }
-    child image "north"
-    {
-        visible 0;
-    }
-
-    child image "north_arrow"
-    {
-        visible 0;
-    }
-}  
+	visible 	0;
+}
 
 // items found by Lua GUI API
 child image "timer_gauge"
