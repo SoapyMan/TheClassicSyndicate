@@ -4,7 +4,7 @@ local ModInit = {
 	Title = "The Classic Syndicate",
 
 	CreatedBy = "_matti, Soapy, Nik",
-	Version = "1.7.10",
+	Version = "1.7.12",
 	
 	PreBoot = false,
 
@@ -14,9 +14,29 @@ local ModInit = {
 McdPrefferedStoryCar = "mcd_miamidef"
 local EQUI_CARSSELECTION_SCHEME_NAME = "ui_mainmenu_mcdmissioncar"
 
+-------------------------------------------------------------------------------
+
+-- Mod Vocabulary:
+
+-- dsd		= desert data
+
+-- pkd		= parking data
+
+-- mcd 		= miami classic data
+-- mcdpages = miami classic data (mainly for models)
+
+-- sfd		= san francisco data
+-- sfdpages	= san francisco data (mainly for models)
+
+-- lad		= los angeles data
+-- ladpages = los angeles data (mainly for models)
+
+-- nyd		= new york data
+-- nydpages	= new york data (mainly for models)
+
+-------------------------------------------------------------------------------
 
 -- Missions Index (Menu)
-
 local TakeARideZikmuSwitchIdx = -1
 
 local MiamiMissionsIdx = -1
