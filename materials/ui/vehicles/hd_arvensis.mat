@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture "ui/vehicles/hd_arvensis"
-	address "clamp";
-	translucent 1;
-}

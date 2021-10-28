@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture "ui/vehicles/hexed_challengerxs"
-	address "clamp";
-	translucent 1;
-}
