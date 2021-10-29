@@ -1,6 +1,6 @@
 "Base" 
 { 
-	basetexture 			"mcd/mcd2b";
+	basetexture 			"mcd/mcd2";
 	//NightLight			"mcd/mcd2b_L";
 	//Cubemap				"$env_//Cubemap";
 	BaseTextureSpecularAlpha 	1;
