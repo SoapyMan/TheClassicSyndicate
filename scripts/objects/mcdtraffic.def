@@ -2,9 +2,9 @@
 // TRAFFIC LIGHTS
 ///////////////////////////////////////////////////
 
-trafficlight "miamiclassic_tlight01"
+trafficlight "mcd_tlight01"
 {
-	model	"models/miamiclassic_mdls/miamiclassic_tlight01.egf";
+	model	"models/mcdmdl/mcd_tlight01.egf";
 
 	// trafficlight x y z 			type	direction
 	trafficlight 0.45 4.62f -1.76f 		0 	0;
@@ -14,14 +14,4 @@ trafficlight "miamiclassic_tlight01"
 	trafficlight 0.45 4.62f -6.65f 		0 	0;
 	trafficlight 0.45 4.62f -6.29f		1 	0;
 	trafficlight 0.45 4.62f -5.93 		2 	0;
-}
-
-trafficlight "trafficlight2"
-{
-	model	"models/cityobjs/tlight_s.egf";
-
-	// trafficlight x y z 			type	direction
-	trafficlight 0.32 3.80f 0.0f 		0 	0;
-	trafficlight 0.32 3.35f 0.0f 		1 	0;
-	trafficlight 0.32 2.90f 0.0f 		2 	0;
 }

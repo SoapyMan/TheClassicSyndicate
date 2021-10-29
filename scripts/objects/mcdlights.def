@@ -7,7 +7,7 @@
 //
 static "lamp01"
 {
-	model	"models/miamiclassic_mdls/mcd_lamp01.egf";
+	model	"models/mcdmdl/mcd_lamp01.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -22,7 +22,7 @@ static "lamp01"
 
 static "lamp02"
 {
-	model	"models/miamiclassic_mdls/mcd_lamp02.egf";
+	model	"models/mcdmdl/mcd_lamp02.egf";
 	
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -38,7 +38,7 @@ static "lamp02"
 
 static "lamp03"
 {
-	model	"models/miamiclassic_mdls/mcd_lamp03.egf";
+	model	"models/mcdmdl/mcd_lamp03.egf";
 	
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -54,7 +54,7 @@ static "lamp03"
 //
 static "lamp01_warm"
 {
-	model	"models/miamiclassic_mdls/mcd_lamp01.egf";
+	model	"models/mcdmdl/mcd_lamp01.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -67,7 +67,7 @@ static "lamp01_warm"
 
 static "lamp02_warm"
 {
-	model	"models/miamiclassic_mdls/mcd_lamp02.egf";
+	model	"models/mcdmdl/mcd_lamp02.egf";
 	
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -87,7 +87,7 @@ static "lamp02_warm"
 
 static "garage_light"
 {
-	model	"models/miamiclassic_mdls/lightlamp.egf";
+	model	"models/mcdmdl/lightlamp.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -107,7 +107,7 @@ static "garage_light"
 
 static "mcd_neonred"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -121,7 +121,7 @@ static "mcd_neonred"
 
 static "mcd_neongreen"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -134,7 +134,7 @@ static "mcd_neongreen"
 
 static "mcd_neonblu"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -148,7 +148,7 @@ static "mcd_neonblu"
 
 static "mcd_neonorange"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -161,7 +161,7 @@ static "mcd_neonorange"
 
 static "mcd_neonpink"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -175,7 +175,7 @@ static "mcd_neonpink"
 
 static "mcd_neonyellow"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -188,7 +188,7 @@ static "mcd_neonyellow"
 
 static "mcd_neoncyan"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -208,7 +208,7 @@ static "mcd_neoncyan"
 
 static "mcd_neonred_light"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -223,7 +223,7 @@ static "mcd_neonred_light"
 
 static "mcd_neongreen_light"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -236,7 +236,7 @@ static "mcd_neongreen_light"
 
 static "mcd_neonblu_light"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -249,7 +249,7 @@ static "mcd_neonblu_light"
 
 static "mcd_neonblu_light_wide"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -262,7 +262,7 @@ static "mcd_neonblu_light_wide"
 
 static "mcd_neonorange_light"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -277,7 +277,7 @@ static "mcd_neonorange_light"
 
 static "mcd_neonpink_light"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -292,7 +292,7 @@ static "mcd_neonpink_light"
 
 static "mcd_neoncyan_light"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -307,7 +307,7 @@ static "mcd_neoncyan_light"
 
 static "mcd_neonyellow_light"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType
@@ -322,7 +322,7 @@ static "mcd_neonyellow_light"
 
 static "pkd_iviewlight_warm"
 {
-	model	"models/miamiclassic_mdls/mcd_neongeneric.egf";
+	model	"models/mcdmdl/mcd_neongeneric.egf";
 
 	// light x y z		rad	r g b intensity
 	// glow x y z		scale	r g b intensity spriteType

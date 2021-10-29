@@ -3,7 +3,7 @@
 ///////////////////////////////////////////////////
 static "mcd_palm02psx"
 {
-	model 		"models/miamiclassic_mdls/mcd_palm02psx.egf";
+	model 		"models/mcdmdl/mcd_palm02psx.egf";
 	//smashsound	"wood.smash";
 	affectothers	0;
 	castshadow	0;
@@ -13,7 +13,7 @@ static "mcd_palm02psx"
 
 static "mcd_palm01psx"
 {
-	model 		"models/miamiclassic_mdls/mcd_palm01psx.egf";
+	model 		"models/mcdmdl/mcd_palm01psx.egf";
 	//smashsound	"wood.smash";
 	affectothers	0;
 	castshadow	0;
@@ -23,7 +23,7 @@ static "mcd_palm01psx"
 
 static "mcd_tree01pc"
 {
-	model 		"models/miamiclassic_mdls/mcd_tree01pc.egf";
+	model 		"models/mcdmdl/mcd_tree01pc.egf";
 	//smashsound	"wood.smash";
 	affectothers	0;
 	castshadow	0;
@@ -33,7 +33,7 @@ static "mcd_tree01pc"
 
 debris "rglass0123"
 {
-	model 		"models/miamiclassic_mdls/D09_Restaurant01_Glasses.egf";
+	model 		"models/mcdmdl/D09_Restaurant01_Glasses.egf";
 	smashsound	"d3.glasshit";
 
 	//smashspawn	"smash_trash";
@@ -113,7 +113,7 @@ debris "rglass0123"
 
 debris "mcd_fence01"
 {
-	model 		"models/miamiclassic_mdls/mcd_fence01.egf";
+	model 		"models/mcdmdl/mcd_fence01.egf";
 	smashsound	"wood.smash";
 
 	smashspawn	"smash_woodflecks";
@@ -151,7 +151,7 @@ debris "mcd_fence01"
 
 debris "mcd_barrier01"
 {
-	model 		"models/miamiclassic_mdls/mcd_barrier01.egf";
+	model 		"models/mcdmdl/mcd_barrier01.egf";
 	smashsound	"wood.smash";
 	smashspawn	"smash_woodflecks";
 }
@@ -160,7 +160,7 @@ debris "mcd_barrier01"
 
 debris "mcd_cone01"
 {
-	model 		"models/miamiclassic_mdls/mcd_cone01.egf";
+	model 		"models/mcdmdl/mcd_cone01.egf";
 	smashsound	"cone.smash";
 }
 
@@ -168,7 +168,7 @@ debris "mcd_cone01"
 
 debris "mcd_chair01"
 {
-	model 		"models/miamiclassic_mdls/mcd_chair01.egf";
+	model 		"models/mcdmdl/mcd_chair01.egf";
 	smashsound	"plastic.smash";
 }
 
@@ -176,7 +176,7 @@ debris "mcd_chair01"
 
 debris "mcd_table01"
 {
-	model 		"models/miamiclassic_mdls/mcd_table01.egf";
+	model 		"models/mcdmdl/mcd_table01.egf";
 	smashsound	"wood.smash";
 	affectothers	0;
 }
@@ -185,7 +185,7 @@ debris "mcd_table01"
 
 debris "mcd_umbrella01"
 {
-	model 		"models/miamiclassic_mdls/mcd_umbrella01.egf";
+	model 		"models/mcdmdl/mcd_umbrella01.egf";
 	smashsound	"wood.smash";
 	affectothers	0;
 }
@@ -194,7 +194,7 @@ debris "mcd_umbrella01"
 
 debris "mcd_box01"
 {
-	model 		"models/miamiclassic_mdls/mcd_box01.egf";
+	model 		"models/mcdmdl/mcd_box01.egf";
 	smashsound	"cardbox.smash";
 	smashspawn	"smash_wood";
 }
@@ -203,7 +203,7 @@ debris "mcd_box01"
 
 debris "mcd_barrel01"
 {
-	model 		"models/miamiclassic_mdls/mcd_barrel01.egf";
+	model 		"models/mcdmdl/mcd_barrel01.egf";
 	smashsound	"metal.smash";
 	smashspawn	"smash_trash";
 }
@@ -212,7 +212,7 @@ debris "mcd_barrel01"
 
 debris "mcd_parkingmeter01"
 {
-	model 		"models/miamiclassic_mdls/mcd_parkingmeter01.egf";
+	model 		"models/mcdmdl/mcd_parkingmeter01.egf";
 	smashsound	"pole.smash";
 }
 
@@ -220,7 +220,7 @@ debris "mcd_parkingmeter01"
 
 debris "mcd_sign_noentry"
 {
-	model 		"models/miamiclassic_mdls/mcd_sign_noentry.egf";
+	model 		"models/mcdmdl/mcd_sign_noentry.egf";
 	smashsound	"pole.smash";
 }
 
@@ -228,7 +228,7 @@ debris "mcd_sign_noentry"
 
 debris "mcd_sign_noleftturn"
 {
-	model 		"models/miamiclassic_mdls/mcd_sign_noleftturn.egf";
+	model 		"models/mcdmdl/mcd_sign_noleftturn.egf";
 	smashsound	"pole.smash";
 }
 
@@ -236,7 +236,7 @@ debris "mcd_sign_noleftturn"
 
 debris "mcd_sign_norightturn"
 {
-	model 		"models/miamiclassic_mdls/mcd_sign_norightturn.egf";
+	model 		"models/mcdmdl/mcd_sign_norightturn.egf";
 	smashsound	"pole.smash";
 }
 
@@ -244,7 +244,7 @@ debris "mcd_sign_norightturn"
 
 debris "mcd_sign_speedlimit30"
 {
-	model 		"models/miamiclassic_mdls/mcd_sign_speedlimit30.egf";
+	model 		"models/mcdmdl/mcd_sign_speedlimit30.egf";
 	smashsound	"pole.smash";
 }
 
@@ -252,7 +252,7 @@ debris "mcd_sign_speedlimit30"
 
 debris "mcd_sign_straightahead"
 {
-	model 		"models/miamiclassic_mdls/mcd_sign_straightahead.egf";
+	model 		"models/mcdmdl/mcd_sign_straightahead.egf";
 	smashsound	"pole.smash";
 }
 
@@ -260,7 +260,7 @@ debris "mcd_sign_straightahead"
 
 debris "mcd_sign_turnleft"
 {
-	model 		"models/miamiclassic_mdls/mcd_sign_turnleft.egf";
+	model 		"models/mcdmdl/mcd_sign_turnleft.egf";
 	smashsound	"pole.smash";
 }
 
@@ -268,6 +268,6 @@ debris "mcd_sign_turnleft"
 
 debris "mcd_sign_turnright"
 {
-	model 		"models/miamiclassic_mdls/mcd_sign_turnright.egf";
+	model 		"models/mcdmdl/mcd_sign_turnright.egf";
 	smashsound	"pole.smash";
 }

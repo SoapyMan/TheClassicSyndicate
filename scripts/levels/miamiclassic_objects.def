@@ -32,7 +32,7 @@ include "scripts/objects/emitters.def";
 
 // add custom object types below for your level file
 
-include "scripts/objects/miamiclassictraffic.def";
-include "scripts/objects/miamiclassiclights.def";
-include "scripts/objects/miamiclassicdebris.def";
-include "scripts/objects/miamiclassicanimatedobjs.def";
+include "scripts/objects/mcdtraffic.def";
+include "scripts/objects/mcdlights.def";
+include "scripts/objects/mcddebris.def";
+include "scripts/objects/mcdanim.def";
