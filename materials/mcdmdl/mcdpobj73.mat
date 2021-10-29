@@ -1,11 +1,11 @@
-"Base" 
+"Skinned" 
 { 
-	basetexture 			"mcdpages/mcdp31";
-	//NightLight			"mcdpages/mcdp31_L";
+	basetexture 			"mcdmdl/mcdpobj73";
+	//NightLight			"mcdpages/mcdp55_L";
 	//Cubemap				"$env_//Cubemap";
 	BaseTextureSpecularAlpha 	1;
 	SpecularScale			0.3;
 	alphatest	1;
-	nocull	1;
+	nocull		1;
 	Filtering "linear";
 };

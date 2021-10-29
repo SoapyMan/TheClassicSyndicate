@@ -52,24 +52,24 @@ MISSION.Init = function()									-- Preparing Introduction
 	
 	MISSION.Settings.EnableCops = true						-- Cops are disabled
 
-	MISSION.SpawnSceneryCars()
+	--MISSION.SpawnSceneryCars()
 
 	local playerCar = gameses:CreateCar(McdGetPlayerCarName(), CAR_TYPE_NORMAL)	-- Create player car
 	
 	MISSION.playerCar = playerCar	-- Define spawned car above as player car for mission
 	
 	playerCar:SetMaxDamage(12.0)
-	playerCar:SetOrigin( Vector3D.new(1577,0.7,-235) )						--Player car properties
+	--playerCar:SetOrigin( Vector3D.new(1577,0.7,-235) )						--Player car properties
 	--DEVTESTplayerCar:SetOrigin( Vector3D.new(-119,0.70,-1115) )	
-	playerCar:SetAngles( Vector3D.new(180,-90,180) )
+	--playerCar:SetAngles( Vector3D.new(180,-90,180) )
 	playerCar:Spawn()
 	playerCar:SetColorScheme( 1 )
 
 	local restoreData = RestoreMissionCompletionData("mcd05a_playerCar")
 	
 	if restoreData ~= nil then	
-		--playerCar:SetOrigin(toVector(restoreData.position))
-		--playerCar:SetAngles(toVector(restoreData.angles))
+		playerCar:SetOrigin(toVector(restoreData.position))
+		playerCar:SetAngles(toVector(restoreData.angles))
 		playerCar:SetDamage(restoreData.damage)
 		playerCar:SetBodyDamage(restoreData.bodyDamage)
 		--playerCar:SetFelony(restoreData.felony)

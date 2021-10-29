@@ -234,8 +234,8 @@ function MISSION.OnCompleted()					-- Mission completed after all objectives are
 	gameses:SignalMissionStatus( MIS_STATUS_SUCCESS, 2.5, function()
 		-- setup mission completion data
 		StoreMissionCompletionData("mcd05a_playerCar", {
-			--position = playerCar:GetOrigin(),
-			--angles = playerCar:GetAngles(),
+			position = playerCar:GetOrigin(),
+			angles = playerCar:GetAngles(),
 			damage = playerCar:GetDamage(),
 			bodyDamage = playerCar:GetBodyDamage(),
 			--felony = playerCar:GetFelony()

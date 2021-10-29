@@ -1,0 +1,10 @@
+"Skinned" 
+{ 
+	basetexture 			"mcdmdl/mcdobj0";
+	Cubemap				"$env_Cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale			0.3;
+	alphatest	1;
+	nocull	0;
+	Filtering "linear";
+};

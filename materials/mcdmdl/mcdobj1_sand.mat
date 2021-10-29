@@ -1,0 +1,8 @@
+"Skinned" 
+{ 
+	basetexture 			"miamiclassicobjects/mcdobj1_sand";
+	surfaceprops 	"sand"; 
+	WetScale	0.3;
+	Phong		0.8;
+	Filtering "linear";
+};
