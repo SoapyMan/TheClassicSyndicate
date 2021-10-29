@@ -1,8 +1,0 @@
-"Base" 
-{ 
-	"basetexture" "avatars/mcd_bg_red";
-	NightLight	  "avatars/mcd_bg_red_L";
-	cubemap		"$env_cubemap";
-	nocull	"1";
-	alphatest	"1";
-}; 
