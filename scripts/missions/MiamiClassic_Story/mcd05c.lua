@@ -52,7 +52,7 @@ local boatPath = {
 }
 
 MISSION.InitSceneryObject = function()
-	local speedboatModel = "models/miamiclassic_mdls/mcd_boat03.egf"
+	local speedboatModel = "models/mcdmdl/mcd_boat03.egf"
 	
 	-- water trail for the speedboat
 	local defData = create_section {

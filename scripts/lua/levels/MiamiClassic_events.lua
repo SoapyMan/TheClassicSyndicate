@@ -32,7 +32,7 @@ local function ReversePath(path)
 	return newPath
 end
 
-local METRO_MOVER_MODEL = "models/miamiclassic_mdls/mcd_metromover.egf"
+local METRO_MOVER_MODEL = "models/mcdmdl/mcd_metromover.egf"
 local METRO_MOVER_HEIGHT = 7.0
 local METRO_MOVER_WAIT_TIME = 5.0
 
