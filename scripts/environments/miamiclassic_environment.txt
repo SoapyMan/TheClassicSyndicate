@@ -259,6 +259,7 @@ northLocation -2;
 	sunAngles 	-20 -30 0;
 
 	sunLensItensity 0;
+	shadows		0;
 
 	brightModFactor	0.6;
 	streetLightIntensity	0.9;
