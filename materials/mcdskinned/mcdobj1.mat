@@ -1,6 +1,6 @@
 "Skinned" 
 { 
-	basetexture 			"mcdmdl/mcdobj1";
+	basetexture 			"mcdskinned/mcdobj1";
 	//NightLight			"miamiclassicobjects/mcdp0_L";
 	//Cubemap				"$env_//Cubemap";
 	BaseTextureSpecularAlpha 	1;

@@ -1,6 +1,6 @@
 "Skinned" 
 { 
-	basetexture 			"mcdmdl/glass01_bkb";
+	basetexture 			"mcdskinned/glass01_bkb";
 	CubeMap				"$env_cubemap";
 	SpecularScale			3.0;
 	nocull				1;

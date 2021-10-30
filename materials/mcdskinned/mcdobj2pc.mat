@@ -1,6 +1,6 @@
 "Skinned" 
 { 
-	basetexture 			"mcdmdl/mcdobj0psx";
+	basetexture 			"mcdskinned/mcdobj2pc";
 	//Cubemap				"$env_//Cubemap";
 	alphatest	1;
 	nocull	1;

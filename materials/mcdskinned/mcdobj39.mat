@@ -1,6 +1,6 @@
 "Skinned" 
 { 
-	basetexture 			"mcdmdl/mcd_metro_body";
+	basetexture 			"mcdskinned/mcdobj39";
 	Cubemap				"$env_Cubemap";
 	BaseTextureSpecularAlpha 	1;
 	SpecularScale			0.3;

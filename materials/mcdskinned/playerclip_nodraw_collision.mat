@@ -1,6 +1,6 @@
 BaseUnlit
 { 
-	basetexture "mcdmdl/playerclip_nodraw_collision"; 
+	basetexture "mcdskinned/playerclip_nodraw_collision"; 
     NoDraw 1;
     ReceiveShadows 0;
 	Filtering "linear";
