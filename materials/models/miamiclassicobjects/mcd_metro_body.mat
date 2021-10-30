@@ -1,8 +1,0 @@
-"Skinned" 
-{ 
-	basetexture 			"models/miamiclassicobjects/mcd_metro_body";
-	Cubemap				"$env_Cubemap";
-	BaseTextureSpecularAlpha 	1;
-	SpecularScale			0.3;
-	Filtering "linear";
-};
