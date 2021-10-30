@@ -37,8 +37,6 @@ local EQUI_CARSSELECTION_SCHEME_NAME = "ui_mainmenu_mcdmissioncar"
 -------------------------------------------------------------------------------
 
 -- Missions Index (Menu)
-local TakeARideZikmuSwitchIdx = -1
-
 local MiamiMissionsIdx = -1
 
 -- Miami (Classic) Missions
@@ -87,30 +85,27 @@ local McdLevelNames = {
 
 local ClassicCars = {
 	{"mcd_miamidef", "Miami - Default PSX Car"},
-	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
-	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},
-	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},
-	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
-	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},
-	{"mcd_miamievidence", "Miami - Hide The Evidence Car"},
+	{"mcd_superflydrive", "Miami - Superfly Drive Car"},			-- TODO: unlock with cheats or completion of story
+	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},		-- TODO: unlock with cheats or completion of story
+	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},					-- TODO: unlock with cheats or completion of story
+	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},					-- TODO: unlock with cheats or completion of story
+	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},					-- TODO: unlock with cheats or completion of story
+	{"mcd_miamievidence", "Miami - Hide The Evidence Car"},			-- TODO: unlock with cheats or completion of story
 	{"mcd_miamidef_PC", "Miami - Default PC Car"},
-	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
+	{"mcd_miamicleanup", "Miami - The Clean Up Car"},				-- TODO: unlock with cheats or completion of story
 	{"mcd_miamidef_iphone", "Miami - Default iPhone Car"},
-	{"mcd_miamidef_mini", "Miami - Default PSX Car (MINI)"},
+	{"mcd_miamidef_mini", "Miami - Default PSX Car (MINI)"},		-- TODO: unlock with cheats or completion of story
 
 	{"sfd_friscodef", "Frisco - Default PSX Car"},
 }
 
 local MyCopSoundsFilename = "scripts/sounds/mcd_cops.txt"
 
-local OldSetMusicName = nil
-local OldSetMusicState = nil
-
 function IsMyLevel()
-	local levName = world:GetLevelName()
+	local levName = string.lower(world:GetLevelName())
 
 	for i,n in ipairs(McdLevelNames) do
-		if n == levName then
+		if string.lower(n) == levName then
 			return true
 		end
 	end
@@ -138,16 +133,6 @@ function ModInit:Init()
 	CopVoiceOver[MyLevelFileName2] = MyCopSoundsFilename;
 	CopVoiceOver[MyParkingLevelFileName] = MyCopSoundsFilename;	
 	
-	OldSetMusicName = SetMusicName
-	
-	SetMusicName = function( scriptName )
-		if ZikmuEnabled and IsMyLevel() then
-			OldSetMusicName(scriptName .. "_mcd")
-		else
-			OldSetMusicName(scriptName)
-		end
-	end
-	
 	-- Change music state logic
     OldMakeDefaultMissionSettings = MakeDefaultMissionSettings
     MakeDefaultMissionSettings = function()
@@ -168,12 +153,12 @@ function ModInit:Init()
 	}
 
 	CityTimeOfDayMusic[MyLevelFileName2] = {			-- Music selection for Miami (Classic)
-	day_clear = "frisco_day",
-	day_stormy = "la_day",
-	dawn_clear = "frisco_night",
-	night_clear = "frisco_night",
-	night_stormy = "nyc_night"
-}
+		day_clear = "frisco_day",
+		day_stormy = "la_day",
+		dawn_clear = "frisco_night",
+		night_clear = "frisco_night",
+		night_stormy = "nyc_night"
+	}
 
 	-----------------------------------------------------------
 	-- Classic Content (Map / Vehicles / Missions / Minigames) --
@@ -198,15 +183,8 @@ function ModInit:Init()
 	table.insert(missions["minigame/survival"], {"mcd_srv02", "Miami Classic (Downtown)"})
 	table.insert(missions["minigame/survival"], {"mcd_srv03", "Miami Classic (Coral Gables)"})
 
-	-- PS1 Music Switch
---	local ZikmuSwitchItem = MenuStack.MakeChoiceParam("PS1 Music < %s >", musicGetSet, {
---			{ false, "#MENU_OFF" },
---			{ true, "#MENU_ON" },
---		})
-
 	local MiamiMissionsElems = 
 	{
-		--ZikmuSwitchItem,
 		{
 			label = "#MENU_SYNDICATE_NEWGAME",
 			isFinal = true,
@@ -219,16 +197,13 @@ function ModInit:Init()
 			end,
 		},
 	}
-
-	TakeARideZikmuSwitchIdx = table.insert(TakeARideExtraElements, ZikmuSwitchItem)
-
+	
 	MiamiMissionsIdx = table.insert(StoryGameExtraElems, 
 		MenuStack.MakeSubMenu("Miami - Classic Missions", storySelectionItems, nil, EQUI_CARSSELECTION_SCHEME_NAME))
 end
 
 -- Deinitialization function
 function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned off
-	SetLevelLoadCallbacks("MCDZikmu", nil, nil)		-- PSX Driver 1 bugged music
 	EmitterSoundRegistry.MCDEngine = nil			-- Driver 1 engine sounds
 	EmitterSoundRegistry.MCDIview = nil				-- Default Interview resources
 	EmitterSoundRegistry.MCDVoices = nil			-- Driver 1 missions voices
@@ -240,11 +215,7 @@ function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned 
 
 -- Deinit - Missions
 
-	table.remove(TakeARideExtraElements, TakeARideZikmuSwitchIdx)
 	table.remove(StoryGameExtraElems, MiamiMissionsIdx)
-	
-	SetMusicName = OldSetMusicName
-	MakeDefaultMissionSettings = OldMakeDefaultMissionSettings
 	
 	-- Remove Miami (Classic) Minigames
 	table.remove(missions["minigame/survival"], mcd_srv01)
