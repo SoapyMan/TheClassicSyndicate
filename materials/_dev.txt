@@ -1,4 +1,4 @@
 mcd = city materials
-mcdmdl = skinned egf mat (metromover, speedboat, traffic light, palm trees, ...)
 mcdpsx = base esm/obj mat (prop boats, signs)
+mcdskinned = skinned egf mat (metromover, speedboat, traffic light, palm trees, ...)
 mcdveh = vehicle mats
