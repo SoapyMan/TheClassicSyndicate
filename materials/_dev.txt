@@ -1,13 +1,4 @@
-mcd         = miami classic data
-
-mcdpages    = miami classic data psx
-
-pkd         = parking data
-
-dsd         = desert data
-
-sfcd        = san francisco classic data
-
-lacd        = los angeles classic data
-
-nycd        = ney work classic data
+mcd = city materials
+mcdmdl = skinned egf mat (metromover, speedboat, traffic light, palm trees, ...)
+mcdpsx = base esm/obj mat (prop boats, signs)
+mcdveh = vehicle mats
