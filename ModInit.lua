@@ -131,7 +131,11 @@ function ModInit:Init()
 	
 	CopVoiceOver[MyLevelFileName] = MyCopSoundsFilename;	-- Define what cop sounds script a level uses
 	CopVoiceOver[MyLevelFileName2] = MyCopSoundsFilename;
-	CopVoiceOver[MyParkingLevelFileName] = MyCopSoundsFilename;	
+	CopVoiceOver[MyParkingLevelFileName] = MyCopSoundsFilename;
+	
+	CopVoiceOver[string.lower(MyLevelFileName)] = MyCopSoundsFilename;
+	CopVoiceOver[string.lower(MyLevelFileName2)] = MyCopSoundsFilename;
+	CopVoiceOver[string.lower(MyParkingLevelFileName)] = MyCopSoundsFilename;
 	
 	-- Change music state logic
     OldMakeDefaultMissionSettings = MakeDefaultMissionSettings
