@@ -44,7 +44,7 @@ northLocation -2;
 
 	sunLensItensity 0.65;
 
-	sky		"SKIES/skymcd_day";	// skydome texture which defines $env_cubemap
+	sky		"MIAMI/Skies/skymcd_day";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.0;
 
@@ -82,7 +82,7 @@ northLocation -2;
 	rainBrightness	0.4;
 	rainDensity	150;
 
-	sky		"SKIES/skymcd_daystormy";	// skydome texture which defines $env_cubemap
+	sky		"MIAMI/Skies/skymcd_daystormy";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.1;
 
@@ -121,7 +121,7 @@ northLocation -2;
 	// moon uses sun lens angles
 	sunLensAngles 		-5 -75 0;
 
-	sky			"SKIES/skymcd_dawn";	// skydome texture which defines $env_cubemap
+	sky			"MIAMI/Skies/skymcd_dawn";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			city;
@@ -157,7 +157,7 @@ northLocation -2;
 
 	brightModFactor		0.04;
 
-	sky		"SKIES/skymcd_dusk";	// skydome texture which defines $env_cubemap
+	sky		"MIAMI/Skies/skymcd_dusk";	// skydome texture which defines $env_cubemap
 
 	fog 1
 	{
@@ -194,7 +194,7 @@ northLocation -2;
 	// moon uses sun lens angles
 	sunLensAngles 		-5 -75 0;
 
-	sky			"SKIES/skymcd_dusk";	// skydome texture which defines $env_cubemap
+	sky			"MIAMI/Skies/skymcd_dusk";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			city;
@@ -236,7 +236,7 @@ northLocation -2;
 	sunLensAngles 		-16 -30 0;
 	moonBrightness		1.2;
 
-	sky		"SKIES/skymcd_night";	// skydome texture which defines $env_cubemap
+	sky		"MIAMI/Skies/skymcd_night";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
@@ -276,7 +276,7 @@ northLocation -2;
 	rainBrightness	0.3;
 	rainDensity	200;
 
-	sky		"SKIES/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+	sky		"MIAMI/Skies/skymcd_nightrain";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
@@ -318,7 +318,7 @@ northLocation -2;
 	sunLensAngles 		-2 -30 0;
 	moonBrightness		0;
 
-	sky		"SKIES/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+	sky		"MIAMI/Skies/skymcd_nightrain";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
