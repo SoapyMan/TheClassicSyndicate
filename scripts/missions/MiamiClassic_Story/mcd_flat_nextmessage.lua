@@ -4,7 +4,7 @@ module("mcd_flat.lua")
 MISSION.MessageList = {
 	mcd01 = {
 		script = "message.bankjob",
-		length = 15.0,
+		length = 16.0,
 		delay = 2.0,
 		environment = "day_clear"
 	},

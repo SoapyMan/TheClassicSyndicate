@@ -4,17 +4,17 @@
 
 physics "speedboat"
 {
-	model 		"models/mcdmdl/mcd_boat03.egf";
+	model 		"models/MIAMI/City/mcd_boat03.egf";
 	smashsound	"dumpster.hit";
 }
 
 physics "metromover"
 {
-	model 		"models/mcdmdl/mcd_metromover.egf";
+	model 		"models/MIAMI/City/mcd_metromover.egf";
 	smashsound	"dumpster.hit";
 }
 
 static "garagedoor_jp"
 {
-	model 		"models/mcdmdl/00_GarageDoor_JP.egf";
+	model 		"models/MIAMI/City/00_GarageDoor_JP.egf";
 }

@@ -1,0 +1,9 @@
+"Skinned" 
+{ 
+	basetexture 			"MIAMI/Models/glass01_bkb";
+	CubeMap				"$env_cubemap";
+	SpecularScale			3.0;
+	nocull				1;
+	translucent			1;
+	//additive			1;
+};

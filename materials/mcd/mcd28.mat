@@ -1,9 +1,0 @@
-"Base" 
-{ 
-	basetexture 			"mcd/mcd28";
-	//NightLight			"mcd/mcd28_L";
-	//Cubemap				"$env_//Cubemap";
-	BaseTextureSpecularAlpha 	1;
-	SpecularScale			0.3;
-	Filtering "linear";
-};

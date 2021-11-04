@@ -1,0 +1,12 @@
+"Base" 
+{ 
+	basetexture 			"COMMON/flat_glass";
+	//Cubemap				"$env_//Cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale			0.3;
+	nocull	1;
+	additive	1;
+	Filtering "linear";
+	
+	CastShadows	0;
+};

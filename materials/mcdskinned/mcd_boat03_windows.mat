@@ -1,8 +1,0 @@
-"Skinned" 
-{ 
-	basetexture 			"mcdskinned/mcd_boat03_windows";
-	Cubemap				"$env_Cubemap";
-	BaseTextureSpecularAlpha 	1;
-	SpecularScale			0.3;
-	Filtering "linear";
-};

@@ -5,7 +5,7 @@
 -- World Parameters --------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 
-world:SetLevelName("miamiclassic")
+world:SetLevelName("flatsclassic")
 world:SetEnvironmentName("day_clear")
 SetMusicName("")
 
@@ -13,12 +13,12 @@ MISSION.LoadingScreen = "resources/loadingscreen_mcd.res"
 
 MISSION.cutCameras = {
 	{
-		{ Vector3D.new(-84, 0.50, -1154), Vector3D.new(-5, 30, 0), -2, 50 },
-		{ Vector3D.new(-86, 1.60, -1150), Vector3D.new(16 ,26, 0), 4, 50 },	
+		{ Vector3D.new(-57.50, 0.50, 33), Vector3D.new(6, 360, 20), -5, 50 },
+		{ Vector3D.new(-59.50, 1.40, 38.0), Vector3D.new(10 ,372, -5), 4, 50 },	
 	},
 	{
-		{ Vector3D.new(-86, 1.60, -1150), Vector3D.new(16 ,26, 0), 0, 50 },	
-		{ Vector3D.new(-86, 1.60, -1150), Vector3D.new(16 ,26, 0), 60, 50 },	
+		{ Vector3D.new(-59.50, 1.40, 38.0), Vector3D.new(10 ,372, -5), 0, 50 },	
+		{ Vector3D.new(-59.50, 1.40, 38.0), Vector3D.new(10 ,372, -5), 60, 50 },	
 	}
 }
 
@@ -29,22 +29,16 @@ MISSION.cutCameras = {
 ----------------------------------------------------------------------------------------------
 
 function MISSION.SpawnSceneryCars()						-- Spawning NPC cars for scenery, pre-init
-	local car1 = gameses:CreateCar("NPC_mcd_traffic02", CAR_TYPE_NORMAL)
-	car1:SetOrigin( Vector3D.new(-85,0.77,-1143) )
-	car1:SetAngles( Vector3D.new(180,0,180) )			-- Scenery items coords
-	car1:Enable(false)
-	car1:Spawn()
-	car1:SetColorScheme(3)
 	
 	local car2 = gameses:CreateCar("NPC_mcd_traffic01", CAR_TYPE_NORMAL)
-	car2:SetOrigin( Vector3D.new(-91,0.77,-1143) )
+	car2:SetOrigin( Vector3D.new(-62.8,0.77,44.5) )
 	car2:SetAngles( Vector3D.new(180,0,180) )
 	car2:Enable(false)
 	car2:Spawn()
 	car2:SetColorScheme(4)
 
 	local car3 = gameses:CreateCar(McdGetPlayerCarName(), CAR_TYPE_NORMAL)
-	car3:SetOrigin( Vector3D.new(-88,0.77,-1143) )
+	car3:SetOrigin( Vector3D.new(-60.5,0.77,44.5) )
 	car3:SetAngles( Vector3D.new(180,0,180) )
 	car3:Enable(false)
 	car3:Spawn()
@@ -78,7 +72,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	sounds:Precache( "wind.msg01" )
 
 	gameHUD:Enable(false)								-- HUD disabled
-	gameHUD:FadeIn(true, 0.25)							-- Screen Fade-In (Duration)
+	gameHUD:FadeIn(true, 0.60)							-- Screen Fade-In (Duration)
 
 	missionmanager:ScheduleEvent( function() 
 		-- first signall ladder about completion

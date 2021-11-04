@@ -25,7 +25,7 @@ skyAngle 0;
 	sunLensAngles 		-2 -72 0;
 	moonBrightness		0.9;
 
-	sky		"sky/skymcd_night";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_night";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			 lamps city;

@@ -4,7 +4,7 @@ local ModInit = {
 	Title = "The Classic Syndicate",
 
 	CreatedBy = "_matti, Soapy, Nik",
-	Version = "1.7.12",
+	Version = "1.7.14",
 	
 	PreBoot = false,
 

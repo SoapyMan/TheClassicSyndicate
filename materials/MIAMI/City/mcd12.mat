@@ -1,0 +1,9 @@
+"Base" 
+{ 
+	basetexture 			"MIAMI/City/mcd12";
+	NightLight			"MIAMI/City/mcd12_L";
+	//Cubemap				"$env_//Cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale			0.3;
+	Filtering "linear";
+};

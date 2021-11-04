@@ -1,0 +1,9 @@
+"Base" 
+{ 
+	basetexture 			"FLAT/flat13";
+	//Cubemap				"$env_//Cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale			0.3;
+	nocull	0;
+	Filtering "linear";
+};

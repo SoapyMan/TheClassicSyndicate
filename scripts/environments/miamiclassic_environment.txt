@@ -4,7 +4,7 @@
 //
 
 skyHeight 0.28;
-skyAngle 0;
+skyAngle -25;
 northLocation -2;
 
 //-----------------------------------------------------------------
@@ -12,6 +12,17 @@ northLocation -2;
 //-----------------------------------------------------------------
 
 "day_clear_noflare"
+{
+	base "day_clear";
+
+	sunLensItensity 0.0;
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_clear_hrot"
 {
 	base "day_clear";
 
@@ -31,11 +42,9 @@ northLocation -2;
 	sunAngles 	-35 14 0;
 	sunLensAngles	-17 14 0;
 
-	skyAngle	-25;
-
 	sunLensItensity 0.65;
 
-	sky		"sky/skymcd_day";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_day";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.0;
 
@@ -73,7 +82,7 @@ northLocation -2;
 	rainBrightness	0.4;
 	rainDensity	150;
 
-	sky		"sky/skymcd_daystormy";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_daystormy";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.1;
 
@@ -97,24 +106,31 @@ northLocation -2;
 
 "dawn_clear"
 {
-	ambientColor 	0.39 0.36 0.37;
-	sunColor 	1.00 0.42 0.2;
-	sunAngles 	-15 41 0;
+	ambientColor 	0.32 0.32 0.30;
+	sunColor 	0.60 0.40 0.2;
+	sunAngles 	-16 -75 0;
 
 	shadowColor	0.01 0.01 0.09 0.1;
-
-	sunLensAngles	-2 41 0;
+	
 	sunLensItensity 0.8;
 
-	brightModFactor		0.04;
+	brightModFactor		0.0;
+	streetLightIntensity	0.6;
+	headlightIntensity	0.7;
 
-	sky		"sky/skymcd_dawn";	// skydome texture which defines $env_cubemap
+	// moon uses sun lens angles
+	sunLensAngles 		-5 -75 0;
+
+	sky			"SKIES/skymcd_dawn";	// skydome texture which defines $env_cubemap
+
+	// light flags
+	lights			city;
 
 	fog 1
 	{
-		fog_far		390;
-		fog_near	120;
-		fog_color	0.12 0.12 0.22;
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.09 0.08 0.09;
 	}
 
 	// "clear" - just fair
@@ -130,33 +146,24 @@ northLocation -2;
 
 "dusk_clear"
 {
-	ambientColor 	0.32 0.32 0.30;
-	sunColor 	0.60 0.40 0.2;
-	sunAngles 	-16 -75 0;
-
-	skyAngle	-110;
+	ambientColor 	0.39 0.37 0.36;
+	sunColor 	1.00 0.42 0.2;
+	sunAngles 	-7 41 0;
 
 	shadowColor	0.01 0.01 0.09 0.1;
-	
+
+	sunLensAngles	-2 41 0;
 	sunLensItensity 0.8;
 
-	brightModFactor		0.0;
-	streetLightIntensity	0.6;
-	headlightIntensity	0.7;
+	brightModFactor		0.04;
 
-	// moon uses sun lens angles
-	sunLensAngles 		-5 -75 0;
-
-	sky			"sky/skymcd_dusk";	// skydome texture which defines $env_cubemap
-
-	// light flags
-	lights			city;
+	sky		"SKIES/skymcd_dusk";	// skydome texture which defines $env_cubemap
 
 	fog 1
 	{
 		fog_far		290;
 		fog_near	190;
-		fog_color	0.09 0.08 0.09;
+		fog_color	0.12 0.12 0.22;
 	}
 
 	// "clear" - just fair
@@ -187,7 +194,7 @@ northLocation -2;
 	// moon uses sun lens angles
 	sunLensAngles 		-5 -75 0;
 
-	sky			"sky/skymcd_dusk";	// skydome texture which defines $env_cubemap
+	sky			"SKIES/skymcd_dusk";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			city;
@@ -229,7 +236,7 @@ northLocation -2;
 	sunLensAngles 		-16 -30 0;
 	moonBrightness		1.2;
 
-	sky		"sky/skymcd_night";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_night";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
@@ -269,7 +276,7 @@ northLocation -2;
 	rainBrightness	0.3;
 	rainDensity	200;
 
-	sky		"sky/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_nightrain";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
@@ -311,7 +318,7 @@ northLocation -2;
 	sunLensAngles 		-2 -30 0;
 	moonBrightness		0;
 
-	sky		"sky/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_nightrain";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
@@ -383,6 +390,6 @@ northLocation -2;
 
 "jeanpaul02_weather"
 {
-	transition day_clear_noflare dusk_clear night_clear;
+	transition day_clear_hrot dusk_clear night_clear;
 	transition_time 120;		// time in seconds the whole sequence transitions from first to last
 }

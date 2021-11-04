@@ -4,7 +4,7 @@
 
 trafficlight "mcd_tlight01"
 {
-	model	"models/mcdmdl/mcd_tlight01.egf";
+	model	"models/MIAMI/City/mcd_tlight01.egf";
 
 	// trafficlight x y z 			type	direction
 	trafficlight 0.45 4.62f -1.76f 		0 	0;

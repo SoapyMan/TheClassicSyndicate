@@ -22,7 +22,7 @@ northLocation -2;
 
 	sunLensItensity 0.0;
 
-	sky		"sky/skysfd_day";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skysfd_day";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.0;
 
@@ -55,7 +55,7 @@ northLocation -2;
 
 	sunLensItensity 0.35;
 
-	sky		"sky/skysfd_day";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skysfd_day";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.0;
 
@@ -91,7 +91,7 @@ northLocation -2;
 	rainBrightness	0.4;
 	rainDensity	150;
 
-	sky		"sky/skymcd_daystormy";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_daystormy";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.1;
 
@@ -126,7 +126,7 @@ northLocation -2;
 
 	brightModFactor		0.04;
 
-	sky		"sky/skymcd_dawn";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_dawn";	// skydome texture which defines $env_cubemap
 
 	fog 1
 	{
@@ -164,7 +164,7 @@ northLocation -2;
 	sunLensAngles 		-5 -50 0;
 	moonBrightness		0.4;
 
-	sky			"sky/skymcd_dusk";	// skydome texture which defines $env_cubemap
+	sky			"SKIES/skymcd_dusk";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			city;
@@ -239,7 +239,7 @@ northLocation -2;
 	sunLensAngles 		-16 200 0;
 	moonBrightness		0.3;
 
-	sky		"sky/skysfd_night";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skysfd_night";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
@@ -278,7 +278,7 @@ northLocation -2;
 	rainBrightness	0.3;
 	rainDensity	200;
 
-	sky		"sky/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_nightrain";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
@@ -320,7 +320,7 @@ northLocation -2;
 	sunLensAngles 		-2 -72 0;
 	moonBrightness		0;
 
-	sky		"sky/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+	sky		"SKIES/skymcd_nightrain";	// skydome texture which defines $env_cubemap
 
 	// light flags
 	lights			cars lamps city;
