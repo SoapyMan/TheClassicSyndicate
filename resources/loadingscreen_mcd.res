@@ -51,4 +51,16 @@ panel
 		
 		fontScale	18 18;
 	}
+
+	child PercentageBar "progressBar"
+	{
+		position	0 120;
+		
+		align		hcenter vcenter;
+		value		0.5;
+		color		0.1 0.2 0.7 1.0;
+		
+		size		510 17;
+		scaling		uniform;
+	}
 }
