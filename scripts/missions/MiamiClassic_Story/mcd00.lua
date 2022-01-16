@@ -140,7 +140,7 @@ MISSION.Init = function()
 	
 	playerCar:Set("OnCollide", MISSION.OnPlayerCollide)
 	playerCar:Set("OnDeath", MISSION.OnDeath)
-	
+
 	playerCar:Spawn()
 	
 	playerCar:AlignToGround();
@@ -152,6 +152,10 @@ MISSION.Init = function()
 	sounds:Precache( "iview.success" )
 	
 	gameses:SetPlayerCar( playerCar )
+
+	MissionManager:ScheduleEvent( function() 
+		playerCar:SetLight(CAR_LIGHT_LOWBEAMS, true)
+	end, 0.0)
 	
 	-- spawn the cars
 	for i,v in ipairs( MISSION.Data.parkedCars ) do
@@ -505,7 +509,7 @@ MISSION.ProcessTurnoverConditions = function( delta )
 			
 			local dotResult = dot(missionData.turnoverVector, playerCar:GetForwardVector())
 			
-			Msg(string.format("dir = %d, dotResult = %g, rot = %d, time: %g sec\n", missionData.rotateStartDir, dotResult, missionData.degreesRotate, missionData.rotateTime));
+			--Msg(string.format("dir = %d, dotResult = %g, rot = %d, time: %g sec\n", missionData.rotateStartDir, dotResult, missionData.degreesRotate, missionData.rotateTime));
 			
 			if missionData.rotateStartDir == 1 then
 			
