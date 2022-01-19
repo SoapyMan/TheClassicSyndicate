@@ -101,7 +101,7 @@ MISSION.InitSceneryObject = function()
 	local interpolatedPosition = boatPath[1]
 	
 	local forwardVector = normalize(boatPath[segment + 1] - boatPath[segment])
-	local rotation = Quaternion.new(0, math.atan2(forwardVector:z(), forwardVector:x()) - DEG2RAD(90), 0)
+	local rotation = Quaternion.new(0, math.atan(forwardVector:z(), forwardVector:x()) - DEG2RAD(90), 0)
 	
 	local prevForwardVector = forwardVector
 	
@@ -120,7 +120,7 @@ MISSION.InitSceneryObject = function()
 			forwardVector = prevForwardVector
 		end
 		
-		local targetRotation = Quaternion.new(0, math.atan2(forwardVector:z(), forwardVector:x()) - DEG2RAD(90), 0)
+		local targetRotation = Quaternion.new(0, math.atan(forwardVector:z(), forwardVector:x()) - DEG2RAD(90), 0)
 		
 		-- determine position on the segment
 		local position = lerp(pointA, pointB, positionOnSegment)
