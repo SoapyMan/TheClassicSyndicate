@@ -206,7 +206,7 @@ local MetroMover = class()
 			
 			local forwardVec = normalize(posB - positionVec)
 			
-			rotationQuat = quat(0, math.atan2(forwardVec:z(), forwardVec:x()) - DEG2RAD(90), 0)
+			rotationQuat = quat(0, math.atan(forwardVec:z(), forwardVec:x()) - DEG2RAD(90), 0)
 			
 			self.speed = math.max(math.min(self.speed, MAX_SPEED_CURVE), 0)
 			
@@ -224,7 +224,7 @@ local MetroMover = class()
 			positionVec = lerp(pointA, pointB, posNormalized)
 			
 			local forwardVec = normalize(pointB - pointA)
-			rotationQuat = quat(0, math.atan2(forwardVec:z(), forwardVec:x()) - DEG2RAD(90), 0)
+			rotationQuat = quat(0, math.atan(forwardVec:z(), forwardVec:x()) - DEG2RAD(90), 0)
 			
 			-- accelerate/decelerate
 			if nextStrip ~= nil then
