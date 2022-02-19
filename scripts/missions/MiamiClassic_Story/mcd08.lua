@@ -57,6 +57,7 @@ function MISSION.Init()
 			startMessage = "Get to the first restaurant.",
 			timedOutMessage = "#TIME_UP_MESSAGE",
 			wreckedMessage = "#WRECKED_VEHICLE_MESSAGE",
+			addFelony = 0.015,
 			-- add your other data...
 		},
 		-- Restaurant 02 - Downtown East
@@ -66,6 +67,7 @@ function MISSION.Init()
 			startMessage = "Take out restaurant two.",
 			timedOutMessage = "#TIME_UP_MESSAGE",
 			wreckedMessage = "#WRECKED_VEHICLE_MESSAGE",
+			addFelony = 0.015,
 			-- add your other data...
 		},
 		-- Restaurant 03 - Downtown Up West
@@ -75,6 +77,7 @@ function MISSION.Init()
 			startMessage = "Smash restaurant three.",
 			timedOutMessage = "#TIME_UP_MESSAGE",
 			wreckedMessage = "#WRECKED_VEHICLE_MESSAGE",
+			addFelony = 0.01,
 		},
 		-- Restaurant 04 - Coral Gables
 		{
@@ -83,6 +86,7 @@ function MISSION.Init()
 			startMessage = "Wreck the fourth restaurant.",
 			timedOutMessage = "#TIME_UP_MESSAGE",
 			wreckedMessage = "#WRECKED_VEHICLE_MESSAGE",
+			addFelony = 0.01,
 		},
 		-- Restaurant 05 - Coconut Grove
 		{
@@ -91,6 +95,7 @@ function MISSION.Init()
 			startMessage = "Ram the last restaurant.",
 			timedOutMessage = "#TIME_UP_MESSAGE",
 			wreckedMessage = "#WRECKED_VEHICLE_MESSAGE",
+			addFelony = 0.01,
 		},
 	}
 
@@ -162,7 +167,7 @@ function MISSION.StartTheMadness()
 		gameHUD:Enable(true)
 		MISSION.Settings.EnableCops = true
 		
-		missionmanager:EnableTimeout( true, 180 ) -- enable, time
+		missionmanager:EnableTimeout( true, 100 ) -- enable, time
 
 		MISSION.StartTarget(MISSION.Targets[MISSION.CurrentTarget])
 	end, 1)
@@ -171,9 +176,19 @@ function MISSION.StartTheMadness()
 end
 
 function MISSION.OnCarCollision(go) -- go stands for "game object"
+	local playerCar = gameses:GetPlayerCar()
+	local targetData = MISSION.Targets[MISSION.CurrentTarget]
+
 	if MISSION.InWreckZone then
 		MISSION.WreckCounter = MISSION.WreckCounter + 1
-		missionmanager:AddSeconds(1)
+		missionmanager:AddSeconds(3)
+
+		local newFelony = playerCar:GetFelony() + targetData.addFelony
+		playerCar:SetFelony(newFelony)
+
+		if newFelony > 0.1 and MISSION.MusicState ~= MUSIC_STATE_PURSUIT then
+			SetMusicState(MUSIC_STATE_PURSUIT)
+		end
 	end
 	-- remove callback
 	go:Set("OnCarCollision", nil)
