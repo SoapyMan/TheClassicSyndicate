@@ -1,5 +1,7 @@
 -- ModInit for Syndicate's Classic Mod
 
+-- Hey man, good luck in the future, both for your game and your own future, see ya ! #_matti
+
 local ModInit = {
 	Title = "The Classic Syndicate",
 
