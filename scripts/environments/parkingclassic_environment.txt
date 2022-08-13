@@ -5,6 +5,7 @@
 
 skyHeight 0.1;
 skyAngle 0;
+foreground "SKIES/tcs_foreground";
 
 "night_clear"
 {
