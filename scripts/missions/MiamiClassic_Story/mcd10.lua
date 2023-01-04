@@ -93,19 +93,19 @@ function MISSION.SetupFlybyCutscene()
 	end, 2.0)
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("car.lightswitch"), -1 )
+		sounds:Emit( EmitParams.new("car.lightswitch"), -1 )
 	end, 2.0);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd10a"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd10a"), 0 )
 	end, 0.1);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd10b"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd10b"), -1 )
 	end, 2.6);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd10a"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd10a"), 0 )
 	end, 4.2);
 
 end

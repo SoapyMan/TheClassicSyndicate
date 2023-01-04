@@ -95,15 +95,15 @@ function MISSION.SetupFlybyCutscene()
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd03a"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd03a"), -1 )
 	end, 0.1);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd03b"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd03b"), 0 )
 	end, 1.72);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("car.lightswitch"), -1 )
+		sounds:Emit( EmitParams.new("car.lightswitch"), -1 )
 	end, 3.5);
 
 	missionmanager:ScheduleEvent( function() 
@@ -311,7 +311,7 @@ function MISSION.TiccoPewPewPRECAM()				-- Transition between Phase1Update and P
 	McdCutsceneCamera.Start(cutCameras, MISSION.TiccoPewPew, 0)
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("ticco.pewpews"), -1 )
+		sounds:Emit( EmitParams.new("ticco.pewpews"), -1 )
 	end, 1.0);
 
 end
@@ -359,7 +359,7 @@ function MISSION.PostTiccoPewPew()
 	playerCar:Lock(true)
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("ticco.end"), -1 )
+		sounds:Emit( EmitParams.new("ticco.end"), -1 )
 	end, 0);
 
 	missionmanager:SetRefreshFunc( function() 
@@ -379,7 +379,7 @@ function MISSION.Phase2Start()
 	
 	MISSION.Settings.EnableCops = true			-- Enable cops
 	
-	sounds:Emit2D( EmitParams.new("ticco.start"), -1 )
+	sounds:Emit( EmitParams.new("ticco.start"), -1 )
 
 	gameHUD:Enable(true)						-- HUD enabled
 	
@@ -451,7 +451,7 @@ MISSION.Phase2Update = function( delta )
 	  -- tell player every 20 seconds to lose tail
 	if playerCar:GetPursuedCount() > 0 then
 		if math.modf(math.fmod(missionmanager:GetMissionTime(), 20)) == 0 then
-			sounds:Emit2D( EmitParams.new("ticco.losetail"), -1 )
+			sounds:Emit( EmitParams.new("ticco.losetail"), -1 )
 		end
 	end
 	

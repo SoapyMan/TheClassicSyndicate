@@ -123,7 +123,7 @@ function MISSION.SetupFlybyCutscene()
 	McdCutsceneCamera.Start(cutCameras, MISSION.StartPause, 0)
 	
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd09"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd09"), -1 )
 	end, 0.0);
 end
 
@@ -212,7 +212,7 @@ MISSION.TargetCarHit = function(self, props)
 		car:SetPursuitTarget( playerCar )
 		car:BeginPursuit(0)
 
-		sounds:Emit2D( EmitParams.new("goon.wat"), -1 )
+		sounds:Emit( EmitParams.new("goon.wat"), -1 )
 
 		car:Set("OnCarCollision", nil) -- remove callback
 

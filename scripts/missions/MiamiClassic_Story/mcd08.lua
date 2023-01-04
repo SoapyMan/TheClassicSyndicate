@@ -120,23 +120,23 @@ function MISSION.SetupFlybyCutscene()
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd08a"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd08a"), -1 )
 	end, 0.0);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd08b"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd08b"), 0 )
 	end, 1.3);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd08c"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd08c"), -1 )
 	end, 1.5);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd08d"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd08d"), 0 )
 	end, 3.0);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd08b"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd08b"), -1 )
 	end, 3.8);
 
 	local cutCameras = {

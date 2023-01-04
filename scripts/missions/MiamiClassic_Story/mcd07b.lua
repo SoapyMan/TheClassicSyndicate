@@ -146,7 +146,7 @@ function MISSION.Phase1Start()
 	gameHUD:Enable(true)
 	playerCar:Lock(false)
 
-	sounds:Emit2D( EmitParams.new("goon.go"), -1 )
+	sounds:Emit( EmitParams.new("goon.go"), -1 )
 
 	MISSION.finalTarget = 1
 	
@@ -177,7 +177,7 @@ MISSION.Phase1Update = function( delta )
     -- tell player every 20 seconds to lose tail
 	if playerCar:GetPursuedCount() > 0 then
 		if math.modf(math.fmod(missionmanager:GetMissionTime(), 20)) == 0 then
-			sounds:Emit2D( EmitParams.new("goon.losetail"), -1 )
+			sounds:Emit( EmitParams.new("goon.losetail"), -1 )
 		end
 	end
 	

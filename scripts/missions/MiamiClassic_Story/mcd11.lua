@@ -57,7 +57,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	sounds:Precache( "wind.mcd11a" )
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd11a"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd11a"), 0 )
 	end, 1.8);
 
 	missionmanager:ScheduleEvent( MISSION.RemoveAllCars, 0 )	-- Going into Phase2Start after 2 seconds

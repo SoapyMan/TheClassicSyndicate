@@ -617,7 +617,7 @@ MISSION.DoReviewerVoice = function(name, nextVoiceTime, force)
 	end
 
 	if missionData.nextVoiceTime <= 0.0 or force then
-		sounds:Emit2D( EmitParams.new(name), -1 )
+		sounds:Emit( EmitParams.new(name), -1 )
 		
 		missionData.nextVoiceTime = nextVoiceTime
 	end

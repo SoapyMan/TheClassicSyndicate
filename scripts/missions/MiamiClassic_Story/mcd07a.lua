@@ -120,7 +120,7 @@ MISSION.JeanPaulSartre = function()
 
 	missionmanager:ScheduleEvent( MISSION.RemoveAllCars, 0 )	-- Going into Phase2Start after 2 seconds
 
-	sounds:Emit2D( EmitParams.new("goon.frenchcat"), -1 )
+	sounds:Emit( EmitParams.new("goon.frenchcat"), -1 )
 
 	gameHUD:Enable(true)
 	playerCar:Lock(false)
@@ -232,11 +232,11 @@ function MISSION.SetupFlybyCutscene()
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd07a"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd07a"), -1 )
 	end, 0.0);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd07b"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd07b"), 0 )
 	end, 2.7);
 
 	local cutCameras = {

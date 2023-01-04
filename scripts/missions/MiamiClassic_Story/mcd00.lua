@@ -33,6 +33,7 @@ MISSION.Init = function()
 
 	-- init hud
 	MISSION.uiTasksList = gameHUD:FindChildElement("tasks")
+	MISSION.uiGauge = equi:Cast(gameHUD:FindChildElement("timer_gauge"), "image")
 	
 	-- put globals here
 	MISSION.Data = {
@@ -105,14 +106,19 @@ MISSION.Init = function()
 		slalomOddEven = 0,
 		slalomLastPoint = 0,
 		
+		brakeStartSpeed = 0,
+		burnoutTime = 0,
+		handbrakeTime = 0,
 		degreesRotate = 0,
 		rotateStartDir = 0,
 		rotateStartPos = nil,
 		rotateTime = 0,
+		collisionTimeout = 0,
 		
 		turnoverVector = vec3_zero,
 		
 		collisionCount = 0,
+		didCollide = false,
 		
 		lapDone = false,
 		slalomDone = false,
@@ -139,7 +145,6 @@ MISSION.Init = function()
 	playerCar:SetColorScheme( 1 )
 	
 	playerCar:Set("OnCollide", MISSION.OnPlayerCollide)
-	playerCar:Set("OnDeath", MISSION.OnDeath)
 
 	playerCar:Spawn()
 	
@@ -218,6 +223,11 @@ MISSION.ProcessLapCondition = function()
 	if missionData.lapDone then
 		return
 	end
+
+	if missionData.didCollide then
+		missionData.didCollide = false
+		missionData.drivenLapPoints = {}
+	end
 	
 	local spd = playerCar:GetSpeed()
 
@@ -228,15 +238,15 @@ MISSION.ProcessLapCondition = function()
 	local numPoints = 0
 	
 	for i,v in ipairs(missionData.lapPoints) do
-		debugoverlay:Line3D(lastPoint, v, Vector4D.new(1,1,1,1), Vector4D.new(1,1,1,1), 0.0)
+		--debugoverlay:Line3D(lastPoint, v, Vector4D.new(1,1,1,1), Vector4D.new(1,1,1,1), 0.0)
 
 		local pr = lineProjection( lastPoint, v, playerCar:GetOrigin() )
 		local posOnLine = lerp(lastPoint, v, pr)
 		
-		if length(posOnLine-playerCar:GetOrigin()) < 6 then
-			debugoverlay:Box3D(posOnLine - Vector3D.new(0.2), posOnLine + Vector3D.new(0.2), Vector4D.new(1,1,0,1), 0.0)
+		if length(posOnLine-playerCar:GetOrigin()) < 10 then
+			--debugoverlay:Box3D(posOnLine - Vector3D.new(0.2), posOnLine + Vector3D.new(0.2), Vector4D.new(1,1,0,1), 0.0)
 
-			if length(v-playerCar:GetOrigin()) < 5 then
+			if length(v-playerCar:GetOrigin()) < 10 then
 				table.insertUnique( missionData.drivenLapPoints, i )
 				--Msg(string.format("driven lap point %d, total: %d\n", i, #missionData.drivenLapPoints))
 			end
@@ -301,6 +311,13 @@ MISSION.ProcessSlalomCondition = function()
 	if missionData.slalomDone then
 		return
 	end
+
+	if missionData.didCollide then
+		missionData.didCollide = false
+		missionData.slalomStartedAt = 0
+		missionData.drivenSlalomPoints = {{},{}}
+	end
+
 
 	local spd = playerCar:GetSpeed()
 	
@@ -385,7 +402,7 @@ MISSION.ProcessSlalomCondition = function()
 	end
 end
 
-MISSION.ProcessSpeedConditions = function()
+MISSION.ProcessSpeedConditions = function(delta)
 
 	local missionData = MISSION.Data
 	local playerCar = MISSION.playerCar
@@ -395,29 +412,53 @@ MISSION.ProcessSpeedConditions = function()
 
 	local traction = playerCar:GetTractionSliding(true)
 
+	if missionData.didCollide then
+		missionData.didCollide = false
+		missionData.burnoutTime = 0
+		missionData.brakeStartSpeed = 0
+		missionData.handbrakeTime = 0
+	end
+
 	if not missionData.burnoutDone then
-		if playerCar:IsBurningOut() and traction > 20 and speed < 10 then
+		if playerCar:IsBurningOut() and traction > 10 then
+			missionData.burnoutTime = missionData.burnoutTime + delta
+		else
+			missionData.burnoutTime = 0
+		end
+
+		if missionData.burnoutTime > 1.0 then
 			missionData.burnoutDone = true
 			MISSION.SetHudVisibleTask("marker_burnout")
-			
 			MISSION.DoReviewerVoice("iview.scare", 10.0)
 		end
 	end
 	
 	if missionData.handbrakeDone == false then
-		if playerCar:IsHandbraking() and speed > 10.0 then
-			missionData.handbrakeDone = true
-			MISSION.SetHudVisibleTask("marker_handbrake")
+		if playerCar:IsHandbraking() and speed > 5.0 then
+			missionData.handbrakeTime = missionData.handbrakeTime + delta
+			if missionData.handbrakeTime > 1 then
+				missionData.handbrakeDone = true
+				MISSION.SetHudVisibleTask("marker_handbrake")
+			end
+		else
+			missionData.handbrakeTime = 0
 		end
 	end
 	
 	if missionData.brakeDone == false then
-		if playerCar:IsBraking() and speed > 50.0 then
-			MISSION.DoReviewerVoice("iview.scare", 10.0)
+		if playerCar:IsBraking() then
+			if missionData.brakeStartSpeed <= 0 and speed > 50 then
+				missionData.brakeStartSpeed = speed
+			end
 
-			missionData.brakeDone = true;
-			MISSION.SetHudVisibleTask("marker_brake")
-			
+			if missionData.brakeStartSpeed > 50 and speed < 0.5 then
+				MISSION.DoReviewerVoice("iview.scare", 10.0)
+	
+				missionData.brakeDone = true;
+				MISSION.SetHudVisibleTask("marker_brake")
+			end
+		else
+			missionData.brakeStartSpeed = 0
 		end
 	end
 	
@@ -443,6 +484,13 @@ MISSION.ProcessTurnoverConditions = function( delta )
 
 	if missionData.rotate360 and missionData.rotate180 and missionData.rotateRev180 then
 		return
+	end
+
+	if missionData.didCollide then
+		missionData.didCollide = false
+		missionData.rotateStartDir = 0
+		missionData.degreesRotate = 0
+		missionData.rotateTime = 0
 	end
 
 	local angVel = playerCar:GetAngularVelocity()
@@ -494,12 +542,12 @@ MISSION.ProcessTurnoverConditions = function( delta )
 		local lateral = math.abs(playerCar:GetLateralSliding())
 	
 		-- kill the try if player is out of the penalty radius or speed 
-		if missionData.rotateStartDir == 1 and distFromStartPoint > MISSION.RotationSpherePenaltyRadius and lateral < 1.0 then
+		if missionData.rotateStartDir == 1 and distFromStartPoint > MISSION.RotationSpherePenaltyRadius and lateral < 0.1 then
 			missionData.rotateStartDir = 0
 			missionData.rotateTime = 0
+			--gameHUD:ShowScreenMessage("Dammit", 1.0)
 			return
 		end
-		
 
 		-- check the distance where rotation happens
 		-- when running backwards it's not necessary
@@ -525,7 +573,7 @@ MISSION.ProcessTurnoverConditions = function( delta )
 				end
 				
 				-- check 360 degress
-				if not missionData.rotate360 and dotResult > 0.85 and diff360 < MISSION.RotationCheckThreshold then
+				if not missionData.rotate360 and absResult > 360 - MISSION.RotationCheckThreshold then
 					missionData.rotate360 = true
 					MISSION.SetHudVisibleTask("marker_360")
 					
@@ -549,6 +597,7 @@ MISSION.ProcessTurnoverConditions = function( delta )
 			missionData.rotateStartDir = 0
 			missionData.degreesRotate = 0
 		else
+			--gameHUD:ShowScreenMessage(math.floor(missionData.degreesRotate) .." degrees", 1.0)
 			missionData.degreesRotate = missionData.degreesRotate + angularY*delta
 		end
 	end
@@ -604,12 +653,6 @@ MISSION.OnPlayerCollide = function( self, collData )
 	end
 end
 
-MISSION.OnDeath = function( self, collObject )
-	if collObject ~= nil and collObject:GetName() == "trash_cheat" then
-		Msg("Cheat counter! ")
-	end
-end
-
 MISSION.DoReviewerVoice = function(name, nextVoiceTime, force)
 
 	local missionData = MISSION.Data
@@ -619,8 +662,7 @@ MISSION.DoReviewerVoice = function(name, nextVoiceTime, force)
 	end
 
 	if missionData.nextVoiceTime <= 0.0 or force then
-		sounds:Emit2D( EmitParams.new(name), -1 )
-		
+		game.PlayVoice(name, -1)
 		missionData.nextVoiceTime = nextVoiceTime
 	end
 end
@@ -635,8 +677,12 @@ MISSION.Update = function( delta )
 
 	------------------
 	-- logic
+	if missionData.collisionTimeout > 0 then
+		missionData.collisionTimeout = missionData.collisionTimeout - delta
+	end
+	
 	MISSION.ProcessLapCondition()
-	MISSION.ProcessSpeedConditions()
+	MISSION.ProcessSpeedConditions(delta)
 	MISSION.ProcessTurnoverConditions( delta )
 	MISSION.ProcessSlalomCondition()
 	------------------
@@ -669,6 +715,11 @@ MISSION.Update = function( delta )
 		gameses:SignalMissionStatus( MIS_STATUS_SUCCESS, 6.0 )
 	end
 	
+	if MissionManager:GetMissionTime() < 10 then
+		local value = math.abs(math.sin(MissionManager:GetMissionTime() * 8))
+		MISSION.uiGauge:SetColor(vec4(1,value,value,1))
+	end
+
 	if missionmanager:IsTimedOut() then
 		gameHUD:ShowAlert("#FAILED_MESSAGE", 5.0, HUD_ALERT_DANGER)
 		gameHUD:ShowScreenMessage("#IVIEW_TIMEOUT_MESSAGE", 3.5)

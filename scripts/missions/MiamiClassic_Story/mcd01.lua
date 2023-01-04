@@ -114,7 +114,7 @@ function MISSION.SetupFlybyCutscene()
 	
 	-- apply sound effects
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd01"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd01"), -1 )
 	end, 3.8)
 
 end
@@ -335,7 +335,7 @@ function MISSION.Phase2Start()
 	MISSION.Settings.EnableCops = true			-- Enable cops
 	MISSION.Settings.MaxCops = 1
 	
-	sounds:Emit2D( EmitParams.new("goon.go"), -1 )
+	sounds:Emit( EmitParams.new("goon.go"), -1 )
 
 	SetMusicState(MUSIC_STATE_PURSUIT)			-- Force PURSUIT Music
 
@@ -409,7 +409,7 @@ MISSION.Phase2Update = function( delta )
     -- tell player every 20 seconds to lose tail
 	if playerCar:GetPursuedCount() > 0 then
 		if math.modf(math.fmod(missionmanager:GetMissionTime(), 20)) == 0 then
-			sounds:Emit2D( EmitParams.new("goon.losetail"), -1 )
+			sounds:Emit( EmitParams.new("goon.losetail"), -1 )
 		end
 	end
 	
@@ -421,7 +421,7 @@ MISSION.Phase2Update = function( delta )
 			if distToTarget < 50 then	-- If player enters % meters radius while pursued, then..
 				if playerCar:GetPursuedCount() > 0 then
 					gameHUD:ShowScreenMessage("#LOSE_TAIL_MESSAGE", 1.5)	--.. Lost tail message on screen
-					sounds:Emit2D( EmitParams.new("goon.losetail"), -1 )
+					sounds:Emit( EmitParams.new("goon.losetail"), -1 )
 				elseif distToTarget < 5 then	-- If player enters % meter objective radius, then..
 					
 					MISSION.OnCompleted()		-- ..Mission completed

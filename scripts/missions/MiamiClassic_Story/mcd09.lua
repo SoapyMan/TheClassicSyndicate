@@ -96,7 +96,7 @@ function MISSION.SetupFlybyCutscene()
 	end, 3.4)
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("car.lightswitch"), -1 )
+		sounds:Emit( EmitParams.new("car.lightswitch"), -1 )
 	end, 3.4);
 
 	local cutCameras = {
@@ -109,7 +109,7 @@ function MISSION.SetupFlybyCutscene()
 	McdCutsceneCamera.Start(cutCameras, MISSION.StartPause, 1)
 	
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd09"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd09"), -1 )
 	end, 0.0);
 end
 

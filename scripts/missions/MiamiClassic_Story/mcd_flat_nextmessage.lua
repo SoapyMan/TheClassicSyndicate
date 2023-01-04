@@ -1,6 +1,10 @@
 -- load the base file
 module("mcd_flat.lua")
 
+MISSION.AnsweringMachines = {
+	vec3(-60.0648, 0.959353, 39.1427),	-- Miami flat
+}
+
 MISSION.MessageList = {
 	mcd01 = {
 		script = "message.bankjob",

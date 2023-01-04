@@ -79,7 +79,7 @@ MISSION.Init = function()									-- Preparing Introduction
 		-- for retrieving next mission
 		missionladder:OnMissionCompleted()
 		
-		sounds:Emit2D( EmitParams.new("wind.msg01"), -1 )
+		sounds:Emit( EmitParams.new("wind.msg01"), -1 )
 		sounds:Emit( EmitParams.new("d3.citynoise", Vector3D.new(-88,0.77,-1143)), -1 )
 		
 		local nextMissionId = missionladder:GetNextMission().id
@@ -89,6 +89,7 @@ MISSION.Init = function()									-- Preparing Introduction
 		MISSION.MessageScript = message.script
 		MISSION.MessageLength = message.length
 		MISSION.MessageDelay = message.delay
+		MISSION.AnsweringMachinePosition = if_then_else(message.flatId ~= nil, MISSION.AnsweringMachines[message.flatId], MISSION.AnsweringMachines[1])
 		
 		world:SetEnvironmentName(message.environment or "day_clear")
 		world:InitEnvironment()
@@ -110,8 +111,10 @@ end
 
 function MISSION.SetupFlybyCutscene()
 
-	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new(MISSION.MessageScript), -1 )
+	missionmanager:ScheduleEvent( function()
+		local emitParams = EmitParams.new(MISSION.MessageScript, MISSION.AnsweringMachinePosition)
+
+		sounds:Emit( emitParams )
 	end, MISSION.MessageDelay or 1)
 
 	local playerCar = gameses:GetPlayerCar()

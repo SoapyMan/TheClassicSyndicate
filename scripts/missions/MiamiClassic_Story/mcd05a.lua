@@ -104,15 +104,15 @@ function MISSION.SetupFlybyCutscene()
 	
 	-- fancy sequence
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd05a"), -1 )
+		sounds:Emit( EmitParams.new("wind.mcd05a"), -1 )
 	end, 0.1);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("wind.mcd05b"), 0 )
+		sounds:Emit( EmitParams.new("wind.mcd05b"), 0 )
 	end, 3.0);
 
 	missionmanager:ScheduleEvent( function() 
-		sounds:Emit2D( EmitParams.new("car.lightswitch"), -1 )
+		sounds:Emit( EmitParams.new("car.lightswitch"), -1 )
 	end, 5.0);
 
 	missionmanager:ScheduleEvent( function() 
@@ -157,7 +157,7 @@ function MISSION.Phase1Start()
 	playerCar:Lock(false)
 
 	--missionmanager:ScheduleEvent( function() 
-	--	sounds:Emit2D( EmitParams.new("car.lightswitch"), -1 )
+	--	sounds:Emit( EmitParams.new("car.lightswitch"), -1 )
 	--end, 69.8);
 
 	missionmanager:ScheduleEvent( function() 
