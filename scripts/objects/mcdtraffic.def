@@ -2,7 +2,7 @@
 // TRAFFIC LIGHTS
 ///////////////////////////////////////////////////
 
-trafficlight "mcd_tlight01"
+static "mcd_tlight01"
 {
 	model	"models/MIAMI/City/mcd_tlight01.egf";
 

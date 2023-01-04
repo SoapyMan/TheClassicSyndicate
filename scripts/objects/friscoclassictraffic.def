@@ -2,7 +2,7 @@
 // TRAFFIC LIGHTS
 ///////////////////////////////////////////////////
 
-trafficlight "friscoclassic_tlight01"
+static "friscoclassic_tlight01"
 {
 	model	"models/friscoclassic_mdls/friscoclassic_tlight01.egf";
 
