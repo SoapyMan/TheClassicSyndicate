@@ -1,13 +1,13 @@
 BaseUnlit
 { 
 	basetexture "COMMON/nodraw_collision"; 
-    ReceiveShadows 0;
-    CastShadows 0;
-    PhysClip 1;
+	ReceiveShadows 0;
+	CastShadows 0;
+	PhysClip 1;
 	
 	NoDraw 1;
-    editor
-    {
-      NoDraw 0;
-    }
+	editor
+	{
+		NoDraw 0;
+	}
 };
