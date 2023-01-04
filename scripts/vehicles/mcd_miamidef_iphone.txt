@@ -42,7 +42,7 @@ visuals
 	backlights 	0.31 -0.05 -2.50 0.06;
 
 	engine 0.0 0.1 2.0;
-	driver 0.0 -0.1 -0.0;
+	driver -0.2 -0.0 -0.0;
 	
 	exhaust 0.36 -0.36 -2.24 2;
 };
