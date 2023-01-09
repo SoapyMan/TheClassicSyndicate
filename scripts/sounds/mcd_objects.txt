@@ -9,6 +9,4 @@
 	pitch		1.0;
 	volume		0.5;
 	distance	5.0;
-
-	channel		"CHAN_ITEM";
 }

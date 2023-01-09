@@ -1,31 +1,22 @@
+default channel CHAN_VOICE;
+default is2d	1;
+default volume	0.8;
+
 "cop.pursuit"
 {
 	wave 		"cops_eng/we_are_now_in_pursuit.wav";
 
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.redlight"
 {
 	wave 	"cops_eng/suspects_has_run_a_red.wav";
-
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.hitvehicle"
 {
 	wave 		"cops_eng/suspect_has_hit_another_vehicle.wav";
 
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 }
 
 "cop.lost"
@@ -36,60 +27,32 @@
 		wave	"cops_eng/hes_outta_sight.wav";
 	}
 
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.heading"
 {
 	wave 	"cops_eng/suspect_is_heading.wav";
 
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.heading_north"
 {
 	wave 	"cops_eng/north.wav";
-
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.heading_east"
 {
 	wave 	"cops_eng/east.wav";
-
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.heading_south"
 {
 	wave 	"cops_eng/south.wav";
-
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.heading_west"
 {
 	wave 	"cops_eng/west.wav";
-
-	volume		0.7;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.takehimup"
@@ -101,25 +64,9 @@
 	}
 
 	volume		1.0;
-	is2d		1;
-
-	channel		CHAN_VOICE;
 };
 
 "cop.taunt"
 {
-	rndwave
-	{
-		wave 	"cops_eng/blank.wav";
-		//wave 	"cops_eng/blank.wav";
-		//wave 	"cops_eng/blank.wav";
-		//wave 	"cops_eng/loud_final_warning.wav";
-		//wave 	"cops_eng/taunt_all_exits_blocked.wav";
-	}
-
-	volume		1.0;
-	distance	25.0;
-
-	channel		CHAN_VOICE;
-	
+	wave 	"cops_eng/blank.wav";
 };
