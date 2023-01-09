@@ -74,7 +74,7 @@ MISSION.InitSceneryObject = function()
 
 	objects:AddObjectDef("emitter", "speedboat_splashes", defData)
 	
-	local speedboatObject = objects:CreateGameObject("dummy", create_section({}))
+	local speedboatObject = objects:CreateGameObject("object", create_section({}))
 	speedboatObject:SetModel(speedboatModel)
 	speedboatObject:SetOrigin(boatPath[1])
 	speedboatObject:SetAngles(vec3(0))
@@ -245,6 +245,7 @@ function MISSION.Phase1Start()
 	MISSION.finalTarget = 1
 	
 	MISSION.targetHandle = gameHUD:AddTrackingObject(MISSION.speedboatObject, HUD_DOBJ_IS_TARGET)
+	MISSION.targetHandle2 = gameHUD:AddMapTargetPoint(MISSION.Data.targetPosition, HUD_DOBJ_3D_ARROW)
 
 	-- Here we start
 	missionmanager:SetRefreshFunc( MISSION.Phase1Update )
@@ -274,7 +275,7 @@ function MISSION.Phase1Start()
 
 	gameHUD:ShowScreenMessage("Chase the boat.", 3.5)
 	
-	missionmanager:EnableTimeout( true, 140 ) -- Enable, time
+	missionmanager:EnableTimeout( true, 95 ) -- Enable, time
 end
 
 ----------------------------------------------------------------------------------------------
@@ -315,6 +316,7 @@ function MISSION.OnDone()						-- Marker disappears after reached by player
 	local playerCar = MISSION.playerCar
 	
 	gameHUD:RemoveTrackingObject(MISSION.targetHandle)
+	gameHUD:RemoveTrackingObject(MISSION.targetHandle2)
 
 	playerCar:Lock(true)						-- Car is locked after reaching marker
 	
