@@ -43,6 +43,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	--sounds:Precache( "door.garage" )
 	sounds:Precache( "goon.go" )
 	sounds:Precache( "goon.losetail" )
+	MISSION.loseTailDelay = 20
 
 	playerCar:SetFelony(0.25)
 
@@ -175,10 +176,10 @@ MISSION.Phase1Update = function( delta )
 	local distToTarget = length(playerCar:GetOrigin() - MISSION.Data.targetPosition)
 
     -- tell player every 20 seconds to lose tail
-	if playerCar:GetPursuedCount() > 0 then
-		if math.modf(math.fmod(missionmanager:GetMissionTime(), 20)) == 0 then
-			sounds:Emit( EmitParams.new("goon.losetail"), -1 )
-		end
+	MISSION.loseTailDelay = MISSION.loseTailDelay - delta
+	if playerCar:GetPursuedCount() > 0 and MISSION.loseTailDelay <= 0 then
+		MISSION.loseTailDelay = 20
+		sounds:Emit( EmitParams.new("goon.losetail"), -1 )
 	end
 	
 	if MISSION.finalTarget then

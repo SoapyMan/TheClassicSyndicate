@@ -48,6 +48,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	
 	MISSION.Settings.EnableCops = false						-- Cops are disabled
 
+	MISSION.loseTailDelay = 20
 	MISSION.SpawnSceneryCars()
 
 	local playerCar = gameses:CreateCar(McdGetPlayerCarName(), CAR_TYPE_NORMAL)	-- Create player car
@@ -448,11 +449,11 @@ MISSION.Phase2Update = function( delta )
 
 	local distToTarget = length(playerCar:GetOrigin() - MISSION.safeHouseTarget)
 
-	  -- tell player every 20 seconds to lose tail
-	if playerCar:GetPursuedCount() > 0 then
-		if math.modf(math.fmod(missionmanager:GetMissionTime(), 20)) == 0 then
-			sounds:Emit( EmitParams.new("ticco.losetail"), -1 )
-		end
+	-- tell player every 20 seconds to lose tail
+	MISSION.loseTailDelay = MISSION.loseTailDelay - delta
+	if playerCar:GetPursuedCount() > 0 and MISSION.loseTailDelay <= 0 then
+		MISSION.loseTailDelay = 20.0
+		sounds:Emit( EmitParams.new("ticco.losetail"), -1 )
 	end
 	
 	if MISSION.finalTarget then
