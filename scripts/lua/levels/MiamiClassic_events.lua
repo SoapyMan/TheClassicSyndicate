@@ -129,7 +129,7 @@ local MetroMover = class()
 	
 	function MetroMover:Init()
 		if self.object == nil then
-			self.object = objects:CreateGameObject("dummy", create_section({}))
+			self.object = objects:CreateGameObject("object", create_section({}))
 			self.object:SetModel(METRO_MOVER_MODEL)
 			self.object:Spawn()
 		end

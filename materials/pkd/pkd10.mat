@@ -1,7 +1,7 @@
 "Base" 
 { 
 	basetexture 			"pkd/pkd10";
-	/NightLight			"pkd/pkd10_L";
+	//NightLight			"pkd/pkd10_L";
 	//Cubemap				"$env_//Cubemap";
 	BaseTextureSpecularAlpha 	1;
 	SpecularScale			0.3;
