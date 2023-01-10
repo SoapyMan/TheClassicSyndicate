@@ -167,7 +167,7 @@ function MISSION.StartTheMadness()
 		gameHUD:Enable(true)
 		MISSION.Settings.EnableCops = true
 		
-		missionmanager:EnableTimeout( true, 100 ) -- enable, time
+		missionmanager:EnableTimeout( true, 70 ) -- enable, time
 
 		MISSION.StartTarget(MISSION.Targets[MISSION.CurrentTarget])
 	end, 1)
@@ -179,9 +179,15 @@ function MISSION.OnCarCollision(go) -- go stands for "game object"
 	local playerCar = gameses:GetPlayerCar()
 	local targetData = MISSION.Targets[MISSION.CurrentTarget]
 
-	if MISSION.InWreckZone then
+	if MISSION.InWreckZone and MISSION.WreckObjs[go] == nil then
+		MISSION.WreckObjs[go] = true
+
 		MISSION.WreckCounter = MISSION.WreckCounter + 1
-		missionmanager:AddSeconds(3)
+
+		local addTime = 1.0 + MISSION.WreckCounter * 0.25
+		missionmanager:AddSeconds(addTime)
+
+		gameHUD:ShowScreenMessage(string.format("+%.1f sec", addTime), 1.0)
 
 		local newFelony = playerCar:GetFelony() + targetData.addFelony
 		playerCar:SetFelony(newFelony)
@@ -208,6 +214,8 @@ end
 
 function MISSION.SetupWreckZone(targetData)
 	MISSION.InWreckZone = true
+	MISSION.WreckCounter = 0
+	MISSION.WreckObjs = {}
 
 	local worldObject = objects:QueryObjects(targetData.radius, targetData.position, function(go)
 		if go:GetType() == GO_DEBRIS then
@@ -225,7 +233,6 @@ function MISSION.StartTarget(targetData, onComplete)
 	
 	-- reset wreck zone
 	MISSION.InWreckZone = false
-	MISSION.WreckCounter = 0
 
 	-- setup your update function
 	-- this will be called each frame of game update
@@ -243,7 +250,7 @@ function MISSION.StartTarget(targetData, onComplete)
 			-- wait a bit to for player to collect his precious seconds
 			missionmanager:ScheduleEvent( function()
 				MISSION.GotoNextTarget()
-			end, 1 )
+			end, 3.0 )
 		end
 		
 		return true -- true means timer is enabled
