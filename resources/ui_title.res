@@ -47,7 +47,7 @@ panel
 		align		bottom hcenter;
 		textAlign	center;
 
-		font			"Roboto Condensed" italic bold;
+		font		"Cooper" italic bold;
 
 		label		"#MENU_TITLE_PRESS_ENTER";
 		fontScale	18 18;

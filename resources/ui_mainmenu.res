@@ -5,7 +5,7 @@ panel
 	
 	//font			Roboto 30;
 
-	font			"Roboto Condensed" 30 italic;
+	font			"Cooper" 30 italic;
 	fontScale		20 20;
 	
 	child image "background"

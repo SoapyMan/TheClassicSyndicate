@@ -118,6 +118,8 @@ end
 -- Initialization function
 function ModInit:Init()
 	
+	fonts.LoadFontDescriptionFile("resources/additional_fonts.res")
+
 	-- make MCD camera available
 	include("scripts/lua/McdCinematicCamera.lua")
 	include("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
