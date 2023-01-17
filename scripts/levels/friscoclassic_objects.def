@@ -29,6 +29,7 @@ include "scripts/objects/lights.def";
 include "scripts/objects/traffic.def";
 include "scripts/objects/trees.def";
 include "scripts/objects/emitters.def";
+include "scripts/objects/volumes.def";
 
 // add custom object types below for your level file
 

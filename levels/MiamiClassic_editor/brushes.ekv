@@ -1,0 +1,12271 @@
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1764;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1760;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 50;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -256;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 489;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1324;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1320;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 816;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -856;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 394;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1440;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1216;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 426;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1444;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1440;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -640;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 426;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1440;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1324;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 640;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -644;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 426;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1324;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1320;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 644;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 426;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1440;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1216;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 380;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -384;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 458;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1468;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1216;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 352;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -356;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 458;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1440;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1216;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 496;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -500;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 458;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1444;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1440;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 384;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -496;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 458;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1440;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1216;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -96;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 490;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1348;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1216;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 24;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 490;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1444;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1440;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 96;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -236;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 490;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1468;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1444;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 236;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -240;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 490;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -1440;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 1438;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -28;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 4;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 522;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1236;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 928;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -932;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 395;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1198;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 972;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -976;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 395;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1320;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1096;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 395;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1320;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1096;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 812;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 395;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1216;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1006;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 427;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1216;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1006;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 380;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -384;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 459;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1216;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1006;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 352;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -356;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 459;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1216;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1006;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 496;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -500;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 459;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1216;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1006;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -96;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 491;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1216;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 1006;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 48;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 491;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1132;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 862;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 972;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -976;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 396;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1132;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 862;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 928;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -932;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 396;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -886;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 676;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 396;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -886;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 676;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 812;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 396;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 4
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1096;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 886;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 396;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 5
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1096;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 886;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 812;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 396;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1006;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 796;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 428;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1006;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 796;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 380;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -384;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 460;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1006;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 796;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 352;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -356;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 460;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1006;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 796;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 496;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -500;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 460;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1006;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 796;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -96;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 492;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -1006;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 796;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 48;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 492;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -862;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 592;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 972;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -976;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 397;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -862;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 592;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 928;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -932;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 397;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -676;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 466;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 397;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -676;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 466;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 812;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 397;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -796;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 586;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 429;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -796;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 586;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 380;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -384;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 461;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -796;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 586;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 352;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -356;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 461;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -796;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 586;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 496;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -500;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 461;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -796;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 586;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 48;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 493;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -796;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 586;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -96;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 493;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -392;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 388;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 976;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -1260;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 366;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -344;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 256;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 976;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -980;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -348;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 344;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 932;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -976;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -592;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 344;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 928;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -932;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -592;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 392;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 972;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -976;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 4
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -466;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 256;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 5
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -466;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 256;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 812;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -586;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 256;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 430;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -376;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 372;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 384;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -496;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 462;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -586;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 376;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 496;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -500;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 462;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -586;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 376;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 380;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -384;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 462;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -586;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 376;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 352;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -356;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 462;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -376;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 372;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 96;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -352;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 494;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -586;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 376;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 48;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 494;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -586;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 376;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -96;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 494;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -376;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 372;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -84;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -48;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 526;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -388;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -28;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 1260;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -1264;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 367;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -224;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 200;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 399;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -176;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 88;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 399;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -64;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 16;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 399;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -256;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 252;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 816;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -976;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 399;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -16;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 12;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -16;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -48;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 16;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -52;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 48;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -588;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -72;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 68;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -568;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 4
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -168;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 72;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 5
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -168;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 72;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 568;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -572;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 6
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -172;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 168;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -568;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 7
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -168;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 52;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 588;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -592;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 8
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -172;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 168;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 592;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -612;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 9
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -224;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 172;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 612;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -616;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 10
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -192;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 188;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -592;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 11
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -228;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 224;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -592;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 12
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -224;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 192;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 13
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -224;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 192;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 592;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -596;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 14
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -228;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 224;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -16;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 616;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -712;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 15
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -256;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 252;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -16;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 16
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -224;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 68;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 712;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -716;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 17
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -228;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 224;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 736;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 18
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -224;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 200;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 732;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -736;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 19
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -200;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 196;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 736;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 20
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -180;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 176;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 736;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 21
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -88;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 84;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 736;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 22
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -176;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 88;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 732;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -736;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 23
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -68;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 64;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 714;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 431;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -140;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -28;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -228;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 220;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 527;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 -140;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -220;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 88;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 527;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 -372;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 136;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 84;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 527;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -268;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 1100;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -1104;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 368;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 148;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -152;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 1104;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -1192;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 368;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 32;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -148;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 1192;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -1196;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 368;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 28;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -32;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 1196;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -1260;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 368;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 32;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -148;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 784;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -788;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 400;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 148;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -152;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 788;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -928;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 400;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -268;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 928;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -932;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 400;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 148;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -152;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 512;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -524;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 432;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 32;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -148;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 524;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -528;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 432;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 28;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -32;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -16;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 528;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -784;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 432;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 212;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -244;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 464;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -468;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 464;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 148;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -152;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 96;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -164;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 496;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 148;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -152;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 188;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -304;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 496;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 148;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -152;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -64;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -48;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 528;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 32;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -148;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 84;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 528;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 28;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -36;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -220;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 88;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 528;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 268;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -272;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 932;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -1100;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 401;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 480;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -484;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 188;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -696;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 465;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 500;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -504;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 168;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -676;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 465;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 244;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -268;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 384;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -464;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 465;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 268;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -272;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 312;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -384;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 465;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N 1 0 0 -579.672;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -20;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 40;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -1 0 -0 152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 497;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -608;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -20;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 92;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -104;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 497;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -500;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -20;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 164;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -168;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 497;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -480;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -20;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 184;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -188;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 497;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 416;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -580;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 60;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 529;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 148;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -416;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -88;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 84;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 529;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -416;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 64;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 529;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 484;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -764;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 696;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -700;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 434;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 504;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -764;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 676;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -680;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 434;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 612;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -836;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 308;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -316;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 466;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 652;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -660;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 52;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -264;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 498;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 604;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -612;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 96;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -308;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 498;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 596;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -660;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 44;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 498;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 596;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -604;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -60;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -44;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 530;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 596;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -768;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 60;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 530;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 416;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -768;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -88;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 84;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 530;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 580;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -588;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 530;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 908;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -912;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 808;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 403;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 876;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -912;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 816;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -820;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 403;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 780;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -816;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 848;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -852;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 403;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 816;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -820;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 816;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -848;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 403;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 4
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 900;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -916;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 781;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -804;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 403;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 5
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 780;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -852;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 800;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 403;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 780;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -816;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 604;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -608;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 816;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -820;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 604;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -624;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 820;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1004;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 620;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -624;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1004;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1020;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 748;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -771;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 4
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1004;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1020;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 676;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -700;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 1;
+	def tunnel_volume;
+};
+brush 5
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 972;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -988;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 680;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -752;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 6
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 0 0 956;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 0 0 -980;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 1 0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 1 624;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 -1 -640;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 7
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 940;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -964;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 752;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -768;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 8
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 932;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -948;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 672;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -720;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 9
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 900;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -916;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 664;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -688;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 10
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 812;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -860;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 748;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -764;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 11
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 812;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -860;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 640;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -656;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 12
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 780;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -852;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 696;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -712;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+	def tunnel_volume;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 836;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 308;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -316;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 467;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 656;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -908;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 260;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -268;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 467;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 916;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -924;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -260;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 499;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 900;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -908;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -260;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 499;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 768;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1104;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -88;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 84;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 531;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 768;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -900;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 60;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 531;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 908;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1156;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 804;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -808;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 404;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1004;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1152;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 628;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -632;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 436;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1152;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1156;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 628;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -804;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 436;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 0 0 1068;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 0 0 -1116;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 1 0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 1 656;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 -1 -672;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 436;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 3
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 0 0 1068;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 0 0 -1116;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 1 0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 1 704;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 -1 -720;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 436;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 916;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 260;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -268;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 468;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 924;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 60;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 532;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1124;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -376;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 68;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 532;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1100;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1108;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -376;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 88;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 532;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1100;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1108;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -628;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 376;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 564;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1124;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -628;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 376;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 564;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1100;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1108;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -940;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 628;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 628;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1124;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1132;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -920;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 628;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 628;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1108;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1384;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -948;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 940;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 628;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1128;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1384;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -924;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 916;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 628;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1132;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1540;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 260;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -268;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 469;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1132;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1524;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 308;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -316;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 469;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1380;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1388;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -920;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 820;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 629;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1384;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1388;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1148;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 944;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 661;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1388;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1480;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1152;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 1148;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 661;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1480;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1484;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1356;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 1152;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 661;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1628;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1636;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 404;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -760;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 438;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1620;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1628;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 316;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -404;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 470;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1524;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1620;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 316;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -324;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 470;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1716;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1722;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 432;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -473;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 470;
+	groupId 65535;
+	visGroupId 0;
+	def city_buildings_volume;
+};
+brush 3
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1693;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1722;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -6;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 473;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -496;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 470;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1572;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1628;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 44;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -60;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1540;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1572;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 60;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -68;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1532;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1540;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 68;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -196;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1540;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1564;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 196;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -268;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 4
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 0 0 1681;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 0 0 -1759;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 1 0 -5;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 -1 0 -0;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 1 -12;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 -1 -45;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0.6207 0 -0.784048 -1112.2;
+			U -0.619644 0 -0.784883 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0.850264 0 0.526356 1440.35;
+			U 0.526355 0 0.850265 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 0;
+	def parking_volume;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1620;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1636;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -160;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 -44;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 534;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1676;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1688;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -156;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 48;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 534;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1744;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1764;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -156;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 48;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 534;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1620;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1636;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -516;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 160;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 566;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1676;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1680;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -428;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 156;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 566;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1760;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1764;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -428;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 156;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 566;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1620;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1636;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -816;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 516;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 598;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1680;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1760;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -700;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 692;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 598;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1676;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1680;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -696;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 428;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 598;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 3
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1760;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1764;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -696;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 428;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 598;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1596;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1636;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -924;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 816;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 630;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1596;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1636;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1268;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 940;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 662;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1676;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1692;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1284;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 1180;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 662;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1484;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1596;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1360;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 1356;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 694;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 1
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1596;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1676;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1356;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 1284;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 694;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1920;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1944;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 392;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -664;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 439;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1920;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1944;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 220;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -392;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 471;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1920;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1944;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -51.9999;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 -220;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 503;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1788;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1812;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -260;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 52;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 535;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1788;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1812;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -620;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 260;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 567;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 0 0 1788;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 0 0 -1812;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 1 0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 1 -908;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 0 0 -1 620;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 599;
+	groupId 65535;
+	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\physclip
+		{
+			N -1 -0 -0 1824;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N 1 -0 -0 -1840;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 1 -0 -12;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 1 -1036;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\physclip
+		{
+			N -0 -0 -1 952;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 631;
+	groupId 65535;
+	visGroupId 1;
+};
