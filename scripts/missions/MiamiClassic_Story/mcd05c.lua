@@ -230,7 +230,7 @@ function MISSION.Phase1Start()
 
 	local felony = playerCar:GetFelony()
 	if felony < 0.5 then
-	  felony = 0.5
+		felony = 0.5
 	end
 	playerCar:SetFelony(felony)
 
@@ -286,10 +286,19 @@ MISSION.Phase1Update = function( delta )
 
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
 
-	local distToTarget = length(playerCar:GetOrigin() - MISSION.Data.targetPosition)
+	if length(MISSION.speedboatObject:GetOrigin() - playerCar:GetOrigin()) > 230 then
+		gameHUD:ShowScreenMessage("You lost him.", 3.5)
+		gameses:SignalMissionStatus( MIS_STATUS_FAILED, 4.0 )
+
+		MISSION.playerCar:Lock(true)
 	
+		missionmanager:SetRefreshFunc( function() 
+			return false 
+		end ) 
+	end
+
 	if MISSION.finalTarget then
-	
+		local distToTarget = length(playerCar:GetOrigin() - MISSION.Data.targetPosition)
 		if distToTarget < 50 then	-- Cops are disabled when player enters % meters objective radius
 			
 			if distToTarget < 50 then	-- If player enters % meters radius while pursued, then..
