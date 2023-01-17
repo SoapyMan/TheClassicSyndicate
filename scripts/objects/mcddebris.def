@@ -170,6 +170,7 @@ debris "mcd_chair01"
 {
 	model 		"models/MIAMI/City/mcd_chair01.egf";
 	smashsound	"plastic.smash";
+	seat		1 -90;
 }
 
 //---------------------------------------------------------
