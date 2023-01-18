@@ -34351,7 +34351,7 @@ mcd_table01
 spawn_point
 {
 	name motel;
-	position -88.0596 9.53674e-07 -1143.37;
+	position -88.0596 0 -1143.37;
 	rotation 0 -180 0;
 	tileX 65535;
 	tileY 34;
@@ -45061,7 +45061,7 @@ mcd_barrel01
 spawn_point
 {
 	name landmark4;
-	position -190.865 1.90735e-06 -26.4028;
+	position -190.865 0 -26.4028;
 	rotation 0 -180 0;
 	tileX 65535;
 	tileY 57;
@@ -68718,6 +68718,176 @@ mcd_boat01yellow
 	visGroupId 0;
 	region 467;
 };
+mcd_cone01
+{
+	name "";
+	position 778.805 0.139986 -286.35;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 780.307 0.139986 -287.602;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 782.332 0.139986 -288.704;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 786 0.139986 -288.8;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 789.972 0.139986 -288.756;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 824.288 0.139986 -288.545;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 794.312 0.139986 -288.747;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 799.614 0.139986 -288.743;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 827.604 0.139986 -288.519;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 804.216 0.139987 -288.756;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 808.075 0.139985 -288.688;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 812.196 0.139986 -288.662;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 815.923 0.139986 -288.671;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_cone01
+{
+	name "";
+	position 819.82 0.139986 -288.634;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_barrel01
+{
+	name "";
+	position 907.079 0.107358 -288.651;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_barrel01
+{
+	name "";
+	position 908.538 0.107359 -288.216;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 467;
+};
+mcd_barrel01
+{
+	name "";
+	position 923.22 0.10736 -286.335;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 467;
+};
 00_Water_32x32
 {
 	name "";
@@ -71165,6 +71335,96 @@ mcd_tree01pc
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 62;
+	visGroupId 0;
+	region 468;
+};
+mcd_cone01
+{
+	name "";
+	position 1230.04 0.130119 -285.507;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 468;
+};
+mcd_cone01
+{
+	name "";
+	position 1228.18 0.130119 -285.131;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 468;
+};
+mcd_cone01
+{
+	name "";
+	position 1226.79 0.130119 -286.16;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 468;
+};
+mcd_barrier01
+{
+	name "";
+	position 1229.73 0.111654 -287.34;
+	rotation 0 -58.3753 8.48137e-06;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 468;
+};
+mcd_barrier01
+{
+	name "";
+	position 1228.01 0.111654 -289.042;
+	rotation 180 -87.1895 180;
+	tileX 65535;
+	tileY 55;
+	visGroupId 0;
+	region 468;
+};
+mcd_barrier01
+{
+	name "";
+	position 1226.19 0.111654 -287.902;
+	rotation 0 48.0485 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 468;
+};
+mcd_cone01
+{
+	name "";
+	position 1226.48 0.100911 -285.014;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 468;
+};
+mcd_barrel01
+{
+	name "";
+	position 1227.27 0.0915096 -287.124;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
+	visGroupId 0;
+	region 468;
+};
+mcd_barrel01
+{
+	name "";
+	position 1228.46 0.0915096 -287.505;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 56;
 	visGroupId 0;
 	region 468;
 };
@@ -77711,7 +77971,7 @@ mcd_fence01
 spawn_point
 {
 	name landmark3;
-	position 1477.21 9.53674e-07 889.48;
+	position 1477.21 0 889.48;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 30;
@@ -84385,6 +84645,16 @@ lamp03
 	rotation 0 0 0;
 	tileX 24;
 	tileY 57;
+	visGroupId 0;
+	region 470;
+};
+mcd_sign_speedlimit30
+{
+	name "";
+	position 1552.39 0 -291.522;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 55;
 	visGroupId 0;
 	region 470;
 };
@@ -91228,13 +91498,13 @@ mcd_table01
 	visGroupId 0;
 	region 566;
 };
-00_RoadHedge02_8tile
+mcd_tree01pc
 {
 	name "";
-	position 1658 0 294;
+	position 1750.15 0 511.839;
 	rotation 0 -90 0;
-	tileX 30;
-	tileY 9;
+	tileX 65535;
+	tileY 63;
 	visGroupId 0;
 	region 566;
 };
@@ -91341,7 +91611,7 @@ mcd_palm02psx
 mcd_palm02psx
 {
 	name "";
-	position 1656.62 0 285.4;
+	position 1656.62 0 277.271;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 7;
@@ -92468,13 +92738,103 @@ mcd_tree01pc
 	visGroupId 0;
 	region 566;
 };
-mcd_tree01pc
+00_RoadHedge02_End
 {
 	name "";
-	position 1750.15 0 511.839;
+	position 1654 0 302;
+	rotation 0 -270 0;
+	tileX 29;
+	tileY 11;
+	visGroupId 0;
+	region 566;
+};
+00_RoadHedge02_End
+{
+	name "";
+	position 1658 0 282;
+	rotation 0 -90 0;
+	tileX 30;
+	tileY 6;
+	visGroupId 0;
+	region 566;
+};
+00_RoadHedge02_SandPile
+{
+	name "";
+	position 1658 -9.53674e-07 292.337;
 	rotation 0 -90 0;
 	tileX 65535;
-	tileY 63;
+	tileY 9;
+	visGroupId 0;
+	region 566;
+};
+00_JunctionThin
+{
+	name "";
+	position 1658 0 290;
+	rotation 0 -180 0;
+	tileX 30;
+	tileY 8;
+	visGroupId 0;
+	region 566;
+};
+mcd_barrier01
+{
+	name "";
+	position 1658.87 0 286.39;
+	rotation 180 69.9519 180;
+	tileX 65535;
+	tileY 7;
+	visGroupId 0;
+	region 566;
+};
+mcd_barrier01
+{
+	name "";
+	position 1658.54 0.101355 300.395;
+	rotation 0 69.8652 0;
+	tileX 65535;
+	tileY 11;
+	visGroupId 0;
+	region 566;
+};
+mcd_barrier01
+{
+	name "";
+	position 1653.27 0 298.436;
+	rotation 180 63.5561 180;
+	tileX 65535;
+	tileY 10;
+	visGroupId 0;
+	region 566;
+};
+mcd_cone01
+{
+	name "";
+	position 1652.1 9.53674e-07 289.777;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 8;
+	visGroupId 0;
+	region 566;
+};
+mcd_cone01
+{
+	name "";
+	position 1652.1 0 295.069;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 9;
+	visGroupId 0;
+	region 566;
+};
+mcd_barrier01
+{
+	name "";
+	position 1653.47 0 286.67;
+	rotation 0 48.219 0;
+	tileX 65535;
+	tileY 7;
 	visGroupId 0;
 	region 566;
 };
@@ -94525,6 +94885,156 @@ lamp01
 	rotation 0 -90 0;
 	tileX 52;
 	tileY 51;
+	visGroupId 0;
+	region 598;
+};
+mcd_barrel01
+{
+	name "";
+	position 1655.08 0.103134 544.686;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 61;
+	visGroupId 0;
+	region 598;
+};
+mcd_barrel01
+{
+	name "";
+	position 1654.83 0.103133 530.688;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 4;
+	visGroupId 0;
+	region 598;
+};
+mcd_barrier01
+{
+	name "";
+	position 1655.37 0.103133 529.287;
+	rotation 180 73.7698 180;
+	tileX 65535;
+	tileY 4;
+	visGroupId 0;
+	region 598;
+};
+mcd_barrier01
+{
+	name "";
+	position 1655.62 0.103133 532.303;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 5;
+	visGroupId 0;
+	region 598;
+};
+mcd_barrier01
+{
+	name "";
+	position 1655.67 0.103133 542.49;
+	rotation 180 82.4768 180;
+	tileX 65535;
+	tileY 7;
+	visGroupId 0;
+	region 598;
+};
+mcd_barrier01
+{
+	name "";
+	position 1655.8 0.103135 546.371;
+	rotation 0 60.4632 0;
+	tileX 65535;
+	tileY 8;
+	visGroupId 0;
+	region 598;
+};
+mcd_barrier01
+{
+	name "";
+	position 1657.31 0.103133 544.359;
+	rotation 180 -0.509924 180;
+	tileX 65535;
+	tileY 8;
+	visGroupId 0;
+	region 598;
+};
+mcd_cone01
+{
+	name "";
+	position 1653.04 0.103133 530.025;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 4;
+	visGroupId 0;
+	region 598;
+};
+mcd_cone01
+{
+	name "";
+	position 1654.59 0.103133 543.814;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 7;
+	visGroupId 0;
+	region 598;
+};
+mcd_cone01
+{
+	name "";
+	position 1654.13 0.103134 546.476;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 8;
+	visGroupId 0;
+	region 598;
+};
+mcd_cone01
+{
+	name "";
+	position 1656.7 0.0968628 531.701;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 4;
+	visGroupId 0;
+	region 598;
+};
+mcd_cone01
+{
+	name "";
+	position 1656.59 0.103133 530.675;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 4;
+	visGroupId 0;
+	region 598;
+};
+mcd_sign_speedlimit30
+{
+	name "";
+	position 1659.11 9.53674e-07 638.564;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 31;
+	visGroupId 0;
+	region 598;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1653.11 0 716.629;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 51;
+	visGroupId 0;
+	region 598;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1659 -1.90735e-06 699.426;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 46;
 	visGroupId 0;
 	region 598;
 };
@@ -97168,6 +97678,96 @@ mcd_fence01
 	visGroupId 0;
 	region 630;
 };
+mcd_barrel01
+{
+	name "";
+	position 1683.65 0.104272 806.963;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 10;
+	visGroupId 0;
+	region 630;
+};
+mcd_cone01
+{
+	name "";
+	position 1682.68 0.104272 807.589;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 9;
+	visGroupId 0;
+	region 630;
+};
+mcd_barrier01
+{
+	name "";
+	position 1682.4 0.104272 805.624;
+	rotation 0 44.2119 0;
+	tileX 65535;
+	tileY 9;
+	visGroupId 0;
+	region 630;
+};
+mcd_barrier01
+{
+	name "";
+	position 1684.17 0.104271 808.462;
+	rotation 180 75.9893 180;
+	tileX 65535;
+	tileY 10;
+	visGroupId 0;
+	region 630;
+};
+mcd_barrier01
+{
+	name "";
+	position 1685.16 0.104272 806.359;
+	rotation 180 39.2066 180;
+	tileX 65535;
+	tileY 9;
+	visGroupId 0;
+	region 630;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1653.42 0 829.004;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 15;
+	visGroupId 0;
+	region 630;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1634.74 0 829.483;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 15;
+	visGroupId 0;
+	region 630;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1653.37 1.90735e-06 940.82;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 43;
+	visGroupId 0;
+	region 630;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1659.4 0 921.161;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 38;
+	visGroupId 0;
+	region 630;
+};
 00_RoadsBigSE02
 {
 	name "";
@@ -99455,6 +100055,46 @@ mcd_fence01
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 65535;
+	visGroupId 0;
+	region 662;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1658.39 -4.76837e-07 1035.26;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 2;
+	visGroupId 0;
+	region 662;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1653.51 0 1054.26;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 7;
+	visGroupId 0;
+	region 662;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1653.21 0 1173.65;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 37;
+	visGroupId 0;
+	region 662;
+};
+mcd_sign_noentry
+{
+	name "";
+	position 1658.44 0 1147.01;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 30;
 	visGroupId 0;
 	region 662;
 };
@@ -105885,6 +106525,186 @@ mcd_palm02psx
 	rotation 0 -90 0;
 	tileX 7;
 	tileY 6;
+	visGroupId 0;
+	region 663;
+};
+mcd_table01
+{
+	name "";
+	position 1812.47 -9.53674e-07 1115.87;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 22;
+	visGroupId 0;
+	region 663;
+};
+mcd_table01
+{
+	name "";
+	position 1813.77 0 1119.52;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 23;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1813.87 -4.76837e-07 1120.76;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 24;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1812.42 -4.76837e-07 1119.5;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 23;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1815.06 -4.76837e-07 1119.6;
+	rotation 0 -180 0;
+	tileX 65535;
+	tileY 23;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1813.84 -4.76837e-07 1118.29;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 23;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1812.47 -4.76837e-07 1117.47;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 23;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1813.64 0 1115.91;
+	rotation 0 -180 0;
+	tileX 65535;
+	tileY 22;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1812.45 -4.76837e-07 1114.89;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 22;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1811.29 -4.76837e-07 1116.03;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 23;
+	visGroupId 0;
+	region 663;
+};
+mcd_umbrella01
+{
+	name "";
+	position 1813.75 0 1119.54;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 23;
+	visGroupId 0;
+	region 663;
+};
+mcd_umbrella01
+{
+	name "";
+	position 1812.45 -1.19209e-07 1115.87;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 22;
+	visGroupId 0;
+	region 663;
+};
+mcd_umbrella01
+{
+	name "";
+	position 1805.92 0 1120.77;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 65535;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1807.22 -4.76837e-07 1120.83;
+	rotation 0 -180 0;
+	tileX 65535;
+	tileY 65535;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1806.03 -4.76837e-07 1121.99;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 65535;
+	visGroupId 0;
+	region 663;
+};
+mcd_table01
+{
+	name "";
+	position 1805.93 0 1120.75;
+	rotation 0 -90 0;
+	tileX 65535;
+	tileY 65535;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1804.59 -4.76837e-07 1120.73;
+	rotation 0 0 0;
+	tileX 65535;
+	tileY 65535;
+	visGroupId 0;
+	region 663;
+};
+mcd_chair01
+{
+	name "";
+	position 1806 -4.76837e-07 1119.52;
+	rotation 0 -270 0;
+	tileX 65535;
+	tileY 65535;
 	visGroupId 0;
 	region 663;
 };

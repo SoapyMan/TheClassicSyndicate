@@ -8,5 +8,5 @@ visgroup 1
 {
 	name invis_walls;
 	enabled 1;
-	visible 1;
+	visible 0;
 };
