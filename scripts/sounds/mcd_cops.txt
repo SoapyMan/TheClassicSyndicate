@@ -1,6 +1,6 @@
 default channel CHAN_VOICE;
 default is2d	1;
-default volume	0.8;
+default volume	1.0;
 
 "cop.pursuit"
 {
@@ -62,8 +62,6 @@ default volume	0.8;
 		wave 	"cops_eng/suspect_is_heading.wav";
 		wave 	"cops_eng/suspect_is_heading.wav";
 	}
-
-	volume		1.0;
 };
 
 "cop.taunt"

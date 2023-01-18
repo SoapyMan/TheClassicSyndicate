@@ -15,6 +15,8 @@ MISSION.LoadingScreen = "resources/loadingscreen_mcd.res"
 -- Mission initialization
 ----------------------------------------------------------------------------------------------
 
+sounds:LoadScript(EmitterSounds.iview)
+
 MISSION.Hud = "resources/hud/mcd_pkd.res"
 
 MISSION.RotationCheckThreshold = 80		-- degress
