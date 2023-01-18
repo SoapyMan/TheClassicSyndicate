@@ -1,0 +1,2128 @@
+occluder
+{
+	start -1800.97 0 -471.686;
+	end -1749.44 -3.8147e-06 -438.244;
+	height 7.27704;
+	region 456;
+};
+occluder
+{
+	start -1845.81 7.62939e-06 -248.369;
+	end -1726.78 0 -350.669;
+	height 6.5638;
+	region 488;
+};
+occluder
+{
+	start -1590.9 -7.62939e-06 -928.958;
+	end -1679.57 0 -672.491;
+	height 5.20802;
+	region 393;
+};
+occluder
+{
+	start -1613.33 -7.62939e-06 -821.035;
+	end -1350.29 0 -928.082;
+	height 5.4236;
+	region 393;
+};
+occluder
+{
+	start -1594.39 0 -633.096;
+	end -1677.8 0 -529.6;
+	height 6.38897;
+	region 425;
+};
+occluder
+{
+	start -1670.11 0 -633.677;
+	end -1597.53 0 -528.937;
+	height 6.31545;
+	region 425;
+};
+occluder
+{
+	start -1591.34 -7.62939e-06 -670.758;
+	end -1680.67 0 -928.603;
+	height 5.56213;
+	region 425;
+};
+occluder
+{
+	start -1728.81 1.52588e-05 -528.357;
+	end -1834.96 0 -644.675;
+	height 6.02548;
+	region 425;
+};
+occluder
+{
+	start -1727.81 0 -662.085;
+	end -1840.87 0 -528.296;
+	height 5.96417;
+	region 425;
+};
+occluder
+{
+	start -1552.23 0 -635.672;
+	end -1483.05 0 -534.89;
+	height 6.51434;
+	region 425;
+};
+occluder
+{
+	start -1557.12 7.62939e-06 -535.093;
+	end -1474.67 7.62939e-06 -637.958;
+	height 6.49586;
+	region 425;
+};
+occluder
+{
+	start -1560.16 7.62939e-06 -352.062;
+	end -1470.51 0 -237.745;
+	height 4.91136;
+	region 457;
+};
+occluder
+{
+	start -1607.06 -7.62939e-06 -396.461;
+	end -1665.43 -3.8147e-06 -482.056;
+	height 6.83202;
+	region 457;
+};
+occluder
+{
+	start -1661.72 0 -396.97;
+	end -1607.17 -3.8147e-06 -481.922;
+	height 7.48623;
+	region 457;
+};
+occluder
+{
+	start -1666.52 7.62939e-06 -339.543;
+	end -1607.55 0 -253.01;
+	height 6.49509;
+	region 457;
+};
+occluder
+{
+	start -1728.34 0 -383.636;
+	end -1817.24 0 -409.25;
+	height 5.28899;
+	region 457;
+};
+occluder
+{
+	start -1726.87 -1.90735e-06 -409.513;
+	end -1816.6 0 -382.581;
+	height 5.22154;
+	region 457;
+};
+occluder
+{
+	start -1748.5 0 -473.198;
+	end -1800.51 0 -440.334;
+	height 6.45422;
+	region 457;
+};
+occluder
+{
+	start -1544.3 0 -111.11;
+	end -1495.92 -3.8147e-06 -193.433;
+	height 5.77604;
+	region 489;
+};
+occluder
+{
+	start -1677.46 0 -101.446;
+	end -1597.6 0 -162.105;
+	height 15.0629;
+	region 489;
+};
+occluder
+{
+	start -1669.9 -3.8147e-06 -161.704;
+	end -1593.33 0 -97.6425;
+	height 15.1332;
+	region 489;
+};
+occluder
+{
+	start -1726.88 7.62939e-06 -254.735;
+	end -1839.75 0 -349.798;
+	height 6.39719;
+	region 489;
+};
+occluder
+{
+	start -1666.99 0 -254.028;
+	end -1615.8 0 -336.718;
+	height 6.38926;
+	region 489;
+};
+occluder
+{
+	start -1552.66 -7.62939e-06 17.3221;
+	end -1473.91 0 -46.7546;
+	height 14.8102;
+	region 521;
+};
+occluder
+{
+	start -1308 0 -830.694;
+	end -1011.87 7.62939e-06 -903.114;
+	height 7.41769;
+	region 394;
+};
+occluder
+{
+	start -1352.15 7.62939e-06 -816.675;
+	end -1582.37 0 -929.333;
+	height 5.38555;
+	region 394;
+};
+occluder
+{
+	start -1493.35 0 -783.136;
+	end -1557.88 0 -719.26;
+	height 12.2258;
+	region 394;
+};
+occluder
+{
+	start -1434.76 0 -533.925;
+	end -1255.55 0 -638.678;
+	height 6.48008;
+	region 426;
+};
+occluder
+{
+	start -1286.94 0 -534.988;
+	end -1434.44 -7.62939e-06 -633.592;
+	height 6.26792;
+	region 426;
+};
+occluder
+{
+	start -1493.67 0 -673.821;
+	end -1558.55 0 -705.875;
+	height 11.9193;
+	region 426;
+};
+occluder
+{
+	start -1484.31 0 -703.822;
+	end -1555.01 0 -678.385;
+	height 12.0703;
+	region 426;
+};
+occluder
+{
+	start -1515.1 0 -718.983;
+	end -1550.34 -3.8147e-06 -775.073;
+	height 12.1731;
+	region 426;
+};
+occluder
+{
+	start -1436.79 0 -675.88;
+	end -1353.18 0 -777.789;
+	height 6.1039;
+	region 426;
+};
+occluder
+{
+	start -1357.13 0 -673.912;
+	end -1429.77 -7.62939e-06 -778.922;
+	height 6.15104;
+	region 426;
+};
+occluder
+{
+	start -1289.46 -7.62939e-06 -286.856;
+	end -972.727 -7.62939e-06 -143.249;
+	height 6.49182;
+	region 458;
+};
+occluder
+{
+	start -1471.35 7.62939e-06 -352.136;
+	end -1560.64 0 -238.569;
+	height 4.15163;
+	region 458;
+};
+occluder
+{
+	start -1472.36 7.62939e-06 -385.642;
+	end -1548.11 0 -483.683;
+	height 5.1909;
+	region 458;
+};
+occluder
+{
+	start -1474.94 0 -494.132;
+	end -1558.25 3.8147e-06 -385.14;
+	height 5.19456;
+	region 458;
+};
+occluder
+{
+	start -1436.36 7.62939e-06 -493.324;
+	end -1268.53 0 -387.838;
+	height 5.96703;
+	region 458;
+};
+occluder
+{
+	start -1487.38 0 -110.572;
+	end -1542.53 0 -193.382;
+	height 5.75211;
+	region 490;
+};
+occluder
+{
+	start -1275.65 0 -5.43987;
+	end -1328.86 0 -35.4949;
+	height 10.3775;
+	region 490;
+};
+occluder
+{
+	start -1330.84 0 -1.27927;
+	end -1282.16 0 -34.4765;
+	height 9.70118;
+	region 490;
+};
+occluder
+{
+	start -1353.73 0 -42.1535;
+	end -1433.61 0 17.6518;
+	height 14.7976;
+	region 490;
+};
+occluder
+{
+	start -1438.55 0 -46.7642;
+	end -1360.93 0 18.368;
+	height 14.7804;
+	region 490;
+};
+occluder
+{
+	start -1366.83 0 -192.867;
+	end -1416.94 0 -110.877;
+	height 6.40792;
+	region 490;
+};
+occluder
+{
+	start -1368.14 0 -110.518;
+	end -1425.75 0 -194.536;
+	height 6.60854;
+	region 490;
+};
+occluder
+{
+	start -1480.95 -7.62939e-06 18.6468;
+	end -1558.22 0 -46.8312;
+	height 14.7342;
+	region 522;
+};
+occluder
+{
+	start -1128.37 -1.52588e-05 -772.87;
+	end -1256.91 -1.52588e-05 -549.942;
+	height 7.0231;
+	region 395;
+};
+occluder
+{
+	start -1235.12 -1.52588e-05 -773.207;
+	end -1069.7 0 -561.889;
+	height 7.21429;
+	region 395;
+};
+occluder
+{
+	start -1267.7 0 -493.718;
+	end -1436.72 7.62939e-06 -387.26;
+	height 5.98554;
+	region 459;
+};
+occluder
+{
+	start -1017.29 0 -482.04;
+	end -1274.43 0 -481.736;
+	height 4.94198;
+	region 459;
+};
+occluder
+{
+	start -981.635 1.52588e-05 -773.406;
+	end -748.887 0 -586.406;
+	height 6.49126;
+	region 396;
+};
+occluder
+{
+	start -1008 0 -840.727;
+	end -1319.25 0 -926.887;
+	height 7.50166;
+	region 396;
+};
+occluder
+{
+	start -995.75 0 -819.914;
+	end -879.392 0 -916.869;
+	height 8.07957;
+	region 396;
+};
+occluder
+{
+	start -876.743 -7.62939e-06 -826.171;
+	end -981.895 0 -917.202;
+	height 7.47277;
+	region 396;
+};
+occluder
+{
+	start -985.923 0 -284.58;
+	end -694.598 0 -140.184;
+	height 6.33452;
+	region 460;
+};
+occluder
+{
+	start -993.643 0 -282.105;
+	end -1287.71 0 -162.555;
+	height 7.24275;
+	region 460;
+};
+occluder
+{
+	start -1040.48 0 -478.815;
+	end -768.62 0 -476.962;
+	height 4.63634;
+	region 460;
+};
+occluder
+{
+	start -529.434 0 -820.965;
+	end -664.651 0 -925.288;
+	height 7.52685;
+	region 397;
+};
+occluder
+{
+	start -663.035 -7.62939e-06 -825.407;
+	end -531.578 -7.62939e-06 -917.717;
+	height 8.10484;
+	region 397;
+};
+occluder
+{
+	start -658.604 -7.62939e-06 -751.155;
+	end -388.45 0 -544.955;
+	height 7.35651;
+	region 429;
+};
+occluder
+{
+	start -660.112 0 -720.222;
+	end -1059.13 0 -562.619;
+	height 6.67471;
+	region 429;
+};
+occluder
+{
+	start -541.928 0 -318.423;
+	end -627.254 0 -208.817;
+	height 20.099;
+	region 461;
+};
+occluder
+{
+	start -711.904 0 -282.238;
+	end -937.079 1.52588e-05 -140.433;
+	height 7.01308;
+	region 461;
+};
+occluder
+{
+	start -772.229 0 -476.939;
+	end -512.759 7.62939e-06 -473.944;
+	height 4.66939;
+	region 461;
+};
+occluder
+{
+	start -527.036 0 -212.223;
+	end -447.793 0 -316.487;
+	height 21.485;
+	region 493;
+};
+occluder
+{
+	start -551.594 0 -210.576;
+	end -609.402 0 -318.163;
+	height 20.3346;
+	region 493;
+};
+occluder
+{
+	start -342.211 0 -1106.69;
+	end -257.566 3.8147e-06 -1210.05;
+	height 6.01403;
+	region 366;
+};
+occluder
+{
+	start -262.312 -7.62939e-06 -1106.47;
+	end -333.641 0 -1210.09;
+	height 6.28653;
+	region 366;
+};
+occluder
+{
+	start -258.042 3.8147e-06 -1070.14;
+	end -341.663 0 -1017.36;
+	height 6.65092;
+	region 366;
+};
+occluder
+{
+	start -333.795 0 -1064.22;
+	end -262.436 0 -1019.04;
+	height 6.75374;
+	region 366;
+};
+occluder
+{
+	start -385.14 0 -665.504;
+	end -654.565 0 -548.451;
+	height 7.23554;
+	region 430;
+};
+occluder
+{
+	start -342.039 0 -297.683;
+	end -257.991 0 -350.101;
+	height 7.72335;
+	region 462;
+};
+occluder
+{
+	start -262.559 0 -298.135;
+	end -332.727 0 -344.542;
+	height 8.33022;
+	region 462;
+};
+occluder
+{
+	start -343.336 7.62939e-06 -438.541;
+	end -258.404 0 -489.871;
+	height 8.88189;
+	region 462;
+};
+occluder
+{
+	start -266.312 0 -445.006;
+	end -338.041 7.62939e-06 -490.509;
+	height 8.57809;
+	region 462;
+};
+occluder
+{
+	start -285.548 3.8147e-06 -262.127;
+	end -262.644 0 -247.123;
+	height 7.71668;
+	region 462;
+};
+occluder
+{
+	start -287.131 1.90735e-06 -406.29;
+	end -260.206 1.90735e-06 -388.282;
+	height 7.14283;
+	region 462;
+};
+occluder
+{
+	start -287.967 0 -388.248;
+	end -260.737 1.90735e-06 -405.706;
+	height 6.51775;
+	region 462;
+};
+occluder
+{
+	start -499.778 -1.90735e-06 -461.824;
+	end -480.123 0 -481.536;
+	height 29.8077;
+	region 462;
+};
+occluder
+{
+	start -499.559 1.90735e-06 -477.378;
+	end -476.406 0 -462.183;
+	height 30.1057;
+	region 462;
+};
+occluder
+{
+	start -258.565 0 -40.9802;
+	end -341.815 0 61.7795;
+	height 6.68596;
+	region 494;
+};
+occluder
+{
+	start -333.986 -7.62939e-06 -42.0762;
+	end -261.89 -7.62939e-06 62.1372;
+	height 6.9284;
+	region 494;
+};
+occluder
+{
+	start -261.98 0 -97.8003;
+	end -335.217 0 -202.526;
+	height 8.00106;
+	region 494;
+};
+occluder
+{
+	start -257.454 0 -201.021;
+	end -342 -7.62939e-06 -97.1003;
+	height 7.48149;
+	region 494;
+};
+occluder
+{
+	start -285.247 0 -245.581;
+	end -261.261 0 -262.866;
+	height 7.80148;
+	region 494;
+};
+occluder
+{
+	start -461.919 0 -210.17;
+	end -522.299 7.62939e-06 -318.829;
+	height 21.7224;
+	region 494;
+};
+occluder
+{
+	start -386.296 1.90735e-06 -46.6281;
+	end -388.362 0 92.1317;
+	height 5.65965;
+	region 494;
+};
+occluder
+{
+	start -223.138 0 -1105.07;
+	end -138.858 0 -1213.67;
+	height 21.1847;
+	region 367;
+};
+occluder
+{
+	start -213.338 0 -1214.98;
+	end -154.544 0 -1107.11;
+	height 21.5106;
+	region 367;
+};
+occluder
+{
+	start -25.2832 0 -1109.78;
+	end -98.2771 0 -1213.79;
+	height 6.24464;
+	region 367;
+};
+occluder
+{
+	start -83.7451 0 -1109.98;
+	end -17.4788 0 -1214.28;
+	height 7.05509;
+	region 367;
+};
+occluder
+{
+	start -212.815 0 -924.618;
+	end -154.878 0 -818.631;
+	height 22.2288;
+	region 399;
+};
+occluder
+{
+	start -137.564 0 -926.509;
+	end -221.543 0 -818.003;
+	height 22.4689;
+	region 399;
+};
+occluder
+{
+	start -222.076 0 -962.578;
+	end -137.513 -7.62939e-06 -1070.28;
+	height 25.6202;
+	region 399;
+};
+occluder
+{
+	start -146.107 7.62939e-06 -963.412;
+	end -212.111 0 -1045.49;
+	height 26.7421;
+	region 399;
+};
+occluder
+{
+	start -101.529 0 -962.343;
+	end -18.958 -7.62939e-06 -1068.33;
+	height 20.8197;
+	region 399;
+};
+occluder
+{
+	start -24.7778 0 -961.177;
+	end -84.8633 0 -1068.2;
+	height 21.0394;
+	region 399;
+};
+occluder
+{
+	start -93.9475 0 -923.152;
+	end -22.1895 0 -817.768;
+	height 6.08369;
+	region 399;
+};
+occluder
+{
+	start -101.941 0 -819.009;
+	end -17.4514 0 -921.079;
+	height 6.07486;
+	region 399;
+};
+occluder
+{
+	start -221.052 0 -294.318;
+	end -138.814 0 -345.961;
+	height 6.8649;
+	region 463;
+};
+occluder
+{
+	start -145.655 0 -300.075;
+	end -217.81 0 -346.591;
+	height 6.82953;
+	region 463;
+};
+occluder
+{
+	start -223.258 0 -386.997;
+	end -137.749 0 -490.72;
+	height 7.63811;
+	region 463;
+};
+occluder
+{
+	start -142.153 0 -387.132;
+	end -213.64 -7.62939e-06 -490.12;
+	height 7.28055;
+	region 463;
+};
+occluder
+{
+	start -98.062 0 -394.728;
+	end -19.3745 -7.62939e-06 -454.117;
+	height 22.2009;
+	region 463;
+};
+occluder
+{
+	start -26.0776 0 -394.667;
+	end -101.209 0 -458.053;
+	height 21.6443;
+	region 463;
+};
+occluder
+{
+	start -17.3872 0 -42.0986;
+	end -101.931 7.62939e-06 61.9565;
+	height 5.95837;
+	region 495;
+};
+occluder
+{
+	start -93.5781 7.62939e-06 -41.2588;
+	end -22.8044 7.62939e-06 62.2952;
+	height 6.59201;
+	region 495;
+};
+occluder
+{
+	start -137.156 -7.62939e-06 -205.427;
+	end -222.076 0 -101.837;
+	height 9.19961;
+	region 495;
+};
+occluder
+{
+	start -218.035 7.62939e-06 -206.24;
+	end -145.666 7.62939e-06 -101.417;
+	height 9.06367;
+	region 495;
+};
+occluder
+{
+	start -17.9092 3.8147e-06 -205.629;
+	end -99.9912 0 -153.914;
+	height 7.02583;
+	region 495;
+};
+occluder
+{
+	start -93.5308 0 -200.086;
+	end -22.3955 -3.8147e-06 -153.557;
+	height 7.21278;
+	region 495;
+};
+occluder
+{
+	start -102.486 0 -242.382;
+	end -17.7637 -7.62939e-06 -345.439;
+	height 8.44129;
+	region 495;
+};
+occluder
+{
+	start -21.5171 -7.62939e-06 -242.407;
+	end -93.4619 0 -345.928;
+	height 8.29051;
+	region 495;
+};
+occluder
+{
+	start -19.8438 0 -98.8584;
+	end -19.8438 0 -98.8584;
+	height 30.2671;
+	region 495;
+};
+occluder
+{
+	start -19.0156 0 -98.7234;
+	end -48.3269 0 -121.439;
+	height 8.80426;
+	region 495;
+};
+occluder
+{
+	start -18.2861 0 -121.009;
+	end -49.5396 0 -99.8376;
+	height 9.11808;
+	region 495;
+};
+occluder
+{
+	start -18.6538 -7.62939e-06 90.8306;
+	end -102.386 0 194.281;
+	height 7.832;
+	region 527;
+};
+occluder
+{
+	start -97.5891 -7.62939e-06 90.9507;
+	end -26.2168 -7.62939e-06 193.273;
+	height 7.64772;
+	region 527;
+};
+occluder
+{
+	start -223.188 0 57.6709;
+	end -137.022 0 6.10498;
+	height 7.50198;
+	region 527;
+};
+occluder
+{
+	start -141.194 0 58.0757;
+	end -213.517 0 11.8303;
+	height 7.51903;
+	region 527;
+};
+occluder
+{
+	start -146.015 0 234.587;
+	end -189.323 0 97.4395;
+	height 5.40076;
+	region 527;
+};
+occluder
+{
+	start -145.917 0 102.422;
+	end -193.66 0 220.087;
+	height 5.43118;
+	region 527;
+};
+occluder
+{
+	start 42.7664 0 -1071.15;
+	end 102.153 0 -962.551;
+	height 20.538;
+	region 368;
+};
+occluder
+{
+	start 162.894 7.62939e-06 -1045.98;
+	end 229.607 0 -962.269;
+	height 20.6783;
+	region 368;
+};
+occluder
+{
+	start 34.0005 0 -1108.94;
+	end 116.931 -3.8147e-06 -1162.74;
+	height 5.79744;
+	region 368;
+};
+occluder
+{
+	start 114.056 0 -1110.32;
+	end 41.8599 0 -1156.63;
+	height 5.76008;
+	region 368;
+};
+occluder
+{
+	start 33.3999 -7.62939e-06 -961.354;
+	end 117.583 0 -1069.92;
+	height 20.8084;
+	region 400;
+};
+occluder
+{
+	start 154.346 0 -961.869;
+	end 237.686 0 -1070.07;
+	height 20.9953;
+	region 400;
+};
+occluder
+{
+	start 37.8535 0 -926.544;
+	end 110.294 0 -821.251;
+	height 7.04627;
+	region 400;
+};
+occluder
+{
+	start 33.0635 0 -822.326;
+	end 118.16 0 -925.892;
+	height 7.04259;
+	region 400;
+};
+occluder
+{
+	start 33.5344 0 -442.271;
+	end 117.65 -3.8147e-06 -493.421;
+	height 7.0379;
+	region 464;
+};
+occluder
+{
+	start 114.964 0 -442.162;
+	end 42.9556 -3.8147e-06 -488.995;
+	height 6.87039;
+	region 464;
+};
+occluder
+{
+	start 34.1404 -1.90735e-06 -386.892;
+	end 65.1719 -1.90735e-06 -409.326;
+	height 6.25065;
+	region 464;
+};
+occluder
+{
+	start 35.3247 0 -408.042;
+	end 65.0605 0 -386.937;
+	height 6.43487;
+	region 464;
+};
+occluder
+{
+	start 117.59 0 -45.5342;
+	end 34.4575 0 58.0212;
+	height 7.93973;
+	region 496;
+};
+occluder
+{
+	start 38.5444 0 -46.0032;
+	end 109.23 0 58.603;
+	height 8.20544;
+	region 496;
+};
+occluder
+{
+	start 116.81 0 -202.28;
+	end 34.498 0 -150.425;
+	height 7.1116;
+	region 496;
+};
+occluder
+{
+	start 38.2646 0 -201.817;
+	end 108.974 -7.62939e-06 -156.101;
+	height 7.04174;
+	region 496;
+};
+occluder
+{
+	start 34.9121 7.62939e-06 -242.305;
+	end 118.457 0 -350.728;
+	height 16.0545;
+	region 496;
+};
+occluder
+{
+	start 110.672 0 -242.89;
+	end 47.6482 0 -325.083;
+	height 15.717;
+	region 496;
+};
+occluder
+{
+	start 41.6953 0 96.9043;
+	end 132.458 1.52588e-05 229.876;
+	height 8.38169;
+	region 528;
+};
+occluder
+{
+	start 43.2102 0 229.007;
+	end 134.199 1.52588e-05 99.5151;
+	height 8.70461;
+	region 528;
+};
+occluder
+{
+	start 764.194 -9.53674e-07 -791.756;
+	end 779.746 0 -696.108;
+	height 5.91005;
+	region 402;
+};
+occluder
+{
+	start 764.269 0 -679.599;
+	end 779.571 -3.8147e-06 -608.751;
+	height 5.90572;
+	region 434;
+};
+occluder
+{
+	start 764.181 0 -608.149;
+	end 779.861 0 -679.811;
+	height 5.76923;
+	region 434;
+};
+occluder
+{
+	start 764.354 0 -696.356;
+	end 779.864 3.8147e-06 -791.684;
+	height 5.89739;
+	region 434;
+};
+occluder
+{
+	start 704.031 0 50.9265;
+	end 769.18 0 -65.579;
+	height 8.93546;
+	region 530;
+};
+occluder
+{
+	start 915.564 0 -780.428;
+	end 900.089 4.76837e-07 -756.114;
+	height 5.88799;
+	region 403;
+};
+occluder
+{
+	start 796.124 0 -800.455;
+	end 835.902 4.76837e-07 -800.239;
+	height 6.00181;
+	region 403;
+};
+occluder
+{
+	start 844.067 0 -800.217;
+	end 875.855 0 -800.131;
+	height 5.95407;
+	region 403;
+};
+occluder
+{
+	start 852.011 0 -800.209;
+	end 876.093 0 -815.778;
+	height 5.73577;
+	region 403;
+};
+occluder
+{
+	start 779.951 9.53674e-07 -847.928;
+	end 764.404 0 -800.225;
+	height 5.95181;
+	region 403;
+};
+occluder
+{
+	start 779.909 4.76837e-07 -800.129;
+	end 764.127 9.53674e-07 -847.908;
+	height 6.03855;
+	region 403;
+};
+occluder
+{
+	start 1004.23 4.76837e-07 -771.717;
+	end 1019.84 0 -771.83;
+	height 5.92802;
+	region 403;
+};
+occluder
+{
+	start 844.002 -4.76837e-07 -640.09;
+	end 788.107 4.76837e-07 -640.017;
+	height 6.02385;
+	region 435;
+};
+occluder
+{
+	start 788.095 -4.76837e-07 -763.938;
+	end 812.435 4.76837e-07 -748.488;
+	height 5.99253;
+	region 435;
+};
+occluder
+{
+	start 860.07 0 -748.148;
+	end 883.449 0 -763.68;
+	height 5.87;
+	region 435;
+};
+occluder
+{
+	start 827.943 0 -696.021;
+	end 804.288 -4.76837e-07 -711.569;
+	height 6.05027;
+	region 435;
+};
+occluder
+{
+	start 796.081 0 -711.838;
+	end 875.83 0 -711.789;
+	height 5.99441;
+	region 435;
+};
+occluder
+{
+	start 852.338 0 -711.758;
+	end 875.925 -4.76837e-07 -696.076;
+	height 5.97995;
+	region 435;
+};
+occluder
+{
+	start 883.845 0 -655.83;
+	end 860.05 0 -640.344;
+	height 6.08238;
+	region 435;
+};
+occluder
+{
+	start 915.761 0 -640.09;
+	end 915.854 -4.76837e-07 -671.937;
+	height 5.94128;
+	region 435;
+};
+occluder
+{
+	start 900.089 0 -640.046;
+	end 900.087 0 -671.92;
+	height 6.14737;
+	region 435;
+};
+occluder
+{
+	start 900.154 2.38419e-07 -711.876;
+	end 900.048 -2.38419e-07 -679.994;
+	height 6.03812;
+	region 435;
+};
+occluder
+{
+	start 915.956 0 -756.023;
+	end 915.523 -2.38419e-07 -803.491;
+	height 6.01851;
+	region 435;
+};
+occluder
+{
+	start 852.068 0 -748.24;
+	end 883.966 4.76837e-07 -748.058;
+	height 5.97569;
+	region 435;
+};
+occluder
+{
+	start 852.014 -1.19209e-07 -763.936;
+	end 883.924 0 -763.911;
+	height 5.97965;
+	region 435;
+};
+occluder
+{
+	start 843.92 4.76837e-07 -748.318;
+	end 788.121 0 -748.334;
+	height 6.06016;
+	region 435;
+};
+occluder
+{
+	start 819.974 0 -763.736;
+	end 788.067 0 -763.983;
+	height 5.99256;
+	region 435;
+};
+occluder
+{
+	start 843.933 0 -763.596;
+	end 828.036 0 -763.78;
+	height 6.09668;
+	region 435;
+};
+occluder
+{
+	start 788.048 0 -655.933;
+	end 819.898 0 -655.833;
+	height 6.02587;
+	region 435;
+};
+occluder
+{
+	start 788.066 -4.76837e-07 -640.026;
+	end 819.835 0 -655.907;
+	height 5.95492;
+	region 435;
+};
+occluder
+{
+	start 852.08 9.53674e-07 -655.73;
+	end 883.865 -1.90735e-06 -655.896;
+	height 5.68551;
+	region 435;
+};
+occluder
+{
+	start 852.055 2.38419e-07 -640.33;
+	end 883.9 0 -640.138;
+	height 5.99516;
+	region 435;
+};
+occluder
+{
+	start 915.633 0 -680.078;
+	end 915.927 0 -711.886;
+	height 6.286;
+	region 435;
+};
+occluder
+{
+	start 915.918 0 -711.907;
+	end 900.078 4.76837e-07 -688.031;
+	height 5.96915;
+	region 435;
+};
+occluder
+{
+	start 900.306 0 -664.219;
+	end 915.792 0 -640.14;
+	height 5.78695;
+	region 435;
+};
+occluder
+{
+	start 932.157 -1.19209e-07 -679.934;
+	end 932.14 -1.90735e-06 -648.103;
+	height 5.92653;
+	region 435;
+};
+occluder
+{
+	start 947.977 9.53674e-07 -648.116;
+	end 947.824 0 -679.882;
+	height 5.95955;
+	region 435;
+};
+occluder
+{
+	start 947.604 0 -688.169;
+	end 947.792 0 -703.936;
+	height 5.93196;
+	region 435;
+};
+occluder
+{
+	start 947.705 0 -712.109;
+	end 947.789 0 -743.831;
+	height 5.92339;
+	region 435;
+};
+occluder
+{
+	start 932.288 -2.38419e-07 -688.061;
+	end 932.21 -4.76837e-07 -743.89;
+	height 5.76189;
+	region 435;
+};
+occluder
+{
+	start 947.843 2.38419e-07 -719.962;
+	end 932.237 0 -743.86;
+	height 6.02179;
+	region 435;
+};
+occluder
+{
+	start 932.061 2.38419e-07 -648.021;
+	end 947.547 0 -672.362;
+	height 6.12716;
+	region 435;
+};
+occluder
+{
+	start 932.082 4.76837e-07 -639.856;
+	end 956.403 0 -624.103;
+	height 5.96874;
+	region 435;
+};
+occluder
+{
+	start 979.986 0 -624.059;
+	end 1003.97 0 -639.889;
+	height 6.02815;
+	region 435;
+};
+occluder
+{
+	start 972.189 -1.90735e-06 -639.832;
+	end 1003.94 0 -639.733;
+	height 5.71857;
+	region 435;
+};
+occluder
+{
+	start 963.797 1.90735e-06 -639.853;
+	end 932.205 0 -639.809;
+	height 6.08718;
+	region 435;
+};
+occluder
+{
+	start 987.953 1.19209e-07 -656.044;
+	end 987.767 -4.76837e-07 -735.917;
+	height 5.99334;
+	region 435;
+};
+occluder
+{
+	start 972.119 9.53674e-07 -767.892;
+	end 995.927 0 -752.13;
+	height 5.99891;
+	region 435;
+};
+occluder
+{
+	start 995.91 9.53674e-07 -767.984;
+	end 972.086 0 -752.045;
+	height 5.95552;
+	region 435;
+};
+occluder
+{
+	start 972.245 0 -735.939;
+	end 972.239 0 -696.065;
+	height 6.03428;
+	region 435;
+};
+occluder
+{
+	start 972.21 4.76837e-07 -687.946;
+	end 972.104 4.76837e-07 -656.079;
+	height 5.88148;
+	region 435;
+};
+occluder
+{
+	start 987.848 0 -656.13;
+	end 972.27 0 -679.982;
+	height 6.05071;
+	region 435;
+};
+occluder
+{
+	start 1019.82 0 -683.93;
+	end 1019.74 0 -652.155;
+	height 6.00891;
+	region 435;
+};
+occluder
+{
+	start 1004.03 4.76837e-07 -652.039;
+	end 1019.74 -4.76837e-07 -675.945;
+	height 5.76084;
+	region 435;
+};
+occluder
+{
+	start 1004.24 -9.53674e-07 -684.035;
+	end 1004.1 -4.76837e-07 -652.085;
+	height 5.98602;
+	region 435;
+};
+occluder
+{
+	start 1019.76 0 -755.886;
+	end 1019.75 0 -724.104;
+	height 5.78916;
+	region 435;
+};
+occluder
+{
+	start 1004.12 0 -755.891;
+	end 1004.1 1.90735e-06 -724.302;
+	height 6.05942;
+	region 435;
+};
+occluder
+{
+	start 1019.75 0 -747.983;
+	end 1004.21 0 -724.187;
+	height 6.02864;
+	region 435;
+};
+occluder
+{
+	start 1019.77 -4.76837e-07 -699.788;
+	end 1004.2 0 -699.772;
+	height 6.27444;
+	region 435;
+};
+occluder
+{
+	start 963.715 -4.76837e-07 -752.474;
+	end 963.623 0 -767.773;
+	height 5.71815;
+	region 435;
+};
+occluder
+{
+	start 916.094 0 -767.797;
+	end 940.091 2.38419e-07 -752.624;
+	height 5.89677;
+	region 435;
+};
+occluder
+{
+	start 947.895 0 -752.072;
+	end 916.145 9.53674e-07 -752.172;
+	height 5.99616;
+	region 435;
+};
+occluder
+{
+	start 906.083 0 -22.1743;
+	end 839.106 -7.62939e-06 -93.4686;
+	height 6.60808;
+	region 499;
+};
+occluder
+{
+	start 903.769 0 -109.503;
+	end 843.236 0 -31.9601;
+	height 7.54442;
+	region 499;
+};
+occluder
+{
+	start 920.791 7.62939e-06 -22.552;
+	end 979.252 7.62939e-06 -100.095;
+	height 7.35247;
+	region 499;
+};
+occluder
+{
+	start 920.455 0 -109.369;
+	end 980.33 0 -31.4586;
+	height 7.61422;
+	region 499;
+};
+occluder
+{
+	start 920.664 0 -158.323;
+	end 980.008 1.90735e-06 -235.283;
+	height 7.28099;
+	region 499;
+};
+occluder
+{
+	start 920.186 1.90735e-06 -245.627;
+	end 979.455 3.8147e-06 -167.939;
+	height 7.72087;
+	region 499;
+};
+occluder
+{
+	start 904.079 -3.8147e-06 -245.848;
+	end 840.206 0 -172.745;
+	height 8.12302;
+	region 499;
+};
+occluder
+{
+	start 903.184 0 -158.198;
+	end 842.928 0 -234.772;
+	height 6.84609;
+	region 499;
+};
+occluder
+{
+	start 769.347 0 53.679;
+	end 703.951 -7.62939e-06 -68.5639;
+	height 7.97824;
+	region 531;
+};
+occluder
+{
+	start 1079.97 0 -771.974;
+	end 1032.09 0 -756.092;
+	height 5.91361;
+	region 404;
+};
+occluder
+{
+	start 1092.1 0 -771.809;
+	end 1139.85 2.38419e-07 -755.986;
+	height 5.97935;
+	region 404;
+};
+occluder
+{
+	start 1139.87 4.76837e-07 -771.949;
+	end 1092.04 0 -756.08;
+	height 5.92313;
+	region 404;
+};
+occluder
+{
+	start 1079.87 -4.76837e-07 -756.098;
+	end 1032.03 0 -771.878;
+	height 5.83685;
+	region 436;
+};
+occluder
+{
+	start 1108.07 0 -719.875;
+	end 1139.92 -4.76837e-07 -719.956;
+	height 5.92918;
+	region 436;
+};
+occluder
+{
+	start 1139.97 0 -704.058;
+	end 1108.12 0 -704.399;
+	height 6.06999;
+	region 436;
+};
+occluder
+{
+	start 1139.81 -4.76837e-07 -719.822;
+	end 1116.09 0 -704.195;
+	height 6.04603;
+	region 436;
+};
+occluder
+{
+	start 1099.94 0 -704.088;
+	end 1043.99 0 -704.102;
+	height 6.03471;
+	region 436;
+};
+occluder
+{
+	start 1044.06 0 -719.891;
+	end 1075.88 0 -719.873;
+	height 5.95187;
+	region 436;
+};
+occluder
+{
+	start 1044.03 0 -704.04;
+	end 1068.1 0 -719.875;
+	height 5.97023;
+	region 436;
+};
+occluder
+{
+	start 1084.12 2.38419e-07 -656.24;
+	end 1139.92 0 -656.136;
+	height 6.01515;
+	region 436;
+};
+occluder
+{
+	start 1139.93 2.38419e-07 -671.885;
+	end 1108.14 0 -671.804;
+	height 5.90684;
+	region 436;
+};
+occluder
+{
+	start 1075.93 0 -671.671;
+	end 1044.16 0 -671.833;
+	height 5.97713;
+	region 436;
+};
+occluder
+{
+	start 1044.05 -2.38419e-07 -656.067;
+	end 1075.87 0 -656.388;
+	height 5.91144;
+	region 436;
+};
+occluder
+{
+	start 1044.07 0 -656.09;
+	end 1068 4.76837e-07 -671.748;
+	height 6.13746;
+	region 436;
+};
+occluder
+{
+	start 1115.66 -4.76837e-07 -671.677;
+	end 1139.9 0 -656.114;
+	height 6.02763;
+	region 436;
+};
+occluder
+{
+	start 1512.31 0 844.219;
+	end 1559.55 0 903.496;
+	height 4.68061;
+	region 629;
+};
+occluder
+{
+	start 1463.83 0 903.862;
+	end 1416.15 0 844.173;
+	height 4.26294;
+	region 629;
+};
+occluder
+{
+	start 1416.13 0.00087738 903.832;
+	end 1463.77 0 840.308;
+	height 4.74269;
+	region 629;
+};
+occluder
+{
+	start 1416.17 0 956.442;
+	end 1463.79 0 1015.88;
+	height 4.738;
+	region 629;
+};
+occluder
+{
+	start 1463.85 0 952.247;
+	end 1416.29 0 1015.77;
+	height 4.91384;
+	region 629;
+};
+occluder
+{
+	start 1512.18 0 1015.83;
+	end 1559.82 9.53674e-07 952.383;
+	height 4.77743;
+	region 629;
+};
+occluder
+{
+	start 1512.07 0 956.257;
+	end 1559.86 -9.53674e-07 1015.92;
+	height 4.3883;
+	region 629;
+};
+occluder
+{
+	start 1416.13 -9.53674e-07 1060.13;
+	end 1463.68 0 1119.78;
+	height 6.05307;
+	region 661;
+};
+occluder
+{
+	start 1463.84 -4.76837e-07 1056.24;
+	end 1416.21 -9.53674e-07 1119.7;
+	height 6.34905;
+	region 661;
+};
+occluder
+{
+	start 1512.29 0 1060.21;
+	end 1559.7 0 1119.57;
+	height 4.98955;
+	region 661;
+};
+occluder
+{
+	start 1512.13 0 1223.95;
+	end 1559.81 0 1160.42;
+	height 6.05114;
+	region 661;
+};
+occluder
+{
+	start 1516.09 0 1160.28;
+	end 1559.76 -9.53674e-07 1223.81;
+	height 6.0316;
+	region 661;
+};
+occluder
+{
+	start 1756.17 -7.62939e-06 -538.684;
+	end 1727.08 0 -622.31;
+	height 9.44094;
+	region 438;
+};
+occluder
+{
+	start 1757.9 0 -623.021;
+	end 1725.76 0 -538.578;
+	height 9.50856;
+	region 438;
+};
+occluder
+{
+	start 1751.82 1.90735e-06 -664.256;
+	end 1696.67 3.8147e-06 -728.053;
+	height 5.65978;
+	region 438;
+};
+occluder
+{
+	start 1688.21 0 -664.426;
+	end 1751.97 0 -720.024;
+	height 5.83216;
+	region 438;
+};
+occluder
+{
+	start 1754.66 -7.62939e-06 -506.357;
+	end 1725.51 -7.62939e-06 -426.685;
+	height 12.4894;
+	region 470;
+};
+occluder
+{
+	start 1757.18 0 -431.228;
+	end 1725.61 0 -508.458;
+	height 12.4805;
+	region 470;
+};
+occluder
+{
+	start 1757.69 3.8147e-06 -314.041;
+	end 1725.86 3.8147e-06 -397.931;
+	height 10.1695;
+	region 470;
+};
+occluder
+{
+	start 1757.36 0 -398.303;
+	end 1726.61 3.8147e-06 -313.707;
+	height 10.5695;
+	region 470;
+};
+occluder
+{
+	start 1681.98 0 -386.284;
+	end 1713.89 0 -397.306;
+	height 12.734;
+	region 470;
+};
+occluder
+{
+	start 1713.5 0 -385.777;
+	end 1680.91 0 -398.817;
+	height 13.3425;
+	region 470;
+};
+occluder
+{
+	start 1713.9 -7.62939e-06 -286.751;
+	end 1681.9 0 -201.35;
+	height 10.7752;
+	region 470;
+};
+occluder
+{
+	start 1757.32 0 -285.319;
+	end 1724.64 -7.62939e-06 -204.041;
+	height 12.0587;
+	region 470;
+};
+occluder
+{
+	start 1629.44 0 -285.162;
+	end 1606.23 0 -203.192;
+	height 11.8159;
+	region 470;
+};
+occluder
+{
+	start 1713.62 0 -201.657;
+	end 1686.22 0 -282.578;
+	height 10.654;
+	region 502;
+};
+occluder
+{
+	start 1757.5 0 -201.567;
+	end 1726.54 0 -281.922;
+	height 11.3514;
+	region 502;
+};
+occluder
+{
+	start 1713.91 0 -89.6255;
+	end 1685.16 -3.8147e-06 -174.137;
+	height 10.4274;
+	region 502;
+};
+occluder
+{
+	start 1714.01 0 -173.776;
+	end 1682.35 0 -89.822;
+	height 11.5217;
+	region 502;
+};
+occluder
+{
+	start 1757.62 3.8147e-06 -90.6111;
+	end 1726.88 0 -173.541;
+	height 10.5853;
+	region 502;
+};
+occluder
+{
+	start 1757.19 3.8147e-06 -173.668;
+	end 1726.27 3.8147e-06 -89.8674;
+	height 10.4379;
+	region 502;
+};
+occluder
+{
+	start 1585.07 7.62939e-06 -89.6494;
+	end 1557.57 0 -169.348;
+	height 9.78898;
+	region 502;
+};
+occluder
+{
+	start 1585.63 0 -174.188;
+	end 1553.26 -7.62939e-06 -89.8276;
+	height 9.952;
+	region 502;
+};
+occluder
+{
+	start 1629.79 7.62939e-06 -90.7561;
+	end 1597.35 7.62939e-06 -170.16;
+	height 11.8705;
+	region 502;
+};
+occluder
+{
+	start 1630.22 0 -175.522;
+	end 1598.33 0 -93.3081;
+	height 12.2436;
+	region 502;
+};
+occluder
+{
+	start 1625.92 0 -206.063;
+	end 1606.04 0 -285.984;
+	height 12.1099;
+	region 502;
+};
+occluder
+{
+	start 1680.7 -2.38419e-07 -31.1984;
+	end 1701.96 0 17.8185;
+	height 6.09449;
+	region 502;
+};
+occluder
+{
+	start 1680.09 0 -40.2243;
+	end 1758.96 0 -62.8529;
+	height 6.14367;
+	region 502;
+};
+occluder
+{
+	start 1759.46 0 -0.545762;
+	end 1735.05 0 -60.1586;
+	height 5.91473;
+	region 502;
+};
+occluder
+{
+	start 1746.42 7.62939e-06 53.501;
+	end 1686.7 0 250.217;
+	height 6.70849;
+	region 534;
+};
+occluder
+{
+	start 1686.08 0 55.0454;
+	end 1749 7.62939e-06 253.562;
+	height 6.63157;
+	region 534;
+};
+occluder
+{
+	start 1746.39 0 255.088;
+	end 1701.17 7.62939e-06 511.091;
+	height 6.85166;
+	region 534;
+};
+occluder
+{
+	start 1684.15 7.62939e-06 18.7094;
+	end 1759.88 -7.62939e-06 8.12804;
+	height 6.15413;
+	region 534;
+};
+occluder
+{
+	start 1749.9 7.62939e-06 510.691;
+	end 1706.9 7.62939e-06 260.567;
+	height 7.28399;
+	region 566;
+};
+occluder
+{
+	start 1758.02 0 722.125;
+	end 1686.16 0 797.868;
+	height 15.5444;
+	region 598;
+};
+occluder
+{
+	start 1752.03 1.90735e-06 667.644;
+	end 1700.69 0 512.913;
+	height 5.37349;
+	region 598;
+};
+occluder
+{
+	start 1751.75 0 512.287;
+	end 1708.19 0 667.728;
+	height 5.65683;
+	region 598;
+};
+occluder
+{
+	start 1757.43 -7.62939e-06 806.599;
+	end 1685.77 -7.62939e-06 726.823;
+	height 15.7195;
+	region 630;
+};
+occluder
+{
+	start 1759.48 0 919.805;
+	end 1684.2 0 836.322;
+	height 15.0099;
+	region 630;
+};
+occluder
+{
+	start 1680.36 -1.90735e-06 919.675;
+	end 1759.81 0 832.164;
+	height 14.8878;
+	region 630;
+};
+occluder
+{
+	start 1559.77 0 840.272;
+	end 1512.2 0 903.642;
+	height 4.64883;
+	region 630;
+};
+occluder
+{
+	start 1759.03 -7.62939e-06 1142.27;
+	end 1685.4 0 1061.59;
+	height 16.6952;
+	region 662;
+};
+occluder
+{
+	start 1757.2 7.62939e-06 1057.16;
+	end 1685.05 -7.62939e-06 1134.83;
+	height 16.6954;
+	region 662;
+};
+occluder
+{
+	start 1759.39 -7.62939e-06 1031.61;
+	end 1684.26 7.62939e-06 948.196;
+	height 15.1712;
+	region 662;
+};
+occluder
+{
+	start 1680.22 0 1031.86;
+	end 1759.6 0 944.499;
+	height 15.0061;
+	region 662;
+};
+occluder
+{
+	start 1559.7 0 1056.18;
+	end 1512.25 0 1119.73;
+	height 5.59782;
+	region 662;
+};
+occluder
+{
+	start 1559.81 0 1264.12;
+	end 1512.18 -9.53674e-07 1327.61;
+	height 5.89193;
+	region 662;
+};
+occluder
+{
+	start 1559.81 0 1327.77;
+	end 1512.32 1.90735e-06 1268.37;
+	height 5.90469;
+	region 694;
+};
+occluder
+{
+	start 1793.4 -3.8147e-06 -610.476;
+	end 1826.76 0 -622.646;
+	height 10.432;
+	region 439;
+};
+occluder
+{
+	start 1827.01 0 -608.756;
+	end 1793.36 0 -622.046;
+	height 10.7319;
+	region 439;
+};
+occluder
+{
+	start 1870.76 0 -622.024;
+	end 1837.42 -3.8147e-06 -538.84;
+	height 9.89237;
+	region 439;
+};
+occluder
+{
+	start 1838.26 -3.8147e-06 -621.184;
+	end 1870.23 -3.8147e-06 -538.953;
+	height 9.48838;
+	region 439;
+};
+occluder
+{
+	start 1799.17 0 -505.324;
+	end 1870.49 0 -426.531;
+	height 15.1361;
+	region 471;
+};
+occluder
+{
+	start 1794.01 -7.62939e-06 -425.168;
+	end 1866.9 0 -509.669;
+	height 15.3859;
+	region 471;
+};
+occluder
+{
+	start 1825.58 0 -286.022;
+	end 1794.2 3.8147e-06 -202.357;
+	height 12.5472;
+	region 471;
+};
+occluder
+{
+	start 1838.93 -7.62939e-06 -287.045;
+	end 1869.84 -7.62939e-06 -201.968;
+	height 13.9682;
+	region 471;
+};
+occluder
+{
+	start 1824.9 3.8147e-06 -202.422;
+	end 1798.09 3.8147e-06 -282.791;
+	height 12.5405;
+	region 503;
+};
+occluder
+{
+	start 1838.24 0 -202.332;
+	end 1870.16 -7.62939e-06 -285.814;
+	height 12.9145;
+	region 503;
+};
+occluder
+{
+	start 1837.54 0 -174.634;
+	end 1869.67 0 -97.3022;
+	height 12.0794;
+	region 503;
+};
+occluder
+{
+	start 1838.69 0 -90.5898;
+	end 1869.93 0 -172.775;
+	height 11.9919;
+	region 503;
+};
+occluder
+{
+	start 1794.47 7.62939e-06 -62.9834;
+	end 1866.42 0 17.8132;
+	height 15.339;
+	region 503;
+};
+occluder
+{
+	start 1792.21 0 -88.3772;
+	end 1827.74 0 -175.892;
+	height 8.92737;
+	region 503;
+};
+occluder
+{
+	start 1796.44 0 -172.13;
+	end 1827.64 -1.90735e-06 -88.4239;
+	height 6.56896;
+	region 503;
+};
+occluder
+{
+	start 1794.41 7.62939e-06 22.2725;
+	end 1867.06 0 -61.7188;
+	height 15.4717;
+	region 535;
+};
