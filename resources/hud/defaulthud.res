@@ -9,7 +9,7 @@ child Container "main"
 	size 			640 480;	// map hud size to 640x480
 	scaling			inherit;
 
-	child PercentageBar "damageBar"
+	child ProgressBar "mcdDamageBar"
 	{
 		position	20 30;
 		
@@ -29,7 +29,7 @@ child Container "main"
 		}
 	}
 
-	child PercentageBar "damageBar2"
+	child ProgressBar "mcdDamageBar2"
 	{
 		visible		0;
 		position	20 30;
@@ -55,29 +55,7 @@ child Container "main"
 		}
 	}
 
-	child Label "felonyBar"
-	{
-		position	20 60;
-		
-		size		200 20;
-		scaling		inherit_min;
-		font		"Cooper" 30 bold;
-		fontScale	14 14;
-		
-		label		"#HUD_FELONY_TITLE";
-		
-		child label "CountLabel"
-		{
-			position	150 0;
-			
-			size		90 24;
-			scaling		uniform;
-			
-			label		"(counter)";
-		}
-	}
-	/*
-	child PercentageBar "felonyBar"
+	child ProgressBar "mcdFelonyBar"
 	{
 		position	20 60;
 		
@@ -95,7 +73,7 @@ child Container "main"
 			font		"Cooper" 30 bold italic;
 			fontScale	16 16;
 		}
-	}*/
+	}
 
 	child Timer "timer"
 	{

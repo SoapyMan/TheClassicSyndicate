@@ -122,6 +122,7 @@ function ModInit:Init()
 
 	-- make MCD camera available
 	include("scripts/lua/McdCinematicCamera.lua")
+	include("scripts/lua/McdHud.lua")
 	include("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
 	storySelectionItems = include("scripts/lua/McdStoryCarSelection.lua")
 
