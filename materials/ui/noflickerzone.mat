@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture  "ui/stopflickeringbitch";
-	address "clamp";
-	translucent "0";
-}

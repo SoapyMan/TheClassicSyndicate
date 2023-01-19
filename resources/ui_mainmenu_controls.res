@@ -65,17 +65,6 @@ panel
 		fontScale	14 14;
 	}
 	
-			child image "game_logo_sub"
-	{
-	path		"ui/syndiclassic_logo_sub";
-	position	340 0;
-	size		140 40;		//49
-
-	align		hcenter;// vcenter;
-	
-	scaling		aspecth;
-	}
-	
 	child container "controls_return"
 	{
 		align			bottom left;
