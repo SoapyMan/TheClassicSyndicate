@@ -326,9 +326,7 @@ local GarageDoor = class()
 		-- filter for specific game object
 		SetObjectSpawnRemoveCallbacks(self.levelObjectName,
 			function(go) -- load
-				ScheduleLevelEvent(function() 
-					self:SetupObject(go)
-				end, 1.0)
+				self:SetupObject(go)
 			end, 
 			function(go) -- unload
 				self:Destroy()
