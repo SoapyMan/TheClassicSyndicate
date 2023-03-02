@@ -4,19 +4,14 @@ font	"Cooper" 30;
 
 child Container "main"
 {
-	child PercentageBar "damageBar"
+	child ProgressBar "mcdDamageBar"
 	{
 		visible 	0;
 	}
 
-	child Label "felonyBar"
+	child ProgressBar "mcdFelonyBar"
 	{
 		visible 	0;
-	}
-
-	child PercentageBar "felonyBar"
-	{	
-		visible		0;
 	}
 
 	child image "map"
