@@ -1,9 +1,0 @@
-"DrvSynVehicle"
-{ 
-	BaseTexture			"models/vehicles/miamidef_iphone/miamidefault_iphone_1";
-	DamageTexture		"models/vehicles/miamidef_iphone/miamidefault_iphone_1_dam";
-	BaseTextureSpecularAlpha 	1;
-
-	CubeMap		"$env_cubemap";
-	SpecularScale	0.35;
-}; 

@@ -1,0 +1,10 @@
+"DrvSynVehicle"
+{ 
+	BaseTexture 	"common/veh/glass_ios";
+	
+	CubeMap		"$env_cubemap";
+	SpecularScale	1.0;
+	BaseTextureSpecularAlpha 	1;
+	
+	Translucent	1;
+}; 

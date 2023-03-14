@@ -1,0 +1,13 @@
+"Skinned"
+{ 
+	BaseTexture					"common/veh/rims";
+	BaseTextureSpecularAlpha 	1;
+
+	CubeMap						"$env_cubemap";
+	SpecularScale				0.0;
+	
+	AlphaTest					1;
+	NoCull						0;
+	
+	Filtering					"Nearest";
+}; 

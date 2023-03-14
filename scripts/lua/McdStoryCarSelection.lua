@@ -4,9 +4,9 @@
 --//////////////////////////////////////////////////////////////////////////////////
 
 local StoryCarsList = {
-	{"mcd_miamidef", "Miami - Default PSX Car"},
-	{"mcd_miamidef_PC", "Miami - Default PC Car"},
-	{"mcd_miamidef_iphone", "Miami - Default iPhone Car"},
+--	{"mcd_miamidef", "Miami - Default Car (PSX)"},
+--	{"mcd_miamidef_PC", "Miami - Default Car (PC)"},
+	{"miami_default_ios", "Miami - Default Car (iOS)"},
 }
 
 function McdGetPlayerCarName()
