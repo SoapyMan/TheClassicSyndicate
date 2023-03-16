@@ -1,0 +1,45 @@
+//
+// Driver Syndicate weather definition file
+// You can add your own entries for your missions
+//
+
+skyHeight 0.1;
+skyAngle 0;
+
+"night_clear"
+{
+	ambientColor 			0.072 0.064 0.052;
+	sunColor 				0.04 0.04 0.04;
+	sunAngles 				-40 135 0;
+
+	shadowColor				0.0 0.0 0.0 0.5;
+
+	sunLensItensity 		0;
+
+	brightModFactor			0.75;
+	streetLightIntensity	1.0;
+	rainBrightness			0.0;
+	headlightIntensity		0.75;
+
+	// moon uses sun lens angles
+	sunLensAngles 			-2 -72 0;
+	moonBrightness			0.9;
+
+	sky						"miami/skies/night";
+
+	// light flags
+	lights			 		cars lamps city;
+
+	fog 0
+	{
+		fog_far		290;
+		fog_near	10;
+		fog_color	0.03 0.02 0.05;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}

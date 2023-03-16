@@ -4,8 +4,8 @@
 --//////////////////////////////////////////////////////////////////////////////////
 
 local StoryCarsList = {
---	{"mcd_miamidef", "Miami - Default Car (PSX)"},
---	{"mcd_miamidef_PC", "Miami - Default Car (PC)"},
+	{"mcd_miamidef", "Miami - Default Car (PSX)"},
+	{"mcd_miamidef_PC", "Miami - Default Car (PC)"},
 	{"miami_default_ios", "Miami - Default Car (iOS)"},
 }
 
@@ -147,7 +147,7 @@ local function McdCarSelectionElementsFunc(equiScheme, stack)
 				})
 							
 				-- Reset and run ladder
-				missionladder:Run( "MiamiClassic_Story", missions["MiamiClassic_Story"] )
+				missionladder:Run( "tcs_story", missions["tcs_story"] )
 
 				return {}
 			end,

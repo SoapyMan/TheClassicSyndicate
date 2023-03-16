@@ -1,0 +1,17 @@
+"Base" 
+{ 
+	BaseTexture 				"iview/PAGE_17";
+
+	Cubemap						"$env_cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale				0.0;
+
+	AlphaTest					0;
+	NoCull						0;
+
+	Rotatable					0;
+
+	// SurfaceProps				"XXX";
+
+	Filtering					"Linear";
+};

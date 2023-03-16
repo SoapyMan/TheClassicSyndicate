@@ -76,12 +76,12 @@ local MiamiMissionsList = {
 }
 
 local MyLevelFileName = "MiamiClassic"
-local MyParkingLevelFileName = "ParkingClassic"
+local ParkingLevelName = "iviewclassic"
 local MyLevelFileName2 = "FriscoClassic"
 
 local McdLevelNames = {
 	MyLevelFileName,
-	MyParkingLevelFileName,
+	ParkingLevelName,
 	MyLevelFileName2,
 }
 
@@ -138,11 +138,11 @@ function ModInit:Init()
 	
 	CopVoiceOver[MyLevelFileName] = MyCopSoundsFilename;	-- Define what cop sounds script a level uses
 	CopVoiceOver[MyLevelFileName2] = MyCopSoundsFilename;
-	CopVoiceOver[MyParkingLevelFileName] = MyCopSoundsFilename;
+	CopVoiceOver[ParkingLevelName] = MyCopSoundsFilename;
 	
 	CopVoiceOver[string.lower(MyLevelFileName)] = MyCopSoundsFilename;
 	CopVoiceOver[string.lower(MyLevelFileName2)] = MyCopSoundsFilename;
-	CopVoiceOver[string.lower(MyParkingLevelFileName)] = MyCopSoundsFilename;
+	CopVoiceOver[string.lower(ParkingLevelName)] = MyCopSoundsFilename;
 	
 	-- Change music state logic
     OldMakeDefaultMissionSettings = MakeDefaultMissionSettings
@@ -177,9 +177,9 @@ function ModInit:Init()
 
 	
 	-- add levels
-	table.insert(MenuCityList, {MyLevelFileName, "Miami (Classic)"})				-- Miami Classic
-	--table.insert(MenuCityList, {MyParkingLevelFileName, "Parking (Classic)"})		-- Parking Classic
-	table.insert(MenuCityList, {MyLevelFileName2, "Frisco (Classic)"})				-- Miami Classic
+	table.insert(MenuCityList, {MyLevelFileName, "Miami (Classic)"})			-- Miami Classic
+	table.insert(MenuCityList, {ParkingLevelName, "Parking (Classic)"})			-- Parking Classic
+	table.insert(MenuCityList, {MyLevelFileName2, "Frisco (Classic)"})			-- Miami Classic
 
 	-- add cars
 	for i,v in ipairs(ClassicCars) do
@@ -187,7 +187,7 @@ function ModInit:Init()
 	end
 
 	-- Add missions
-	missions["MiamiClassic_Story"] = MiamiMissionsList
+	missions["tcs_story"] = MiamiMissionsList
 
 	-- Miami (Classic) Minigames
 	table.insert(missions["minigame/survival"], {"mcd_srv01", "Miami Classic (Miami Beach)"})
@@ -202,7 +202,7 @@ function ModInit:Init()
 			onEnter = function(self, stack)
 			
 				-- Reset and run ladder
-				missionladder:Run( "MiamiClassic_Story", missions["MiamiClassic_Story"] )
+				missionladder:Run( "tcs_story", missions["tcs_story"] )
 
 				return {}
 			end,
@@ -233,7 +233,7 @@ function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned 
 	table.remove(missions["minigame/survival"], mcd_srv02)
 	table.remove(missions["minigame/survival"], mcd_srv03)
 
-	missions["MiamiClassic_Story"] = nil		-- Remove Miami (Classic) missions
+	missions["tcs_story"] = nil		-- Remove Miami (Classic) missions
 
 	-- Deinit - Maps
 	for i,v in ipairs(MenuCityList) do
