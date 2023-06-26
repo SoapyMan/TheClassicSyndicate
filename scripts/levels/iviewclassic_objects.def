@@ -24,6 +24,7 @@
 
 include "scripts/objects/gameplay.def";
 include "scripts/objects/emitters.def";
+include "scripts/objects/volumes.def";
 
 // add custom object types below for your level file
 

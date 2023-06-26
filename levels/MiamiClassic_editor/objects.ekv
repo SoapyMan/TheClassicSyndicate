@@ -68721,7 +68721,7 @@ mcd_boat01yellow
 mcd_cone01
 {
 	name "";
-	position 778.805 0.139986 -286.35;
+	position 778.805 0.139984 -286.35;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -68731,7 +68731,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 780.307 0.139986 -287.602;
+	position 780.307 0.139984 -287.602;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -68741,7 +68741,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 782.332 0.139986 -288.704;
+	position 782.332 0.139984 -288.704;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68751,7 +68751,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 786 0.139986 -288.8;
+	position 786 0.139984 -288.8;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68761,7 +68761,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 789.972 0.139986 -288.756;
+	position 789.972 0.139984 -288.756;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68771,7 +68771,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 824.288 0.139986 -288.545;
+	position 824.288 0.139984 -288.545;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68781,7 +68781,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 794.312 0.139986 -288.747;
+	position 794.312 0.139984 -288.747;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68791,7 +68791,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 799.614 0.139986 -288.743;
+	position 799.614 0.139984 -288.743;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68801,7 +68801,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 827.604 0.139986 -288.519;
+	position 827.604 0.139984 -288.519;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68811,7 +68811,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 804.216 0.139987 -288.756;
+	position 804.216 0.139984 -288.756;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68821,7 +68821,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 808.075 0.139985 -288.688;
+	position 808.075 0.139984 -288.688;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68831,7 +68831,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 812.196 0.139986 -288.662;
+	position 812.196 0.139984 -288.662;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68841,7 +68841,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 815.923 0.139986 -288.671;
+	position 815.923 0.139984 -288.671;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68851,7 +68851,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 819.82 0.139986 -288.634;
+	position 819.82 0.139984 -288.634;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68861,7 +68861,7 @@ mcd_cone01
 mcd_barrel01
 {
 	name "";
-	position 907.079 0.107358 -288.651;
+	position 907.079 0.107346 -288.651;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68871,7 +68871,7 @@ mcd_barrel01
 mcd_barrel01
 {
 	name "";
-	position 908.538 0.107359 -288.216;
+	position 908.538 0.107346 -288.216;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 55;
@@ -68881,7 +68881,7 @@ mcd_barrel01
 mcd_barrel01
 {
 	name "";
-	position 923.22 0.10736 -286.335;
+	position 923.22 0.107346 -286.335;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -71341,7 +71341,7 @@ mcd_tree01pc
 mcd_cone01
 {
 	name "";
-	position 1230.04 0.130119 -285.507;
+	position 1230.04 0.130112 -285.507;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -71351,7 +71351,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 1228.18 0.130119 -285.131;
+	position 1228.18 0.130112 -285.131;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -71361,7 +71361,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 1226.79 0.130119 -286.16;
+	position 1226.79 0.130112 -286.16;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -71371,7 +71371,7 @@ mcd_cone01
 mcd_barrier01
 {
 	name "";
-	position 1229.73 0.111654 -287.34;
+	position 1229.73 0.111649 -287.34;
 	rotation 0 -58.3753 8.48137e-06;
 	tileX 65535;
 	tileY 56;
@@ -71381,7 +71381,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1228.01 0.111654 -289.042;
+	position 1228.01 0.111649 -289.042;
 	rotation 180 -87.1895 180;
 	tileX 65535;
 	tileY 55;
@@ -71391,7 +71391,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1226.19 0.111654 -287.902;
+	position 1226.19 0.111649 -287.902;
 	rotation 0 48.0485 0;
 	tileX 65535;
 	tileY 56;
@@ -71401,7 +71401,7 @@ mcd_barrier01
 mcd_cone01
 {
 	name "";
-	position 1226.48 0.100911 -285.014;
+	position 1226.48 0.100906 -285.014;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -71411,7 +71411,7 @@ mcd_cone01
 mcd_barrel01
 {
 	name "";
-	position 1227.27 0.0915096 -287.124;
+	position 1227.27 0.091507 -287.124;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -71421,7 +71421,7 @@ mcd_barrel01
 mcd_barrel01
 {
 	name "";
-	position 1228.46 0.0915096 -287.505;
+	position 1228.46 0.091507 -287.505;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 56;
@@ -92761,7 +92761,7 @@ mcd_tree01pc
 00_RoadHedge02_SandPile
 {
 	name "";
-	position 1658 -9.53674e-07 292.337;
+	position 1658 0 292.337;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 9;
@@ -92791,7 +92791,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1658.54 0.101355 300.395;
+	position 1658.54 0.101349 300.395;
 	rotation 0 69.8652 0;
 	tileX 65535;
 	tileY 11;
@@ -92811,7 +92811,7 @@ mcd_barrier01
 mcd_cone01
 {
 	name "";
-	position 1652.1 9.53674e-07 289.777;
+	position 1652.1 0 289.777;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 8;
@@ -94901,7 +94901,7 @@ mcd_barrel01
 mcd_barrel01
 {
 	name "";
-	position 1654.83 0.103133 530.688;
+	position 1654.83 0.103119 530.688;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 4;
@@ -94911,7 +94911,7 @@ mcd_barrel01
 mcd_barrier01
 {
 	name "";
-	position 1655.37 0.103133 529.287;
+	position 1655.37 0.103119 529.287;
 	rotation 180 73.7698 180;
 	tileX 65535;
 	tileY 4;
@@ -94921,7 +94921,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1655.62 0.103133 532.303;
+	position 1655.62 0.103119 532.303;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 5;
@@ -94931,7 +94931,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1655.67 0.103133 542.49;
+	position 1655.67 0.103119 542.49;
 	rotation 180 82.4768 180;
 	tileX 65535;
 	tileY 7;
@@ -94941,7 +94941,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1655.8 0.103135 546.371;
+	position 1655.8 0.103134 546.371;
 	rotation 0 60.4632 0;
 	tileX 65535;
 	tileY 8;
@@ -94951,7 +94951,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1657.31 0.103133 544.359;
+	position 1657.31 0.103119 544.359;
 	rotation 180 -0.509924 180;
 	tileX 65535;
 	tileY 8;
@@ -94961,7 +94961,7 @@ mcd_barrier01
 mcd_cone01
 {
 	name "";
-	position 1653.04 0.103133 530.025;
+	position 1653.04 0.103119 530.025;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 4;
@@ -94971,7 +94971,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 1654.59 0.103133 543.814;
+	position 1654.59 0.103119 543.814;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 7;
@@ -94981,7 +94981,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 1654.13 0.103134 546.476;
+	position 1654.13 0.103119 546.476;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 8;
@@ -95001,7 +95001,7 @@ mcd_cone01
 mcd_cone01
 {
 	name "";
-	position 1656.59 0.103133 530.675;
+	position 1656.59 0.103119 530.675;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 4;
@@ -95011,7 +95011,7 @@ mcd_cone01
 mcd_sign_speedlimit30
 {
 	name "";
-	position 1659.11 9.53674e-07 638.564;
+	position 1659.11 0 638.564;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 31;
@@ -95031,7 +95031,7 @@ mcd_sign_noentry
 mcd_sign_noentry
 {
 	name "";
-	position 1659 -1.90735e-06 699.426;
+	position 1659 0 699.426;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 46;
@@ -97681,7 +97681,7 @@ mcd_fence01
 mcd_barrel01
 {
 	name "";
-	position 1683.65 0.104272 806.963;
+	position 1683.65 0.104263 806.963;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 10;
@@ -97691,7 +97691,7 @@ mcd_barrel01
 mcd_cone01
 {
 	name "";
-	position 1682.68 0.104272 807.589;
+	position 1682.68 0.104263 807.589;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 9;
@@ -97701,7 +97701,7 @@ mcd_cone01
 mcd_barrier01
 {
 	name "";
-	position 1682.4 0.104272 805.624;
+	position 1682.4 0.104263 805.624;
 	rotation 0 44.2119 0;
 	tileX 65535;
 	tileY 9;
@@ -97711,7 +97711,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1684.17 0.104271 808.462;
+	position 1684.17 0.104263 808.462;
 	rotation 180 75.9893 180;
 	tileX 65535;
 	tileY 10;
@@ -97721,7 +97721,7 @@ mcd_barrier01
 mcd_barrier01
 {
 	name "";
-	position 1685.16 0.104272 806.359;
+	position 1685.16 0.104263 806.359;
 	rotation 180 39.2066 180;
 	tileX 65535;
 	tileY 9;
@@ -97751,7 +97751,7 @@ mcd_sign_noentry
 mcd_sign_noentry
 {
 	name "";
-	position 1653.37 1.90735e-06 940.82;
+	position 1653.37 0 940.82;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 43;
@@ -100061,7 +100061,7 @@ mcd_fence01
 mcd_sign_noentry
 {
 	name "";
-	position 1658.39 -4.76837e-07 1035.26;
+	position 1658.39 0 1035.26;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 2;
@@ -106531,7 +106531,7 @@ mcd_palm02psx
 mcd_table01
 {
 	name "";
-	position 1812.47 -9.53674e-07 1115.87;
+	position 1812.47 0 1115.87;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 22;
@@ -106551,7 +106551,7 @@ mcd_table01
 mcd_chair01
 {
 	name "";
-	position 1813.87 -4.76837e-07 1120.76;
+	position 1813.87 0 1120.76;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 24;
@@ -106561,7 +106561,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1812.42 -4.76837e-07 1119.5;
+	position 1812.42 0 1119.5;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 23;
@@ -106571,7 +106571,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1815.06 -4.76837e-07 1119.6;
+	position 1815.06 0 1119.6;
 	rotation 0 -180 0;
 	tileX 65535;
 	tileY 23;
@@ -106581,7 +106581,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1813.84 -4.76837e-07 1118.29;
+	position 1813.84 0 1118.29;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 23;
@@ -106591,7 +106591,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1812.47 -4.76837e-07 1117.47;
+	position 1812.47 0 1117.47;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 23;
@@ -106611,7 +106611,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1812.45 -4.76837e-07 1114.89;
+	position 1812.45 0 1114.89;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 22;
@@ -106621,7 +106621,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1811.29 -4.76837e-07 1116.03;
+	position 1811.29 0 1116.03;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 23;
@@ -106641,7 +106641,7 @@ mcd_umbrella01
 mcd_umbrella01
 {
 	name "";
-	position 1812.45 -1.19209e-07 1115.87;
+	position 1812.45 0 1115.87;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 22;
@@ -106661,7 +106661,7 @@ mcd_umbrella01
 mcd_chair01
 {
 	name "";
-	position 1807.22 -4.76837e-07 1120.83;
+	position 1807.22 0 1120.83;
 	rotation 0 -180 0;
 	tileX 65535;
 	tileY 65535;
@@ -106671,7 +106671,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1806.03 -4.76837e-07 1121.99;
+	position 1806.03 0 1121.99;
 	rotation 0 -90 0;
 	tileX 65535;
 	tileY 65535;
@@ -106691,7 +106691,7 @@ mcd_table01
 mcd_chair01
 {
 	name "";
-	position 1804.59 -4.76837e-07 1120.73;
+	position 1804.59 0 1120.73;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 65535;
@@ -106701,7 +106701,7 @@ mcd_chair01
 mcd_chair01
 {
 	name "";
-	position 1806 -4.76837e-07 1119.52;
+	position 1806 0 1119.52;
 	rotation 0 -270 0;
 	tileX 65535;
 	tileY 65535;

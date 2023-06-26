@@ -8826,6 +8826,64 @@ brush 12
 	visGroupId 0;
 	def tunnel_volume;
 };
+brush 13
+{
+	faces
+	{
+		face miami\city\mcd26
+		{
+			N -1 0 0 770;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face miami\city\mcd26
+		{
+			N 1 0 0 -774;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face miami\city\mcd1_sandfull_shadow
+		{
+			N 0 1 0 -6;
+			U 1 0 0 0;
+			V 0 1.19249e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face miami\city\mcd1_sandfull_shadow
+		{
+			N 0 -1 0 4;
+			U 1 0 0 0;
+			V 0 -4.37114e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face miami\city\mcd26
+		{
+			N 0 0 1 680;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face miami\city\mcd26
+		{
+			N 0 0 -1 -696;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 435;
+	groupId 65535;
+	visGroupId 0;
+};
 brush 0
 {
 	faces

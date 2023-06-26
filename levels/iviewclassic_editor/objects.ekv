@@ -1,7 +1,7 @@
 light_entity_door
 {
 	name "";
-	position 161.359 1.86938 99.9792;
+	position 161.359 1.86937 99.9792;
 	rotation 0 -180 0;
 	tileX 65535;
 	tileY 24;
@@ -41,7 +41,7 @@ iview_solid
 light_entity_door
 {
 	name "";
-	position 98.6394 1.8764 152.013;
+	position 98.6394 1.87639 152.013;
 	rotation 0 0 0;
 	tileX 65535;
 	tileY 37;
