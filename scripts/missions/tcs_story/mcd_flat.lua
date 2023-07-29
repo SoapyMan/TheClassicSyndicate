@@ -82,8 +82,8 @@ MISSION.Init = function()									-- Preparing Introduction
 		sounds:Emit( EmitParams.new("wind.msg01"), -1 )
 		sounds:Emit( EmitParams.new("d3.citynoise", Vector3D.new(-88,0.77,-1143)), -1 )
 		
-		local nextMissionId = missionladder:GetNextMission().id
-		local message = MISSION.MessageList[nextMissionId]
+		local messageId = missionladder:GetCurrentMission().message
+		local message = MISSION.MessageList[messageId]
 
 		-- set the message
 		MISSION.MessageScript = message.script

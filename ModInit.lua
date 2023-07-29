@@ -43,36 +43,188 @@ local MiamiMissionsIdx = -1
 
 -- Miami (Classic) Missions
 local MiamiMissionsList = {
-	"mcd00",				-- Interview									O		Playable, Complete
-	"mcd_flat_nextmessage",	-- The Bank Job (Message)						O
-	"mcd01",				-- The Bank Job									O		Playable, Complete
-	"mcd_flat_nextmessage",	-- Hide The Evidence (Message)					O
-	"mcd02",				-- Hide The Evidence							O		Playable, Complete
-	"mcd_flat_nextmessage",	-- Ticco's Ride (Message)						O
-	"mcd03",				-- Ticco's Ride									O		NaU (EndCPath)
-	"mcd_flat_nextmessage",	-- The Clean Up (Message)						O
-	"mcd04a",				-- The Clean Up (Part 1)						O		Playable, Complete
-	"mcd04b",				-- The Clean Up (Part 2)						O		Playable, Complete
-	"mcd_flat_nextmessage",	-- Case For A Key (Message)						O
-	"mcd05a",				-- Case For A Key								O		Playable, Complete
-	"mcd05b",				-- Case For A Key (Part 2)						O		Playable, Complete
-	"mcd05c",				-- Case For A Key (Part 3)						O		NaU (EndTPoint&Scenery)
-	"mcd_flat_nextmessage",	-- Tanner Meets Rufus (Message)					O
-	"mcd06", 				-- Tanner Meets Rufus							O		Playable, Complete
-	"mcd07a",				-- Bust Out Jean Paul							O		Playable, Complete
-	"mcd07b",				-- Bust Out Jean Paul (Part 2)					O		Playable, Complete
-	"mcd_flat_nextmessage",	-- Payback (Message)							O
-	"mcd08", 				-- Payback										O		Playable, Complete	
-	"mcd_flat_nextmessage",	-- A Shipment's Coming In (Message)				O
-	"mcd09", 				-- A Shipment's Coming In						O		NaU (P2Lghts&SndBnk)	
-	"mcd_flat_nextmessage",	-- Superfly Drive (Message)						O
-	"mcd10",				-- Superfly Drive								O		Playable, Complete	
-	"mcd_flat_nextmessage",	-- Take Out Di Angio's Car (Message)			O
-	"mcd11", 				-- Take Out Di Angio's Car						O		Playable, Complete	
-	"mcd_flat_nextmessage",	-- Bait for a Trap (Message)					O
-	"mcd12",				-- Bait for a Trap								O		Playable, Complete
-	"mcd13", 				-- The Informant								O		NaU
-	{screen = "story_miamiclassic_end"}
+	{
+		id = "intro",
+		screen = "story_movie_play", 
+		args = "render02.mpg" 
+	},
+	{
+		id = "mcd00", 
+		label = "Interview" 
+	},
+	{
+		id = "mcd_flat_nextmessage", 
+		message = "mcd01", 
+		label = "The Bank Job (motel intro)"
+	},
+	{
+		id = "mcd01", 
+		label = "The Bank Job"
+	},
+	{
+		id = "mcd_flat_nextmessage", 
+		message = "mcd02", 
+		label = "Hide The Evidence (motel intro)"
+	},
+	{
+		id = "mcd02", 
+		label = "Hide The Evidence" 
+	},
+	{
+		id = "mcd_flat_nextmessage",
+		message = "mcd03",
+		label = "Ticco's Ride (motel intro)"
+	},
+	{
+		id = "mcd03",
+		label = "Ticco's Ride" 
+	},
+	{
+		id = "cleanup_movie",
+		screen = "story_movie_play",
+		args = {"render51.mpg", "message.call_cleanup"} 
+	},
+	{
+		id = "mcd04a",
+		label = "The Clean Up (Part 1)" 
+	},
+	{
+		id = "mcd04b",
+		label = "The Clean Up (Part 2)" 
+	},
+	{
+		id = "mcd_flat_nextmessage",
+		message = "mcd05a",
+		label = "Case For A Key (motel intro)"
+	},
+	{
+		id = "mcd05a", 
+		label = "Case For A Key"
+	},
+	{
+		id = "boatchase_movie_1",
+		screen = "story_movie_play",
+		args = "render24.mpg"
+	},
+	{
+		id = "mcd05b",
+		label = "Case For A Key (Part 2)" 
+	},
+	{
+		id = "boatchase_movie_2",
+		screen = "story_movie_play",
+		args = "render65.mpg"
+	},
+	{
+		id = "mcd05c",
+		label = "Case For A Key (Part 3)"
+	},
+	{
+		id = "boatchase_movie_end",
+		screen = "story_movie_play",
+		args = "render25.mpg"
+	},
+	{
+		id = "mcd_flat_nextmessage",
+		message = "mcd06",
+		label = "Tanner Meets Rufus (motel intro)"
+	},
+	{
+		id = "mcd06", 
+		label = "Tanner Meets Rufus" 
+	},
+	{
+		id = "rufus_bustoutjeanpaul_movie", 
+		screen = "story_movie_play", 
+		args = "render01.mpg"
+	},
+	{
+		id = "mcd07a", 
+		label = "Bust Out Jean Paul" 
+	},
+	{
+		id = "mcd07b", 
+		label = "Bust Out Jean Paul (Part 2)"
+	},
+	{
+		id = "mcd_flat_nextmessage",
+		message = "mcd08",
+		label = "Payback (motel intro)"
+	},
+	{
+		id = "payback_movie",
+		screen = "story_movie_play",
+		args = {"render59.mpg", "message.call_payback"}
+	},
+	{
+		id = "mcd08", 
+		label = "Payback" 
+	},
+	{
+		id = "shipment_movie",
+		screen = "story_movie_play",
+		args = {"render56.mpg", "message.call_shipment"} 
+	},
+	--"mcd_flat_nextmessage",	-- A Shipment's Coming In (Message)				O
+	{
+		id = "mcd09", 
+		label = "A Shipment's Coming In"
+	},
+	{
+		id = "mcd_flat_nextmessage",
+		message = "mcd10",
+		label = "Superfly Drive (motel intro)"
+	},
+	{
+		id = "mcd10",
+		label = "Superfly Drive"
+	},
+	{
+		id = "mcd_flat_nextmessage",
+		message = "mcd11",
+		label = "Take Out Di Angio's Car (motel intro)"
+	},
+	{
+		id = "diangio_movie",
+		screen = "story_movie_play",
+		args = {"render59.mpg", "message.call_diangio"}
+	},
+	{
+		id = "mcd11",
+		label = "Take Out Di Angio's Car"
+	},
+	{
+		id = "mcd_flat_nextmessage",
+		message = "mcd12",
+		label = "Bait for a Trap (motel intro)"
+	},
+	{
+		id = "baitforatrap_movie",
+		screen = "story_movie_play",
+		args = {"render59.mpg", "message.call_baitforatrap"}
+	},
+	{
+		id = "mcd12",
+		label = "Bait for a Trap"
+	},
+	{
+		id = "informant_movie",
+		screen = "story_movie_play",
+		args = "render03.mpg"
+	},
+	{
+		id = "mcd13",
+		label = "The Informant"
+	},
+	{
+		id = "informant_end",
+		screen = "story_movie_play",
+		args = "render05.mpg"
+	},
+	{
+		id = "ending", 
+		screen = "story_miamiclassic_end"
+	}
 }
 
 local MyLevelFileName = "MiamiClassic"
@@ -127,8 +279,8 @@ function ModInit:Init()
 	include("scripts/lua/McdCinematicCamera.lua")
 	include("scripts/lua/McdHud.lua")
 	include("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
+	include("scripts/lua/ui/StoryMoviePlay.lua")
 	storySelectionItems = include("scripts/lua/McdStoryCarSelection.lua")
-
 
 	EmitterSoundRegistry.MCDEngine = "scripts/sounds/mcd_engine.txt"				-- Driver 1 engine sounds
 	EmitterSoundRegistry.MCDVoices = "scripts/sounds/mcd_missions_vo.txt"			-- Driver 1 original mission voices

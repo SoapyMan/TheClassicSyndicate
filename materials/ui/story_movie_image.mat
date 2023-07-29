@@ -1,0 +1,6 @@
+BaseUnlit
+{
+	BaseTexture  "$story_movie";
+	address "clamp";
+	translucent "0";
+}

@@ -4,6 +4,11 @@ default channel 	CHAN_VOICE;
 default distance 	45;
 default volume 		1.5;
 
+"message.story_movie"
+{
+	wave		"$story_movie";
+}
+
 "message.bankjob"
 {
 	wave		"cutscenes_sfx/mcd01_vocalmessage.wav";
@@ -17,11 +22,6 @@ default volume 		1.5;
 "message.ticcosride"
 {
 	wave		"cutscenes_sfx/mcd03_vocalmessage.wav";
-};
-
-"message.cleanup"
-{
-	wave		"cutscenes_sfx/mcd04_vocalmessage.wav";
 };
 
 "message.caseforakey"
@@ -53,10 +53,37 @@ default volume 		1.5;
 "message.diangio"
 {
 	wave		"cutscenes_sfx/mcd11_vocalmessage.wav";
-
 };
 
 "message.baitforatrap"
 {
 	wave		"cutscenes_sfx/mcd12_vocalmessage.wav";
 };
+
+//-----------------------------------------
+
+"message.call_cleanup"
+{
+	wave		"cutscenes_sfx/call_cleanup.wav";
+};
+
+"message.call_payback"
+{
+	wave		"cutscenes_sfx/call_payback.wav";
+};
+
+"message.call_shipment"
+{
+	wave		"cutscenes_sfx/call_shipment.wav";
+};
+
+"message.call_diangio"
+{
+	wave		"cutscenes_sfx/call_diangio.wav";
+};
+
+"message.call_baitforatrap"
+{
+	wave		"cutscenes_sfx/call_baitforatrap.wav";
+};
+
