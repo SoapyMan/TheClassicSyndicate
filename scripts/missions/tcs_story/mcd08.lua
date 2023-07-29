@@ -184,7 +184,7 @@ function MISSION.OnCarCollision(go) -- go stands for "game object"
 
 		MISSION.WreckCounter = MISSION.WreckCounter + 1
 
-		local addTime = 1.0 + MISSION.WreckCounter * 0.25
+		local addTime = 1.0 + MISSION.WreckCounter * 0.3
 		missionmanager:AddSeconds(addTime)
 
 		gameHUD:ShowScreenMessage(string.format("+%.1f sec", addTime), 1.0)

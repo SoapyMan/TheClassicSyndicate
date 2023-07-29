@@ -53,7 +53,6 @@ local StoryMoviePlay = class()
 	end
 	
 	function StoryMoviePlay:Update(delta)
-	
 		if self.startDelay > 0 then
 			self.startDelay = self.startDelay - delta
 			if self.startDelay <= 0 then
@@ -99,10 +98,10 @@ local StoryMoviePlay = class()
 	
 	function StoryMoviePlay:Close()
 		if not self.done then
+			SequenceScreens.current = nil
 			missionladder:OnMissionCompleted()
 			missionladder:RunContinue()
 		end
-		SequenceScreens.current = nil
 		self.done = true
 	end
 	

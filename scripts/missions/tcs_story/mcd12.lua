@@ -169,18 +169,18 @@ function MISSION.Phase1Start()
 		if length(playerCar:GetOrigin() - MISSION.Data.targetPosition) < 100 then	-- Set up function
 			MISSION.Settings.StopCops = false
 		
-			local opponentCar = gameses:CreatePursuerCar("NPC_mcd_traffic01", PURSUER_TYPE_GANG)
+			local opponentCar = gameses:CreateCar("NPC_mcd_traffic01", CAR_TYPE_PURSUER_GANG_AI)
 			MISSION.opponentCar = opponentCar
 			
-    		opponentCar = gameutil.CastObject(opponentCar, "CAIPursuerCar", GO_CAR_AI)
 			opponentCar:SetOrigin( Vector3D.new(1529,0.70,1256) )
 			opponentCar:SetAngles( Vector3D.new(180,0,180) )			-- Scenery items coords
 			opponentCar:Enable(false)
 
-			opponentCar:SetAngryMode(PURSUER_PUPPYDOG)
+			local aiComponent = opponentCar:GetComponent("PursuerAIComponent")
+			aiComponent:SetAngryMode(PURSUER_PUPPYDOG)
+			aiComponent:SetTorqueScale(1.0)
+			aiComponent:SetMaxSpeed(140.0)
 			
-			opponentCar:SetTorqueScale(1.0)
-			opponentCar:SetMaxSpeed(140.0)
 			opponentCar:Spawn()
 			
 			opponentCar:SetColorScheme(1)
@@ -205,16 +205,19 @@ end
 MISSION.TargetCarHit = function(self, props)
 
 	local playerCar = MISSION.playerCar
-	local car = MISSION.opponentCar
+	local opponentCar = MISSION.opponentCar
 
 	if props.hitBy == playerCar then
-		car:Enable(true)
-		car:SetPursuitTarget( playerCar )
-		car:BeginPursuit(0)
+		opponentCar:Enable(true)
+		
+		local aiComponent = opponentCar:GetComponent("PursuerAIComponent")
+		aiComponent:SetPursuitTarget( playerCar )
+		aiComponent:BeginPursuit(0)
+		ai:TrackCar(opponentCar)
 
 		sounds:Emit( EmitParams.new("goon.wat"), -1 )
 
-		car:Set("OnCarCollision", nil) -- remove callback
+		opponentCar:Set("OnCarCollision", nil) -- remove callback
 
 		-- start the phase 2
 		MISSION.Phase2Start()
@@ -228,9 +231,6 @@ end
 MISSION.Phase1Update = function( delta )
 
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
-
-	local opponentCar = MISSION.opponentCar
-
 	local distToTarget = length(playerCar:GetOrigin() - MISSION.Data.targetPosition)
 
 	if distToTarget < 400.0 then						-- If player enters % meters radius, then..
@@ -332,11 +332,8 @@ end
 MISSION.UpdateAll = function(delta)
 
 	local camera = world:GetView()
-	
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
 
-	local opponentCar = MISSION.opponentCar
-	
 	UpdateCops( playerCar, delta )
 
 	-- Check player vehicle is wrecked
@@ -378,11 +375,8 @@ end
 MISSION.Phase2Update = function( delta )
 
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
-
 	local opponentCar = MISSION.opponentCar
 
-	local distToTarget = length(playerCar:GetOrigin() - MISSION.safeHouseTarget)
-	
 	if playerCar:GetPursuedCount() == 0 then
 		gameHUD:ShowScreenMessage("You've lost him.", 3.5)
 
@@ -390,9 +384,12 @@ MISSION.Phase2Update = function( delta )
 		return false
 	end
 	
+	local distToTarget = length(playerCar:GetOrigin() - MISSION.safeHouseTarget)
 	if distToTarget < 5 then	-- If player enters % meter objective radius, then..
 		
-		opponentCar:EndPursuit(false)
+		local aiComponent = opponentCar:GetComponent("PursuerAIComponent")
+		aiComponent:EndPursuit(false)
+		
 		MISSION.OnCompleted()		-- ..Mission completed
 		
 		missionmanager:ScheduleEvent( function() 
@@ -401,4 +398,22 @@ MISSION.Phase2Update = function( delta )
 	end
 	
 	return MISSION.UpdateAll(delta)
+end
+
+MISSION.DrawDebugImGui = function()
+
+	if ImGui.BeginTabBar("M01TabBar", tab_bar_flags) then
+		if ImGui.BeginTabItem("Checkpoints") then
+			local playerCar = MISSION.playerCar
+
+			if ImGui.Button("Goto Checkpoint 1") then
+				playerCar:SetOrigin( vec3(1585.29, 0.68, 1217.85) )
+				playerCar:SetAngles( vec3(179.94, -27.36, 179.71) )
+			end
+
+			ImGui.EndTabItem();
+		end
+
+		ImGui.EndTabBar()
+	end
 end

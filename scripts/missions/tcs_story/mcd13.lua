@@ -139,7 +139,7 @@ end
 -- Phase1 Start ------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 function MISSION.CopsSpawnStart()
-	local cop1 = gameses:CreatePursuerCar("NPC_mcd_defaultpolicecar_black", PURSUER_TYPE_COP)
+	local cop1 = gameses:CreateCar("NPC_mcd_defaultpolicecar_black", CAR_TYPE_PURSUER_COP_AI)
 	
 	local settings = MISSION.Settings
 	
@@ -149,13 +149,16 @@ function MISSION.CopsSpawnStart()
 	cop1:Spawn()
 	SetupCopCarSettings(cop1)
 	
-	local cop2 = gameses:CreatePursuerCar("NPC_mcd_defaultpolicecar_black", PURSUER_TYPE_COP)
+	local cop2 = gameses:CreateCar("NPC_mcd_defaultpolicecar_black", CAR_TYPE_PURSUER_COP_AI)
 	
 	cop2:SetOrigin( Vector3D.new(17,0.7,-1160) )
 	cop2:SetAngles( Vector3D.new(0,0,0) )
 
 	cop2:Spawn()
 	SetupCopCarSettings(cop2)
+	
+	ai:TrackCar(cop1)
+	ai:TrackCar(cop2)
 	
 	missionmanager:SetRefreshFunc( function() 
 		return false 

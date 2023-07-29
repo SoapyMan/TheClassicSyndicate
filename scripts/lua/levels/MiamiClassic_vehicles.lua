@@ -2,11 +2,11 @@ local FreeRideVehicleSet = {
     CopVehicles = {
         default = {
             Patrol = {
-                npc_mcd_defaultpolicecar_white   = { },
+                NPC_mcd_defaultpolicecar_black   = { },
                 --cop_k5      = { minFelony = 0.75 }
             },
             RoadBlock = {
-                npc_mcd_defaultpolicecar_white   = { },
+                NPC_mcd_defaultpolicecar_black   = { },
                 --cop_k5      = { minFelony = 0.75 }
             },
         }
@@ -15,7 +15,7 @@ local FreeRideVehicleSet = {
         default = {
             npc_mcd_traffic01       = {},
             npc_mcd_traffic02		= {},
-            npc_mcd_defaultpolicecar_white	= { interval = 20, traffic = false }, -- cops are spawn by the requests
+            NPC_mcd_defaultpolicecar_black	= { interval = 20, traffic = false }, -- cops are spawn by the requests
         },
     }
 }
