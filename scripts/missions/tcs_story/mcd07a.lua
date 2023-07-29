@@ -35,6 +35,21 @@ MISSION.replayId = 1
 
 MISSION.PursuitDEVMODE = false
 
+MISSION.DrawDebugImGui = function()
+	local Data = MISSION.Data
+	ImGui.TextColored(1.0, 1.0, 1.0, 0.5, "Replay ID " .. MISSION.replayId)
+
+	if ImGui.Button("Restart in Dev Mode") then
+		MISSION.PursuitDEVMODE = true
+		console.ExecuteString("restart")
+	end
+
+	if ImGui.Button("Restart in Game Mode") then
+		MISSION.PursuitDEVMODE = false
+		console.ExecuteString("restart")
+	end
+end
+
 MISSION.Init = function()									-- Preparing Introduction
 	MISSION.Data = {
 		targetPosition = Vector3D.new(0,0,0),		
@@ -107,7 +122,15 @@ MISSION.Init = function()									-- Preparing Introduction
 		MISSION.replayId = 1					-- replay_1, replay_2, etc
 	end
 
-	MISSION.SetupFlybyCutscene()	-- Starting Introduction FlyBy Cutscene 
+	if MISSION.PursuitDEVMODE then
+		gameses:SetPlayerCar( opponentCar )
+		gameHUD:Enable(true)
+		opponentCar:Lock(false)
+		missionmanager:EnableTimeout( true, 90 ) -- enable, time
+		MISSION.Settings.EnableTraffic = true
+	else
+		MISSION.SetupFlybyCutscene()	-- Starting Introduction FlyBy Cutscene 
+	end
 end
 
 MISSION.JeanPaulSartre = function()
