@@ -1,9 +1,9 @@
 name		"Miami - Default (iOS)";
 
-cleanmodel		"models/miami/veh/default_ios/car_ok.egf";
-damagedmodel	"models/miami/veh/default_ios/car_ko.egf";
+cleanmodel		"models/vehicles/m_default_ios/car_ok.egf";
+damagedmodel	"models/vehicles/m_default_ios/car_ko.egf";
 
-wheelmodel		"models/common/veh/wheels.egf";
+wheelmodel		"models/vehicles/common/x_wheels.egf";
 
 //				damaged 		hubcapped 		hubcap
 wheelBodyGroup	"ios_uncapped" 	"ios_capped" 	"ios_cap";
@@ -41,7 +41,9 @@ visuals
 	backdimlights			0.68 	0.05 	-2.40 		0.06;
 
 	engine 					0.0 	0.1 	2.12;
+	
 	driver 					-0.34 	0.13 	0.01;
+	passenger1 				0.34 	0.13 	0.01;
 	
 	// name					position					type		want double exhausts? (add 1).
 	

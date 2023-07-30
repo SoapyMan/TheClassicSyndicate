@@ -423,7 +423,7 @@ MISSION.Phase2Update = function( delta )
 			if distToTarget < 50 then	-- If player enters % meters radius while pursued, then..
 				if playerCar:GetPursuedCount() > 0 then
 					gameHUD:ShowScreenMessage("#LOSE_TAIL_MESSAGE", 1.5)	--.. Lost tail message on screen
-					sounds:Emit( EmitParams.new("goon.losetail"), -1 )
+				--	sounds:Emit( EmitParams.new("goon.losetail"), -1 )
 				elseif distToTarget < 5 then	-- If player enters % meter objective radius, then..
 					
 					MISSION.OnCompleted()		-- ..Mission completed

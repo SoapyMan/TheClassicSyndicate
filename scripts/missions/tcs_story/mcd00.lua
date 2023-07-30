@@ -152,6 +152,8 @@ MISSION.Init = function()
 	playerCar:Spawn()
 	
 	playerCar:AlignToGround();
+
+	playerCar:SetPassengers(1)
 	
 	sounds:Precache( "iview.fail" )
 	sounds:Precache( "iview.damage" )

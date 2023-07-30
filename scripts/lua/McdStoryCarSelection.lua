@@ -6,7 +6,7 @@
 local StoryCarsList = {
 	{"mcd_miamidef", "Miami - Default Car (PSX)"},
 	{"mcd_miamidef_PC", "Miami - Default Car (PC)"},
-	{"miami_default_ios", "Miami - Default Car (iOS)"},
+	{"m_default_ios", "Miami - Default Car (iOS)"},
 }
 
 function McdGetPlayerCarName()
