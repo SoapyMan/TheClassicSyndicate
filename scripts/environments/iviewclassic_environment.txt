@@ -16,16 +16,16 @@ skyAngle 0;
 
 	sunLensItensity 		0;
 
-	brightModFactor			0.75;
-	streetLightIntensity	1.0;
+	brightModFactor			1.0;
+	streetLightIntensity	0.75;
 	rainBrightness			0.0;
-	headlightIntensity		0.75;
+	headlightIntensity		0.50;
 
 	// moon uses sun lens angles
 	sunLensAngles 			-2 -72 0;
 	moonBrightness			0.9;
 
-	sky						"miami/skies/night";
+	sky						"skies/m_night";
 
 	// light flags
 	lights			 		cars lamps city;

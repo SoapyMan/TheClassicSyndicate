@@ -239,7 +239,7 @@ local McdLevelNames = {
 
 local ClassicCars = {
 
-	{"miami_default_ios", "Miami - Default Car (iOS)"},
+	{"m_default_ios", "Miami - Default Car (iOS)"},
 
 	{"mcd_miamidef", "Miami - Default PSX Car"},
 	{"mcd_superflydrive", "Miami - Superfly Drive Car"},			-- TODO: unlock with cheats or completion of story
