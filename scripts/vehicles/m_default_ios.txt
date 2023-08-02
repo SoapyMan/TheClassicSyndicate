@@ -20,9 +20,9 @@ sounds
 	//engine_off	"sounds/engines/engine2_off.wav"
 };
 
-camera_height 		0.40;
-camera_distance		5.25;
-camera_anglex		8.00;
+camera_height 		1.00;
+camera_distance		6.25;
+camera_anglex		2.00;
 
 camera_height_in 	0.26;
 camera_distance_in	1.6;
@@ -67,7 +67,7 @@ colors
 bodysize		0.88 	0.52 	2.40;
 center 			0.00	0.12 	0.00;
 
-gravitycenter	0.0 	-0.24 	0.05;
+gravitycenter	0.0 	-0.14 	0.05;
 mass 			2800;
 antiroll		0.32;
 
