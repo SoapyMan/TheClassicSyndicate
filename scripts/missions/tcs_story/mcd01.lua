@@ -348,8 +348,6 @@ function MISSION.Phase2Start()
 	
 	MISSION.safeHouseTarget = MISSION.Data.target2Position
 	MISSION.targetHandle = gameHUD:AddMapTargetPoint(MISSION.safeHouseTarget)
-	MISSION.safeHouseCops = false
-	MISSION.finalTarget = true
 	
 	-- Show objective message (Duration)
 	gameHUD:ShowScreenMessage("Get to the lock up.", 3.5)
@@ -405,8 +403,7 @@ end
 MISSION.Phase2Update = function( delta )
 
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
-
-	local distToTarget = length(playerCar:GetOrigin() - MISSION.safeHouseTarget)
+	
 
     -- tell player every 20 seconds to lose tail
 	MISSION.loseTailDelay = MISSION.loseTailDelay - delta
@@ -415,22 +412,19 @@ MISSION.Phase2Update = function( delta )
 		sounds:Emit( EmitParams.new("goon.losetail"), -1 )
 	end
 	
-	if MISSION.finalTarget then
+	local distToTarget = length(playerCar:GetOrigin() - MISSION.safeHouseTarget)
 	
-		if distToTarget < 300 then	-- Cops are disabled when player enters % meters objective radius
-			MISSION.Settings.EnableCops = false
-			
-			if distToTarget < 50 then	-- If player enters % meters radius while pursued, then..
-				if playerCar:GetPursuedCount() > 0 then
-					gameHUD:ShowScreenMessage("#LOSE_TAIL_MESSAGE", 1.5)	--.. Lost tail message on screen
-					sounds:Emit( EmitParams.new("goon.losetail"), -1 )
-				elseif distToTarget < 5 then	-- If player enters % meter objective radius, then..
-					
-					MISSION.OnCompleted()		-- ..Mission completed
-				end
-			end
-		end
+	if distToTarget < 300 then	-- Cops are disabled when player enters % meters objective radius
+		MISSION.Settings.EnableCops = false
 	end
 	
+	if distToTarget < 50 then	-- If player enters % meters radius while pursued, then..
+		if playerCar:GetPursuedCount() > 0 then
+			gameHUD:ShowScreenMessage("#LOSE_TAIL_MESSAGE", 1.5)	--.. Lost tail message on screen
+		elseif distToTarget < 5 then	-- If player enters % meter objective radius, then..
+			MISSION.OnCompleted()		-- ..Mission completed
+		end
+	end
+
 	return MISSION.UpdateAll(delta)
 end
