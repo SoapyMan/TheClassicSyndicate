@@ -5,8 +5,8 @@
 local ModInit = {
 	Title = "The Classic Syndicate",
 
-	CreatedBy = "_matti, Soapy, Nik",
-	Version = "1.8.0",
+	CreatedBy = "_matti, Soapy, Nik, ...",
+	Version = "1.7.20",
 	
 	PreBoot = false,
 
@@ -241,17 +241,13 @@ local ClassicCars = {
 
 	{"m_default_ios", "Miami - Default Car (iOS)"},
 
-	{"mcd_miamidef", "Miami - Default PSX Car"},
 	{"mcd_superflydrive", "Miami - Superfly Drive Car"},			-- TODO: unlock with cheats or completion of story
 	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},		-- TODO: unlock with cheats or completion of story
 	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},					-- TODO: unlock with cheats or completion of story
 	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},					-- TODO: unlock with cheats or completion of story
 	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},					-- TODO: unlock with cheats or completion of story
 	{"mcd_miamievidence", "Miami - Hide The Evidence Car"},			-- TODO: unlock with cheats or completion of story
-	{"mcd_miamidef_PC", "Miami - Default PC Car"},
 	{"mcd_miamicleanup", "Miami - The Clean Up Car"},				-- TODO: unlock with cheats or completion of story
---	{"mcd_miamidef_iphone", "Miami - Default iPhone Car"},
-	{"mcd_miamidef_mini", "Miami - Default PSX Car (MINI)"},		-- TODO: unlock with cheats or completion of story
 
 	{"sfd_friscodef", "Frisco - Default PSX Car"},
 }

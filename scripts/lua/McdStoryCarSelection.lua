@@ -4,8 +4,6 @@
 --//////////////////////////////////////////////////////////////////////////////////
 
 local StoryCarsList = {
-	{"mcd_miamidef", "Miami - Default Car (PSX)"},
-	{"mcd_miamidef_PC", "Miami - Default Car (PC)"},
 	{"m_default_ios", "Miami - Default Car (iOS)"},
 }
 
@@ -17,7 +15,7 @@ function McdGetPlayerCarName()
 	
 	-- reset in some paranoid cases
 	if McdPrefferedStoryCar == nil then
-		McdPrefferedStoryCar = "mcd_miamidef"
+		McdPrefferedStoryCar = "m_default_ios"
 	end
 	
 	return McdPrefferedStoryCar
