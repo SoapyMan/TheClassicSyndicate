@@ -5,7 +5,7 @@
 ----------------------------------------------------------------------------------------------
 
 world:SetLevelName("miamiclassic")
-world:SetEnvironmentName("night_clear")
+world:SetEnvironmentName("superflydrive_weather")
 SetMusicName("miami_night")
 
 MISSION.LoadingScreen = "resources/loadingscreen_mcd.res"

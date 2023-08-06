@@ -36,19 +36,17 @@ foreground "SKIES/tcs_foreground";
 
 "day_clear"
 {
-	ambientColor 	0.57 0.60 0.71; //0.37 0.39 0.41;
-	sunColor 	0.85 0.81 0.38; //0.89 0.81 0.6;
-	shadowColor	0.01 0.01 0.09 0.35;
-	skyCloudsColor	0.8 0.8 0.8 0.9;
+	ambientColor 		0.58 	0.60 	0.72;
+	sunColor 			0.84 	0.80 	0.38;
+	shadowColor			0.01 	0.01 	0.09 	0.35;
+	skyCloudsColor		0.9 	0.9 	0.9 	0.9;
 
-	sunAngles 	-35 14 0;
-	sunLensAngles	-17 14 0;
-
-	sunLensItensity 0.65;
-
-	sky		"MIAMI/Skies/skymcd_day";	// skydome texture which defines $env_cubemap
-
+	sunAngles 			-35 	14 		0;
+	sunLensAngles		-17 	14 		0;
+	sunLensItensity 	0.45;
 	headlightIntensity	0.0;
+
+	sky					"skies/m_day";
 
 	fog 1
 	{
@@ -85,7 +83,7 @@ foreground "SKIES/tcs_foreground";
 	rainBrightness	0.4;
 	rainDensity	150;
 
-	sky		"MIAMI/Skies/skymcd_daystormy";	// skydome texture which defines $env_cubemap
+	sky		"skies/m_day_stormy";	// skydome texture which defines $env_cubemap
 
 	headlightIntensity	0.1;
 
@@ -109,32 +107,26 @@ foreground "SKIES/tcs_foreground";
 
 "dawn_clear"
 {
-	ambientColor 	0.32 0.32 0.30;
-	sunColor 	0.60 0.40 0.2;
-	skyCloudsColor	0.7 0.6 0.5 0.5;
-	sunAngles 	-16 -75 0;
-
-	shadowColor	0.01 0.01 0.09 0.1;
+	ambientColor 			0.36 	0.36 	0.28;
+	sunColor 				0.76 	0.44 	0.24;
+	shadowColor				0.01 	0.01 	0.09 	0.1;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.5;
 	
-	sunLensItensity 0.8;
+	sunAngles 				-7 		41 		0;
+	sunLensAngles			-2 		41 		0;
+	sunLensItensity 		0.8;
+	headlightIntensity		0.2;
+	streetLightIntensity	0.4;
 
-	brightModFactor		0.0;
-	streetLightIntensity	0.6;
-	headlightIntensity	0.7;
+	sky						"skies/m_dusk";
 
-	// moon uses sun lens angles
-	sunLensAngles 		-5 -75 0;
-
-	sky			"MIAMI/Skies/skymcd_dawn";	// skydome texture which defines $env_cubemap
-
-	// light flags
-	lights			city;
+	lights					city cars lamps;
 
 	fog 1
 	{
 		fog_far		290;
 		fog_near	190;
-		fog_color	0.09 0.08 0.09;
+		fog_color	0.0 0.0 0.0;
 	}
 
 	// "clear" - just fair
@@ -150,67 +142,26 @@ foreground "SKIES/tcs_foreground";
 
 "dusk_clear"
 {
-	ambientColor 	0.39 0.37 0.36;
-	sunColor 	1.00 0.42 0.2;
-	skyCloudsColor	0.5 0.5 0.5 0.5;
-	sunAngles 	-7 41 0;
-
-	shadowColor	0.01 0.01 0.09 0.1;
-
-	sunLensAngles	-2 41 0;
-	sunLensItensity 0.8;
-
-	brightModFactor		0.04;
-
-	sky		"MIAMI/Skies/skymcd_dusk";	// skydome texture which defines $env_cubemap
-
-	fog 1
-	{
-		fog_far		290;
-		fog_near	190;
-		fog_color	0.12 0.12 0.22;
-	}
-
-	// "clear" - just fair
-	// "rain" - slight rain, it's wet outside
-	// "storm" - heavy rain along with thunder
-
-	weather		"clear";
-}
-
-//-----------------------------------------------------------------
-//-----------------------------------------------------------------
-//-----------------------------------------------------------------
-
-"duskevening_clear"
-{
-	ambientColor 	0.22 0.22 0.3;
-	sunColor 	0.28 0.15 0.0;
-	skyCloudsColor	0.5 0.5 0.5 0.25;
-	skyColor	0.8 0.5 0.5;
-	sunAngles 	-16 31 0;
-
-	shadowColor	0.01 0.01 0.09 0.1;
+	ambientColor 			0.36 	0.36 	0.28;
+	sunColor 				0.76 	0.44 	0.24;
+	shadowColor				0.01 	0.01 	0.09 	0.1;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.5;
 	
-	sunLensItensity 0.2;
+	sunAngles 				-16 	-75 	0;
+	sunLensAngles 			-5 		-75 	0;
+	sunLensItensity 		0.8;
+	headlightIntensity		0.2;
+	streetLightIntensity	0.4;
 
-	brightModFactor		0.0;
-	streetLightIntensity	0.6;
-	headlightIntensity	0.7;
-
-	// moon uses sun lens angles
-	sunLensAngles 		-5 31 0;
-
-	sky			"MIAMI/Skies/skymcd_dusk";	// skydome texture which defines $env_cubemap
-
-	// light flags
-	lights			city;
+	sky						"skies/m_dusk";
+	
+	lights					city cars lamps;
 
 	fog 1
 	{
 		fog_far		290;
 		fog_near	190;
-		fog_color	0.09 0.08 0.09;
+		fog_color	0.0 0.0 0.0;
 	}
 
 	// "clear" - just fair
@@ -226,35 +177,67 @@ foreground "SKIES/tcs_foreground";
 
 "night_clear"
 {
-	ambientColor 	0.1 0.12 0.14;
-	sunColor 	0.04 0.04 0.08;
-	skyColor	0.7 0.7 0.7;
-	skyCloudsColor	0.5 0.5 0.5 0.25;
-	sunAngles 	-40 -30 0;
-
-	shadowColor	0.0 0.0 0.0 0.2;
-
-	sunLensItensity 0;
-
-	brightModFactor	0.4;
+	ambientColor 			0.1 	0.12 	0.14;
+	sunColor 				0.04 	0.04 	0.08;
+	shadowColor				0.0 	0.0 	0.0 	0.2;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	skyColor				0.7 	0.7 	0.7;
+	
+	sunAngles 				-2 		41 		0;
+	sunLensAngles			4 		41 		0;
+	sunLensItensity 		0;
+	headlightIntensity		0.5;
 	streetLightIntensity	1.0;
-	rainBrightness	0.2;
-	headlightIntensity	0.5;
+	
+	brightModFactor			0.4;
 
-	// moon uses sun lens angles
-	sunLensAngles 		-16 -30 0;
-	moonBrightness		1.2;
+	moonBrightness			1.2;
 
-	sky		"MIAMI/Skies/skymcd_night";	// skydome texture which defines $env_cubemap
+	sky						"skies/m_night";
 
-	// light flags
-	lights			cars lamps city;
+	lights					cars lamps city;
 
 	fog 1
 	{
 		fog_far		290;
-		fog_near	10;
-		fog_color	0.03 0.02 0.05;
+		fog_near	190;
+		fog_color	0.0 0.0 0.0;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+"night_clear_end"
+{
+	ambientColor 			0.1 	0.12 	0.14;
+	sunColor 				0.04 	0.04 	0.08;
+	shadowColor				0.0 	0.0 	0.0 	0.2;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	skyColor				0.7 	0.7 	0.7;
+	
+	sunAngles 				-2 		-41 	0;
+	sunLensAngles 			0 		-75 	0;
+	sunLensItensity 		0;
+	headlightIntensity		0.5;
+	streetLightIntensity	1.0;
+	
+	brightModFactor			0.4;
+
+	moonBrightness			1.2;
+
+	sky						"skies/m_night";
+
+	lights					cars lamps city;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.0 0.0 0.0;
 	}
 
 	// "clear" - just fair
@@ -270,25 +253,24 @@ foreground "SKIES/tcs_foreground";
 
 "night_stormy"
 {
-	ambientColor 	0.08 0.08 0.08;
-	sunColor 	0.1 0.1 0.16;
-	skyCloudsColor	0.5 0.5 0.5 0.25;
-	sunAngles 	-20 -30 0;
+	ambientColor 			0.08 	0.08 	0.08;
+	sunColor 				0.1 	0.1 	0.16;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	sunAngles 				-20 	-30 	0;
 
-	sunLensItensity 0;
-	shadows		0;
+	sunLensItensity 		0;
+	shadows					0;
 
-	brightModFactor	0.6;
+	brightModFactor			0.6;
 	streetLightIntensity	0.6;
-	headlightIntensity	0.4;
-	sunLensAngles 		-2 -30 0;
+	headlightIntensity		0.4;
+	sunLensAngles 			-2 		-30 	0;
 
-	rainBrightness	0.3;
-	rainDensity	200;
+	rainBrightness			0.3;
+	rainDensity				200;
 
-	sky		"MIAMI/Skies/skymcd_nightrain";	// skydome texture which defines $env_cubemap
+	sky		"skies/m_night_stormy";
 
-	// light flags
 	lights			cars lamps city;
 
 	fog 1
@@ -311,34 +293,28 @@ foreground "SKIES/tcs_foreground";
 
 "night_stormy_norain"
 {
-	ambientColor 	0.08 0.08 0.08;
-	sunColor 	0.1 0.1 0.16;
-	skyCloudsColor	0.5 0.5 0.5 0.25;
-	sunAngles 	-40 -30 0;
+	ambientColor 			0.08 	0.08 	0.08;
+	sunColor 				0.1 	0.1 	0.16;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	sunAngles 				-20 	-30 	0;
 
-	shadowColor	0.0 0.0 0.0 0.2;
+	sunLensItensity 		0;
+	shadows					0;
 
-	sunLensItensity 0;
+	brightModFactor			0.6;
+	streetLightIntensity	0.6;
+	headlightIntensity		0.4;
+	sunLensAngles 			-2 		-30 	0;
 
-	brightModFactor	0.4;
-	streetLightIntensity	1.0;
-	rainBrightness	0.2;
-	headlightIntensity	0.5;
+	sky		"skies/m_night_stormy";
 
-	// moon uses sun lens angles
-	sunLensAngles 		-2 -30 0;
-	moonBrightness		0;
-
-	sky		"MIAMI/Skies/skymcd_nightrain";	// skydome texture which defines $env_cubemap
-
-	// light flags
 	lights			cars lamps city;
 
 	fog 1
 	{
-		fog_far		290;
-		fog_near	10;
-		fog_color	0.03 0.02 0.05;
+		fog_far		200;
+		fog_near	40;
+		fog_color	0.09 0.1 0.1;
 	}
 
 	// "clear" - just fair
@@ -351,40 +327,22 @@ foreground "SKIES/tcs_foreground";
 //////////////////////////////////////////////////////////////////////////////////////////////
 // transitions
 
-"day_dusk_rainy_transition"
+"test_all_transition"
 {
-	transition day_rainy dusk_rainy;
-	transition_time 220;		// time in seconds the whole sequence transitions from first to last
+	transition night_clear dawn_clear day_clear dusk_clear night_clear_end;
+	transition_time 10;
 }
 
-"night_clear_stormy_transition"
+"night_dawn_day_transition"
 {
-	transition night_clear_thunder night_stormy;
-	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+	transition night_clear dawn_clear day_clear;
+	transition_time 10;
 }
 
-"dusk_night_transition"
+"day_dusk_night_transition"
 {
-	transition dusk_overcast duskevening_clear night_clear;
-	transition_time 120;		// time in seconds the whole sequence transitions from first to last
-}
-
-"night_dawn_transition"
-{
-	transition night_clear dawn_clear;
-	transition_time 180;		// time in seconds the whole sequence transitions from first to last
-}
-
-"day_dawn_transition"
-{
-	transition day_clear dawn_clear;
-	transition_time 120;		// time in seconds the whole sequence transitions from first to last
-}
-
-"debug_transitions"
-{
-	transition dawn_clear day_clear day_stormy dusk_clear night_clear night_stormy;
-	transition_time 30;		// time in seconds the whole sequence transitions from first to last
+	transition day_clear dusk_clear night_clear_end;
+	transition_time 10;
 }
 
 "caseforakey_weather"
@@ -395,7 +353,7 @@ foreground "SKIES/tcs_foreground";
 
 "superflydrive_weather"
 {
-	transition duskevening_clear night_clear;
+	transition night_clear dawn_clear;
 	transition_time 120;		// time in seconds the whole sequence transitions from first to last
 }
 

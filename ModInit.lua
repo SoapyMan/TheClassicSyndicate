@@ -49,34 +49,34 @@ local MiamiMissionsList = {
 		args = "render02.mpg" 
 	},
 	{
-		id = "mcd00", 
+		id = "m_00", 
 		label = "Interview" 
 	},
 	{
-		id = "mcd_flat_nextmessage", 
-		message = "mcd01", 
+		id = "m_flat_nextmessage", 
+		message = "m_01", 
 		label = "The Bank Job (motel intro)"
 	},
 	{
-		id = "mcd01", 
+		id = "m_01", 
 		label = "The Bank Job"
 	},
 	{
-		id = "mcd_flat_nextmessage", 
-		message = "mcd02", 
+		id = "m_flat_nextmessage", 
+		message = "m_02", 
 		label = "Hide The Evidence (motel intro)"
 	},
 	{
-		id = "mcd02", 
+		id = "m_02", 
 		label = "Hide The Evidence" 
 	},
 	{
-		id = "mcd_flat_nextmessage",
-		message = "mcd03",
+		id = "m_flat_nextmessage",
+		message = "m_03",
 		label = "Ticco's Ride (motel intro)"
 	},
 	{
-		id = "mcd03",
+		id = "m_03",
 		label = "Ticco's Ride" 
 	},
 	{
@@ -85,20 +85,20 @@ local MiamiMissionsList = {
 		args = {"render51.mpg", "message.call_cleanup"} 
 	},
 	{
-		id = "mcd04a",
+		id = "m_04a",
 		label = "The Clean Up (Part 1)" 
 	},
 	{
-		id = "mcd04b",
+		id = "m_04b",
 		label = "The Clean Up (Part 2)" 
 	},
 	{
-		id = "mcd_flat_nextmessage",
-		message = "mcd05a",
+		id = "m_flat_nextmessage",
+		message = "m_05a",
 		label = "Case For A Key (motel intro)"
 	},
 	{
-		id = "mcd05a", 
+		id = "m_05a", 
 		label = "Case For A Key"
 	},
 	{
@@ -107,7 +107,7 @@ local MiamiMissionsList = {
 		args = "render24.mpg"
 	},
 	{
-		id = "mcd05b",
+		id = "m_05b",
 		label = "Case For A Key (Part 2)" 
 	},
 	{
@@ -116,7 +116,7 @@ local MiamiMissionsList = {
 		args = "render65.mpg"
 	},
 	{
-		id = "mcd05c",
+		id = "m_05c",
 		label = "Case For A Key (Part 3)"
 	},
 	{
@@ -125,12 +125,12 @@ local MiamiMissionsList = {
 		args = "render25.mpg"
 	},
 	{
-		id = "mcd_flat_nextmessage",
-		message = "mcd06",
+		id = "m_flat_nextmessage",
+		message = "m_06",
 		label = "Tanner Meets Rufus (motel intro)"
 	},
 	{
-		id = "mcd06", 
+		id = "m_06", 
 		label = "Tanner Meets Rufus" 
 	},
 	{
@@ -139,16 +139,16 @@ local MiamiMissionsList = {
 		args = "render01.mpg"
 	},
 	{
-		id = "mcd07a", 
+		id = "m_07a", 
 		label = "Bust Out Jean Paul" 
 	},
 	{
-		id = "mcd07b", 
+		id = "m_07b", 
 		label = "Bust Out Jean Paul (Part 2)"
 	},
 	{
-		id = "mcd_flat_nextmessage",
-		message = "mcd08",
+		id = "m_flat_nextmessage",
+		message = "m_08",
 		label = "Payback (motel intro)"
 	},
 	{
@@ -157,7 +157,7 @@ local MiamiMissionsList = {
 		args = {"render59.mpg", "message.call_payback"}
 	},
 	{
-		id = "mcd08", 
+		id = "m_08", 
 		label = "Payback" 
 	},
 	{
@@ -167,21 +167,21 @@ local MiamiMissionsList = {
 	},
 	--"mcd_flat_nextmessage",	-- A Shipment's Coming In (Message)				O
 	{
-		id = "mcd09", 
+		id = "m_09", 
 		label = "A Shipment's Coming In"
 	},
 	{
-		id = "mcd_flat_nextmessage",
-		message = "mcd10",
+		id = "m_flat_nextmessage",
+		message = "m_10",
 		label = "Superfly Drive (motel intro)"
 	},
 	{
-		id = "mcd10",
+		id = "m_10",
 		label = "Superfly Drive"
 	},
 	{
-		id = "mcd_flat_nextmessage",
-		message = "mcd11",
+		id = "m_flat_nextmessage",
+		message = "m_11",
 		label = "Take Out Di Angio's Car (motel intro)"
 	},
 	{
@@ -190,12 +190,12 @@ local MiamiMissionsList = {
 		args = {"render59.mpg", "message.call_diangio"}
 	},
 	{
-		id = "mcd11",
+		id = "m_11",
 		label = "Take Out Di Angio's Car"
 	},
 	{
-		id = "mcd_flat_nextmessage",
-		message = "mcd12",
+		id = "m_flat_nextmessage",
+		message = "m_12",
 		label = "Bait for a Trap (motel intro)"
 	},
 	{
@@ -204,7 +204,7 @@ local MiamiMissionsList = {
 		args = {"render59.mpg", "message.call_baitforatrap"}
 	},
 	{
-		id = "mcd12",
+		id = "m_12",
 		label = "Bait for a Trap"
 	},
 	{
@@ -213,7 +213,7 @@ local MiamiMissionsList = {
 		args = "render03.mpg"
 	},
 	{
-		id = "mcd13",
+		id = "m_13",
 		label = "The Informant"
 	},
 	{

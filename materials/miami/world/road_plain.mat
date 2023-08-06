@@ -1,0 +1,31 @@
+"Base" 
+{ 
+	BaseTexture 				"miami/world/road_plain";
+
+	Cubemap						"$env_cubemap";
+	BaseTextureSpecularAlpha 	1;
+	SpecularScale				0.0;
+
+	AlphaTest					0;
+	NoCull						0;
+
+	Rotatable					0;
+	
+	NoCollide					0;
+	NoDraw 						0;
+	
+	editor
+	{
+		NoDraw 					0;
+	}
+	
+//	SurfaceProps				"Default";
+
+//	Filtering					"Nearest";
+
+// 	ExtraParameter1
+// 	ExtraParameter2
+// 	ExtraParameter3
+// 	ExtraParameter4
+// 	ExtraParameter5
+};
