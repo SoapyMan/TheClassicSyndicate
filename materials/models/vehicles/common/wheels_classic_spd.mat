@@ -1,6 +1,6 @@
 "Skinned"
 { 
-	BaseTexture					"models/vehicles/common/wheels";
+	BaseTexture					"models/vehicles/common/wheels_classic_spd";
 	BaseTextureSpecularAlpha 	1;
 
 	CubeMap						"$env_cubemap";

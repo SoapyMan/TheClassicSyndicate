@@ -3,7 +3,7 @@ name		"Miami - Default (iOS)";
 cleanmodel		"models/vehicles/m_default_ios/car_ok.egf";
 damagedmodel	"models/vehicles/m_default_ios/car_ko.egf";
 
-wheelmodel		"models/vehicles/common/x_wheels.egf";
+wheelmodel		"models/vehicles/common/wheels_classic.egf";
 
 //				damaged 		hubcapped 		hubcap
 wheelBodyGroup	"ios_uncapped" 	"ios_capped" 	"ios_cap";
