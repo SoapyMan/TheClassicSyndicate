@@ -240,14 +240,14 @@ local McdLevelNames = {
 local ClassicCars = {
 
 	{"m_default_ios", "Miami - Default Car (iOS)"},
+	{"m_evidence_ios", "Miami - Evidence Car (iOS)"},
 
-	{"mcd_superflydrive", "Miami - Superfly Drive Car"},			-- TODO: unlock with cheats or completion of story
-	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},		-- TODO: unlock with cheats or completion of story
-	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},					-- TODO: unlock with cheats or completion of story
-	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},					-- TODO: unlock with cheats or completion of story
-	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},					-- TODO: unlock with cheats or completion of story
-	{"mcd_miamievidence", "Miami - Hide The Evidence Car"},			-- TODO: unlock with cheats or completion of story
-	{"mcd_miamicleanup", "Miami - The Clean Up Car"},				-- TODO: unlock with cheats or completion of story
+	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
+	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},
+	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},
+	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
+	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},
+	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
 
 	{"sfd_friscodef", "Frisco - Default PSX Car"},
 }

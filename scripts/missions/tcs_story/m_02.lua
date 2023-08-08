@@ -24,7 +24,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	
 	MISSION.Settings.EnableCops = false						-- Cops are disabled
 	
-	local playerCar = gameses:CreateCar("mcd_miamievidence", CAR_TYPE_NORMAL)	-- Create player car
+	local playerCar = gameses:CreateCar("m_evidence_ios", CAR_TYPE_NORMAL)	-- Create player car
 	
 	MISSION.playerCar = playerCar	-- Define spawned car above as player car for mission
 	
