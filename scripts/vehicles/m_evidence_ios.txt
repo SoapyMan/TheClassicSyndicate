@@ -1,0 +1,162 @@
+name		"Miami - Evidence (iOS)";
+
+cleanmodel		"models/vehicles/m_evidence_ios/car_ok.egf";
+damagedmodel	"models/vehicles/m_evidence_ios/car_ko.egf";
+
+wheelmodel		"models/vehicles/common/x_wheels.egf";
+
+//				damaged 		hubcapped 		hubcap
+wheelBodyGroup	"ios_uncapped" 	"ios_capped" 	"ios_cap";
+
+allowMusic 0;
+sounds
+{
+	engine		"MCD_Default.engine";
+	engine_low	"MCD_Default.engine_low";
+	engine_idle	"MCD_Default.engine_idle";
+
+	horn 		"MCD_DefaultPlayer.horn";
+	// use single engine sound
+	//engine_off	"sounds/engines/engine2_off.wav"
+};
+
+camera_height 		1.00;
+camera_distance		6.25;
+camera_anglex		2.00;
+
+camera_height_in 	0.26;
+camera_distance_in	1.6;
+camera_side_in		0.39;
+
+visuals
+{
+	// name			type 	position 					split dist
+	
+	headlights 		0 		0.58 	0.0 	2.24 		0.09;
+	brakelights 	1 		0.51 	-0.015 	-2.30 		0.10;
+
+	backlights 				0.51 	-0.015 	-2.30 		0.06;
+
+	frontdimlights			0.84 	0.0 	2.21 		0.1;
+	backdimlights			0.76 	-0.015 	-2.30 		0.06;
+
+	engine 					0.0 	0.1 	2.12;
+	
+	driver 					-0.38 	0.13 	0.01;
+	passenger1 				0.34 	0.13 	0.01;
+	
+	// name					position					type		want double exhausts? (add 1).
+	
+	exhaust 				0.36 	-0.36 	-2.44 		2;
+};
+
+hingePoints
+{
+	front 	0.0		-0.25	2.25;
+	back 	0.0		-0.25	-2.55;
+}
+
+useBodyColor 1;
+
+colors
+{
+	//name		r		g		b		reflectivity
+	"Default"	0.35	0.35	0.50	0.75;	
+};
+
+bodysize		0.88 	0.52 	2.40;
+center 			0.00	0.12 	0.00;
+
+gravitycenter	0.0 	-0.14 	0.05;
+mass 			2800;
+antiroll		0.32;
+
+gears
+	-1.95
+	1.95
+	1.20
+	0.80
+	0.57;
+
+
+differential 		25.0;
+transmissionrate	0.90;
+torquemultipler		1.25;
+
+maxspeed			144;
+
+suspensionLift		-0.05;
+	
+wheels
+{
+	// front wheels
+	wheel
+	{
+		SuspensionTop				-0.74 	0.05 	1.50;
+		SuspensionBottom			-0.78 	-0.66 	1.54;
+		SuspensionSpringConstant	57000.0;
+		SuspensionDampingConstant	2900;
+
+		Radius 			0.32;
+		Width			0.22;
+
+		BrakeTorque		18000.0;
+
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	wheel
+	{
+		SuspensionTop				0.74 	0.05 	1.50;
+		SuspensionBottom			0.78 	-0.66 	1.54;
+		SuspensionSpringConstant	57000.0;
+		SuspensionDampingConstant	2900;
+
+		Radius 			0.32;
+		Width			0.22;
+
+		BrakeTorque		18000.0;
+		Steer			1;
+		Drive			0;
+		Handbrake		0;
+	};
+
+	// back wheels
+	wheel
+	{
+		SuspensionTop				0.74 	0.05 	-1.26;
+		SuspensionBottom			0.78 	-0.66 	-1.30;
+		SuspensionSpringConstant	57000.0;
+		SuspensionDampingConstant	2900;
+
+		Radius 			0.32;
+		Width			0.22;
+
+		BrakeTorque		18000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+	
+	wheel
+	{
+		SuspensionTop				-0.74 	0.05 	-1.26;
+		SuspensionBottom			-0.78 	-0.66 	-1.30;
+		SuspensionSpringConstant	57000.0;
+		SuspensionDampingConstant	2900;
+		
+		Radius 			0.32;
+		Width			0.22;
+
+		BrakeTorque		18000.0;
+
+		Steer			0;
+		Drive			1;
+		Handbrake		1;
+	};
+
+};
