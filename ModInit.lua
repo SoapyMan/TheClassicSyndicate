@@ -1,7 +1,5 @@
 -- ModInit for Syndicate's Classic Mod
 
--- Hey man, good luck in the future, both for your game and your own future, see ya ! #_matti
-
 local ModInit = {
 	Title = "The Classic Syndicate",
 
@@ -13,28 +11,8 @@ local ModInit = {
 	Conflicts = {}
 }
 
-McdPrefferedStoryCar = "mcd_miamidef"
+McdPrefferedStoryCar = "m_default_ios"
 local EQUI_CARSSELECTION_SCHEME_NAME = "ui_mainmenu_mcdmissioncar"
-
--------------------------------------------------------------------------------
-
--- Mod Vocabulary:
-
--- dsd		= desert data
-
--- pkd		= parking data
-
--- mcd 		= miami classic data
--- mcdpages = miami classic data (mainly for models)
-
--- sfd		= san francisco data
--- sfdpages	= san francisco data (mainly for models)
-
--- lad		= los angeles data
--- ladpages = los angeles data (mainly for models)
-
--- nyd		= new york data
--- nydpages	= new york data (mainly for models)
 
 -------------------------------------------------------------------------------
 
@@ -229,12 +207,10 @@ local MiamiMissionsList = {
 
 local MyLevelFileName = "MiamiClassic"
 local ParkingLevelName = "iviewclassic"
-local MyLevelFileName2 = "FriscoClassic"
 
 local McdLevelNames = {
 	MyLevelFileName,
 	ParkingLevelName,
-	MyLevelFileName2,
 }
 
 local ClassicCars = {
@@ -248,8 +224,6 @@ local ClassicCars = {
 	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
 	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},
 	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
-
-	{"sfd_friscodef", "Frisco - Default PSX Car"},
 }
 
 local MyCopSoundsFilename = "scripts/sounds/mcd_cops.txt"
@@ -285,11 +259,9 @@ function ModInit:Init()
 	EmitterSoundRegistry.MCDObjects = "scripts/sounds/mcd_objects.txt"				-- Objects SFX
 	
 	CopVoiceOver[MyLevelFileName] = MyCopSoundsFilename;	-- Define what cop sounds script a level uses
-	CopVoiceOver[MyLevelFileName2] = MyCopSoundsFilename;
 	CopVoiceOver[ParkingLevelName] = MyCopSoundsFilename;
 	
 	CopVoiceOver[string.lower(MyLevelFileName)] = MyCopSoundsFilename;
-	CopVoiceOver[string.lower(MyLevelFileName2)] = MyCopSoundsFilename;
 	CopVoiceOver[string.lower(ParkingLevelName)] = MyCopSoundsFilename;
 	
 	-- Change music state logic
@@ -311,23 +283,14 @@ function ModInit:Init()
 		night_stormy = "nyc_night"
 	}
 
-	CityTimeOfDayMusic[MyLevelFileName2] = {			-- Music selection for Miami (Classic)
-		day_clear = "frisco_day",
-		day_stormy = "la_day",
-		dawn_clear = "frisco_night",
-		night_clear = "frisco_night",
-		night_stormy = "nyc_night"
-	}
-
 	-----------------------------------------------------------
 	-- Classic Content (Map / Vehicles / Missions / Minigames) --
 	-----------------------------------------------------------
 
 	
 	-- add levels
-	table.insert(MenuCityList, {MyLevelFileName, "Miami (Classic)"})			-- Miami Classic
-	table.insert(MenuCityList, {ParkingLevelName, "Parking (Classic)"})			-- Parking Classic
-	table.insert(MenuCityList, {MyLevelFileName2, "Frisco (Classic)"})			-- Miami Classic
+	table.insert(MenuCityList, {MyLevelFileName, "Miami (Classic)"})
+--	table.insert(MenuCityList, {ParkingLevelName, "Parking (Classic)"})
 
 	-- add cars
 	for i,v in ipairs(ClassicCars) do

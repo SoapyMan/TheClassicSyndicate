@@ -1,9 +1,0 @@
-"DrvSynVehicle"
-{ 
-	BaseTexture			"models/vehicles/friscodef/friscodefault_1";
-	DamageTexture		"models/vehicles/friscodef/friscodefault_1_dam";
-	BaseTextureSpecularAlpha 	1;
-
-	CubeMap		"$env_cubemap";
-	SpecularScale	0.35;
-}; 

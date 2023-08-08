@@ -1,7 +1,0 @@
-"Base" 
-{ 
-	basetexture 			"sfd/sfd0_grassfull";
-	surfaceprops 	"grass"; 
-	WetScale	0.5;
-	Filtering "linear";
-};

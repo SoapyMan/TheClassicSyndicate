@@ -1,7 +1,0 @@
-"Base" 
-{ 
-	basetexture 			"sfdpages/sfdp17";
-	//NightLight			"sfdpages/sfdp17_L";
-	Cubemap				"$env_Cubemap";
-	Filtering "linear";
-};
