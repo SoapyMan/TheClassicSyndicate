@@ -143,7 +143,6 @@ local MiamiMissionsList = {
 		screen = "story_movie_play",
 		args = {"render56.mpg", "message.call_shipment"} 
 	},
-	--"mcd_flat_nextmessage",	-- A Shipment's Coming In (Message)				O
 	{
 		id = "m_09", 
 		label = "A Shipment's Coming In"
@@ -216,14 +215,14 @@ local McdLevelNames = {
 local ClassicCars = {
 
 	{"m_default_ios", "Miami - Default Car (iOS)"},
-	{"m_evidence_ios", "Miami - Evidence Car (iOS)"},
+--	{"m_evidence_ios", "Miami - Evidence Car (iOS)"},
 
-	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
-	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},
-	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},
-	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
-	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},
-	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
+--	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
+--	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},
+--	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},
+--	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
+--	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},
+--	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
 }
 
 local MyCopSoundsFilename = "scripts/sounds/mcd_cops.txt"
