@@ -6,7 +6,7 @@
 skyHeight 0.28;
 skyAngle -25;
 northLocation -2;
-foreground "SKIES/tcs_foreground";
+foreground "skies/tcs_foreground";
 
 //-----------------------------------------------------------------
 //-----------------------------------------------------------------

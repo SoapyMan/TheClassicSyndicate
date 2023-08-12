@@ -215,7 +215,7 @@ local McdLevelNames = {
 local ClassicCars = {
 
 	{"m_default_ios", "Miami - Default Car (iOS)"},
---	{"m_evidence_ios", "Miami - Evidence Car (iOS)"},
+	{"m_evidence_ios", "Miami - Evidence Car (iOS)"},
 
 --	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
 --	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},

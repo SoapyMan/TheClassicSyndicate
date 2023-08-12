@@ -21,7 +21,7 @@ sounds
 };
 
 camera_height 		1.00;
-camera_distance		6.25;
+camera_distance		6.75;
 camera_anglex		2.00;
 
 camera_height_in 	0.26;
