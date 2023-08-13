@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 CameraPosition 32.5102 128.92 -376.838;
 CameraRotation 78.2833 -269.915 0;
+=======
+CameraPosition 746.642 1.39727 -686.409;
+CameraRotation 8.98206 -66.214 0;
+>>>>>>> parent of 93ef88a (- test new wip roads @ ocean drive)
