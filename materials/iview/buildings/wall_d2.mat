@@ -1,6 +1,8 @@
 "Base" 
 { 
-	BaseTexture 				"iview/world/asphalt_parking";
+	BaseTexture 				"iview/buildings/wall_d2";
+	
+//	Address						"Clamp";
 
 	Cubemap						"$env_cubemap";
 	BaseTextureSpecularAlpha 	1;
@@ -9,7 +11,7 @@
 	AlphaTest					0;
 	NoCull						0;
 
-	Rotatable					1;
+	Rotatable					0;
 	
 	NoCollide					0;
 	NoDraw 						0;

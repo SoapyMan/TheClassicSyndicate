@@ -6,6 +6,42 @@
 skyHeight 0.1;
 skyAngle 0;
 
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_clear"
+{
+	ambientColor 		0.58 	0.60 	0.72;
+	sunColor 			0.84 	0.80 	0.38;
+	shadowColor			0.01 	0.01 	0.09 	0.35;
+	skyCloudsColor		0.9 	0.9 	0.9 	0.9;
+
+	sunAngles 			-35 	14 		0;
+	sunLensAngles		-17 	14 		0;
+	sunLensItensity 	0.45;
+	headlightIntensity	0.0;
+
+	sky					"skies/m_day";
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.58 0.57 0.57;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
 "night_clear"
 {
 	ambientColor 			0.072 0.064 0.052;

@@ -50,23 +50,23 @@ MISSION.Init = function()
 		parkedCars = {
 		
 			-- cars by left side
-			{ "NPC_mcd_traffic02", Vector3D.new(99,0.70,109.65), Vector3D.new(122,-90,-122), 0 },
-			{ "NPC_mcd_traffic01", Vector3D.new(99,0.70,117.65), Vector3D.new(122,-90,-122), 1 },
-			{ "NPC_mcd_traffic01", Vector3D.new(99,0.70,129.65), Vector3D.new(122,-90,-122), 2 },
-			{ "NPC_mcd_traffic01", Vector3D.new(99,0.70,141.75), Vector3D.new(122,-90,-122), 3 },
-			{ "NPC_mcd_traffic02", Vector3D.new(99,0.70,149.70), Vector3D.new(122,-90,-122), 4 },
+			{ "NPC_mcd_traffic02", Vector3D.new(98.75,0.70,110), Vector3D.new(122,-90,-122), 0 },
+			{ "NPC_mcd_traffic01", Vector3D.new(98.75,0.70,117.85), Vector3D.new(122,-90,-122), 1 },
+			{ "NPC_mcd_traffic01", Vector3D.new(98.75,0.70,130), Vector3D.new(122,-90,-122), 2 },
+			{ "NPC_mcd_traffic01", Vector3D.new(98.75,0.70,142), Vector3D.new(122,-90,-122), 3 },
+			{ "NPC_mcd_traffic02", Vector3D.new(98.75,0.70,149.85), Vector3D.new(122,-90,-122), 4 },
 
-			{ "NPC_mcd_traffic01", Vector3D.new(110,0.70,137.75), Vector3D.new(122,-90,-122), 0 },
+			{ "NPC_mcd_traffic01", Vector3D.new(122.75,0.70,138.40), Vector3D.new(122,-90,-122), 0 },
 			
 			-- cars by right side
-			{ "NPC_mcd_traffic02", Vector3D.new(145.50,0.70,106), Vector3D.new(0, 90, 0), 1 },
-			{ "NPC_mcd_traffic02", Vector3D.new(145.50,0.70,109.65), Vector3D.new(0, 90, 0), 2 },
-			{ "NPC_mcd_traffic01", Vector3D.new(145.50,0.70,117.65), Vector3D.new(0, 90, 0), 3 },
+			{ "NPC_mcd_traffic02", Vector3D.new(133.25,0.70,106.15), Vector3D.new(0, 90, 0), 1 },
+			{ "NPC_mcd_traffic02", Vector3D.new(133.25,0.70,110), Vector3D.new(0, 90, 0), 2 },
+			{ "NPC_mcd_traffic01", Vector3D.new(146.75,0.70,117.85), Vector3D.new(0, 90, 0), 3 },
 
-			{ "NPC_mcd_traffic01", Vector3D.new(157.50,0.70,129.65), Vector3D.new(0, 90, 0), 4 },
-			{ "NPC_mcd_traffic02", Vector3D.new(157.50,0.70,141.75), Vector3D.new(0, 90, 0), 0 },
-			{ "NPC_mcd_traffic02", Vector3D.new(157.50,0.70,145.75), Vector3D.new(0, 90, 0), 1 },
-			{ "NPC_mcd_traffic01", Vector3D.new(145.50,0.70,149.70), Vector3D.new(0, 90, 0), 2 },
+			{ "NPC_mcd_traffic01", Vector3D.new(157.25,0.70,130), Vector3D.new(0, 90, 0), 4 },
+			{ "NPC_mcd_traffic02", Vector3D.new(157.25,0.70,142), Vector3D.new(0, 90, 0), 0 },
+			{ "NPC_mcd_traffic02", Vector3D.new(157.25,0.70,146), Vector3D.new(0, 90, 0), 1 },
+			{ "NPC_mcd_traffic01", Vector3D.new(146.75,0.70,149.85), Vector3D.new(0, 90, 0), 2 },
 		},
 		
 		lapPoints = {
