@@ -8001,7 +8001,6 @@ brush 4
 	region 403;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 5
 {
@@ -8060,7 +8059,6 @@ brush 5
 	region 403;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 0
 {
@@ -8293,7 +8291,6 @@ brush 3
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 4
 {
@@ -8352,7 +8349,6 @@ brush 4
 	region 435;
 	groupId 65535;
 	visGroupId 1;
-	def tunnel_volume;
 };
 brush 5
 {
@@ -8411,7 +8407,6 @@ brush 5
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 6
 {
@@ -8470,7 +8465,6 @@ brush 6
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 7
 {
@@ -8529,7 +8523,6 @@ brush 7
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 8
 {
@@ -8588,7 +8581,6 @@ brush 8
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 9
 {
@@ -8647,7 +8639,6 @@ brush 9
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 10
 {
@@ -8706,7 +8697,6 @@ brush 10
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 11
 {
@@ -8765,7 +8755,6 @@ brush 11
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 12
 {
@@ -8824,7 +8813,6 @@ brush 12
 	region 435;
 	groupId 65535;
 	visGroupId 0;
-	def tunnel_volume;
 };
 brush 13
 {
@@ -9463,7 +9451,6 @@ brush 2
 	region 436;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 3
 {
@@ -9522,7 +9509,6 @@ brush 3
 	region 436;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 0
 {
@@ -10683,7 +10669,6 @@ brush 2
 	region 470;
 	groupId 65535;
 	visGroupId 0;
-	def city_buildings_volume;
 };
 brush 3
 {
@@ -10742,7 +10727,6 @@ brush 3
 	region 470;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 0
 {
@@ -11049,7 +11033,6 @@ brush 4
 	region 502;
 	groupId 65535;
 	visGroupId 0;
-	def parking_volume;
 };
 brush 0
 {

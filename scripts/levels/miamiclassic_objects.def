@@ -23,17 +23,22 @@
 //
 
 include "scripts/objects/debris.def";
-include "scripts/objects/physics.def";
+//include "scripts/objects/physics.def";
 include "scripts/objects/gameplay.def";
-include "scripts/objects/lights.def";
-include "scripts/objects/traffic.def";
-include "scripts/objects/trees.def";
-include "scripts/objects/emitters.def";
-include "scripts/objects/volumes.def";
+//include "scripts/objects/lights.def";
+//include "scripts/objects/traffic.def";
+//include "scripts/objects/trees.def";
+//include "scripts/objects/emitters.def";
+//include "scripts/objects/volumes.def";
 
 // add custom object types below for your level file
 
+//OLD
 include "scripts/objects/mcdtraffic.def";
 include "scripts/objects/mcdlights.def";
 include "scripts/objects/mcddebris.def";
 include "scripts/objects/mcdanim.def";
+
+//NEW
+//include "scripts/objects/m_props_static.def";
+//include "scripts/objects/m_props_physic.def";

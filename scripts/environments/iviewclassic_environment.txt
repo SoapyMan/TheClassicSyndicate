@@ -17,7 +17,7 @@ skyAngle 0;
 	sunLensItensity 		0;
 
 	brightModFactor			1.0;
-	streetLightIntensity	0.75;
+	streetLightIntensity	0.50;
 	rainBrightness			0.0;
 	headlightIntensity		0.50;
 
@@ -28,7 +28,7 @@ skyAngle 0;
 	sky						"skies/m_night";
 
 	// light flags
-	lights			 		cars lamps city;
+	lights			 		lamps city;
 
 	fog 0
 	{

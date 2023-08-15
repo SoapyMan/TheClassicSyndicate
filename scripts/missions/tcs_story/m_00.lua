@@ -41,7 +41,7 @@ MISSION.Init = function()
 	MISSION.Data = {
 	
 		carName = McdGetPlayerCarName(),
-		startPos = Vector3D.new(130,0.70,94),
+		startPos = Vector3D.new(128,0.70,94),
 		
 		waitTime = 1.0,
 		
@@ -50,55 +50,55 @@ MISSION.Init = function()
 		parkedCars = {
 		
 			-- cars by left side
-			{ "NPC_mcd_traffic02", Vector3D.new(102.50,0.70,110), Vector3D.new(122,-90,-122), 0 },
-			{ "NPC_mcd_traffic01", Vector3D.new(102.50,0.70,117), Vector3D.new(122,-90,-122), 1 },
-			{ "NPC_mcd_traffic01", Vector3D.new(102.50,0.70,131), Vector3D.new(122,-90,-122), 2 },
-			{ "NPC_mcd_traffic01", Vector3D.new(102.50,0.70,144), Vector3D.new(122,-90,-122), 3 },
-			{ "NPC_mcd_traffic02", Vector3D.new(102.50,0.70,148), Vector3D.new(122,-90,-122), 4 },
+			{ "NPC_mcd_traffic02", Vector3D.new(99,0.70,109.65), Vector3D.new(122,-90,-122), 0 },
+			{ "NPC_mcd_traffic01", Vector3D.new(99,0.70,117.65), Vector3D.new(122,-90,-122), 1 },
+			{ "NPC_mcd_traffic01", Vector3D.new(99,0.70,129.65), Vector3D.new(122,-90,-122), 2 },
+			{ "NPC_mcd_traffic01", Vector3D.new(99,0.70,141.75), Vector3D.new(122,-90,-122), 3 },
+			{ "NPC_mcd_traffic02", Vector3D.new(99,0.70,149.70), Vector3D.new(122,-90,-122), 4 },
 
-			{ "NPC_mcd_traffic01", Vector3D.new(120,0.70,148), Vector3D.new(122,-90,-122), 0 },
+			{ "NPC_mcd_traffic01", Vector3D.new(110,0.70,137.75), Vector3D.new(122,-90,-122), 0 },
 			
 			-- cars by right side
-			{ "NPC_mcd_traffic02", Vector3D.new(140.50,0.70,112), Vector3D.new(0, 90, 0), 1 },
-			{ "NPC_mcd_traffic02", Vector3D.new(140.50,0.70,104), Vector3D.new(0, 90, 0), 2 },
-			{ "NPC_mcd_traffic01", Vector3D.new(140.50,0.70,100), Vector3D.new(0, 90, 0), 3 },
+			{ "NPC_mcd_traffic02", Vector3D.new(145.50,0.70,106), Vector3D.new(0, 90, 0), 1 },
+			{ "NPC_mcd_traffic02", Vector3D.new(145.50,0.70,109.65), Vector3D.new(0, 90, 0), 2 },
+			{ "NPC_mcd_traffic01", Vector3D.new(145.50,0.70,117.65), Vector3D.new(0, 90, 0), 3 },
 
-			{ "NPC_mcd_traffic01", Vector3D.new(157.50,0.70,131), Vector3D.new(0, 90, 0), 4 },
-			{ "NPC_mcd_traffic02", Vector3D.new(157.50,0.70,142), Vector3D.new(0, 90, 0), 0 },
-			{ "NPC_mcd_traffic02", Vector3D.new(157.50,0.70,145), Vector3D.new(0, 90, 0), 1 },
-			{ "NPC_mcd_traffic01", Vector3D.new(157.50,0.70,154), Vector3D.new(0, 90, 0), 2 },
+			{ "NPC_mcd_traffic01", Vector3D.new(157.50,0.70,129.65), Vector3D.new(0, 90, 0), 4 },
+			{ "NPC_mcd_traffic02", Vector3D.new(157.50,0.70,141.75), Vector3D.new(0, 90, 0), 0 },
+			{ "NPC_mcd_traffic02", Vector3D.new(157.50,0.70,145.75), Vector3D.new(0, 90, 0), 1 },
+			{ "NPC_mcd_traffic01", Vector3D.new(145.50,0.70,149.70), Vector3D.new(0, 90, 0), 2 },
 		},
 		
 		lapPoints = {
-			Vector3D.new(143, 0.60, 98),
-			Vector3D.new(116, 0.60, 98),
+			Vector3D.new(143, 0.60, 96),
+			Vector3D.new(113, 0.60, 96),
 
-			Vector3D.new(108, 0.60, 105),
-			Vector3D.new(108, 0.60, 146),
+			Vector3D.new(104, 0.60, 103),
+			Vector3D.new(104, 0.60, 153),
 			
-			Vector3D.new(116, 0.60, 154),
-			Vector3D.new(143, 0.60, 154),
+			Vector3D.new(113, 0.60, 160),
+			Vector3D.new(143, 0.60, 160),
 
-			Vector3D.new(152, 0.60, 146),
-			Vector3D.new(152, 0.60, 105),
+			Vector3D.new(152, 0.60, 153),
+			Vector3D.new(152, 0.60, 103),
 		},
 		
 		slalomPoints = {
 			-- 1
 			{
-				Vector3D.new(116.50, 0.60, 100),
-				Vector3D.new(116.50, 0.60, 112),
-				Vector3D.new(116.50, 0.60, 125),
-				Vector3D.new(116.50, 0.60, 139),
-				Vector3D.new(116.50, 0.60, 151),
+				Vector3D.new(112, 0.60, 100),
+				Vector3D.new(112, 0.60, 112),
+				Vector3D.new(112, 0.60, 129),
+				Vector3D.new(112, 0.60, 144),
+				Vector3D.new(112, 0.60, 157),
 			},
 			-- 2
 			{
-				Vector3D.new(143.50 ,0.60, 100),
-				Vector3D.new(143.50 ,0.60, 112),
-				Vector3D.new(143.50 ,0.60, 125),
-				Vector3D.new(143.50 ,0.60, 139),
-				Vector3D.new(143.50 ,0.60, 151),
+				Vector3D.new(143.50, 0.60, 100),
+				Vector3D.new(143.50, 0.60, 112),
+				Vector3D.new(143.50, 0.60, 129),
+				Vector3D.new(143.50, 0.60, 144),
+				Vector3D.new(143.50, 0.60, 157),
 			}
 		},
 		
@@ -163,9 +163,9 @@ MISSION.Init = function()
 	
 	gameses:SetPlayerCar( playerCar )
 
-	MissionManager:ScheduleEvent( function() 
-		playerCar:SetLight(CAR_LIGHT_LOWBEAMS, true)
-	end, 0.0)
+--	MissionManager:ScheduleEvent( function() 
+--		playerCar:SetLight(CAR_LIGHT_LOWBEAMS, true)
+--	end, 0.0)
 	
 	-- spawn the cars
 	for i,v in ipairs( MISSION.Data.parkedCars ) do
