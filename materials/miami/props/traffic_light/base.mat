@@ -1,0 +1,13 @@
+"Skinned"
+{ 
+	BaseTexture					"miami/props/traffic_light/base";
+	BaseTextureSpecularAlpha 	0;
+
+	CubeMap						"$env_cubemap";
+	SpecularScale				0.0;
+	
+	AlphaTest					0;
+	NoCull						0;
+	
+//	Filtering					"Nearest";
+}; 
