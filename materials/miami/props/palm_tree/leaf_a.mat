@@ -1,12 +1,12 @@
 "Skinned"
 { 
-	BaseTexture					"miami/props/traffic_light/light";
+	BaseTexture					"miami/props/palm_tree/leaf_a";
 	BaseTextureSpecularAlpha 	0;
 
 	CubeMap						"$env_cubemap";
 	SpecularScale				0.0;
 	
-	AlphaTest					0;
+	AlphaTest					1;
 	NoCull						1;
 	
 //	Filtering					"Nearest";

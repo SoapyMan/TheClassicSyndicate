@@ -1,0 +1,35 @@
+"DrvSynWater" 
+{
+	surfaceprops 		"water";
+	
+	translucent		1;
+
+	color 			"[0.32 0.4 0.48]";
+	specularscale		1;
+	nocull			1;
+
+	reflection		"_tempReflection";
+
+	bumpmap 		"water/water%02d[60]" usage:bumpmap;
+	cubemap			"$env_cubemap";
+
+	bumptextureframe 	"0";
+	basetexturetransform 	"[0 0]";
+	basetexturescale	"[0.35 0.25]";
+	temp 			"1";
+	temp2 			"1";
+
+	materialproxy
+	{ 
+		animatedtexture 60
+		{
+			frameVar $bumptextureframe;
+			framecount 60;
+			framerate #50;
+		};
+		add $temp #0.01 $temp useftime;
+		add $temp2 #0.01 $temp2 useftime;
+		sin $temp $basetexturetransform[0];
+		sin $temp2 $basetexturetransform[1];
+	}; 
+}; 

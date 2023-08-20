@@ -1,0 +1,17 @@
+///////////////////////////////////////////////////
+// TRAFFIC LIGHTS
+///////////////////////////////////////////////////
+
+static "mcd_tlight01"
+{
+	model	"models/MIAMI/City/mcd_tlight01.egf";
+
+	// trafficlight x y z 			type	direction
+	trafficlight 0.45 4.62f -1.76f 		0 	0;
+	trafficlight 0.45 4.62f -1.43f 		1 	0;
+	trafficlight 0.45 4.62f -1.07f 		2 	0;
+
+	trafficlight 0.45 4.62f -6.65f 		0 	0;
+	trafficlight 0.45 4.62f -6.29f		1 	0;
+	trafficlight 0.45 4.62f -5.93 		2 	0;
+}

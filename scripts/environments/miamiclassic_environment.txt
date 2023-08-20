@@ -155,7 +155,7 @@ foreground "skies/tcs_foreground";
 
 	sky						"skies/m_dusk";
 	
-	lights					city cars lamps;
+//	lights					city cars lamps;
 
 	fog 1
 	{
