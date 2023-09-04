@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture "ui/vehicles/mcd_miamievidence"
-	address "clamp";
-	translucent 1;
-}

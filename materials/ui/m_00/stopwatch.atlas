@@ -1,0 +1,4 @@
+atlasgroup "ui/m_00/stopwatch"
+{
+	stopwatch "0" "0" "0.605469" "0.78125";
+};

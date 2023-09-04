@@ -1,9 +1,0 @@
-"DrvSynVehicle"
-{ 
-	BaseTexture			"models/vehicles/miamicleanup/miamicleanup_1";
-	DamageTexture		"models/vehicles/miamicleanup/miamicleanup_1_dam";
-	BaseTextureSpecularAlpha 	1;
-
-	CubeMap		"$env_cubemap";
-	SpecularScale	0.10;
-}; 

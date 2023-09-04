@@ -1,4 +1,6 @@
--- ModInit for Syndicate's Classic Mod
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------- THE CLASSIC SYNDICATE - MODINIT -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 local ModInit = {
 	Title = "The Classic Syndicate",
@@ -11,15 +13,15 @@ local ModInit = {
 	Conflicts = {}
 }
 
-McdPrefferedStoryCar = "m_default_ios"
-local EQUI_CARSSELECTION_SCHEME_NAME = "ui_mainmenu_mcdmissioncar"
+Miami_PrefferedStoryCar = "m_default_ios"
+local EQUI_CARSSELECTION_SCHEME_NAME = "ui_mainmenu_storycar"
 
--------------------------------------------------------------------------------
+-----------------------------------------------------------------------
+-------- MISSIONS -----------------------------------------------------
+-----------------------------------------------------------------------
 
--- Missions Index (Menu)
-local MiamiMissionsIdx = -1
+local MiamiMissionsIndex = -1
 
--- Miami (Classic) Missions
 local MiamiMissionsList = {
 	{
 		id = "intro",
@@ -204,33 +206,37 @@ local MiamiMissionsList = {
 	}
 }
 
-local MyLevelFileName = "MiamiClassic"
-local ParkingLevelName = "iviewclassic"
+-----------------------------------------------------------------------
+-------- LEVELS -------------------------------------------------------
+-----------------------------------------------------------------------
 
-local McdLevelNames = {
-	MyLevelFileName,
-	ParkingLevelName,
+local ParkingFileName = "Parking"
+local MiamiFileName = "Miami"
+
+local Levels = {
+	ParkingFileName,
+	MiamiFileName,
 }
 
-local ClassicCars = {
+-----------------------------------------------------------------------
+-------- VEHICLES -----------------------------------------------------
+-----------------------------------------------------------------------
 
+local Vehicles = {
 	{"m_default_ios", "Miami - Default Car (iOS)"},
 	{"m_evidence_ios", "Miami - Evidence Car (iOS)"},
-
---	{"mcd_superflydrive", "Miami - Superfly Drive Car"},
---	{"mcd_defaultpolicecar_black", "Miami, New York - Police"},
---	{"NPC_mcd_traffic01", "Miami - Traffic Car 1"},
---	{"NPC_mcd_traffic02", "Miami - Traffic Car 2"},
---	{"mcd_miamibetagsx", "Miami - Beta GSX Car"},
---	{"mcd_miamicleanup", "Miami - The Clean Up Car"},
 }
 
-local MyCopSoundsFilename = "scripts/sounds/mcd_cops.txt"
+-----------------------------------------------------------------------
+-------- MISCELLANEOUS ------------------------------------------------
+-----------------------------------------------------------------------
+
+local CopSoundsFileName = "scripts/sounds/cmn_police.txt"
 
 function IsMyLevel()
 	local levName = string.lower(world:GetLevelName())
 
-	for i,n in ipairs(McdLevelNames) do
+	for i,n in ipairs(Levels) do
 		if string.lower(n) == levName then
 			return true
 		end
@@ -239,31 +245,40 @@ function IsMyLevel()
 	return false
 end
 
--- Initialization function
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------- INITIALIZATION ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 function ModInit:Init()
+	
+	-----------------------------------------------------------------------
+	-------- SCRIPTS ------------------------------------------------------
+	-----------------------------------------------------------------------
 	
 	fonts.LoadFontDescriptionFile("resources/additional_fonts.res")
 
-	-- make MCD camera available
-	include("scripts/lua/McdCinematicCamera.lua")
-	include("scripts/lua/McdHud.lua")
-	include("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
+	include("scripts/lua/cmn_cutcam.lua")
+	include("scripts/lua/cmn_hud.lua")
+--	include("scripts/lua/ui/StoryMiamiClassicEndScreen.lua")
 	include("scripts/lua/ui/StoryMoviePlay.lua")
-	storySelectionItems = include("scripts/lua/McdStoryCarSelection.lua")
+	storySelectionItems = include("scripts/lua/cmn_storycar.lua")
 
-	EmitterSoundRegistry.MCDEngine = "scripts/sounds/mcd_engine.txt"				-- Driver 1 engine sounds
-	EmitterSoundRegistry.MCDVoices = "scripts/sounds/mcd_missions_vo.txt"			-- Driver 1 original mission voices
-	EmitterSoundRegistry.MCDSfx = "scripts/sounds/mcd_csfx.txt"						-- SFX for cameras / transitions
-	EmitterSoundRegistry.MCDMessages = "scripts/sounds/mcd_missions_messages.txt"	-- Vocal messages
-	EmitterSoundRegistry.MCDObjects = "scripts/sounds/mcd_objects.txt"				-- Objects SFX
+	EmitterSoundRegistry.cmn_vehicles 	= 	"scripts/sounds/cmn_vehicles.txt"
+	EmitterSoundRegistry.cmn_voices 	= 	"scripts/sounds/cmn_voices.txt"
+	EmitterSoundRegistry.cmn_sfx 		= 	"scripts/sounds/cmn_sfx.txt"
+	EmitterSoundRegistry.cmn_messages 	= 	"scripts/sounds/cmn_messages.txt"
+	EmitterSoundRegistry.cmn_objects 	= 	"scripts/sounds/cmn_objects.txt"
 	
-	CopVoiceOver[MyLevelFileName] = MyCopSoundsFilename;	-- Define what cop sounds script a level uses
-	CopVoiceOver[ParkingLevelName] = MyCopSoundsFilename;
+	CopVoiceOver[ParkingFileName] = CopSoundsFileName;
+	CopVoiceOver[MiamiFileName] = CopSoundsFileName;
 	
-	CopVoiceOver[string.lower(MyLevelFileName)] = MyCopSoundsFilename;
-	CopVoiceOver[string.lower(ParkingLevelName)] = MyCopSoundsFilename;
+	CopVoiceOver[string.lower(ParkingFileName)] = CopSoundsFileName;
+	CopVoiceOver[string.lower(MiamiFileName)] = CopSoundsFileName;
 	
-	-- Change music state logic
+	-----------------------------------------------------------------------
+	-------- MISCELLANEOUS ------------------------------------------------
+	-----------------------------------------------------------------------
+
     OldMakeDefaultMissionSettings = MakeDefaultMissionSettings
     MakeDefaultMissionSettings = function()
     
@@ -274,7 +289,7 @@ function ModInit:Init()
 		return settings
 	end
 
-	CityTimeOfDayMusic[MyLevelFileName] = {			-- Music selection for Miami (Classic)
+	CityTimeOfDayMusic[MiamiFileName] = {
 		day_clear = "miami_day",
 		day_stormy = "la_day",
 		dawn_clear = "frisco_night",
@@ -282,27 +297,26 @@ function ModInit:Init()
 		night_stormy = "nyc_night"
 	}
 
-	-----------------------------------------------------------
-	-- Classic Content (Map / Vehicles / Missions / Minigames) --
-	-----------------------------------------------------------
+	-----------------------------------------------------------------------
+	-------- LEVELS -------------------------------------------------------
+	-----------------------------------------------------------------------
 
-	
-	-- add levels
-	table.insert(MenuCityList, {MyLevelFileName, "Miami (Classic)"})
---	table.insert(MenuCityList, {ParkingLevelName, "Parking (Classic)"})
+	table.insert(MenuCityList, {MiamiFileName, "Miami"})
+	table.insert(MenuCityList, {ParkingFileName, "Parking"})
 
-	-- add cars
-	for i,v in ipairs(ClassicCars) do
+	-----------------------------------------------------------------------
+	-------- VEHICLES -----------------------------------------------------
+	-----------------------------------------------------------------------
+
+	for i,v in ipairs(Vehicles) do
 		table.insert(MenuCarsList, v)
 	end
 
-	-- Add missions
-	missions["tcs_story"] = MiamiMissionsList
+	-----------------------------------------------------------------------
+	-------- MISSIONS -----------------------------------------------------
+	-----------------------------------------------------------------------
 
-	-- Miami (Classic) Minigames
-	table.insert(missions["minigame/survival"], {"mcd_srv01", "Miami Classic (Miami Beach)"})
-	table.insert(missions["minigame/survival"], {"mcd_srv02", "Miami Classic (Downtown)"})
-	table.insert(missions["minigame/survival"], {"mcd_srv03", "Miami Classic (Coral Gables)"})
+	missions["undercover"] = MiamiMissionsList
 
 	local MiamiMissionsElems = 
 	{
@@ -312,43 +326,52 @@ function ModInit:Init()
 			onEnter = function(self, stack)
 			
 				-- Reset and run ladder
-				missionladder:Run( "tcs_story", missions["tcs_story"] )
+				missionladder:Run( "undercover", missions["undercover"] )
 
 				return {}
 			end,
 		},
 	}
 	
-	MiamiMissionsIdx = table.insert(StoryGameExtraElems, 
-		MenuStack.MakeSubMenu("Miami - Classic Missions", storySelectionItems, nil, EQUI_CARSSELECTION_SCHEME_NAME))
+	MiamiMissionsIndex = table.insert(StoryGameExtraElems, 
+		MenuStack.MakeSubMenu("Miami - Missions", storySelectionItems, nil, EQUI_CARSSELECTION_SCHEME_NAME))
 end
 
--- Deinitialization function
-function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned off
-	EmitterSoundRegistry.MCDEngine = nil			-- Driver 1 engine sounds
-	EmitterSoundRegistry.MCDIview = nil				-- Default Interview resources
-	EmitterSoundRegistry.MCDVoices = nil			-- Driver 1 missions voices
-	EmitterSoundRegistry.MCDSfx = nil				-- Cutscenes SFX
-	EmitterSoundRegistry.MCDMessages = nil			-- Vocal messages SFX
-	EmitterSoundRegistry.MCDObjects = nil			-- Gameplay SFX
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-------- DE-INITIALIZATION ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	McdCutsceneCamera = nil
+function ModInit:DeInit()
 
--- Deinit - Missions
+	-----------------------------------------------------------------------
+	-------- SCRIPTS ------------------------------------------------------
+	-----------------------------------------------------------------------
 
-	table.remove(StoryGameExtraElems, MiamiMissionsIdx)
+	EmitterSoundRegistry.cmn_parking 	= 	nil
+
+	EmitterSoundRegistry.cmn_vehicles 	= 	nil
+	EmitterSoundRegistry.cmn_voices 	= 	nil
+	EmitterSoundRegistry.cmn_sfx 		= 	nil
+	EmitterSoundRegistry.cmn_messages 	= 	nil
+	EmitterSoundRegistry.cmn_objects 	= 	nil
+
+	cmn_cutcam = nil
+
+	-----------------------------------------------------------------------
+	-------- MISSIONS -----------------------------------------------------
+	-----------------------------------------------------------------------
+
+	table.remove(StoryGameExtraElems, MiamiMissionsIndex)
 	
-	-- Remove Miami (Classic) Minigames
-	table.remove(missions["minigame/survival"], mcd_srv01)
-	table.remove(missions["minigame/survival"], mcd_srv02)
-	table.remove(missions["minigame/survival"], mcd_srv03)
+	missions["undercover"] = nil
 
-	missions["tcs_story"] = nil		-- Remove Miami (Classic) missions
+	-----------------------------------------------------------------------
+	-------- LEVELS -------------------------------------------------------
+	-----------------------------------------------------------------------
 
-	-- Deinit - Maps
 	for i,v in ipairs(MenuCityList) do
 	
-		for ii,vv in ipairs(McdLevelNames) do
+		for ii,vv in ipairs(Levels) do
 			if v[1] == vv then
 				--table.remove( MenuCityList, i)
 				MenuCityList[i] = nil
@@ -356,10 +379,13 @@ function ModInit:DeInit()							-- Remove sound script(s) usage when mod turned 
 		end
 	end
 
-	-- Deinit - Cars - MIAMI
+	-----------------------------------------------------------------------
+	-------- VEHICLES -----------------------------------------------------
+	-----------------------------------------------------------------------
+
 	for i,v in ipairs(MenuCarsList) do
 	
-		for ii,vv in ipairs(ClassicCars) do
+		for ii,vv in ipairs(Vehicles) do
 			if vv[1] == v[1] then
 				--table.remove( MenuCarsList, i)
 				MenuCarsList[i] = nil

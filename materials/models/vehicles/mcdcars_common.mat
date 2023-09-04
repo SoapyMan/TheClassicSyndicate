@@ -1,7 +1,0 @@
-"DrvSynVehicle"
-{ 
-	BaseTexture			"models/vehicles/mcdcars_common";
-	BaseTextureSpecularAlpha 	1;
-	CubeMap		"$env_cubemap";
-	SpecularScale	0.35;
-}; 

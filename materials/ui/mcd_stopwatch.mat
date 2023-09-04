@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture "ui/mcd_stopwatch";
-	address "clamp";
-	translucent "1";
-};

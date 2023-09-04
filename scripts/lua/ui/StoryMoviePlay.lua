@@ -34,7 +34,7 @@ local StoryMoviePlay = class()
 		self.moviePlayer = CLuaMoviePlayer.new("story_movie")
 		self.audioObject = sounds:CreateObject()
 
-		sounds:LoadScript(EmitterSoundRegistry.MCDMessages)
+		sounds:LoadScript(EmitterSoundRegistry.cmn_messages)
 		if self.audioName ~= nil then
 			sounds:Precache(self.audioName)
 		end

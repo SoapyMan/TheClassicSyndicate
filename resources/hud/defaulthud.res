@@ -9,7 +9,7 @@ child Container "main"
 	size 			640 480;	// map hud size to 640x480
 	scaling			inherit;
 
-	child ProgressBar "mcdDamageBar"
+	child ProgressBar "tcs_DamageBar"
 	{
 		position	20 30;
 		
@@ -29,7 +29,7 @@ child Container "main"
 		}
 	}
 
-	child ProgressBar "mcdDamageBar2"
+	child ProgressBar tcs_DamageBar2"
 	{
 		visible		0;
 		position	20 30;
@@ -55,7 +55,7 @@ child Container "main"
 		}
 	}
 
-	child ProgressBar "mcdFelonyBar"
+	child ProgressBar "tcs_FelonyBar"
 	{
 		position	20 60;
 		

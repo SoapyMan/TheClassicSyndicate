@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture  "ui/mcd_bg1";
-	address "clamp";
-	translucent "0";
-}

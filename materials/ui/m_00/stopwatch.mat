@@ -1,0 +1,6 @@
+BaseUnlit
+{
+	BaseTexture "ui/m_00/stopwatch";
+	address "clamp";
+	translucent "1";
+};

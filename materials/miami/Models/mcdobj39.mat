@@ -1,8 +1,0 @@
-"Skinned" 
-{ 
-	basetexture 			"MIAMI/Models/mcdobj39";
-	Cubemap				"$env_Cubemap";
-	BaseTextureSpecularAlpha 	1;
-	SpecularScale			0.3;
-	Filtering "linear";
-};

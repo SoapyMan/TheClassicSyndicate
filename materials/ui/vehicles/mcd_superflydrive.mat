@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture "ui/vehicles/mcd_superflydrive"
-	address "clamp";
-	translucent 1;
-}

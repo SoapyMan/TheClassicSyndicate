@@ -1,8 +1,0 @@
-"Skinned" 
-{ 
-	basetexture 			"MIAMI/Models/mcd_boat03_body";
-	Cubemap				"$env_Cubemap";
-	BaseTextureSpecularAlpha 	1;
-	SpecularScale			0.3;
-	Filtering "linear";
-};

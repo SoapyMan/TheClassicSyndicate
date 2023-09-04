@@ -11,13 +11,11 @@ wheelBodyGroup	"ios_uncapped" 	"ios_capped" 	"ios_cap";
 allowMusic 0;
 sounds
 {
-	engine		"MCD_Default.engine";
-	engine_low	"MCD_Default.engine_low";
-	engine_idle	"MCD_Default.engine_idle";
+	engine		"plr.high";
+	engine_low	"plr.low";
+	engine_idle	"plr.idle";
 
-	horn 		"MCD_DefaultPlayer.horn";
-	// use single engine sound
-	//engine_off	"sounds/engines/engine2_off.wav"
+	horn 		"plr.horn";
 };
 
 camera_height 		1.00;

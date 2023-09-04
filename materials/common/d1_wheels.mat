@@ -1,9 +1,0 @@
-"Skinned" 
-{ 
-	BaseTexture "COMMON/d1_wheels"; 
-	BaseTextureSpecularAlpha 	0;
-	CubeMap		"$env_cubemap";
-	SpecularScale	1.0;
-	alphatest	1;
-	nocull		1;
-}; 

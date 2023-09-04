@@ -1,0 +1,364 @@
+//
+// Driver Syndicate weather definition file
+// You can add your own entries for your missions
+//
+
+skyHeight 0.28;
+skyAngle -25;
+northLocation -2;
+foreground "skies/cmn_foreground";
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_clear_noflare"
+{
+	base "day_clear";
+
+	sunLensItensity 0.0;
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_clear_hrot"
+{
+	base "day_clear";
+
+	sunLensItensity 0.0;
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_clear"
+{
+	ambientColor 		0.58 	0.60 	0.72;
+	sunColor 			0.84 	0.80 	0.38;
+	shadowColor			0.01 	0.01 	0.09 	0.35;
+	skyCloudsColor		0.9 	0.9 	0.9 	0.9;
+
+	sunAngles 			-35 	14 		0;
+	sunLensAngles		-17 	14 		0;
+	sunLensItensity 	0.45;
+	headlightIntensity	0.0;
+
+	sky					"skies/m_day";
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.58 0.57 0.57;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"day_stormy"
+{
+	ambientColor 	0.32 0.32 0.32;
+	sunColor 	0.15 0.15 0.15;
+	skyCloudsColor	0.5 0.5 0.5 0.9;
+	sunAngles 	-50 -35 0;
+	sunLensAngles	-17 39 0;
+
+	shadows	0;
+
+	sunLensItensity 0;
+
+	brightModFactor	0.04;
+
+	rainBrightness	0.4;
+	rainDensity	150;
+
+	sky		"skies/m_day_stormy";	// skydome texture which defines $env_cubemap
+
+	headlightIntensity	0.1;
+
+	fog 1
+	{
+		fog_far		200;
+		fog_near	40;
+		fog_color	0.31 0.32 0.32;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"storm";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"dawn_clear"
+{
+	ambientColor 			0.36 	0.36 	0.28;
+	sunColor 				0.76 	0.44 	0.24;
+	shadowColor				0.01 	0.01 	0.09 	0.1;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.5;
+	
+	sunAngles 				-7 		41 		0;
+	sunLensAngles			-2 		41 		0;
+	sunLensItensity 		0.8;
+	headlightIntensity		0.2;
+	streetLightIntensity	0.4;
+
+	sky						"skies/m_dusk";
+
+	lights					city cars lamps;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.0 0.0 0.0;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"dusk_clear"
+{
+	ambientColor 			0.36 	0.36 	0.28;
+	sunColor 				0.76 	0.44 	0.24;
+	shadowColor				0.01 	0.01 	0.09 	0.1;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.5;
+	
+	sunAngles 				-16 	-75 	0;
+	sunLensAngles 			-5 		-75 	0;
+	sunLensItensity 		0.8;
+	headlightIntensity		0.2;
+	streetLightIntensity	0.4;
+
+	sky						"skies/m_dusk";
+	
+//	lights					city cars lamps;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.0 0.0 0.0;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"night_clear"
+{
+	ambientColor 			0.1 	0.12 	0.14;
+	sunColor 				0.04 	0.04 	0.08;
+	shadowColor				0.0 	0.0 	0.0 	0.2;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	skyColor				0.7 	0.7 	0.7;
+	
+	sunAngles 				-2 		41 		0;
+	sunLensAngles			4 		41 		0;
+	sunLensItensity 		0;
+	headlightIntensity		0.5;
+	streetLightIntensity	1.0;
+	
+	brightModFactor			0.4;
+
+	moonBrightness			1.2;
+
+	sky						"skies/m_night";
+
+	lights					cars lamps city;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.0 0.0 0.0;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+"night_clear_end"
+{
+	ambientColor 			0.1 	0.12 	0.14;
+	sunColor 				0.04 	0.04 	0.08;
+	shadowColor				0.0 	0.0 	0.0 	0.2;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	skyColor				0.7 	0.7 	0.7;
+	
+	sunAngles 				-2 		-41 	0;
+	sunLensAngles 			0 		-75 	0;
+	sunLensItensity 		0;
+	headlightIntensity		0.5;
+	streetLightIntensity	1.0;
+	
+	brightModFactor			0.4;
+
+	moonBrightness			1.2;
+
+	sky						"skies/m_night";
+
+	lights					cars lamps city;
+
+	fog 1
+	{
+		fog_far		290;
+		fog_near	190;
+		fog_color	0.0 0.0 0.0;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"night_stormy"
+{
+	ambientColor 			0.08 	0.08 	0.08;
+	sunColor 				0.1 	0.1 	0.16;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	sunAngles 				-20 	-30 	0;
+
+	sunLensItensity 		0;
+	shadows					0;
+
+	brightModFactor			0.6;
+	streetLightIntensity	0.6;
+	headlightIntensity		0.4;
+	sunLensAngles 			-2 		-30 	0;
+
+	rainBrightness			0.3;
+	rainDensity				200;
+
+	sky		"skies/m_night_stormy";
+
+	lights			cars lamps city;
+
+	fog 1
+	{
+		fog_far		200;
+		fog_near	40;
+		fog_color	0.09 0.1 0.1;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"storm";
+}
+
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+//-----------------------------------------------------------------
+
+"night_stormy_norain"
+{
+	ambientColor 			0.08 	0.08 	0.08;
+	sunColor 				0.1 	0.1 	0.16;
+	skyCloudsColor			0.5 	0.5 	0.5 	0.25;
+	sunAngles 				-20 	-30 	0;
+
+	sunLensItensity 		0;
+	shadows					0;
+
+	brightModFactor			0.6;
+	streetLightIntensity	0.6;
+	headlightIntensity		0.4;
+	sunLensAngles 			-2 		-30 	0;
+
+	sky		"skies/m_night_stormy";
+
+	lights			cars lamps city;
+
+	fog 1
+	{
+		fog_far		200;
+		fog_near	40;
+		fog_color	0.09 0.1 0.1;
+	}
+
+	// "clear" - just fair
+	// "rain" - slight rain, it's wet outside
+	// "storm" - heavy rain along with thunder
+
+	weather		"clear";
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+// transitions
+
+"test_all_transition"
+{
+	transition night_clear dawn_clear day_clear dusk_clear night_clear_end;
+	transition_time 10;
+}
+
+"night_dawn_day_transition"
+{
+	transition night_clear dawn_clear day_clear;
+	transition_time 10;
+}
+
+"day_dusk_night_transition"
+{
+	transition day_clear dusk_clear night_clear_end;
+	transition_time 10;
+}
+
+"caseforakey_weather"
+{
+	transition night_clear dawn_clear day_clear_noflare;
+	transition_time 300;		// time in seconds the whole sequence transitions from first to last
+}
+
+"superflydrive_weather"
+{
+	transition night_clear dawn_clear;
+	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+}
+
+"jeanpaul02_weather"
+{
+	transition day_clear_hrot dusk_clear night_clear;
+	transition_time 120;		// time in seconds the whole sequence transitions from first to last
+}

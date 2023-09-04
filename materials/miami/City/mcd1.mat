@@ -1,9 +1,0 @@
-"Base" 
-{ 
-	basetexture 			"MIAMI/City/mcd1";
-	Cubemap				"$env_Cubemap";
-	WetScale			0.6;
-	//alphatest	1;
-	nocull	0;
-	Filtering "linear";
-};

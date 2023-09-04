@@ -1,6 +1,0 @@
-BaseUnlit
-{
-	BaseTexture "ui/vehicles/mcd_defaultpolicecar_black"
-	address "clamp";
-	translucent 1;
-}

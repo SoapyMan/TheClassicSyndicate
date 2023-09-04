@@ -1,0 +1,58 @@
+default channel CHAN_VOICE;
+default is2d	1;
+default volume	1.0;
+
+"cop.pursuit"
+{
+	wave 	"police/blank.wav";
+};
+
+"cop.redlight"
+{
+	wave 	"police/plr_red.wav";
+};
+
+"cop.hitvehicle"
+{
+	wave 	"police/plr_hit.wav";
+};
+
+"cop.lost"
+{
+	wave 	"police/plr_lost.wav";
+};
+
+"cop.heading"
+{
+	wave 	"police/plr_heading.wav";
+};
+
+"cop.heading_north"
+{
+	wave 	"police/dir_north.wav";
+};
+
+"cop.heading_east"
+{
+	wave 	"police/dir_east.wav";
+};
+
+"cop.heading_south"
+{
+	wave 	"police/dir_south.wav";
+};
+
+"cop.heading_west"
+{
+	wave 	"police/dir_west.wav";
+};
+
+"cop.takehimup"
+{
+	wave 	"police/plr_heading.wav";
+};
+
+"cop.taunt"
+{
+	wave 	"police/blank.wav";
+};
