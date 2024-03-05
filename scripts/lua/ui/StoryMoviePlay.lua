@@ -32,7 +32,9 @@ local StoryMoviePlay = class()
 		self.audioStarted = false
 		
 		self.moviePlayer = CLuaMoviePlayer.new("story_movie")
-		self.audioObject = sounds:CreateObject()
+		self.audioObject = CSoundingObject.new()
+		
+		self.movieIsOk = self.moviePlayer:Init("resources/media/"..self.movieName)
 
 		sounds:LoadScript(EmitterSoundRegistry.MCDMessages)
 		if self.audioName ~= nil then
@@ -41,7 +43,7 @@ local StoryMoviePlay = class()
 	end
 	
 	function StoryMoviePlay:OnLeave()
-		sounds:RemoveObject(self.audioObject)
+		self.audioObject:StopEmitter(CSoundingObject.ID_ALL, true)
 		self.audioObject = nil
 		
 		self.moviePlayer:Destroy()
@@ -53,12 +55,13 @@ local StoryMoviePlay = class()
 	end
 	
 	function StoryMoviePlay:Update(delta)
+		if not self.movieIsOk then
+			return false
+		end
+		
 		if self.startDelay > 0 then
 			self.startDelay = self.startDelay - delta
 			if self.startDelay <= 0 then
-				if not self.moviePlayer:Init("resources/media/"..self.movieName) then
-					return false
-				end
 				sounds:Precache("message.story_movie")
 				
 				-- start video and sound
@@ -70,8 +73,6 @@ local StoryMoviePlay = class()
 			return true
 		end
 		
-		self.moviePlayer:Present()
-
 		if self.audioStarted and self.audioObject:GetEmitterState(ID_MOVIE_AUDIO) == EMITTER_STOPPED then
 			self:Close()
 		end

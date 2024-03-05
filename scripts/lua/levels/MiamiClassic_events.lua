@@ -206,7 +206,7 @@ local MetroMover = class()
 			
 			local forwardVec = normalize(posB - positionVec)
 			
-			rotationQuat = quat(0, math.atan(forwardVec:z(), forwardVec:x()) - DEG2RAD(90), 0)
+			rotationQuat = quat(0, math.atan(forwardVec.z, forwardVec.x) - DEG2RAD(90), 0)
 			
 			self.speed = math.max(math.min(self.speed, MAX_SPEED_CURVE), 0)
 			
@@ -224,7 +224,7 @@ local MetroMover = class()
 			positionVec = lerp(pointA, pointB, posNormalized)
 			
 			local forwardVec = normalize(pointB - pointA)
-			rotationQuat = quat(0, math.atan(forwardVec:z(), forwardVec:x()) - DEG2RAD(90), 0)
+			rotationQuat = quat(0, math.atan(forwardVec.z, forwardVec.x) - DEG2RAD(90), 0)
 			
 			-- accelerate/decelerate
 			if nextStrip ~= nil then
@@ -280,7 +280,7 @@ local MetroMover = class()
 		end
 	
 		-- override it's height
-		positionVec:y(METRO_MOVER_HEIGHT)
+		positionVec.y = METRO_MOVER_HEIGHT
 
 		self.object:SetOrigin( positionVec )
 		self.object:SetAngles( VRAD2DEG(qeulers(rotationQuat)) )
@@ -364,7 +364,7 @@ local GarageDoor = class()
 		self.openValue = approachValue(self.openValue, targetValue, sign(targetValue - self.openValue) * delta * 2) -- use approachValue instead
 		
 		local ang = VDEG2RAD(self.angles)
-		local rotation = Quaternion.new(ang:x(), ang:y(), ang:z())
+		local rotation = Quaternion.new(ang.x, ang.y, ang.z)
 		local dvec = qrotate(vec3_forward, rotation)
 		
 		self.gameObject:SetAngles(VRAD2DEG(qeulers(rotation * Quaternion.new(-self.openValue * 1.2, 0, 0))))

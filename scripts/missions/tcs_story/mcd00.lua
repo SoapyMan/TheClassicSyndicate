@@ -243,7 +243,7 @@ MISSION.ProcessLapCondition = function()
 	local numPoints = 0
 	
 	for i,v in ipairs(missionData.lapPoints) do
-		debugoverlay:Line3D(lastPoint, v, Vector4D.new(1,1,1,1), Vector4D.new(1,1,1,1), 0.0)
+		--debugoverlay:Line3D(lastPoint, v, Vector4D.new(1,1,1,1), Vector4D.new(1,1,1,1), 0.0)
 
 		local pr = lineProjection( lastPoint, v, playerCar:GetOrigin() )
 		local posOnLine = lerp(lastPoint, v, pr)
@@ -360,7 +360,7 @@ MISSION.ProcessSlalomCondition = function()
 		
 			local oddEven = 1;
 		
-			if relativePos:get_x() < 0 then
+			if relativePos.x < 0 then
 				oddEven = 2;
 			end
 			
@@ -500,7 +500,7 @@ MISSION.ProcessTurnoverConditions = function( delta )
 
 	local angVel = playerCar:GetAngularVelocity()
 
-	local angularY = math.abs(math.deg(angVel:get_y()))
+	local angularY = math.abs(math.deg(angVel.y))
 	
 	local spd = playerCar:GetSpeed()
 	local fwdSpd = dot( playerCar:GetVelocity(), playerCar:GetForwardVector() )
