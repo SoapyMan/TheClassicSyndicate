@@ -88,6 +88,9 @@ function MISSION.SetupFlybyCutscene()
 		sounds:Emit( EmitParams.new("wind.mcd04a1"), 0 )
 	end, 2.4);
 
+	local targetView = cameraAnimator:GetComputedView()
+	cameraAnimator:Update(0, gameses:GetPlayerCar())
+
 	local cutCameras = {
 		{
 			{ Vector3D.new(-112, 2.0, -1136), Vector3D.new(-15, 31, 0), -1, 60 },
@@ -95,10 +98,10 @@ function MISSION.SetupFlybyCutscene()
 			{ Vector3D.new(-100, 2.0, -1136), Vector3D.new(-15, 31, 0), 2.5, 60 },
 			{ Vector3D.new(-94, 2.0, -1136), Vector3D.new(8, -130, -20), 3.0, 60 },
 			{ Vector3D.new(-90, 2.0, -1136), Vector3D.new(6, -158, -10), 3.25, 60 },
-			{ Vector3D.new(-88, 2.09, -1136.50), Vector3D.new(0, -180.02, 0), 3.5, 60 },
-			{ Vector3D.new(-88, 2.09, -1136.50), Vector3D.new(0, -180.02, 0), 4.0, 60 },
-			{ Vector3D.new(-88, 2.09, -1136.50), Vector3D.new(0, -180.02, 0), 4.5, 60 },
-			{ Vector3D.new(-88, 2.09, -1136.50), Vector3D.new(0, -180.02, 0), 5.0, 60 },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 3.5, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 4.0, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 4.5, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 5.0, targetView:GetFOV() }
 		}
 	}
 	

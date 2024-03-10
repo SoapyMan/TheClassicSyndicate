@@ -10,6 +10,16 @@ SetMusicName("miami_night")
 
 MISSION.LoadingScreen = "resources/loadingscreen_mcd.res"
 
+MISSION.DrawDebugImGui = function()
+	local playerCar = MISSION.playerCar
+	if ImGui.Button("Goto phase 2") then
+		playerCar:SetOrigin( Vector3D.new(-53,0.7,68) )
+		playerCar:SetAngles( Vector3D.new(180,-90,-180) )
+
+		missionmanager:SetRefreshFunc( MISSION.BankPrePause )
+	end
+end
+
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------
@@ -46,6 +56,7 @@ MISSION.Init = function()									-- Preparing Introduction
 		--DEVTESTtarget2Position = Vector3D.new(-119,0.70,-1175),
 	}
 	
+	MISSION.AlarmSound = nil
 	MISSION.Settings.EnableCops = false						-- Cops are disabled
 
 	MISSION.SpawnSceneryCars()
@@ -89,7 +100,10 @@ end
 
 function MISSION.SetupFlybyCutscene()
 
-	local playerCar = MISSION.playerCar		-- Define player car for current phase
+	local playerCar = MISSION.playerCar		-- Define player car for cu
+
+	local targetView = cameraAnimator:GetComputedView()
+	cameraAnimator:Update(0, gameses:GetPlayerCar())
 
 	local cutCameras = {
 		{
@@ -105,10 +119,10 @@ function MISSION.SetupFlybyCutscene()
 			{ vec3(-90.80,0.98,-1139.65), vec3(-22.56, 140.44, 0), -0.7, 60 },
 			{ vec3(-90.80,0.98,-1139.65), vec3(3.56, 234.44, 0), -0.5, 60 },
 			{ vec3(-89.53,0.98,-1138.33), vec3(3.56, 206.68, 0), 2, 60 },
-			{ vec3(-88.00,2.11,-1136.50), vec3(10.0, 180.02, 0), 2.2, 60 },
-			{ vec3(-88.00,2.11,-1136.50), vec3(6.0, 180.02, 0), 2.6, 60 },
-			{ vec3(-88.00,2.11,-1136.50), vec3(-1.0, 180.02, 0), 3.0, 60 },
-			{ vec3(-88.00,2.11,-1136.50), vec3(0.0, 180.02, 0), 3.5, 60 },
+			{ targetView:GetOrigin(), targetView:GetAngles() + vec3(10.0, 0, 0), 2.2, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles() + vec3(6.0, 0, 0), 2.6, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 3.0, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 3.5, targetView:GetFOV() }
 		}
 	}
 		
@@ -239,8 +253,8 @@ function MISSION.BankPrePause()
 	local playerCar = MISSION.playerCar
 
 	local ep = EmitParams.new( "bank.jobalarm", vec3(-53, 1.0, 58) )
-	local sound = sounds:CreateController( ep )
-	sound:Play()
+	MISSION.AlarmSound = CSoundingObject.new()
+	MISSION.AlarmSound:Emit( 0, ep )
 
 	gameHUD:Enable(false)
 	playerCar:Lock(true)

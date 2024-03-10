@@ -61,6 +61,9 @@ function MISSION.SetupFlybyCutscene()
 
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
 
+	local targetView = cameraAnimator:GetComputedView()
+	cameraAnimator:Update(0, gameses:GetPlayerCar())
+
 	local cutCameras = {
 		{
 			{ Vector3D.new(-1675,0.8,-410), Vector3D.new(45,180,40), 0, 50 },
@@ -75,10 +78,10 @@ function MISSION.SetupFlybyCutscene()
 			{ Vector3D.new(-1676.75,1.0,-437.50), Vector3D.new(2.20,-32,0), 1.5, 60 },
 			{ Vector3D.new(-1674.99,2.0,-438.50), Vector3D.new(0,0,0), 1.7, 60 },
 			{ Vector3D.new(-1674.99,2.0,-439.50), Vector3D.new(0,0,0), 2.2, 60 },
-			{ Vector3D.new(-1674.99, 1.92, -439.50), Vector3D.new(0,0,0), 2.5, 60 },
-			{ Vector3D.new(-1674.99, 1.92, -439.50), Vector3D.new(0,0,0), 2.7, 60 },
-			{ Vector3D.new(-1674.99, 1.92, -439.50), Vector3D.new(0,0,0), 3.2, 60 },
-			{ Vector3D.new(-1674.99, 1.92, -439.50), Vector3D.new(0,0,0), 3.5, 60 },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 2.5, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 2.7, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 3.2, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 3.5, targetView:GetFOV() }
 		}
 	}
 

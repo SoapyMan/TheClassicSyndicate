@@ -35,16 +35,25 @@ local function McdCutsceneCamera_Update(delta)
 	end
 	
 	local cameraLerp = RemapValClamp(data.CameraTime, camera[3], nextCamera[3], 0.0, 1.0)
-	
+	local cameraFOV = lerp(camera[4], nextCamera[4], cameraLerp)
+
 	local cameraPos = lerp(camera[1], nextCamera[1], cameraLerp)
-	local cameraRot = lerp(camera[2], nextCamera[2], cameraLerp)
+	local cameraRot = qslerp(
+		quat(camera[2].x * Deg2Rad, camera[2].y * Deg2Rad, camera[2].z * Deg2Rad),
+		quat(nextCamera[2].x * Deg2Rad, nextCamera[2].y * Deg2Rad, nextCamera[2].z * Deg2Rad),
+		cameraLerp)
 	
+	local approachRot = quat(data.CameraAppr[2].x * Deg2Rad, data.CameraAppr[2].y * Deg2Rad, data.CameraAppr[2].z * Deg2Rad)
+	local camFinal = qslerp(approachRot, cameraRot, delta*3.0 )
+	local camFinalAngles = qeulersSel(camFinal, QuatRot_yzx)
+
 	data.CameraAppr[1] = lerp(data.CameraAppr[1], cameraPos, delta*3.0 )
-	data.CameraAppr[2] = lerp(data.CameraAppr[2], cameraRot, delta*3.0 )
+	data.CameraAppr[2] = VRAD2DEG(vec3(camFinalAngles.x, camFinalAngles.z, -camFinalAngles.y));
+	data.CameraAppr[4] = lerp(data.CameraAppr[4], cameraFOV, delta*3.0 )
 	
 	cameraAnimator:SetOrigin( data.CameraAppr[1] )
 	cameraAnimator:SetAngles( data.CameraAppr[2] )
-	cameraAnimator:SetFOV(camera[4])
+	cameraAnimator:SetFOV( cameraFOV )
 	cameraAnimator:SetMode( CAM_MODE_TRIPOD )
 
 	-- target doesn't matter

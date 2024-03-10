@@ -113,10 +113,13 @@ function MISSION.SetupFlybyCutscene()
 
 	local playerCar = MISSION.playerCar		-- Define player car for current phase
 
+	local targetView = cameraAnimator:GetComputedView()
+	cameraAnimator:Update(0, gameses:GetPlayerCar())
+
 	local cutCameras = {
 		{
-			{ Vector3D.new(-88.00,6.0,-1136.50), Vector3D.new(40, 180.02, 0), 0.0, 60 },
-			{ Vector3D.new(-88.00,2.09,-1136.50), Vector3D.new(0.0, 180.02, 0), 4.0, 60 },
+			{ targetView:GetOrigin() + vec3(6.0, 0, 0), targetView:GetAngles() + vec3(40,0,0), 0.0, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 4.0, targetView:GetFOV() }
 		}
 	}
 

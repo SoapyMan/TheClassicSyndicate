@@ -15,6 +15,7 @@ skyAngle 0;
 	shadowColor				0.0 0.0 0.0 0.5;
 
 	sunLensItensity 		0;
+	shadows					0;
 
 	brightModFactor			1.0;
 	streetLightIntensity	0.75;

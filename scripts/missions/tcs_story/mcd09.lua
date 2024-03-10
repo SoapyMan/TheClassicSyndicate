@@ -89,7 +89,7 @@ function MISSION.SetupFlybyCutscene()
 
 	missionmanager:ScheduleEvent( function() 
 		playerCar:SetLight(CAR_LIGHT_LOWBEAMS, false);
-	end, 0);
+	end, 0.1);
 
 	missionmanager:ScheduleEvent( function() 
 		playerCar:SetLight(CAR_LIGHT_LOWBEAMS, true);
@@ -99,10 +99,13 @@ function MISSION.SetupFlybyCutscene()
 		sounds:Emit( EmitParams.new("car.lightswitch"), -1 )
 	end, 3.4);
 
+	local targetView = cameraAnimator:GetComputedView()
+	cameraAnimator:Update(0, gameses:GetPlayerCar())
+
 	local cutCameras = {
 		{
-			{ Vector3D.new(-88.00,6.0,-1136.50), Vector3D.new(40, 180.02, 0), 0.0, 60 },
-			{ Vector3D.new(-88.00,2.09,-1136.50), Vector3D.new(0.0, 180.02, 0), 5.0, 60 },
+			{ targetView:GetOrigin(), targetView:GetAngles() + vec3(40, 0, 0), 0.0, targetView:GetFOV() },
+			{ targetView:GetOrigin(), targetView:GetAngles(), 5.0, targetView:GetFOV() }
 		}
 	}
 

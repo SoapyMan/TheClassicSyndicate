@@ -94,7 +94,7 @@ local METRO_CITY_PATH_3 = {
 
 -- MISSION PATH
 local METRO_INFORMANT_PATH = {
-	METRO_PATH_1, METRO_PATH_3, METRO_PATH_4, ReversePath(METRO_PATH_5)
+	METRO_PATH_1, METRO_PATH_3, METRO_PATH_6, ReversePath(METRO_PATH_5)
 }
 
 local MetroMover = class() 
@@ -153,10 +153,10 @@ local MetroMover = class()
 		end
 		
 		self.firstUpdate = true
-		local MAX_SPEED = 32
+		local MAX_SPEED = 30
 		local MAX_SPEED_CURVE = 20
 		local DISTANCE_TO_STOP = 15
-		local ACCELERATION_FACTOR = 1.0
+		local ACCELERATION_FACTOR = 0.85
 
 		local PITCH_ANGLE = 0.4
 		local YAW_ROTATION_SCALE = 2.0
