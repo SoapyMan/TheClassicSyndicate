@@ -17,38 +17,38 @@ MISSION.LoadingScreen = "resources/loadingscreen_mcd.res"
 ----------------------------------------------------------------------------------------------
 
 local boatPath = {
-	Vector3D.new(266.28, 0.67, -427.41),
-	Vector3D.new(283.11, 0.66, -418.98),
-	Vector3D.new(296.54, 0.66, -386.07),
-	Vector3D.new(300.59, 0.66, -347.38),
-	Vector3D.new(296.95, 0.66, -305.48),
-	Vector3D.new(275.86, 0.66, -259.65),
-	Vector3D.new(271.04, 0.66, -189.65),
-	Vector3D.new(289.61, 0.67, -150.96),
-	Vector3D.new(339.83, 0.66, -146.48),
-	Vector3D.new(400.13, 0.66, -144.31),
-	Vector3D.new(481.85, 0.66, -144.14),
-	Vector3D.new(512.11, 1.16, -174.28),
-	Vector3D.new(528.10, 0.67, -240.58),
-	Vector3D.new(534.27, 0.66, -299.54),
-	Vector3D.new(539.84, 0.66, -356.35),
-	Vector3D.new(543.53, 0.66, -410.82),
-	Vector3D.new(543.96, 0.66, -465.10),
-	Vector3D.new(542.46, 0.66, -549.42),
-	Vector3D.new(561.20, 0.66, -599.99),
-	Vector3D.new(608.48, 0.66, -636.69),
-	Vector3D.new(657.03, 0.66, -638.24),
-	Vector3D.new(691.69, 0.66, -624.95),
-	Vector3D.new(738.06, 0.66, -601.06),
-	Vector3D.new(784.56, 0.66, -594.14),
-	Vector3D.new(824.63, 1.27, -595.65),
-	Vector3D.new(886.95, 0.67, -598.05),
-	Vector3D.new(933.54, 0.66, -596.57),
-	Vector3D.new(990.21, 0.66, -595.08),
-	Vector3D.new(1030.50, 0.66, -595.36),
-	Vector3D.new(1079.16, 0.67, -615.31),
-	Vector3D.new(1081.67, 0.67, -622.69),
-	Vector3D.new(1081.60, 0.67, -622.69)
+	vec3(266.28, 0.67, -427.41),
+	vec3(283.11, 0.66, -418.98),
+	vec3(296.54, 0.66, -386.07),
+	vec3(300.59, 0.66, -347.38),
+	vec3(296.95, 0.66, -305.48),
+	vec3(275.86, 0.66, -259.65),
+	vec3(271.04, 0.66, -189.65),
+	vec3(289.61, 0.67, -150.96),
+	vec3(339.83, 0.66, -146.48),
+	vec3(400.13, 0.66, -144.31),
+	vec3(481.85, 0.66, -144.14),
+	vec3(512.11, 1.16, -174.28),
+	vec3(528.10, 0.67, -240.58),
+	vec3(534.27, 0.66, -299.54),
+	vec3(539.84, 0.66, -356.35),
+	vec3(543.53, 0.66, -410.82),
+	vec3(543.96, 0.66, -465.10),
+	vec3(542.46, 0.66, -549.42),
+	vec3(561.20, 0.66, -599.99),
+	vec3(608.48, 0.66, -636.69),
+	vec3(657.03, 0.66, -638.24),
+	vec3(691.69, 0.66, -624.95),
+	vec3(738.06, 0.66, -601.06),
+	vec3(784.56, 0.66, -594.14),
+	vec3(824.63, 1.27, -595.65),
+	vec3(886.95, 0.67, -598.05),
+	vec3(933.54, 0.66, -596.57),
+	vec3(990.21, 0.66, -595.08),
+	vec3(1030.50, 0.66, -595.36),
+	vec3(1079.16, 0.67, -615.31),
+	vec3(1081.67, 0.67, -622.69),
+	vec3(1081.60, 0.67, -622.69)
 }
 
 MISSION.InitSceneryObject = function()
@@ -74,7 +74,11 @@ MISSION.InitSceneryObject = function()
 
 	objects:AddObjectDef("emitter", "speedboat_splashes", defData)
 	
-	local speedboatObject = objects:CreateGameObject("object", create_section({}))
+	local boatSettings = {
+		staticShadowmap = false
+	}
+	
+	local speedboatObject = objects:CreateGameObject("object", create_section(boatSettings))
 	speedboatObject:SetModel(speedboatModel)
 	speedboatObject:SetOrigin(boatPath[1])
 	speedboatObject:SetAngles(vec3(0))
@@ -101,7 +105,7 @@ MISSION.InitSceneryObject = function()
 	local interpolatedPosition = boatPath[1]
 	
 	local forwardVector = normalize(boatPath[segment + 1] - boatPath[segment])
-	local rotation = Quaternion.new(0, math.atan(forwardVector:z(), forwardVector:x()) - DEG2RAD(90), 0)
+	local rotation = qrotateY(math.atan(forwardVector.z, forwardVector.x) - DEG2RAD(90))
 	
 	local prevForwardVector = forwardVector
 	
@@ -120,7 +124,7 @@ MISSION.InitSceneryObject = function()
 			forwardVector = prevForwardVector
 		end
 		
-		local targetRotation = Quaternion.new(0, math.atan(forwardVector:z(), forwardVector:x()) - DEG2RAD(90), 0)
+		local targetRotation = qrotateY(math.atan(forwardVector.z, forwardVector.x) - DEG2RAD(90))
 		
 		-- determine position on the segment
 		local position = lerp(pointA, pointB, positionOnSegment)
@@ -131,7 +135,7 @@ MISSION.InitSceneryObject = function()
 		local waveZ = math.sin(time * speed * 0.1)
 		
 		-- apply directional rotation and also add pitch angle
-		local quat = rotation * Quaternion.new(DEG2RAD((speed + waveX * 6.0) * PITCH_ANGLE), 0, waveZ * 0.15)
+		local quat = rotation * qrotateXYZ(DEG2RAD((speed + waveX * 6.0) * PITCH_ANGLE), 0, waveZ * 0.15)
 		
 		interpolatedPosition = lerp(interpolatedPosition, position, delta * 5.0)
 		

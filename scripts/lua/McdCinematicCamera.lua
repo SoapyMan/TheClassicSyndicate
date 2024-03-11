@@ -35,24 +35,19 @@ local function McdCutsceneCamera_Update(delta)
 	end
 	
 	local cameraLerp = RemapValClamp(data.CameraTime, camera[3], nextCamera[3], 0.0, 1.0)
-	local cameraFOV = lerp(camera[4], nextCamera[4], cameraLerp)
-
-	local cameraPos = lerp(camera[1], nextCamera[1], cameraLerp)
-	local cameraRot = qslerp(
-		quat(camera[2].x * Deg2Rad, camera[2].y * Deg2Rad, camera[2].z * Deg2Rad),
-		quat(nextCamera[2].x * Deg2Rad, nextCamera[2].y * Deg2Rad, nextCamera[2].z * Deg2Rad),
-		cameraLerp)
 	
-	local approachRot = quat(data.CameraAppr[2].x * Deg2Rad, data.CameraAppr[2].y * Deg2Rad, data.CameraAppr[2].z * Deg2Rad)
-	local camFinal = qslerp(approachRot, cameraRot, delta*3.0 )
-	local camFinalAngles = qeulersSel(camFinal, QuatRot_yzx)
-
+	local cameraPos = lerp(camera[1], nextCamera[1], cameraLerp)
+	local cameraRot = qslerp(camera[2], nextCamera[2], cameraLerp)
+	local cameraFOV = lerp(camera[4], nextCamera[4], cameraLerp)
+	
 	data.CameraAppr[1] = lerp(data.CameraAppr[1], cameraPos, delta*3.0 )
-	data.CameraAppr[2] = VRAD2DEG(vec3(camFinalAngles.x, camFinalAngles.z, -camFinalAngles.y));
+	data.CameraAppr[2] = qslerp(data.CameraAppr[2], cameraRot, delta*3.0 )
 	data.CameraAppr[4] = lerp(data.CameraAppr[4], cameraFOV, delta*3.0 )
 	
+	local camFinalAngles = qeulersSel(data.CameraAppr[2], QuatRot_zxy)
+	
 	cameraAnimator:SetOrigin( data.CameraAppr[1] )
-	cameraAnimator:SetAngles( data.CameraAppr[2] )
+	cameraAnimator:SetAngles( VRAD2DEG(vec3(camFinalAngles.y, camFinalAngles.x, camFinalAngles.z)) )
 	cameraAnimator:SetFOV( cameraFOV )
 	cameraAnimator:SetMode( CAM_MODE_TRIPOD )
 
@@ -71,6 +66,13 @@ function McdCutsceneCamera.Start(cameras, onCompleted, extraWait)
 	CutsceneCamera.onCompleted = onCompleted
 	CutsceneCamera.extraWait = extraWait or 0
 	CutsceneCamera.isPlaying = true
+	
+	-- convert every camera angle to quaternion
+	for si, set in ipairs(cameras) do
+		for i, v in ipairs(set) do
+			set[i][2] = qrotateZXY(v[2].x * Deg2Rad, v[2].y * Deg2Rad, v[2].z * Deg2Rad)
+		end
+	end
 	
 	CutsceneCamera.Data = {
 		CameraSet = 1,
