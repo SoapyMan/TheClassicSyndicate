@@ -193,7 +193,7 @@ function MISSION.Phase1Start()
 			gameHUD:RemoveTrackingObject(MISSION.targetHandle)
 			MISSION.targetHandle = gameHUD:AddTrackingObject(opponentCar, HUD_DOBJ_IS_TARGET)
 			
-			opponentCar:Set("OnCarCollision", MISSION.TargetCarHit)
+			opponentCar.onCarCollision = MISSION.TargetCarHit
 
 			missionmanager:SetPluginRefreshFunc("ResiCarOBJ", nil)	-- Disengage plugin
 		end
@@ -220,7 +220,7 @@ MISSION.TargetCarHit = function(self, props)
 
 		sounds:Emit( EmitParams.new("goon.wat"), -1 )
 
-		opponentCar:Set("OnCarCollision", nil) -- remove callback
+		opponentCar.onCarCollision = nil -- remove callback
 
 		-- start the phase 2
 		MISSION.Phase2Start()

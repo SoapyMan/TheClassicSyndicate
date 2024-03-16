@@ -86,7 +86,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	opponentCar:SetColorScheme( 1 )
 	opponentCar:SetLight(0, false)
 	
-	opponentCar:Set("OnCarCollision", MISSION.OpponentHit)
+	opponentCar.onCarCollision = MISSION.OpponentHit
 	
 	MISSION.Settings.EnableCops = false
 
@@ -142,8 +142,9 @@ function MISSION.OnCompleted()					-- Mission completed after all objectives are
 	-- lock all the cars
 	playerCar:Lock(true)						-- Car is locked after reaching marker
 	opponentCar:Lock(true)
-	opponentCar:Set("OnCarCollision", nil)
 	opponentCar:RemoveComponent("ActiveLifeAIComponent")
+
+	opponentCar.onCarCollision = nil
 	
 	missionmanager:SetRefreshFunc( function() 
 		return false 

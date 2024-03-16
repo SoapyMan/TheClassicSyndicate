@@ -100,7 +100,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	opponentCar:SetInfiniteMass(true)
 	opponentCar:SetLight(0, false)
 	
-	opponentCar:Set("OnCarCollision", MISSION.OpponentHit)
+	opponentCar.onCarCollision = MISSION.OpponentHit
 	
 	MISSION.Settings.EnableCops = false
 

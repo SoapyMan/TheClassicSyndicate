@@ -146,14 +146,12 @@ MISSION.Init = function()
 	playerCar:SetOrigin( MISSION.Data.startPos )
 	playerCar:SetAngles( Vector3D.new(0, 0, 0) )
 	playerCar:SetColorScheme( 1 )
-	
-	playerCar:Set("OnCollide", MISSION.OnPlayerCollide)
 
 	playerCar:Spawn()
-	
 	playerCar:AlignToGround();
-
 	playerCar:SetPassengers(1)
+
+	playerCar.onCollide = MISSION.OnPlayerCollide
 	
 	sounds:Precache( "iview.fail" )
 	sounds:Precache( "iview.damage" )

@@ -200,7 +200,7 @@ function MISSION.OnCarCollision(go) -- go stands for "game object"
 		end
 	end
 	-- remove callback
-	go:Set("OnCarCollision", nil)
+	go.OnCarCollision = nil
 end
 
 function MISSION.GotoNextTarget()
@@ -223,9 +223,9 @@ function MISSION.SetupWreckZone(targetData)
 	objects:QueryObjects(targetData.radius, targetData.position, function(go)
 		if go:GetType() == GO_DEBRIS then
 			-- setup collision callback for debris objects
-			go:Set("OnCarCollision", function() 
+			go.onCarCollision = function() 
 				MISSION.OnCarCollision(go)
-			end)
+			end
 		end
 		return true
 	end)
