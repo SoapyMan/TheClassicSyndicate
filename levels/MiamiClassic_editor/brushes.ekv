@@ -3130,6 +3130,124 @@ brush 5
 	groupId 65535;
 	visGroupId 1;
 };
+brush 6
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 -323;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 303;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -8;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 788;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -812;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
+};
+brush 7
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 0 0 -432;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 0 0 412;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 1 0 -8;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 1 789;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 -1 -812;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 398;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
+};
 brush 0
 {
 	faces
@@ -3941,6 +4059,65 @@ brush 3
 	region 399;
 	groupId 65535;
 	visGroupId 1;
+};
+brush 4
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 -216;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 135;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -20;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 917;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -971;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 399;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
 };
 brush 0
 {
@@ -8059,7 +8236,7 @@ brush 5
 	name "";
 	region 403;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 0
@@ -8410,7 +8587,7 @@ brush 5
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 6
@@ -8469,7 +8646,7 @@ brush 6
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 7
@@ -8528,7 +8705,7 @@ brush 7
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 8
@@ -8587,7 +8764,7 @@ brush 8
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 9
@@ -8646,7 +8823,7 @@ brush 9
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 10
@@ -8705,7 +8882,7 @@ brush 10
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 11
@@ -8764,7 +8941,7 @@ brush 11
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 12
@@ -8823,7 +9000,7 @@ brush 12
 	name "";
 	region 435;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def tunnel_volume;
 };
 brush 13
@@ -9115,6 +9292,124 @@ brush 1
 	region 499;
 	groupId 65535;
 	visGroupId 1;
+};
+brush 2
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 904;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -920;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -9;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 23;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -110;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 499;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
+};
+brush 3
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 904;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -921;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -9;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 157;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -245;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 499;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
 };
 brush 0
 {
@@ -9462,7 +9757,7 @@ brush 2
 	name "";
 	region 436;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 3
@@ -9521,7 +9816,7 @@ brush 3
 	name "";
 	region 436;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 0
@@ -10682,7 +10977,7 @@ brush 2
 	name "";
 	region 470;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def city_buildings_volume;
 };
 brush 3
@@ -10741,7 +11036,7 @@ brush 3
 	name "";
 	region 470;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
 };
 brush 0
@@ -11048,8 +11343,185 @@ brush 4
 	name "";
 	region 502;
 	groupId 65535;
-	visGroupId 0;
+	visGroupId 2;
 	def parking_volume;
+};
+brush 5
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1709;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1733;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -10;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 205;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -284;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
+};
+brush 6
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1714;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1725;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -10;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 88;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -175;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
+};
+brush 7
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1580;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1601;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -10;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 90;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -173;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 502;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
 };
 brush 0
 {
@@ -12095,6 +12567,124 @@ brush 0
 	groupId 65535;
 	visGroupId 1;
 };
+brush 1
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1821;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1837;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -10;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 88;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -176;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 503;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
+};
+brush 2
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 -0 -0 1823;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 -0 -0 -1837;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 1 -0 -10;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -1 -0 0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 1 201;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N -0 -0 -1 -287;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 503;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
+};
 brush 0
 {
 	faces
@@ -12326,4 +12916,63 @@ brush 0
 	region 631;
 	groupId 65535;
 	visGroupId 1;
+};
+brush 0
+{
+	faces
+	{
+		face tools\occluder
+		{
+			N -1 0 0 1797;
+			U -4.37114e-08 0 1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 1 0 0 -1820;
+			U 1.19249e-08 0 -1 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 1 0 -15;
+			U -1 0 -8.74228e-08 0;
+			V -8.74228e-08 1.19249e-08 1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 -1 0 -0;
+			U -1 0 -8.74228e-08 0;
+			V 8.74228e-08 -4.37114e-08 -1 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 1 -1140;
+			U 1 0 0 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+		face tools\occluder
+		{
+			N 0 0 -1 1064;
+			U -1 0 -8.74228e-08 0;
+			V 0 1 0 0;
+			TS 4 4;
+			TR 0;
+		};
+	};
+	name "";
+	region 663;
+	groupId 65535;
+	visGroupId 2;
+	def city_buildings_volume;
 };
