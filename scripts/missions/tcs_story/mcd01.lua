@@ -72,6 +72,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	playerCar:Spawn()
 	playerCar:SetColorScheme( 1 )
 
+	gameutil.PrecacheStudioModel( "models/characters/mcd_pedrobber.egf", nil )
 	sounds:Precache( "wind.mcd01" )
 	sounds:Precache( "bank.jobalarm" )
 	sounds:Precache( "goon.go" )

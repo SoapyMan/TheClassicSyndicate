@@ -62,6 +62,7 @@ MISSION.Init = function()									-- Preparing Introduction
 	playerCar:Spawn()
 	playerCar:SetColorScheme( 1 )
 
+	gameutil.PrecacheStudioModel( "models/characters/mcd_ticco.egf", nil )
 	sounds:Precache( "car.lightswitch" )
 
 	sounds:Precache( "wind.mcd03a" )
