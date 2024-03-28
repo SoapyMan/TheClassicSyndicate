@@ -151,7 +151,7 @@ MISSION.Init = function()
 	playerCar:AlignToGround();
 	playerCar:SetPassengers(1)
 
-	playerCar.onCollide = MISSION.OnPlayerCollide
+	playerCar.onCollision = MISSION.OnPlayerCollide
 	
 	sounds:Precache( "iview.fail" )
 	sounds:Precache( "iview.damage" )
