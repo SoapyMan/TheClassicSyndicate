@@ -107,6 +107,7 @@ MISSION.JeanPaulSartre = function()
 	
 	local activeLife = opponentCar:AddComponent("ActiveLifeAIComponent")
 	activeLife:SetPersonalityType("racer")
+	activeLife:SetAllowAutoRepath(true)
 	
 	missionmanager:ScheduleEvent( function() 
 		activeLife:SetTargetPosition(MISSION.Data.AITargets[MISSION.currentTarget])
@@ -169,14 +170,8 @@ function MISSION.OpponentHit(self, props)
 	local playerCar = MISSION.playerCar
 
 	-- if hit by player car, add huge damage number
-	if props.hitBy == playerCar then
-		local activeLife = opponentCar:GetComponent("ActiveLifeAIComponent")
-		if activeLife ~= nil then
-			activeLife:Repath()
-		end
-		if props.velocity > 4 then
-			opponentCar:SetDamage(opponentCar:GetDamage() + 1000)
-		end
+	if props.hitBy == playerCar and props.velocity > 4 then
+		opponentCar:SetDamage(opponentCar:GetDamage() + 1000)
 	end
 end
 
